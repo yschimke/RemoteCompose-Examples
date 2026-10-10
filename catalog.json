@@ -2207,6 +2207,686 @@
       ]
     },
     {
+      "componentId": "androidx-demos/pie-chart",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Pie Chart Demo",
+      "sourceFile": "docs/androidx-demos/pie-chart/doc.rc",
+      "rcDocument": "documents/androidx-demos/pie-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/pie-chart.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/pie-chart2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Pie Chart Demo",
+      "sourceFile": "docs/androidx-demos/pie-chart2/doc.rc",
+      "rcDocument": "documents/androidx-demos/pie-chart2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/pie-chart2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/player-info",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Pressure Gauge",
+      "sourceFile": "docs/androidx-demos/player-info/doc.rc",
+      "rcDocument": "documents/androidx-demos/player-info.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/player-info.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/plot-wave",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/plot-wave/doc.rc",
+      "rcDocument": "documents/androidx-demos/plot-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/plot-wave.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/plot2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/plot2/doc.rc",
+      "rcDocument": "documents/androidx-demos/plot2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/plot2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/plot3",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/plot3/doc.rc",
+      "rcDocument": "documents/androidx-demos/plot3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/plot3.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/plot4",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/plot4/doc.rc",
+      "rcDocument": "documents/androidx-demos/plot4.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/plot4.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/pressure-gauge",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Radial pressure gauge with a fine tick scale reading 799 mmHg between Low and High. #iot #widget",
+      "sourceFile": "docs/androidx-demos/pressure-gauge/doc.rc",
+      "rcDocument": "documents/androidx-demos/pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-center-text1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Text centring check: the value 98 boxed at the centre of a red ellipse. #text #validation",
+      "sourceFile": "docs/androidx-demos/procedure-center-text1/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-center-text1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-center-text1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-gradient1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Linear gradient from green to blue, filling an ellipse behind the word gradient. #paint",
+      "sourceFile": "docs/androidx-demos/procedure-gradient1/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-gradient1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-gradient1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-gradient2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Vertical white-to-blue gradient in an ellipse behind the word gradient. #paint",
+      "sourceFile": "docs/androidx-demos/procedure-gradient2/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-gradient2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-gradient2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-gradient3",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Radial gradient, white centre fading to blue, behind the word gradient. #paint",
+      "sourceFile": "docs/androidx-demos/procedure-gradient3/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-gradient3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-gradient3.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-gradient4",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Off-centre radial gradient in an ellipse behind the word gradient. #paint",
+      "sourceFile": "docs/androidx-demos/procedure-gradient4/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-gradient4.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-gradient4.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-look-up1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Lookup-table demo: a plain red ellipse whose fill is chosen by table index. #expressions #validation",
+      "sourceFile": "docs/androidx-demos/procedure-look-up1/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-look-up1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-look-up1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple-clock-fast",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Fast-running clock: a single green hand sweeping a black dial. #clock #animation",
+      "sourceFile": "docs/androidx-demos/procedure-simple-clock-fast/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple-clock-fast.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple-clock-fast.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simplest case: one small black circle. #drawCircle #validation",
+      "sourceFile": "docs/androidx-demos/procedure-simple1/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simplest case: one large black circle filling the frame. #drawCircle #validation",
+      "sourceFile": "docs/androidx-demos/procedure-simple2/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple3",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simplest case: one red circle. #drawCircle #validation",
+      "sourceFile": "docs/androidx-demos/procedure-simple3/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple3.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple4",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simplest case: a solid red rectangle filling the frame. #drawRect #validation",
+      "sourceFile": "docs/androidx-demos/procedure-simple4/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple4.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple4.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple5",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simplest case: a red ellipse. #drawOval #validation",
+      "sourceFile": "docs/androidx-demos/procedure-simple5/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple5.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple5.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-simple6",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Clock on a scalloped dark blue dial with red and grey hands. #clock",
+      "sourceFile": "docs/androidx-demos/procedure-simple6/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-simple6.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-simple6.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-text-path-effects",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Text path effects: the digits 0-9 repeated with blur and gradient treatments over a soft disc. #text #paint",
+      "sourceFile": "docs/androidx-demos/procedure-text-path-effects/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-text-path-effects.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-text-path-effects.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/procedure-version",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Version banner reading Version 8.0 on a red ellipse. #text",
+      "sourceFile": "docs/androidx-demos/procedure-version/doc.rc",
+      "rcDocument": "documents/androidx-demos/procedure-version.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/procedure-version.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sensor-demo-acc-sensor1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Accelerometer demo: a yellow dot on a blue field that moves with device tilt. #sensors #interaction",
+      "sourceFile": "docs/androidx-demos/sensor-demo-acc-sensor1/doc.rc",
+      "rcDocument": "documents/androidx-demos/sensor-demo-acc-sensor1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sensor-demo-acc-sensor1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sensor-demo-compass",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Compass demo: a dark needle on a blue field, rotating with device heading. #sensors #interaction",
+      "sourceFile": "docs/androidx-demos/sensor-demo-compass/doc.rc",
+      "rcDocument": "documents/androidx-demos/sensor-demo-compass.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sensor-demo-compass.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sensor-demo-gyro-sensor1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Gyroscope demo: a red bar on a blue field that swings with rotation rate. #sensors #interaction",
+      "sourceFile": "docs/androidx-demos/sensor-demo-gyro-sensor1/doc.rc",
+      "rcDocument": "documents/androidx-demos/sensor-demo-gyro-sensor1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sensor-demo-gyro-sensor1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sensor-demo-light-sensor1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Ambient light demo: a numeric lux readout between dark and bright half-discs. #sensors #interaction",
+      "sourceFile": "docs/androidx-demos/sensor-demo-light-sensor1/doc.rc",
+      "rcDocument": "documents/androidx-demos/sensor-demo-light-sensor1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sensor-demo-light-sensor1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sensor-demo-mag-sensor1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Magnetometer demo: a yellow dot on a blue field driven by field strength. #sensors #interaction",
+      "sourceFile": "docs/androidx-demos/sensor-demo-mag-sensor1/doc.rc",
+      "rcDocument": "documents/androidx-demos/sensor-demo-mag-sensor1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sensor-demo-mag-sensor1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/server-clock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Clock driven by a server-supplied time rather than the local one, drawn as plain hands on blue. #clock",
+      "sourceFile": "docs/androidx-demos/server-clock/doc.rc",
+      "rcDocument": "documents/androidx-demos/server-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/server-clock.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/shader-calendar",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Calendar strip rendered through a shader, a tall column of tinted day cells. #shaders",
+      "sourceFile": "docs/androidx-demos/shader-calendar/doc.rc",
+      "rcDocument": "documents/androidx-demos/shader-calendar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/shader-calendar.png",
+          "width": 95,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/simple-java-anim",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Minimal animation: a single red circle pulsing in size. #animation #drawCircle",
+      "sourceFile": "docs/androidx-demos/simple-java-anim/doc.rc",
+      "rcDocument": "documents/androidx-demos/simple-java-anim.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/simple-java-anim.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/sleep-quality-rings",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Sleep summary ring totalling 6h 40m, segmented into Deep, Light, REM and Awake. #widget #graph",
+      "sourceFile": "docs/androidx-demos/sleep-quality-rings/doc.rc",
+      "rcDocument": "documents/androidx-demos/sleep-quality-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/sleep-quality-rings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/small-animated",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Minimal animated value, drawn as the number 1.5 counting on a plain field. #animation #text",
+      "sourceFile": "docs/androidx-demos/small-animated/doc.rc",
+      "rcDocument": "documents/androidx-demos/small-animated.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/small-animated.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/spline-demo-spline-demo1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Spline demo: a heart outline built from smooth curve segments. #drawPath",
+      "sourceFile": "docs/androidx-demos/spline-demo-spline-demo1/doc.rc",
+      "rcDocument": "documents/androidx-demos/spline-demo-spline-demo1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/spline-demo-spline-demo1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/spread-sheet",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Spreadsheet stress test: a dense grid of overlapping headers and numeric cells. #text #layout",
+      "sourceFile": "docs/androidx-demos/spread-sheet/doc.rc",
+      "rcDocument": "documents/androidx-demos/spread-sheet.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/spread-sheet.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/step-progress-arc",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Step progress arc showing 7250 of 10000 steps, with quarter markers around the sweep. #widget #graph",
+      "sourceFile": "docs/androidx-demos/step-progress-arc/doc.rc",
+      "rcDocument": "documents/androidx-demos/step-progress-arc.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/step-progress-arc.png",
+          "width": 400,
+          "height": 350
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Stock watchlist card showing Dow Jones at 47,739.32, down 0.45%. #widget",
+      "sourceFile": "docs/androidx-demos/stock/doc.rc",
+      "rcDocument": "documents/androidx-demos/stock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stock.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stock-sparkline",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Stock sparkline: 44850, up 6.41%, drawn as a green trend line with a filled gradient. #graph #widget",
+      "sourceFile": "docs/androidx-demos/stock-sparkline/doc.rc",
+      "rcDocument": "documents/androidx-demos/stock-sparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stock-sparkline.png",
+          "width": 500,
+          "height": 350
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-absolute-pos",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_ABSOLUTE_POS, shown on a red dial marked at 0.50. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-absolute-pos/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-absolute-pos.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-absolute-pos.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-ends",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_ENDS, shown on a red dial marked at 0.50. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-ends/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-ends.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-ends.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/themed-plot1",
       "section": "androidx",
       "group": "androidx-demos",
