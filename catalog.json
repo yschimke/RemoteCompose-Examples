@@ -7885,6 +7885,686 @@
       ]
     },
     {
+      "componentId": "layout/b07-box-end-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/top",
+      "sourceFile": "docs/layout/b07-box-end-top/doc.rc",
+      "rcDocument": "documents/layout/b07-box-end-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b07-box-end-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b08-box-end-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/center",
+      "sourceFile": "docs/layout/b08-box-end-center/doc.rc",
+      "rcDocument": "documents/layout/b08-box-end-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b08-box-end-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b09-box-end-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/bottom",
+      "sourceFile": "docs/layout/b09-box-end-bottom/doc.rc",
+      "rcDocument": "documents/layout/b09-box-end-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b09-box-end-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b10-box-two-children",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B10 two children of different size, centred - they stack",
+      "sourceFile": "docs/layout/b10-box-two-children/doc.rc",
+      "rcDocument": "documents/layout/b10-box-two-children.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b10-box-two-children.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b11-box-fixed-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B11 alignment inside a fixed-size box, not the root",
+      "sourceFile": "docs/layout/b11-box-fixed-parent/doc.rc",
+      "rcDocument": "documents/layout/b11-box-fixed-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b11-box-fixed-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c01-row-arrange-start",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=start",
+      "sourceFile": "docs/layout/c01-row-arrange-start/doc.rc",
+      "rcDocument": "documents/layout/c01-row-arrange-start.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c01-row-arrange-start.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c02-row-arrange-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=center",
+      "sourceFile": "docs/layout/c02-row-arrange-center/doc.rc",
+      "rcDocument": "documents/layout/c02-row-arrange-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c02-row-arrange-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c03-row-arrange-end",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=end",
+      "sourceFile": "docs/layout/c03-row-arrange-end/doc.rc",
+      "rcDocument": "documents/layout/c03-row-arrange-end.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c03-row-arrange-end.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c04-row-arrange-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceBetween",
+      "sourceFile": "docs/layout/c04-row-arrange-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/c04-row-arrange-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c04-row-arrange-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c05-row-arrange-spaceevenly",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceEvenly",
+      "sourceFile": "docs/layout/c05-row-arrange-spaceevenly/doc.rc",
+      "rcDocument": "documents/layout/c05-row-arrange-spaceevenly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c05-row-arrange-spaceevenly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c06-row-arrange-spacearound",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceAround",
+      "sourceFile": "docs/layout/c06-row-arrange-spacearound/doc.rc",
+      "rcDocument": "documents/layout/c06-row-arrange-spacearound.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c06-row-arrange-spacearound.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c07-row-valign-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=top",
+      "sourceFile": "docs/layout/c07-row-valign-top/doc.rc",
+      "rcDocument": "documents/layout/c07-row-valign-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c07-row-valign-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c08-row-valign-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=center",
+      "sourceFile": "docs/layout/c08-row-valign-center/doc.rc",
+      "rcDocument": "documents/layout/c08-row-valign-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c08-row-valign-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c09-row-valign-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=bottom",
+      "sourceFile": "docs/layout/c09-row-valign-bottom/doc.rc",
+      "rcDocument": "documents/layout/c09-row-valign-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c09-row-valign-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c10-row-spacedby",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C10 row with spacedBy 20",
+      "sourceFile": "docs/layout/c10-row-spacedby/doc.rc",
+      "rcDocument": "documents/layout/c10-row-spacedby.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c10-row-spacedby.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c11-row-wrap-width",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C11 row that wraps its width - arrangement has no slack to distribute",
+      "sourceFile": "docs/layout/c11-row-wrap-width/doc.rc",
+      "rcDocument": "documents/layout/c11-row-wrap-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c11-row-wrap-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c12-row-single-child-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C12 spaceBetween with one child - degenerate case",
+      "sourceFile": "docs/layout/c12-row-single-child-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/c12-row-single-child-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c12-row-single-child-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c13-row-fixed-height-children-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C13 children filling the cross axis inside a row",
+      "sourceFile": "docs/layout/c13-row-fixed-height-children-fill/doc.rc",
+      "rcDocument": "documents/layout/c13-row-fixed-height-children-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c13-row-fixed-height-children-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c1a-row-single-spacearound",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C single child with spaceAround",
+      "sourceFile": "docs/layout/c1a-row-single-spacearound/doc.rc",
+      "rcDocument": "documents/layout/c1a-row-single-spacearound.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c1a-row-single-spacearound.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c1e-row-single-spaceevenly",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C single child with spaceEvenly",
+      "sourceFile": "docs/layout/c1e-row-single-spaceevenly/doc.rc",
+      "rcDocument": "documents/layout/c1e-row-single-spaceevenly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c1e-row-single-spaceevenly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d01-col-arrange-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=top",
+      "sourceFile": "docs/layout/d01-col-arrange-top/doc.rc",
+      "rcDocument": "documents/layout/d01-col-arrange-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d01-col-arrange-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d02-col-arrange-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=center",
+      "sourceFile": "docs/layout/d02-col-arrange-center/doc.rc",
+      "rcDocument": "documents/layout/d02-col-arrange-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d02-col-arrange-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d03-col-arrange-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=bottom",
+      "sourceFile": "docs/layout/d03-col-arrange-bottom/doc.rc",
+      "rcDocument": "documents/layout/d03-col-arrange-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d03-col-arrange-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d04-col-arrange-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=spaceBetween",
+      "sourceFile": "docs/layout/d04-col-arrange-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/d04-col-arrange-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d04-col-arrange-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d05-col-arrange-spaceevenly",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=spaceEvenly",
+      "sourceFile": "docs/layout/d05-col-arrange-spaceevenly/doc.rc",
+      "rcDocument": "documents/layout/d05-col-arrange-spaceevenly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d05-col-arrange-spaceevenly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d06-col-arrange-spacearound",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=spaceAround",
+      "sourceFile": "docs/layout/d06-col-arrange-spacearound/doc.rc",
+      "rcDocument": "documents/layout/d06-col-arrange-spacearound.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d06-col-arrange-spacearound.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d07-col-halign-start",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column horizontalAlignment=start",
+      "sourceFile": "docs/layout/d07-col-halign-start/doc.rc",
+      "rcDocument": "documents/layout/d07-col-halign-start.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d07-col-halign-start.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d08-col-halign-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column horizontalAlignment=center",
+      "sourceFile": "docs/layout/d08-col-halign-center/doc.rc",
+      "rcDocument": "documents/layout/d08-col-halign-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d08-col-halign-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d09-col-halign-end",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column horizontalAlignment=end",
+      "sourceFile": "docs/layout/d09-col-halign-end/doc.rc",
+      "rcDocument": "documents/layout/d09-col-halign-end.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d09-col-halign-end.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d10-col-spacedby",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D10 column with spacedBy 20",
+      "sourceFile": "docs/layout/d10-col-spacedby/doc.rc",
+      "rcDocument": "documents/layout/d10-col-spacedby.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d10-col-spacedby.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d11-col-wrap-height",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D11 column that wraps its height - arrangement has no slack",
+      "sourceFile": "docs/layout/d11-col-wrap-height/doc.rc",
+      "rcDocument": "documents/layout/d11-col-wrap-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d11-col-wrap-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d12-col-single-child-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D12 spaceBetween with one child - degenerate case",
+      "sourceFile": "docs/layout/d12-col-single-child-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/d12-col-single-child-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d12-col-single-child-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d13-col-children-fill-width",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D13 children filling the cross axis inside a column",
+      "sourceFile": "docs/layout/d13-col-children-fill-width/doc.rc",
+      "rcDocument": "documents/layout/d13-col-children-fill-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d13-col-children-fill-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e01-row-one-weight",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E01 single weighted child takes the whole row",
+      "sourceFile": "docs/layout/e01-row-one-weight/doc.rc",
+      "rcDocument": "documents/layout/e01-row-one-weight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e01-row-one-weight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e02-row-two-equal",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E02 two children, weight 1 and 1",
+      "sourceFile": "docs/layout/e02-row-two-equal/doc.rc",
+      "rcDocument": "documents/layout/e02-row-two-equal.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e02-row-two-equal.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e03-row-two-unequal",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E03 two children, weight 1 and 2",
+      "sourceFile": "docs/layout/e03-row-two-unequal/doc.rc",
+      "rcDocument": "documents/layout/e03-row-two-unequal.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e03-row-two-unequal.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e04-row-weight-beside-fixed",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E04 fixed 100 beside weight 1 - the weighted child gets what is left",
+      "sourceFile": "docs/layout/e04-row-weight-beside-fixed/doc.rc",
+      "rcDocument": "documents/layout/e04-row-weight-beside-fixed.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e04-row-weight-beside-fixed.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e05-row-padding-on-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E05 weights inside a padded row - slack is the padded width",
+      "sourceFile": "docs/layout/e05-row-padding-on-row/doc.rc",
+      "rcDocument": "documents/layout/e05-row-padding-on-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e05-row-padding-on-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e06-row-padding-on-weighted-child",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E06 padding on the weighted child itself",
+      "sourceFile": "docs/layout/e06-row-padding-on-weighted-child/doc.rc",
+      "rcDocument": "documents/layout/e06-row-padding-on-weighted-child.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e06-row-padding-on-weighted-child.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e07-row-weight-in-wrap-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E07 weight inside a row that wraps its width - there is no slack to share",
+      "sourceFile": "docs/layout/e07-row-weight-in-wrap-row/doc.rc",
+      "rcDocument": "documents/layout/e07-row-weight-in-wrap-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e07-row-weight-in-wrap-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
