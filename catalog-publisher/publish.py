@@ -181,8 +181,19 @@ def publish(source: Path, output: Path, revision: str, batch_size: int,
         (output / f"documents/{old_id}.rc").unlink(missing_ok=True)
         (output / f"images/{old_id}.png").unlink(missing_ok=True)
 
+    # These are deliberately unbounded rendering benchmarks. Capturing them
+    # can consume an entire CI run, so publish their RC files without a PNG.
+    for row in rows:
+        if row["id"].startswith("render/perf-"):
+            item = state[row["id"]]
+            if not (output / f"images/{row['id']}.png").exists():
+                item.update(renderKey=f"{item['sha256']}:{render_version}",
+                            error="Rendering benchmark omitted from static preview")
+
     def pending(row: dict) -> bool:
         item = state[row["id"]]
+        if row["id"].startswith("render/perf-"):
+            return False
         key = f"{item['sha256']}:{render_version}"
         if item.get("renderKey") != key:
             return True
