@@ -16912,6 +16912,550 @@
       ]
     },
     {
+      "componentId": "render/radial-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Radial/polar bar chart: bars radiating from the center, one per value, length proportional to value, evenly spaced around the circle.",
+      "sourceFile": "docs/render/radial-bars/doc.rc",
+      "rcDocument": "documents/render/radial-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/radial-bars.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/rainy-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rainy Season — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/rainy-loop/doc.rc",
+      "rcDocument": "documents/render/rainy-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rainy-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/rainy-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rainy Season — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/rainy-progress/doc.rc",
+      "rcDocument": "documents/render/rainy-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rainy-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-graphs2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/render/rc-json-graphs2/doc.rc",
+      "rcDocument": "documents/render/rc-json-graphs2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-graphs2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macro Buttons Demo: a heading on an orange-to-green gradient with a placeholder slot. #text #paint",
+      "sourceFile": "docs/render/rc-json-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-macro-local-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macro-Local State Demo, explaining that each button below keeps its own state. #text #interaction",
+      "sourceFile": "docs/render/rc-json-macro-local-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-macro-local-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-macro-local-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-particle-sphere",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "spinning",
+      "sourceFile": "docs/render/rc-json-particle-sphere/doc.rc",
+      "rcDocument": "documents/render/rc-json-particle-sphere.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-particle-sphere.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-pressure-gauge",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pressure Gauge",
+      "sourceFile": "docs/render/rc-json-pressure-gauge/doc.rc",
+      "rcDocument": "documents/render/rc-json-pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-referenced-operations-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macros with Content Inclusion: a title page for referenced-operation macros. #text",
+      "sourceFile": "docs/render/rc-json-referenced-operations-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-referenced-operations-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-referenced-operations-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-style-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Modifier Macros (Style Factories): a title page over sample styled buttons. #text #layout",
+      "sourceFile": "docs/render/rc-json-style-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-style-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-style-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Progress ring at 70%, green sweep on a dark track with the value at the centre. #widget #drawArc",
+      "sourceFile": "docs/render/ring/doc.rc",
+      "rcDocument": "documents/render/ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ring.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/sakura-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/sakura-loop/doc.rc",
+      "rcDocument": "documents/render/sakura-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sakura-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sakura-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sakura-progress/doc.rc",
+      "rcDocument": "documents/render/sakura-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sakura-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/scatter-plot",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Scatter plot: a dot for each (x,y) pair from two parallel arrays. Use for correlation / point clouds.",
+      "sourceFile": "docs/render/scatter-plot/doc.rc",
+      "rcDocument": "documents/render/scatter-plot.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scatter-plot.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-h",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_h",
+      "sourceFile": "docs/render/scroll-h/doc.rc",
+      "rcDocument": "documents/render/scroll-h.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-h.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-nested",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "nested scrollers: the inner one must take the press",
+      "sourceFile": "docs/render/scroll-nested/doc.rc",
+      "rcDocument": "documents/render/scroll-nested.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-nested.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-notch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_notch",
+      "sourceFile": "docs/render/scroll-notch/doc.rc",
+      "rcDocument": "documents/render/scroll-notch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-notch.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-two",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "two independent scrollers: drag must lock to the press",
+      "sourceFile": "docs/render/scroll-two/doc.rc",
+      "rcDocument": "documents/render/scroll-two.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-two.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-v",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_v",
+      "sourceFile": "docs/render/scroll-v/doc.rc",
+      "rcDocument": "documents/render/scroll-v.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-v.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/sea-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Under the Sea — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/sea-loop/doc.rc",
+      "rcDocument": "documents/render/sea-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sea-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sea-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Under the Sea — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sea-progress/doc.rc",
+      "rcDocument": "documents/render/sea-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sea-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/seedcross",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "seeded placement, cross-engine",
+      "sourceFile": "docs/render/seedcross/doc.rc",
+      "rcDocument": "documents/render/seedcross.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/seedcross.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sens2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "upstream sensor names",
+      "sourceFile": "docs/render/sens2/doc.rc",
+      "rcDocument": "documents/render/sens2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sens2.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/sensors",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "sensor smoke test",
+      "sourceFile": "docs/render/sensors/doc.rc",
+      "rcDocument": "documents/render/sensors.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sensors.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/shader-aurora",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "AGSL Aurora Shader Demo",
+      "sourceFile": "docs/render/shader-aurora/doc.rc",
+      "rcDocument": "documents/render/shader-aurora.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shader-aurora.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/shinkansen-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shinkansen — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/shinkansen-loop/doc.rc",
+      "rcDocument": "documents/render/shinkansen-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shinkansen-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/shinkansen-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shinkansen — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/shinkansen-progress/doc.rc",
+      "rcDocument": "documents/render/shinkansen-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shinkansen-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/simplewatch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple watch — a blue face with hour and minute hands, in three draw commands",
+      "sourceFile": "docs/render/simplewatch/doc.rc",
+      "rcDocument": "documents/render/simplewatch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/simplewatch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/smart-home-dial",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Smart Climate Dial with AGSL Thermal Glow Shader",
+      "sourceFile": "docs/render/smart-home-dial/doc.rc",
+      "rcDocument": "documents/render/smart-home-dial.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/smart-home-dial.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/snowday-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Snow Day — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/snowday-loop/doc.rc",
+      "rcDocument": "documents/render/snowday-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/snowday-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/snowday-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Snow Day — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/snowday-progress/doc.rc",
+      "rcDocument": "documents/render/snowday-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/snowday-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/space-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Space — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/space-loop/doc.rc",
+      "rcDocument": "documents/render/space-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/space-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "render/space-progress",
       "section": "rcjson",
       "group": "render",
@@ -16925,6 +17469,91 @@
           "path": "images/render/space-progress.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sparkline",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sparkline: a tiny, axis-free line of a value series, with the last point marked. Use as an inline trend indicator.",
+      "sourceFile": "docs/render/sparkline/doc.rc",
+      "rcDocument": "documents/render/sparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sparkline.png",
+          "width": 300,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-130000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-130000/doc.rc",
+      "rcDocument": "documents/render/spir-130000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-130000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-16000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-16000/doc.rc",
+      "rcDocument": "documents/render/spir-16000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-16000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-2000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-2000/doc.rc",
+      "rcDocument": "documents/render/spir-2000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-2000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-256",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-256/doc.rc",
+      "rcDocument": "documents/render/spir-256.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-256.png",
+          "width": 640,
+          "height": 640
         }
       ]
     },
@@ -16946,6 +17575,40 @@
       ]
     },
     {
+      "componentId": "render/stat-card",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "KPI/stat card: a big headline number with a label underneath, centered on a card. Use for a single key metric.",
+      "sourceFile": "docs/render/stat-card/doc.rc",
+      "rcDocument": "documents/render/stat-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/stat-card.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/stat-value",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "A large single numeric statistic (KPI): one big number shown centered with a small caption label underneath — e.g. a percentage, temperature, heart rate, count, or score. The number uses textFromFloat so it is a formatted numeric value, with a units/label line beneath it.",
+      "sourceFile": "docs/render/stat-value/doc.rc",
+      "rcDocument": "documents/render/stat-value.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/stat-value.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
       "componentId": "render/sunflower-loop",
       "section": "rcjson",
       "group": "render",
@@ -16957,6 +17620,23 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/render/sunflower-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sunflower-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sunflowers — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sunflower-progress/doc.rc",
+      "rcDocument": "documents/render/sunflower-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sunflower-progress.png",
           "width": 360,
           "height": 360
         }
