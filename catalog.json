@@ -13444,6 +13444,686 @@
       ]
     },
     {
+      "componentId": "render/c10-grazing-software",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "C10 grazing textured quad, software",
+      "sourceFile": "docs/render/c10-grazing-software/doc.rc",
+      "rcDocument": "documents/render/c10-grazing-software.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/c10-grazing-software.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/canvascomp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "component inside canvas",
+      "sourceFile": "docs/render/canvascomp/doc.rc",
+      "rcDocument": "documents/render/canvascomp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/canvascomp.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/catalogue",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Catalogue index document. Renders blank on its own; it is a container for other entries. #validation",
+      "sourceFile": "docs/render/catalogue/doc.rc",
+      "rcDocument": "documents/render/catalogue.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/catalogue.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d1",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 1. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d1/doc.rc",
+      "rcDocument": "documents/render/ch-d1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d1.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 2. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d2/doc.rc",
+      "rcDocument": "documents/render/ch-d2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d2.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d3",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 3. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d3/doc.rc",
+      "rcDocument": "documents/render/ch-d3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d3.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d4",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 4. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d4/doc.rc",
+      "rcDocument": "documents/render/ch-d4.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d4.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/clamp-probe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: clamp argument order and the floor 0/1 flag",
+      "sourceFile": "docs/render/clamp-probe/doc.rc",
+      "rcDocument": "documents/render/clamp-probe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clamp-probe.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-analog",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Analog clock: a circular face with tick marks and white hour and minute hands that animate via the time variable. Use for clocks/timers.",
+      "sourceFile": "docs/render/clock-analog/doc.rc",
+      "rcDocument": "documents/render/clock-analog.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-analog.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-with-green-face-min-and-hour-hand",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "green clock",
+      "sourceFile": "docs/render/clock-with-green-face-min-and-hour-hand/doc.rc",
+      "rcDocument": "documents/render/clock-with-green-face-min-and-hour-hand.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-with-green-face-min-and-hour-hand.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-with-green-face-min-and-hour-hand-batch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "green clock",
+      "sourceFile": "docs/render/clock-with-green-face-min-and-hour-hand-batch/doc.rc",
+      "rcDocument": "documents/render/clock-with-green-face-min-and-hour-hand-batch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-with-green-face-min-and-hour-hand-batch.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/color-theme-proof",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "colour-group themed colour: light, dark, adaptive",
+      "sourceFile": "docs/render/color-theme-proof/doc.rc",
+      "rcDocument": "documents/render/color-theme-proof.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/color-theme-proof.png",
+          "width": 620,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/colortheme-proof",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "themed colour vs named colour references",
+      "sourceFile": "docs/render/colortheme-proof/doc.rc",
+      "rcDocument": "documents/render/colortheme-proof.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/colortheme-proof.png",
+          "width": 480,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-notilt",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (simulated)",
+      "sourceFile": "docs/render/compass-notilt/doc.rc",
+      "rcDocument": "documents/render/compass-notilt.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-notilt.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-sim",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (simulated)",
+      "sourceFile": "docs/render/compass-sim/doc.rc",
+      "rcDocument": "documents/render/compass-sim.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-sim.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-tiltvar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/compass-tiltvar/doc.rc",
+      "rcDocument": "documents/render/compass-tiltvar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-tiltvar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/counter",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "minimal repro: runAction+setValue self-referencing counter",
+      "sourceFile": "docs/render/counter/doc.rc",
+      "rcDocument": "documents/render/counter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/counter.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/counter2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "tappable counter",
+      "sourceFile": "docs/render/counter2/doc.rc",
+      "rcDocument": "documents/render/counter2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/counter2.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/cube-3d",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shaded 3D cube, cyan top face and red front, inside a dark circular vignette. #3d",
+      "sourceFile": "docs/render/cube-3d/doc.rc",
+      "rcDocument": "documents/render/cube-3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/cube-3d.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/d01-target",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Archery target: concentric red and white rings with a dark bullseye. #drawCircle",
+      "sourceFile": "docs/render/d01-target/doc.rc",
+      "rcDocument": "documents/render/d01-target.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d01-target.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d02-barchart",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bar chart of six bars stepping through red, orange, yellow, green, blue and purple. #graph",
+      "sourceFile": "docs/render/d02-barchart/doc.rc",
+      "rcDocument": "documents/render/d02-barchart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d02-barchart.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d03-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Five interlocking Olympic-style rings in blue, black, red, yellow and green. #drawCircle",
+      "sourceFile": "docs/render/d03-rings/doc.rc",
+      "rcDocument": "documents/render/d03-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d03-rings.png",
+          "width": 400,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "componentId": "render/d04-traffic",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Traffic light: red, amber and green lamps in a dark housing. #widget",
+      "sourceFile": "docs/render/d04-traffic/doc.rc",
+      "rcDocument": "documents/render/d04-traffic.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d04-traffic.png",
+          "width": 160,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "render/d05-dotgrid",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Grid of coloured dots cycling through a six-hue palette. #loop #drawCircle",
+      "sourceFile": "docs/render/d05-dotgrid/doc.rc",
+      "rcDocument": "documents/render/d05-dotgrid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d05-dotgrid.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d06-mondrian",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "mondrian",
+      "sourceFile": "docs/render/d06-mondrian/doc.rc",
+      "rcDocument": "documents/render/d06-mondrian.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d06-mondrian.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d07-crosshair",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "crosshair",
+      "sourceFile": "docs/render/d07-crosshair/doc.rc",
+      "rcDocument": "documents/render/d07-crosshair.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d07-crosshair.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d08-equalizer",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Audio equalizer: cyan and green bars of varying height on black. #graph #animation",
+      "sourceFile": "docs/render/d08-equalizer/doc.rc",
+      "rcDocument": "documents/render/d08-equalizer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d08-equalizer.png",
+          "width": 340,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/d09-house",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Illustration: a brown house with a pitched roof on green grass under a yellow sun. #drawPath",
+      "sourceFile": "docs/render/d09-house/doc.rc",
+      "rcDocument": "documents/render/d09-house.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d09-house.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d10-constellation",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Constellation map: pale stars joined by faint lines on a midnight field. #drawPath",
+      "sourceFile": "docs/render/d10-constellation/doc.rc",
+      "rcDocument": "documents/render/d10-constellation.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d10-constellation.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d11-stats",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Statistics strip: 128 Users, 94% Uptime and 3.4k Events in blue, green and purple tiles. #widget #layout",
+      "sourceFile": "docs/render/d11-stats/doc.rc",
+      "rcDocument": "documents/render/d11-stats.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d11-stats.png",
+          "width": 480,
+          "height": 150
+        }
+      ]
+    },
+    {
+      "componentId": "render/d12-profile",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Profile card: JD monogram banner above the name Jane Doe, Product Designer. #layout #text",
+      "sourceFile": "docs/render/d12-profile/doc.rc",
+      "rcDocument": "documents/render/d12-profile.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d12-profile.png",
+          "width": 300,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "render/d13-buttons",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Button styles stacked: Primary, Success, Danger and Neutral. #layout #widget",
+      "sourceFile": "docs/render/d13-buttons/doc.rc",
+      "rcDocument": "documents/render/d13-buttons.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d13-buttons.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d14-pricing",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pricing card: PRO PLAN, 29 USD per month, with a short feature list. #layout #text",
+      "sourceFile": "docs/render/d14-pricing/doc.rc",
+      "rcDocument": "documents/render/d14-pricing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d14-pricing.png",
+          "width": 300,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/d15-notification",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Notification banner: New message, tap to read the full details now, with an info badge. #widget #layout",
+      "sourceFile": "docs/render/d15-notification/doc.rc",
+      "rcDocument": "documents/render/d15-notification.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d15-notification.png",
+          "width": 380,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/d16-todo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Today's checklist with two items ticked and two still open. #layout #text",
+      "sourceFile": "docs/render/d16-todo/doc.rc",
+      "rcDocument": "documents/render/d16-todo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d16-todo.png",
+          "width": 320,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "componentId": "render/d17-chips",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour chips stacked and labelled red, orange, green, blue, purple and teal. #paint #layout",
+      "sourceFile": "docs/render/d17-chips/doc.rc",
+      "rcDocument": "documents/render/d17-chips.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d17-chips.png",
+          "width": 280,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/d18-weather",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: San Francisco, 18 degrees, Partly Cloudy, with high and low. #widget",
+      "sourceFile": "docs/render/d18-weather/doc.rc",
+      "rcDocument": "documents/render/d18-weather.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d18-weather.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d19-tabs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Tab bar with Home selected beside Search, Alerts and Profile. #layout #widget",
+      "sourceFile": "docs/render/d19-tabs/doc.rc",
+      "rcDocument": "documents/render/d19-tabs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d19-tabs.png",
+          "width": 480,
+          "height": 72
+        }
+      ]
+    },
+    {
+      "componentId": "render/d20-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "progress",
+      "sourceFile": "docs/render/d20-progress/doc.rc",
+      "rcDocument": "documents/render/d20-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d20-progress.png",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    {
+      "componentId": "render/d21-spiral",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Phyllotaxis spiral of blue dots growing outward from the centre. #loop #drawCircle",
+      "sourceFile": "docs/render/d21-spiral/doc.rc",
+      "rcDocument": "documents/render/d21-spiral.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d21-spiral.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/d32-wavefield",
       "section": "rcjson",
       "group": "render",
