@@ -8565,6 +8565,686 @@
       ]
     },
     {
+      "componentId": "layout/e08-col-vertical-weight",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E08 verticalWeight in a column",
+      "sourceFile": "docs/layout/e08-col-vertical-weight/doc.rc",
+      "rcDocument": "documents/layout/e08-col-vertical-weight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e08-col-vertical-weight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e09-col-horizontal-weight-wrong-axis",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E09 horizontalWeight used in a column - weight on the cross axis",
+      "sourceFile": "docs/layout/e09-col-horizontal-weight-wrong-axis/doc.rc",
+      "rcDocument": "documents/layout/e09-col-horizontal-weight-wrong-axis.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e09-col-horizontal-weight-wrong-axis.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e10-row-three-weights",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E10 three children, weights 1, 2, 3",
+      "sourceFile": "docs/layout/e10-row-three-weights/doc.rc",
+      "rcDocument": "documents/layout/e10-row-three-weights.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e10-row-three-weights.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e11-row-weight-cross-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E11 weighted child also filling the cross axis",
+      "sourceFile": "docs/layout/e11-row-weight-cross-fill/doc.rc",
+      "rcDocument": "documents/layout/e11-row-weight-cross-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e11-row-weight-cross-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/e12-row-fractional-weights",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "E12 fractional weights 0.5 and 1.5",
+      "sourceFile": "docs/layout/e12-row-fractional-weights/doc.rc",
+      "rcDocument": "documents/layout/e12-row-fractional-weights.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/e12-row-fractional-weights.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f01-padding-uniform",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F01 uniform padding on the root",
+      "sourceFile": "docs/layout/f01-padding-uniform/doc.rc",
+      "rcDocument": "documents/layout/f01-padding-uniform.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f01-padding-uniform.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f02-padding-per-side",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F02 per-side padding object",
+      "sourceFile": "docs/layout/f02-padding-per-side/doc.rc",
+      "rcDocument": "documents/layout/f02-padding-per-side.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f02-padding-per-side.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f03-padding-pair",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F03 padding as [horizontal, vertical]",
+      "sourceFile": "docs/layout/f03-padding-pair/doc.rc",
+      "rcDocument": "documents/layout/f03-padding-pair.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f03-padding-pair.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f04-padding-quad",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F04 padding as [left, top, right, bottom]",
+      "sourceFile": "docs/layout/f04-padding-quad/doc.rc",
+      "rcDocument": "documents/layout/f04-padding-quad.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f04-padding-quad.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f05-padding-on-child",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F05 padding on the child, not the parent",
+      "sourceFile": "docs/layout/f05-padding-on-child/doc.rc",
+      "rcDocument": "documents/layout/f05-padding-on-child.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f05-padding-on-child.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f06-padding-nested",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F06 padding at two levels",
+      "sourceFile": "docs/layout/f06-padding-nested/doc.rc",
+      "rcDocument": "documents/layout/f06-padding-nested.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f06-padding-nested.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f07-padding-then-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F07 does a filling child fill inside or outside the parent padding?",
+      "sourceFile": "docs/layout/f07-padding-then-fill/doc.rc",
+      "rcDocument": "documents/layout/f07-padding-then-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f07-padding-then-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f08-padding-exceeds-space",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F08 padding larger than the box it is on",
+      "sourceFile": "docs/layout/f08-padding-exceeds-space/doc.rc",
+      "rcDocument": "documents/layout/f08-padding-exceeds-space.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f08-padding-exceeds-space.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f09-padding-row-arrangement",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F09 padding on a row changes the slack the arrangement distributes",
+      "sourceFile": "docs/layout/f09-padding-row-arrangement/doc.rc",
+      "rcDocument": "documents/layout/f09-padding-row-arrangement.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f09-padding-row-arrangement.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f10-padding-asymmetric-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F10 centring inside an asymmetrically padded box",
+      "sourceFile": "docs/layout/f10-padding-asymmetric-center/doc.rc",
+      "rcDocument": "documents/layout/f10-padding-asymmetric-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f10-padding-asymmetric-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/f11-padding-before-size",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "F11 padding declared BEFORE width - Compose: padding outside, total 260",
+      "sourceFile": "docs/layout/f11-padding-before-size/doc.rc",
+      "rcDocument": "documents/layout/f11-padding-before-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/f11-padding-before-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g01-widthin-min-forces-growth",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G01 widthIn min larger than the requested width",
+      "sourceFile": "docs/layout/g01-widthin-min-forces-growth/doc.rc",
+      "rcDocument": "documents/layout/g01-widthin-min-forces-growth.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g01-widthin-min-forces-growth.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g02-widthin-max-caps",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G02 widthIn max smaller than the requested width",
+      "sourceFile": "docs/layout/g02-widthin-max-caps/doc.rc",
+      "rcDocument": "documents/layout/g02-widthin-max-caps.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g02-widthin-max-caps.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g03-widthin-within-range",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G03 requested width already inside the range",
+      "sourceFile": "docs/layout/g03-widthin-within-range/doc.rc",
+      "rcDocument": "documents/layout/g03-widthin-within-range.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g03-widthin-within-range.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g04-heightin-min-and-max",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G04 heightIn clamping a requested height",
+      "sourceFile": "docs/layout/g04-heightin-min-and-max/doc.rc",
+      "rcDocument": "documents/layout/g04-heightin-min-and-max.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g04-heightin-min-and-max.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g05-widthin-on-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G05 widthIn max applied to a filling child",
+      "sourceFile": "docs/layout/g05-widthin-on-fill/doc.rc",
+      "rcDocument": "documents/layout/g05-widthin-on-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g05-widthin-on-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g06-required-widthin",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G06 requiredWidthIn - required constraints ignore the incoming ones",
+      "sourceFile": "docs/layout/g06-required-widthin/doc.rc",
+      "rcDocument": "documents/layout/g06-required-widthin.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g06-required-widthin.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g07-required-heightin",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "Layout check: requiredHeightIn, a blue block held to a height range in the corner of a dark frame. #layout #validation",
+      "sourceFile": "docs/layout/g07-required-heightin/doc.rc",
+      "rcDocument": "documents/layout/g07-required-heightin.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g07-required-heightin.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g08-widthin-wrap-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G08 widthIn min inside a wrapping parent",
+      "sourceFile": "docs/layout/g08-widthin-wrap-parent/doc.rc",
+      "rcDocument": "documents/layout/g08-widthin-wrap-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g08-widthin-wrap-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g09-dimension-constraints",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G09 dimensionConstraints modifier",
+      "sourceFile": "docs/layout/g09-dimension-constraints/doc.rc",
+      "rcDocument": "documents/layout/g09-dimension-constraints.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g09-dimension-constraints.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g10-widthin-exceeds-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G10 widthIn min larger than the parent - does the parent still bound it?",
+      "sourceFile": "docs/layout/g10-widthin-exceeds-parent/doc.rc",
+      "rcDocument": "documents/layout/g10-widthin-exceeds-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g10-widthin-exceeds-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h01-row-in-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H01 a row nested inside a column",
+      "sourceFile": "docs/layout/h01-row-in-column/doc.rc",
+      "rcDocument": "documents/layout/h01-row-in-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h01-row-in-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h02-column-in-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H02 a column nested inside a row",
+      "sourceFile": "docs/layout/h02-column-in-row/doc.rc",
+      "rcDocument": "documents/layout/h02-column-in-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h02-column-in-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h03-box-in-row-aligned",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H03 a box inside a row, aligned within its own bounds",
+      "sourceFile": "docs/layout/h03-box-in-row-aligned/doc.rc",
+      "rcDocument": "documents/layout/h03-box-in-row-aligned.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h03-box-in-row-aligned.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h04-three-levels",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H04 three levels of nesting, each inset",
+      "sourceFile": "docs/layout/h04-three-levels/doc.rc",
+      "rcDocument": "documents/layout/h04-three-levels.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h04-three-levels.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h05-alignment-through-nesting",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H05 outer centres, inner pushes to the end - alignment does not inherit",
+      "sourceFile": "docs/layout/h05-alignment-through-nesting/doc.rc",
+      "rcDocument": "documents/layout/h05-alignment-through-nesting.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h05-alignment-through-nesting.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h06-nested-fills",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H06 fill inside fill inside a fixed box",
+      "sourceFile": "docs/layout/h06-nested-fills/doc.rc",
+      "rcDocument": "documents/layout/h06-nested-fills.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h06-nested-fills.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h07-nested-weights",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H07 a weighted row inside a weighted column",
+      "sourceFile": "docs/layout/h07-nested-weights/doc.rc",
+      "rcDocument": "documents/layout/h07-nested-weights.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h07-nested-weights.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h08-nested-padding-alignment",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H08 padding at two levels with centring at both",
+      "sourceFile": "docs/layout/h08-nested-padding-alignment/doc.rc",
+      "rcDocument": "documents/layout/h08-nested-padding-alignment.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h08-nested-padding-alignment.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h09-wrap-inside-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H09 a wrapping box inside a filling one",
+      "sourceFile": "docs/layout/h09-wrap-inside-fill/doc.rc",
+      "rcDocument": "documents/layout/h09-wrap-inside-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h09-wrap-inside-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h10-row-of-columns",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H10 a row of three columns, each with its own arrangement",
+      "sourceFile": "docs/layout/h10-row-of-columns/doc.rc",
+      "rcDocument": "documents/layout/h10-row-of-columns.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h10-row-of-columns.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i01-row-children-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I01 row whose children total more than its width",
+      "sourceFile": "docs/layout/i01-row-children-overflow/doc.rc",
+      "rcDocument": "documents/layout/i01-row-children-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i01-row-children-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i02-column-children-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I02 column whose children total more than its height",
+      "sourceFile": "docs/layout/i02-column-children-overflow/doc.rc",
+      "rcDocument": "documents/layout/i02-column-children-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i02-column-children-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i03-nested-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I03 a grandchild larger than its grandparent",
+      "sourceFile": "docs/layout/i03-nested-overflow/doc.rc",
+      "rcDocument": "documents/layout/i03-nested-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i03-nested-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i04-clip-oversized-child",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I04 clip on a parent holding an oversized child",
+      "sourceFile": "docs/layout/i04-clip-oversized-child/doc.rc",
+      "rcDocument": "documents/layout/i04-clip-oversized-child.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i04-clip-oversized-child.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
