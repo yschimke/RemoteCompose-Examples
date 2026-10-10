@@ -53,6 +53,4 @@ header leaves it unspecified), then scales the captured frame to at most 640
 pixels on its longest side. It never shrinks the player's viewport, which would
 change layout. Each player is destroyed after capture to release its WebGL
 context. Failed captures are listed in `render-failures.json` and can be retried
-with `--retry-failed`. The `render/perf-*` documents are intentionally unbounded
-rendering benchmarks, so the publisher includes their `.rc` files but omits
-static PNG captures.
+with `--retry-failed`.
