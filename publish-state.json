@@ -3808,163 +3808,283 @@
   },
   "layout/i05-clip-with-padding": {
     "sha256": "c11683af5b3bc91e53fbdfe78e36a861014b3cee003ccafef041159313e66f6d",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "c11683af5b3bc91e53fbdfe78e36a861014b3cee003ccafef041159313e66f6d:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/i06-row-overflow-spacebetween": {
     "sha256": "436e50f176468b94732ed346ad7f4698155d04257155f881d740010f1361ce2c",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "436e50f176468b94732ed346ad7f4698155d04257155f881d740010f1361ce2c:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j01-spacedby-with-center": {
     "sha256": "0a24a1f509a914b5cdf26a19cb5b2f6af3c587bbe1f66000d3392aec58124646",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "0a24a1f509a914b5cdf26a19cb5b2f6af3c587bbe1f66000d3392aec58124646:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j02-spacedby-column": {
     "sha256": "5b1aaf0b9592c2fe53e4924f1fccbdb9c24c63d3e502129f7e8e4d6b8cdf7abc",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "5b1aaf0b9592c2fe53e4924f1fccbdb9c24c63d3e502129f7e8e4d6b8cdf7abc:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j03-offset": {
     "sha256": "0c9f04c7269cc76fcb8d5055a3938c0e473a07aa3e832779eddac31a320338ae",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "0c9f04c7269cc76fcb8d5055a3938c0e473a07aa3e832779eddac31a320338ae:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j04-offset-negative": {
     "sha256": "c2429ef42a47ffd95f81e8f3afbf9afeed5504476585bdd62e2938b3a8c2d1d3",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "c2429ef42a47ffd95f81e8f3afbf9afeed5504476585bdd62e2938b3a8c2d1d3:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j05-visibility-gone": {
     "sha256": "a89b415dc98d6cc41db011524b15336413e1a54975eacb19222e90a8e393fe60",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "a89b415dc98d6cc41db011524b15336413e1a54975eacb19222e90a8e393fe60:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j06-visibility-invisible": {
     "sha256": "0f624a63cc01555e8fb22c1f9d4686c1a2964c4ab8b705c2b168f348e18911bf",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "0f624a63cc01555e8fb22c1f9d4686c1a2964c4ab8b705c2b168f348e18911bf:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j07-zindex": {
     "sha256": "20b084fc4eae30438b2cc9c15e605e5b4e35fdd6f0ade7d589a7604074f6b556",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "20b084fc4eae30438b2cc9c15e605e5b4e35fdd6f0ade7d589a7604074f6b556:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j08-spacedby-exceeds": {
     "sha256": "cba385b6f6f61b6a99c6d99618fe1465633bd4e5ab51c74b0e892d759e10139d",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "cba385b6f6f61b6a99c6d99618fe1465633bd4e5ab51c74b0e892d759e10139d:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/j09-visibility-control": {
     "sha256": "0754b2d08ff8257dc62e99904849ca46c9d00cd5ed651fd11d2eab55cf4eed94",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "0754b2d08ff8257dc62e99904849ca46c9d00cd5ed651fd11d2eab55cf4eed94:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k01-text-wrap": {
     "sha256": "1b54b94aaa9cacb070dc39274edc01247bbadeb0d4f872f8e899e571ab61d360",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "1b54b94aaa9cacb070dc39274edc01247bbadeb0d4f872f8e899e571ab61d360:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k02-text-in-fixed-box": {
     "sha256": "b07310c8e0f4c824a2901b22b390837739d14dbdc0434fade925b38356ad5d1a",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "b07310c8e0f4c824a2901b22b390837739d14dbdc0434fade925b38356ad5d1a:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k03-text-maxlines-1": {
     "sha256": "b55a202174aec4e54da32efd5271361391b738142ee6ab9edc99c5cff5ffcc8b",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "b55a202174aec4e54da32efd5271361391b738142ee6ab9edc99c5cff5ffcc8b:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k04-text-maxlines-3": {
     "sha256": "01cc93c96be1354b334bc36c8a5526accb7366bde7a9a3e3b5ef2082ff8901d3",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "01cc93c96be1354b334bc36c8a5526accb7366bde7a9a3e3b5ef2082ff8901d3:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k05-text-weight-in-row": {
     "sha256": "40a16c140a4ece0e70626bcd932ca11625b0347aa519ab96ac56869f772d9fe7",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "40a16c140a4ece0e70626bcd932ca11625b0347aa519ab96ac56869f772d9fe7:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k06-text-padding": {
     "sha256": "19f76c5bf4cd4a65af272011fc784af8a2fb1c6c2e4d904d0568593a5f0e2c62",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "19f76c5bf4cd4a65af272011fc784af8a2fb1c6c2e4d904d0568593a5f0e2c62:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k07-text-fontsize": {
     "sha256": "c7625f57763019a7e1a79cbd52a8e96187669a001daf21562d8830128489129e",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "c7625f57763019a7e1a79cbd52a8e96187669a001daf21562d8830128489129e:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k08-text-fill-width": {
     "sha256": "699c1a28372b38e340d9e86fac15105b5b52a7e4d689d6a0b8a3913fafa9c5f1",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "699c1a28372b38e340d9e86fac15105b5b52a7e4d689d6a0b8a3913fafa9c5f1:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/k09-text-in-collapsible-column": {
     "sha256": "90cb6216d9824299c78975df9485432e247ba6d20c45cff964d23fbbd4e7ae60",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "90cb6216d9824299c78975df9485432e247ba6d20c45cff964d23fbbd4e7ae60:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/l01-flow-no-spacing": {
     "sha256": "561651feb9a7b7254c385628dc713ffcb29b7503e6d883b8ab4556c447528213",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "561651feb9a7b7254c385628dc713ffcb29b7503e6d883b8ab4556c447528213:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/l02-flow-spacedby-wraps": {
     "sha256": "e7d068193ffdc55159bc3d476c212165e7d6463d537cdfaf312ba5719cf798b4",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "e7d068193ffdc55159bc3d476c212165e7d6463d537cdfaf312ba5719cf798b4:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/l03-flow-spacedby-large": {
     "sha256": "c45322964d5935d95087bad54d0df8c53ab1a613c7c48b462680f6785e0438c0",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "c45322964d5935d95087bad54d0df8c53ab1a613c7c48b462680f6785e0438c0:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-bounce": {
     "sha256": "9a2358b41a50487b5e5b1e3e2d43ab25338e75809b45767d9c535f3526b78121",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "9a2358b41a50487b5e5b1e3e2d43ab25338e75809b45767d9c535f3526b78121:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-breathing": {
     "sha256": "9191bd25000bb982861f64348fa9061ef88bc7658574a8f03bc6a62f08b06732",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "9191bd25000bb982861f64348fa9061ef88bc7658574a8f03bc6a62f08b06732:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-clock-simple": {
     "sha256": "4df57ca04735c3b4468351c652f56e8b1745906970f343d997bdff5d47a467b5",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "4df57ca04735c3b4468351c652f56e8b1745906970f343d997bdff5d47a467b5:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-loading-bar": {
     "sha256": "02f3c44405a4d3a24754de086cfe856d97d15591e59765c0d8bb6dbe1b9fa690",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "02f3c44405a4d3a24754de086cfe856d97d15591e59765c0d8bb6dbe1b9fa690:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-metronome": {
     "sha256": "460457b8ad560e53e65236398e7e2fa3c501322eddd14a58bc79ce0d2d5c319c",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "460457b8ad560e53e65236398e7e2fa3c501322eddd14a58bc79ce0d2d5c319c:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-orbit": {
     "sha256": "bfd5758f37651f985a2d3ada18ff16d680b956aea732d6274a89636c80f6d376",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "bfd5758f37651f985a2d3ada18ff16d680b956aea732d6274a89636c80f6d376:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-pendulum": {
     "sha256": "1021488cca876a29a130e624070cdc6d324e1929c8145a2f0bd3fb3a13cb43ad",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "1021488cca876a29a130e624070cdc6d324e1929c8145a2f0bd3fb3a13cb43ad:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-pulse": {
     "sha256": "53ad8fb9d090007c2a8974340f01b3be84ac43d4c140d0e51b650501678886ff",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "53ad8fb9d090007c2a8974340f01b3be84ac43d4c140d0e51b650501678886ff:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-radar": {
     "sha256": "fa6fcb11565123f82a709f7ec2568af334812bab1588717499f6768e5a1a89e3",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "fa6fcb11565123f82a709f7ec2568af334812bab1588717499f6768e5a1a89e3:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-rotate-square": {
     "sha256": "64e30fc3816a831eae8a32fab400e16e220b61f97b570f3f7bc21a1a64252283",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "64e30fc3816a831eae8a32fab400e16e220b61f97b570f3f7bc21a1a64252283:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-spinner": {
     "sha256": "bfb01caa5fbdcf1fdf14d5803fb113cbebf09ccfe8e26b5144970ccb6ab3e96b",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "bfb01caa5fbdcf1fdf14d5803fb113cbebf09ccfe8e26b5144970ccb6ab3e96b:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/anim-wave": {
     "sha256": "ca6392f0c1af0d26e7e75607da51be6ecc92fe206a2e4ef7b7c5d42f389103cb",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "ca6392f0c1af0d26e7e75607da51be6ecc92fe206a2e4ef7b7c5d42f389103cb:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-arcs": {
     "sha256": "436761dbf9aff13f6615f735629c858d9a98676b60a30a916c6ae5fab87ba58c",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "436761dbf9aff13f6615f735629c858d9a98676b60a30a916c6ae5fab87ba58c:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-bar-chart": {
     "sha256": "c6eec19a615ab80d05e4f8a4708e2052c0def3a12ea5418befc80854f0a6f5d6",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "c6eec19a615ab80d05e4f8a4708e2052c0def3a12ea5418befc80854f0a6f5d6:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-concentric": {
     "sha256": "781122dbf8747b9fe98e66f45b6ec0ba67c2afcddd269596b00d6ce1f41ddbb5",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "781122dbf8747b9fe98e66f45b6ec0ba67c2afcddd269596b00d6ce1f41ddbb5:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-donut": {
     "sha256": "ba0a4485544a38556fd37ff4a8a0750c98952dfeb0670dc732be8002b0635c36",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "ba0a4485544a38556fd37ff4a8a0750c98952dfeb0670dc732be8002b0635c36:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-gauge": {
     "sha256": "2a926543eebf9e4c0f1f7954dea8fa8cca62e6eec584c1aa77cc59ff85394787",
-    "renderVersion": "1:cb84224aae12e593"
+    "renderVersion": "1:cb84224aae12e593",
+    "renderKey": "2a926543eebf9e4c0f1f7954dea8fa8cca62e6eec584c1aa77cc59ff85394787:1:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/canvas-gradient-bars": {
     "sha256": "45b706469554fd1cf758157f59c9e65a82c225b3850fc5a542f123978c0bab0a",
