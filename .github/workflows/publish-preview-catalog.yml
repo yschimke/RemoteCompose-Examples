@@ -1,0 +1,72 @@
+name: Publish Remote Compose preview catalog
+
+on:
+  push:
+    branches:
+      - agent/preview-catalog-publisher
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: remote-compose-preview-catalog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'yschimke/RemoteCompose-Examples'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out publisher
+        uses: actions/checkout@v4
+        with:
+          path: publisher
+          persist-credentials: false
+
+      - name: Check out latest source without changing main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: source
+          persist-credentials: false
+
+      - name: Check out delivery branch
+        uses: actions/checkout@v4
+        with:
+          ref: design-artifacts/remote-compose-examples
+          path: output
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright and select browser
+        run: |
+          python -m pip install playwright==1.55.0
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "BROWSER_EXECUTABLE=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          else
+            python -m playwright install chromium
+          fi
+
+      - name: Publish next image batch and synchronize all documents
+        run: |
+          args=(--source source --output output \
+            --revision "$(git -C source rev-parse HEAD)" --batch-size 40)
+          if [ -n "${BROWSER_EXECUTABLE:-}" ]; then
+            args+=(--browser-executable "$BROWSER_EXECUTABLE")
+          fi
+          python publisher/catalog-publisher/publish.py "${args[@]}"
+
+      - name: Commit changed artifacts on the delivery branch
+        run: |
+          git -C output config user.name 'github-actions[bot]'
+          git -C output config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C output add -A
+          if ! git -C output diff --cached --quiet; then
+            git -C output commit -m "chore(catalog): update from $(git -C source rev-parse --short HEAD)"
+            git -C output push origin HEAD:design-artifacts/remote-compose-examples
+          fi
