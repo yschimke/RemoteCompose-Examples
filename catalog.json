@@ -11965,6 +11965,142 @@
       ]
     },
     {
+      "componentId": "python-samples/widget-settings",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Settings panel: 5 rows with icon box, label, and toggle indicator",
+      "sourceFile": "docs/python-samples/widget-settings/doc.rc",
+      "rcDocument": "documents/python-samples/widget-settings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-settings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-stats",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stats bar: 4 equal-weight stat boxes with value, label, and mini sparkline canvas",
+      "sourceFile": "docs/python-samples/widget-stats/doc.rc",
+      "rcDocument": "documents/python-samples/widget-stats.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-stats.png",
+          "width": 500,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-timer",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Countdown timer: circular progress ring with animated time display in center",
+      "sourceFile": "docs/python-samples/widget-timer/doc.rc",
+      "rcDocument": "documents/python-samples/widget-timer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-timer.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-weather",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Weather card: city name, animated temperature, 3-day forecast with canvas icons",
+      "sourceFile": "docs/python-samples/widget-weather/doc.rc",
+      "rcDocument": "documents/python-samples/widget-weather.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-weather.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/00-header-only",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Hello RcJson",
+      "sourceFile": "docs/render/00-header-only/doc.rc",
+      "rcDocument": "documents/render/00-header-only.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/00-header-only.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/00-ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "live — a ring of bars with a wave travelling around it",
+      "sourceFile": "docs/render/00-ring/doc.rc",
+      "rcDocument": "documents/render/00-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/00-ring.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-draw-commands",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "A ring, a sweeping arc and an orbiting dot, all driven by the clock",
+      "sourceFile": "docs/render/01-draw-commands/doc.rc",
+      "rcDocument": "documents/render/01-draw-commands.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-draw-commands.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-hello",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Hello RcJson",
+      "sourceFile": "docs/render/01-hello/doc.rc",
+      "rcDocument": "documents/render/01-hello.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-hello.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
@@ -11978,6 +12114,91 @@
           "path": "images/render/01-sakura-season.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-simple-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple Demo",
+      "sourceFile": "docs/render/01-simple-demo/doc.rc",
+      "rcDocument": "documents/render/01-simple-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-simple-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "36 radial bars whose lengths follow a wave travelling around the circle",
+      "sourceFile": "docs/render/02-loop/doc.rc",
+      "rcDocument": "documents/render/02-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-loop.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-text-layout",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Match card: Arsenal vs Bayern Munich on yellow, with competition and date lines and an image slot. #text #layout",
+      "sourceFile": "docs/render/02-text-layout/doc.rc",
+      "rcDocument": "documents/render/02-text-layout.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-text-layout.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-ticker",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Watchlist ticker scrolling a value across a pale card. #animation #widget",
+      "sourceFile": "docs/render/02-ticker/doc.rc",
+      "rcDocument": "documents/render/02-ticker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-ticker.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-canvas-draw",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Canvas draw ops",
+      "sourceFile": "docs/render/03-canvas-draw/doc.rc",
+      "rcDocument": "documents/render/03-canvas-draw.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-canvas-draw.png",
+          "width": 400,
+          "height": 400
         }
       ]
     },
@@ -11999,6 +12220,397 @@
       ]
     },
     {
+      "componentId": "render/03-particles",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "120 snowflakes falling and swaying, each one a particle with its own speed, size and opacity",
+      "sourceFile": "docs/render/03-particles/doc.rc",
+      "rcDocument": "documents/render/03-particles.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-particles.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-thermostat-light",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Thermostat — detail",
+      "sourceFile": "docs/render/03-thermostat-light/doc.rc",
+      "rcDocument": "documents/render/03-thermostat-light.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-thermostat-light.png",
+          "width": 295,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/04-align-padding",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Alignment and padding check: left and right labels pinned to opposite edges with a stacked marker. #layout #validation",
+      "sourceFile": "docs/render/04-align-padding/doc.rc",
+      "rcDocument": "documents/render/04-align-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/04-align-padding.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/04-path-expression",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Three Lissajous curves generated from expressions, drifting in phase",
+      "sourceFile": "docs/render/04-path-expression/doc.rc",
+      "rcDocument": "documents/render/04-path-expression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/04-path-expression.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/05-box-sizes",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Box sizing check: the word hi on a dark red block sized to its content. #layout #validation",
+      "sourceFile": "docs/render/05-box-sizes/doc.rc",
+      "rcDocument": "documents/render/05-box-sizes.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/05-box-sizes.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/06-canvas-paints",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Paint styles on one canvas: a filled rounded rectangle, a stroked green circle and a red rule. #paint #validation",
+      "sourceFile": "docs/render/06-canvas-paints/doc.rc",
+      "rcDocument": "documents/render/06-canvas-paints.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/06-canvas-paints.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "componentId": "render/07-box-canvas",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Canvas inside a box: a single hairline diagonal across a black field. #layout #validation",
+      "sourceFile": "docs/render/07-box-canvas/doc.rc",
+      "rcDocument": "documents/render/07-box-canvas.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/07-box-canvas.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/08-transforms",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Transform demo: a circle quartered in green, blue and red with a rotated yellow square at its centre. #transforms",
+      "sourceFile": "docs/render/08-transforms/doc.rc",
+      "rcDocument": "documents/render/08-transforms.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/08-transforms.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/09-expressions",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression basics: a green circle with a tangent line whose endpoint is computed. #expressions #drawCircle",
+      "sourceFile": "docs/render/09-expressions/doc.rc",
+      "rcDocument": "documents/render/09-expressions.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/09-expressions.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/10-variables",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variables demo: a yellow smiley face assembled from values held in named variables. #expressions",
+      "sourceFile": "docs/render/10-variables/doc.rc",
+      "rcDocument": "documents/render/10-variables.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/10-variables.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/11-layout-expr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Layout driven by an expression: a blue block sized to half the width, labelled sized by expr. #layout #expressions",
+      "sourceFile": "docs/render/11-layout-expr/doc.rc",
+      "rcDocument": "documents/render/11-layout-expr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/11-layout-expr.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/12-compvalue",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Component value demo: a green circle centred inside a rounded outline using component dimensions. #layout #expressions",
+      "sourceFile": "docs/render/12-compvalue/doc.rc",
+      "rcDocument": "documents/render/12-compvalue.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/12-compvalue.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/13-draw-more",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Drawing primitives together: a red rectangle, a blue ellipse and a Hello Canvas caption. #drawRect #drawOval",
+      "sourceFile": "docs/render/13-draw-more/doc.rc",
+      "rcDocument": "documents/render/13-draw-more.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/13-draw-more.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/14-colors",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Themed palette: a named brand colour bar above a teal accent disc. #theming #paint",
+      "sourceFile": "docs/render/14-colors/doc.rc",
+      "rcDocument": "documents/render/14-colors.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/14-colors.png",
+          "width": 320,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/15-paint",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Paint features: a blue-to-purple gradient panel with a translucent overlay, above a colour wheel. #paint",
+      "sourceFile": "docs/render/15-paint/doc.rc",
+      "rcDocument": "documents/render/15-paint.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/15-paint.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/16-paths",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Path fill and stroke: a yellow triangle outlined in red. #drawPath",
+      "sourceFile": "docs/render/16-paths/doc.rc",
+      "rcDocument": "documents/render/16-paths.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/16-paths.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/17-components",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Component nesting: numbered children inside a fit box, with left and right edge labels. #layout",
+      "sourceFile": "docs/render/17-components/doc.rc",
+      "rcDocument": "documents/render/17-components.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/17-components.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/18-modifiers",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Modifier stack: a rounded purple pill labelled styled, with background, padding and corner radius. #layout #paint",
+      "sourceFile": "docs/render/18-modifiers/doc.rc",
+      "rcDocument": "documents/render/18-modifiers.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/18-modifiers.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/19-loops",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Loop demo: a row of red squares above a row of circles growing in size across the sweep. #loop",
+      "sourceFile": "docs/render/19-loops/doc.rc",
+      "rcDocument": "documents/render/19-loops.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/19-loops.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/20-varcolor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable colour: a disc whose fill is computed rather than fixed. #expressions #paint",
+      "sourceFile": "docs/render/20-varcolor/doc.rc",
+      "rcDocument": "documents/render/20-varcolor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/20-varcolor.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/21-dinosaurs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Dinosaurs — cute baby triceratops with dinosaur egg, cracking shell with animated clipRect, swaying clouds, and erupting volcano with rising smoke",
+      "sourceFile": "docs/render/21-dinosaurs/doc.rc",
+      "rcDocument": "documents/render/21-dinosaurs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/21-dinosaurs.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/21-floatarrays",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Float array demo: a bar chart drawn straight from an array of values. #graph #expressions",
+      "sourceFile": "docs/render/21-floatarrays/doc.rc",
+      "rcDocument": "documents/render/21-floatarrays.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/21-floatarrays.png",
+          "width": 320,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/22-anim",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Animation demo: a yellow dot moving across a bright green field. #animation",
+      "sourceFile": "docs/render/22-anim/doc.rc",
+      "rcDocument": "documents/render/22-anim.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/22-anim.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/22-friendly-aliens-ufo",
       "section": "rcjson",
       "group": "render",
@@ -12016,6 +12628,23 @@
       ]
     },
     {
+      "componentId": "render/23-textfromfloat",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "text from float",
+      "sourceFile": "docs/render/23-textfromfloat/doc.rc",
+      "rcDocument": "documents/render/23-textfromfloat.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/23-textfromfloat.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/23-under-the-sea",
       "section": "rcjson",
       "group": "render",
@@ -12029,6 +12658,57 @@
           "path": "images/render/23-under-the-sea.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/24-textfromfloat-expr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "live width",
+      "sourceFile": "docs/render/24-textfromfloat-expr/doc.rc",
+      "rcDocument": "documents/render/24-textfromfloat-expr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/24-textfromfloat-expr.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/96-perf-limit",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/96-perf-limit/doc.rc",
+      "rcDocument": "documents/render/96-perf-limit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/96-perf-limit.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-bar-chart-with-five-colorful-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "bar chart",
+      "sourceFile": "docs/render/a-bar-chart-with-five-colorful-bars/doc.rc",
+      "rcDocument": "documents/render/a-bar-chart-with-five-colorful-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-bar-chart-with-five-colorful-bars.png",
+          "width": 320,
+          "height": 240
         }
       ]
     },
