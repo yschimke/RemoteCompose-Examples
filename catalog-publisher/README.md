@@ -14,16 +14,18 @@ still provides the interactive browser player.
 
 ## Incremental updates
 
-Each run checks out the latest `main` as source, copies only changed `.rc` bytes,
-and renders at most 40 missing or changed images. The output branch advances by
-an ordinary commit only when artifacts change. It retains the last successful
+Each run checks out the latest `main` as source and commits changed `.rc` bytes
+**before** rendering. It then renders up to 40 missing or changed images per
+batch, committing each batch before starting the next. A run stops after at most
+40 batches or 60 minutes, and the next run resumes from the branch tip. The
+output branch advances by an ordinary commit only when artifacts change. It retains the last successful
 image for unchanged documents, records render failures, and moves past failed
 documents on the next run. The player bundle's hash is part of the image cache
 key, so a player update schedules new captures without rewriting unchanged
 `.rc` files.
 
-The workflow runs on pushes to the publisher branch. To advance another batch
-without changing publisher code, push an empty commit to that branch:
+The workflow runs on pushes to the publisher branch. If a run reaches its time or
+batch cap before completing the corpus, push an empty commit to resume:
 
 ```sh
 git switch agent/preview-catalog-publisher

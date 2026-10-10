@@ -242,14 +242,14 @@ def publish(source: Path, output: Path, revision: str, batch_size: int,
     atomic_write(output / "render-failures.json", json_bytes({
         row["id"]: state[row["id"]]["error"] for row in rows if state[row["id"]].get("error")
     }))
-    result = {"source": revision, "documents": len(rows), "copiedRc": copied,
-              "images": len(components), "rendered": rendered, "failed": failed,
-              "remaining": len(queue) - len(batch)}
-    atomic_write(output / "publish-progress.json", json_bytes(result))
+    progress = {"source": revision, "documents": len(rows), "images": len(components),
+                "renderFailures": sum(bool(item.get("error")) for item in state.values()),
+                "remaining": len(queue) - len(batch)}
+    atomic_write(output / "publish-progress.json", json_bytes(progress))
     validate_output(output, rows, components, state)
     if batch and rendered == 0 and len(components) == 0:
         raise RuntimeError("no document rendered; inspect render-failures.json")
-    return result
+    return dict(progress, copiedRc=copied, rendered=rendered, failed=failed)
 
 
 def validate_output(output: Path, rows: list[dict], components: list[dict],

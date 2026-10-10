@@ -17,6 +17,7 @@ jobs:
   publish:
     if: github.repository == 'yschimke/RemoteCompose-Examples'
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Check out publisher
         uses: actions/checkout@v4
@@ -52,21 +53,27 @@ jobs:
             python -m playwright install chromium
           fi
 
-      - name: Publish next image batch and synchronize all documents
+      - name: Synchronize documents, then publish bounded image batches
         run: |
-          args=(--source source --output output \
-            --revision "$(git -C source rev-parse HEAD)" --batch-size 40)
+          args=(--source source --output output --revision "$(git -C source rev-parse HEAD)")
           if [ -n "${BROWSER_EXECUTABLE:-}" ]; then
             args+=(--browser-executable "$BROWSER_EXECUTABLE")
           fi
-          python publisher/catalog-publisher/publish.py "${args[@]}"
-
-      - name: Commit changed artifacts on the delivery branch
-        run: |
           git -C output config user.name 'github-actions[bot]'
           git -C output config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C output add -A
-          if ! git -C output diff --cached --quiet; then
-            git -C output commit -m "chore(catalog): update from $(git -C source rev-parse --short HEAD)"
-            git -C output push origin HEAD:design-artifacts/remote-compose-examples
-          fi
+          source_short="$(git -C source rev-parse --short HEAD)"
+          publish_changes() {
+            git -C output add -A
+            if ! git -C output diff --cached --quiet; then
+              git -C output commit -m "chore(catalog): $1 from $source_short"
+              git -C output push origin HEAD:design-artifacts/remote-compose-examples
+            fi
+          }
+          python publisher/catalog-publisher/publish.py "${args[@]}" --batch-size 0
+          publish_changes 'sync documents'
+          for batch in $(seq 1 40); do
+            remaining="$(python -c 'import json; print(json.load(open("output/publish-progress.json"))["remaining"])')"
+            if [ "$remaining" -eq 0 ]; then break; fi
+            python publisher/catalog-publisher/publish.py "${args[@]}" --batch-size 40
+            publish_changes "render batch $batch"
+          done
