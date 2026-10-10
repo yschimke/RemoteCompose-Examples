@@ -7205,6 +7205,686 @@
       ]
     },
     {
+      "componentId": "iot-panels/58-garage-door",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Garage Door — sectional · opening",
+      "sourceFile": "docs/iot-panels/58-garage-door/doc.rc",
+      "rcDocument": "documents/iot-panels/58-garage-door.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/58-garage-door.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/59-window-opener",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Window Opener — chain actuator · 40%",
+      "sourceFile": "docs/iot-panels/59-window-opener/doc.rc",
+      "rcDocument": "documents/iot-panels/59-window-opener.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/59-window-opener.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/60-gate-opener",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Gate Opener — rack & pinion · sliding",
+      "sourceFile": "docs/iot-panels/60-gate-opener/doc.rc",
+      "rcDocument": "documents/iot-panels/60-gate-opener.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/60-gate-opener.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/61-body-scale",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Body Scale — bio-impedance · settling",
+      "sourceFile": "docs/iot-panels/61-body-scale/doc.rc",
+      "rcDocument": "documents/iot-panels/61-body-scale.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/61-body-scale.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/62-sleep-tracker",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Sleep Tracker — hypnogram · 6h 42m",
+      "sourceFile": "docs/iot-panels/62-sleep-tracker/doc.rc",
+      "rcDocument": "documents/iot-panels/62-sleep-tracker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/62-sleep-tracker.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/63-smart-mattress",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Mattress — zones · dual climate",
+      "sourceFile": "docs/iot-panels/63-smart-mattress/doc.rc",
+      "rcDocument": "documents/iot-panels/63-smart-mattress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/63-smart-mattress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/64-air-quality",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Air Quality Monitor — PM2.5 · laser",
+      "sourceFile": "docs/iot-panels/64-air-quality/doc.rc",
+      "rcDocument": "documents/iot-panels/64-air-quality.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/64-air-quality.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/65-smart-mirror",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Mirror — presence · widgets",
+      "sourceFile": "docs/iot-panels/65-smart-mirror/doc.rc",
+      "rcDocument": "documents/iot-panels/65-smart-mirror.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/65-smart-mirror.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/66-pet-feeder",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Pet Feeder — auger · 1 portion",
+      "sourceFile": "docs/iot-panels/66-pet-feeder/doc.rc",
+      "rcDocument": "documents/iot-panels/66-pet-feeder.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/66-pet-feeder.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/67-water-fountain",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Water Fountain — circulating · filtered",
+      "sourceFile": "docs/iot-panels/67-water-fountain/doc.rc",
+      "rcDocument": "documents/iot-panels/67-water-fountain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/67-water-fountain.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/68-pet-camera",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Pet Camera — 1080p · treat toss",
+      "sourceFile": "docs/iot-panels/68-pet-camera/doc.rc",
+      "rcDocument": "documents/iot-panels/68-pet-camera.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/68-pet-camera.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/69-litter-box",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Litter Box — rake cycle · drawer",
+      "sourceFile": "docs/iot-panels/69-litter-box/doc.rc",
+      "rcDocument": "documents/iot-panels/69-litter-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/69-litter-box.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/70-pet-door",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Pet Door — microchip · unlocked",
+      "sourceFile": "docs/iot-panels/70-pet-door/doc.rc",
+      "rcDocument": "documents/iot-panels/70-pet-door.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/70-pet-door.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/71-aroma-diffuser",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Aroma Diffuser — ultrasonic · 4h",
+      "sourceFile": "docs/iot-panels/71-aroma-diffuser/doc.rc",
+      "rcDocument": "documents/iot-panels/71-aroma-diffuser.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/71-aroma-diffuser.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/72-alarm-clock",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Alarm Clock — sunrise · alarm 07:00",
+      "sourceFile": "docs/iot-panels/72-alarm-clock/doc.rc",
+      "rcDocument": "documents/iot-panels/72-alarm-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/72-alarm-clock.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/73-weather-station",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Weather Station — anemometer · vane",
+      "sourceFile": "docs/iot-panels/73-weather-station/doc.rc",
+      "rcDocument": "documents/iot-panels/73-weather-station.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/73-weather-station.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/74-smart-planter",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Planter — self-watering · grow light",
+      "sourceFile": "docs/iot-panels/74-smart-planter/doc.rc",
+      "rcDocument": "documents/iot-panels/74-smart-planter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/74-smart-planter.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/75-aquarium",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Aquarium Controller — 26.5°C · day cycle",
+      "sourceFile": "docs/iot-panels/75-aquarium/doc.rc",
+      "rcDocument": "documents/iot-panels/75-aquarium.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/75-aquarium.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/76-baby-monitor",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Baby Monitor — night vision · 20.4°C",
+      "sourceFile": "docs/iot-panels/76-baby-monitor/doc.rc",
+      "rcDocument": "documents/iot-panels/76-baby-monitor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/76-baby-monitor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/77-mailbox-sensor",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Mailbox Sensor — post detected · flag up",
+      "sourceFile": "docs/iot-panels/77-mailbox-sensor/doc.rc",
+      "rcDocument": "documents/iot-panels/77-mailbox-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/77-mailbox-sensor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/78-smart-vent",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Vent — zone 4 · 62% open",
+      "sourceFile": "docs/iot-panels/78-smart-vent/doc.rc",
+      "rcDocument": "documents/iot-panels/78-smart-vent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/78-smart-vent.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/79-bird-feeder",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Bird Feeder — camera · species ID",
+      "sourceFile": "docs/iot-panels/79-bird-feeder/doc.rc",
+      "rcDocument": "documents/iot-panels/79-bird-feeder.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/79-bird-feeder.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/80-smart-bin",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Bin — proximity lid · 64% full",
+      "sourceFile": "docs/iot-panels/80-smart-bin/doc.rc",
+      "rcDocument": "documents/iot-panels/80-smart-bin.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/80-smart-bin.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a01-child-fixed",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A01 fixed 120x80 child in a filled root",
+      "sourceFile": "docs/layout/a01-child-fixed/doc.rc",
+      "rcDocument": "documents/layout/a01-child-fixed.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a01-child-fixed.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a02-child-fillmaxsize",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A02 child fillMaxSize inside filled root",
+      "sourceFile": "docs/layout/a02-child-fillmaxsize/doc.rc",
+      "rcDocument": "documents/layout/a02-child-fillmaxsize.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a02-child-fillmaxsize.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a03-child-fillmaxwidth",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A03 child fillMaxWidth, fixed height",
+      "sourceFile": "docs/layout/a03-child-fillmaxwidth/doc.rc",
+      "rcDocument": "documents/layout/a03-child-fillmaxwidth.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a03-child-fillmaxwidth.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a04-child-fillmaxheight",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A04 child fillMaxHeight, fixed width",
+      "sourceFile": "docs/layout/a04-child-fillmaxheight/doc.rc",
+      "rcDocument": "documents/layout/a04-child-fillmaxheight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a04-child-fillmaxheight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a05-fill-fraction",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A05 fractional fill: 0.5 width, 0.25 height",
+      "sourceFile": "docs/layout/a05-fill-fraction/doc.rc",
+      "rcDocument": "documents/layout/a05-fill-fraction.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a05-fill-fraction.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a06-size-modifier",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A06 size modifier as a pair",
+      "sourceFile": "docs/layout/a06-size-modifier/doc.rc",
+      "rcDocument": "documents/layout/a06-size-modifier.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a06-size-modifier.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a07-wrap-default",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A07 no size modifier anywhere: everything wraps",
+      "sourceFile": "docs/layout/a07-wrap-default/doc.rc",
+      "rcDocument": "documents/layout/a07-wrap-default.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a07-wrap-default.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a08-fill-in-wrap-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A08 fillMaxSize child inside a WRAP parent - no maximum to fill",
+      "sourceFile": "docs/layout/a08-fill-in-wrap-parent/doc.rc",
+      "rcDocument": "documents/layout/a08-fill-in-wrap-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a08-fill-in-wrap-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a09-fixed-bigger-than-root",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A09 child larger than the root",
+      "sourceFile": "docs/layout/a09-fixed-bigger-than-root/doc.rc",
+      "rcDocument": "documents/layout/a09-fixed-bigger-than-root.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a09-fixed-bigger-than-root.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a10-root-fixed-size",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A10 root has a fixed size smaller than the document",
+      "sourceFile": "docs/layout/a10-root-fixed-size/doc.rc",
+      "rcDocument": "documents/layout/a10-root-fixed-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a10-root-fixed-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a11-child-exceeds-fixed-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A11 child larger than a fixed-size parent that is NOT the root, so overflow is visible",
+      "sourceFile": "docs/layout/a11-child-exceeds-fixed-parent/doc.rc",
+      "rcDocument": "documents/layout/a11-child-exceeds-fixed-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a11-child-exceeds-fixed-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b01-box-start-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/top",
+      "sourceFile": "docs/layout/b01-box-start-top/doc.rc",
+      "rcDocument": "documents/layout/b01-box-start-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b01-box-start-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b02-box-start-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/center",
+      "sourceFile": "docs/layout/b02-box-start-center/doc.rc",
+      "rcDocument": "documents/layout/b02-box-start-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b02-box-start-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b03-box-start-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/bottom",
+      "sourceFile": "docs/layout/b03-box-start-bottom/doc.rc",
+      "rcDocument": "documents/layout/b03-box-start-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b03-box-start-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b04-box-center-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/top",
+      "sourceFile": "docs/layout/b04-box-center-top/doc.rc",
+      "rcDocument": "documents/layout/b04-box-center-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b04-box-center-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b05-box-center-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/center",
+      "sourceFile": "docs/layout/b05-box-center-center/doc.rc",
+      "rcDocument": "documents/layout/b05-box-center-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b05-box-center-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b06-box-center-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/bottom",
+      "sourceFile": "docs/layout/b06-box-center-bottom/doc.rc",
+      "rcDocument": "documents/layout/b06-box-center-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b06-box-center-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
