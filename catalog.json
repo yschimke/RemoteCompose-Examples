@@ -9245,6 +9245,686 @@
       ]
     },
     {
+      "componentId": "layout/i05-clip-with-padding",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I05 clip combined with padding",
+      "sourceFile": "docs/layout/i05-clip-with-padding/doc.rc",
+      "rcDocument": "documents/layout/i05-clip-with-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i05-clip-with-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i06-row-overflow-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I06 overflowing row with spaceBetween - no slack, possibly negative",
+      "sourceFile": "docs/layout/i06-row-overflow-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/i06-row-overflow-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i06-row-overflow-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j01-spacedby-with-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J01 spacedBy combined with a centring arrangement",
+      "sourceFile": "docs/layout/j01-spacedby-with-center/doc.rc",
+      "rcDocument": "documents/layout/j01-spacedby-with-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j01-spacedby-with-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j02-spacedby-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J02 spacedBy on a column",
+      "sourceFile": "docs/layout/j02-spacedby-column/doc.rc",
+      "rcDocument": "documents/layout/j02-spacedby-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j02-spacedby-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j03-offset",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J03 offset modifier on a child",
+      "sourceFile": "docs/layout/j03-offset/doc.rc",
+      "rcDocument": "documents/layout/j03-offset.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j03-offset.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j04-offset-negative",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J04 negative offset pushing a child out of its parent",
+      "sourceFile": "docs/layout/j04-offset-negative/doc.rc",
+      "rcDocument": "documents/layout/j04-offset-negative.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j04-offset-negative.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j05-visibility-gone",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J05 a GONE child in a row - does it still take space?",
+      "sourceFile": "docs/layout/j05-visibility-gone/doc.rc",
+      "rcDocument": "documents/layout/j05-visibility-gone.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j05-visibility-gone.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j06-visibility-invisible",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J06 an INVISIBLE child in a row - space should be kept",
+      "sourceFile": "docs/layout/j06-visibility-invisible/doc.rc",
+      "rcDocument": "documents/layout/j06-visibility-invisible.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j06-visibility-invisible.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j07-zindex",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J07 zIndex should reorder painting, not layout",
+      "sourceFile": "docs/layout/j07-zindex/doc.rc",
+      "rcDocument": "documents/layout/j07-zindex.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j07-zindex.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j08-spacedby-exceeds",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J08 spacedBy larger than the space left over",
+      "sourceFile": "docs/layout/j08-spacedby-exceeds/doc.rc",
+      "rcDocument": "documents/layout/j08-spacedby-exceeds.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j08-spacedby-exceeds.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j09-visibility-control",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J09 control: same row with no visibility modifier",
+      "sourceFile": "docs/layout/j09-visibility-control/doc.rc",
+      "rcDocument": "documents/layout/j09-visibility-control.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j09-visibility-control.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k01-text-wrap",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K01 text sizing itself - pure font metrics, expected to differ",
+      "sourceFile": "docs/layout/k01-text-wrap/doc.rc",
+      "rcDocument": "documents/layout/k01-text-wrap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k01-text-wrap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k02-text-in-fixed-box",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K02 text inside a fixed 200-wide box - the BOX must be 200 everywhere",
+      "sourceFile": "docs/layout/k02-text-in-fixed-box/doc.rc",
+      "rcDocument": "documents/layout/k02-text-in-fixed-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k02-text-in-fixed-box.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k03-text-maxlines-1",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K03 maxLines 1 in a narrow box - height should be one line",
+      "sourceFile": "docs/layout/k03-text-maxlines-1/doc.rc",
+      "rcDocument": "documents/layout/k03-text-maxlines-1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k03-text-maxlines-1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k04-text-maxlines-3",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K04 the same text with maxLines 3 - height should be taller than K03",
+      "sourceFile": "docs/layout/k04-text-maxlines-3/doc.rc",
+      "rcDocument": "documents/layout/k04-text-maxlines-3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k04-text-maxlines-3.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k05-text-weight-in-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K05 text with weight beside a fixed sibling - the weighted BOX is pure logic",
+      "sourceFile": "docs/layout/k05-text-weight-in-row/doc.rc",
+      "rcDocument": "documents/layout/k05-text-weight-in-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k05-text-weight-in-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k06-text-padding",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K06 padding around text inside a fixed box",
+      "sourceFile": "docs/layout/k06-text-padding/doc.rc",
+      "rcDocument": "documents/layout/k06-text-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k06-text-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k07-text-fontsize",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K07 two font sizes stacked - relative heights should track the sizes",
+      "sourceFile": "docs/layout/k07-text-fontsize/doc.rc",
+      "rcDocument": "documents/layout/k07-text-fontsize.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k07-text-fontsize.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k08-text-fill-width",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K08 text filling the width - the box is logic, the wrapping is metrics",
+      "sourceFile": "docs/layout/k08-text-fill-width/doc.rc",
+      "rcDocument": "documents/layout/k08-text-fill-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k08-text-fill-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k09-text-in-collapsible-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K09 text inside a CollapsibleColumnLayout, as foo.rc does",
+      "sourceFile": "docs/layout/k09-text-in-collapsible-column/doc.rc",
+      "rcDocument": "documents/layout/k09-text-in-collapsible-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k09-text-in-collapsible-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l01-flow-no-spacing",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L01 flow, four children that exactly fit one row with no spacing",
+      "sourceFile": "docs/layout/l01-flow-no-spacing/doc.rc",
+      "rcDocument": "documents/layout/l01-flow-no-spacing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l01-flow-no-spacing.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l02-flow-spacedby-wraps",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L02 same flow with spacedBy 30 - the spacing alone must force a wrap",
+      "sourceFile": "docs/layout/l02-flow-spacedby-wraps/doc.rc",
+      "rcDocument": "documents/layout/l02-flow-spacedby-wraps.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l02-flow-spacedby-wraps.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l03-flow-spacedby-large",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L03 flow spacing larger than the children, so each row holds fewer",
+      "sourceFile": "docs/layout/l03-flow-spacedby-large/doc.rc",
+      "rcDocument": "documents/layout/l03-flow-spacedby-large.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l03-flow-spacedby-large.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-bounce",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Circle bouncing up and down with a sin wave against a dark background",
+      "sourceFile": "docs/python-samples/anim-bounce/doc.rc",
+      "rcDocument": "documents/python-samples/anim-bounce.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-bounce.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-breathing",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Concentric circles that slowly expand and contract — breathing effect",
+      "sourceFile": "docs/python-samples/anim-breathing/doc.rc",
+      "rcDocument": "documents/python-samples/anim-breathing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-breathing.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-clock-simple",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Simple clock face with second hand rotating based on time.seconds",
+      "sourceFile": "docs/python-samples/anim-clock-simple/doc.rc",
+      "rcDocument": "documents/python-samples/anim-clock-simple.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-clock-simple.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-loading-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Horizontal loading bar that fills left-to-right then resets, using fract",
+      "sourceFile": "docs/python-samples/anim-loading-bar/doc.rc",
+      "rcDocument": "documents/python-samples/anim-loading-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-loading-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-metronome",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Metronome arm swinging side to side, with pivot at bottom",
+      "sourceFile": "docs/python-samples/anim-metronome/doc.rc",
+      "rcDocument": "documents/python-samples/anim-metronome.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-metronome.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-orbit",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Small circle orbiting around center using sin/cos",
+      "sourceFile": "docs/python-samples/anim-orbit/doc.rc",
+      "rcDocument": "documents/python-samples/anim-orbit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-orbit.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-pendulum",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Line swinging like a pendulum from top-center using sin for angle",
+      "sourceFile": "docs/python-samples/anim-pendulum/doc.rc",
+      "rcDocument": "documents/python-samples/anim-pendulum.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-pendulum.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-pulse",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Circle pulsing in size using sin modulation",
+      "sourceFile": "docs/python-samples/anim-pulse/doc.rc",
+      "rcDocument": "documents/python-samples/anim-pulse.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-pulse.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-radar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Radar sweep: circle outline + rotating line from center using save/rotate/restore",
+      "sourceFile": "docs/python-samples/anim-radar/doc.rc",
+      "rcDocument": "documents/python-samples/anim-radar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-radar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-rotate-square",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Square rotating around canvas center at constant speed",
+      "sourceFile": "docs/python-samples/anim-rotate-square/doc.rc",
+      "rcDocument": "documents/python-samples/anim-rotate-square.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-rotate-square.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-spinner",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "8 dots arranged in circle, with rotating arc sweep to simulate spinner",
+      "sourceFile": "docs/python-samples/anim-spinner/doc.rc",
+      "rcDocument": "documents/python-samples/anim-spinner.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-spinner.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-wave",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Animated sine wave drawn with a loop of small line segments across screen",
+      "sourceFile": "docs/python-samples/anim-wave/doc.rc",
+      "rcDocument": "documents/python-samples/anim-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-wave.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-arcs",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Fan of arc segments in rainbow colors",
+      "sourceFile": "docs/python-samples/canvas-arcs/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-arcs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-arcs.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-bar-chart",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Simple 5-bar chart with labels",
+      "sourceFile": "docs/python-samples/canvas-bar-chart/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-bar-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-bar-chart.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-concentric",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Concentric circles with alternating fill colors",
+      "sourceFile": "docs/python-samples/canvas-concentric/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-concentric.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-concentric.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-donut",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Donut/ring chart using overlapping arcs with stroke style",
+      "sourceFile": "docs/python-samples/canvas-donut/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-donut.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-gauge",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Semi-circular gauge with needle and scale marks",
+      "sourceFile": "docs/python-samples/canvas-gauge/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-gauge.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
