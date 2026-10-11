@@ -15535,6 +15535,448 @@
       ]
     },
     {
+      "componentId": "render/halloween-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Halloween — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/halloween-progress/doc.rc",
+      "rcDocument": "documents/render/halloween-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/halloween-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/hash",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "deterministic hash comparison",
+      "sourceFile": "docs/render/hash/doc.rc",
+      "rcDocument": "documents/render/hash.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/hash.png",
+          "width": 420,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/hash2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "hash candidates",
+      "sourceFile": "docs/render/hash2/doc.rc",
+      "rcDocument": "documents/render/hash2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/hash2.png",
+          "width": 341,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/histogram",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Histogram: adjacent (touching) bars showing a distribution of bin counts from an array. Single color with outlines. Use for frequency/distribution.",
+      "sourceFile": "docs/render/histogram/doc.rc",
+      "rcDocument": "documents/render/histogram.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/histogram.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/histogram-of-exam-score-distribution-5-2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "histogram",
+      "sourceFile": "docs/render/histogram-of-exam-score-distribution-5-2/doc.rc",
+      "rcDocument": "documents/render/histogram-of-exam-score-distribution-5-2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/histogram-of-exam-score-distribution-5-2.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/horizontal-bar-chart-of-fruit-sales-appl",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "fruit sales chart",
+      "sourceFile": "docs/render/horizontal-bar-chart-of-fruit-sales-appl/doc.rc",
+      "rcDocument": "documents/render/horizontal-bar-chart-of-fruit-sales-appl.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/horizontal-bar-chart-of-fruit-sales-appl.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-bg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Isometric background layer. Renders blank on its own; it is composited beneath other scenes. #layout",
+      "sourceFile": "docs/render/iso-bg/doc.rc",
+      "rcDocument": "documents/render/iso-bg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-bg.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-fill-only",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe: fill only. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-fill-only/doc.rc",
+      "rcDocument": "documents/render/iso-fill-only.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-fill-only.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-padding",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe: padding. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-padding/doc.rc",
+      "rcDocument": "documents/render/iso-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-padding.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-tff",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-tff/doc.rc",
+      "rcDocument": "documents/render/iso-tff.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-tff.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-w-float",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe: width as a float. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-w-float/doc.rc",
+      "rcDocument": "documents/render/iso-w-float.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-w-float.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-w-only",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe: width only. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-w-only/doc.rc",
+      "rcDocument": "documents/render/iso-w-only.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-w-only.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/iso-width",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Intrinsic sizing probe: width. Draws nothing visible; the behaviour under test is measurement. #layout #validation",
+      "sourceFile": "docs/render/iso-width/doc.rc",
+      "rcDocument": "documents/render/iso-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/iso-width.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/j2-130000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/j2-130000/doc.rc",
+      "rcDocument": "documents/render/j2-130000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/j2-130000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/j2-3000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/j2-3000/doc.rc",
+      "rcDocument": "documents/render/j2-3000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/j2-3000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/j2-30000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/j2-30000/doc.rc",
+      "rcDocument": "documents/render/j2-30000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/j2-30000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/j2-400",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/j2-400/doc.rc",
+      "rcDocument": "documents/render/j2-400.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/j2-400.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/jit-3000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/jit-3000/doc.rc",
+      "rcDocument": "documents/render/jit-3000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/jit-3000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/jit-30000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/jit-30000/doc.rc",
+      "rcDocument": "documents/render/jit-30000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/jit-30000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/jit-400",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/jit-400/doc.rc",
+      "rcDocument": "documents/render/jit-400.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/jit-400.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/jit-64",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/jit-64/doc.rc",
+      "rcDocument": "documents/render/jit-64.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/jit-64.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/latch-p",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: does a one-particle system latch across frames?",
+      "sourceFile": "docs/render/latch-p/doc.rc",
+      "rcDocument": "documents/render/latch-p.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/latch-p.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/line-chart",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Line chart: a polyline connecting a series of y-values evenly spaced on the x-axis, with a dot at each point. Use for trends/time series.",
+      "sourceFile": "docs/render/line-chart/doc.rc",
+      "rcDocument": "documents/render/line-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/line-chart.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/linear-regression",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Linear Regression Demo",
+      "sourceFile": "docs/render/linear-regression/doc.rc",
+      "rcDocument": "documents/render/linear-regression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/linear-regression.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/lollipop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Lollipop chart: a thin stem plus a dot at the top for each value. A lighter alternative to a bar chart. Use for comparing values across categories.",
+      "sourceFile": "docs/render/lollipop/doc.rc",
+      "rcDocument": "documents/render/lollipop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/lollipop.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/lunar-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Lunar New Year — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/lunar-loop/doc.rc",
+      "rcDocument": "documents/render/lunar-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/lunar-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "render/lunar-progress",
       "section": "rcjson",
       "group": "render",
@@ -15548,6 +15990,244 @@
           "path": "images/render/lunar-progress.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/material-toggle-button",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Material Button Toggle Example",
+      "sourceFile": "docs/render/material-toggle-button/doc.rc",
+      "rcDocument": "documents/render/material-toggle-button.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/material-toggle-button.png",
+          "width": 400,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "componentId": "render/material-toggle-button-macro",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Counter card built from a toggle-button macro, showing COUNTER 0. #interaction #widget",
+      "sourceFile": "docs/render/material-toggle-button-macro/doc.rc",
+      "rcDocument": "documents/render/material-toggle-button-macro.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/material-toggle-button-macro.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/maze",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "pac-man style maze with the bugdroid",
+      "sourceFile": "docs/render/maze/doc.rc",
+      "rcDocument": "documents/render/maze.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/maze.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/mondrian",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Mondrian composition — recursive subdivision unrolled into a chain of expressions, so the split of every cell is recomputed from the canvas shape",
+      "sourceFile": "docs/render/mondrian/doc.rc",
+      "rcDocument": "documents/render/mondrian.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/mondrian.png",
+          "width": 640,
+          "height": 427
+        }
+      ]
+    },
+    {
+      "componentId": "render/monthly-revenue-line-chart-over-six-mont",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "monthly revenue line chart",
+      "sourceFile": "docs/render/monthly-revenue-line-chart-over-six-mont/doc.rc",
+      "rcDocument": "documents/render/monthly-revenue-line-chart-over-six-mont.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/monthly-revenue-line-chart-over-six-mont.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/music-player",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Synthwave Music Player with AGSL Waveform Shader",
+      "sourceFile": "docs/render/music-player/doc.rc",
+      "rcDocument": "documents/render/music-player.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/music-player.png",
+          "width": 400,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "componentId": "render/olympics-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Olympics — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/olympics-loop/doc.rc",
+      "rcDocument": "documents/render/olympics-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/olympics-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/olympics-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Olympics — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/olympics-progress/doc.rc",
+      "rcDocument": "documents/render/olympics-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/olympics-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/p-eq-arrayget",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet in an equation",
+      "sourceFile": "docs/render/p-eq-arrayget/doc.rc",
+      "rcDocument": "documents/render/p-eq-arrayget.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p-eq-arrayget.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/p-eq-lag",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "does an equation see this frame's siblings",
+      "sourceFile": "docs/render/p-eq-lag/doc.rc",
+      "rcDocument": "documents/render/p-eq-lag.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p-eq-lag.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/p-init-arrayget",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet in an initial value",
+      "sourceFile": "docs/render/p-init-arrayget/doc.rc",
+      "rcDocument": "documents/render/p-init-arrayget.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p-init-arrayget.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/p-init-rand",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "rand() in an initial value",
+      "sourceFile": "docs/render/p-init-rand/doc.rc",
+      "rcDocument": "documents/render/p-init-rand.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p-init-rand.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/p01-new-modifiers",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "modifiers added in the current parser",
+      "sourceFile": "docs/render/p01-new-modifiers/doc.rc",
+      "rcDocument": "documents/render/p01-new-modifiers.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p01-new-modifiers.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/p02-new-draw",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "draw ops added in the current parser",
+      "sourceFile": "docs/render/p02-new-draw/doc.rc",
+      "rcDocument": "documents/render/p02-new-draw.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p02-new-draw.png",
+          "width": 320,
+          "height": 320
         }
       ]
     },

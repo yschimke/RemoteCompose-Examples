@@ -6398,107 +6398,185 @@
   },
   "render/halloween-progress": {
     "sha256": "1fb30358c64e7d4c69221bb5ec11a705b478ef02ce1ae97ab98d3f515568d5cc",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "1fb30358c64e7d4c69221bb5ec11a705b478ef02ce1ae97ab98d3f515568d5cc:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/hash": {
     "sha256": "5c313492137aa7ca8434fc9320512c6468ed001d691c47b01c49a36393da150d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5c313492137aa7ca8434fc9320512c6468ed001d691c47b01c49a36393da150d:2:cb84224aae12e593",
+    "imageWidth": 420,
+    "imageHeight": 500
   },
   "render/hash2": {
     "sha256": "b5dcfc9a9d015043195378b702ede97070fb01f2a708d38f98431a7f96dbfc05",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b5dcfc9a9d015043195378b702ede97070fb01f2a708d38f98431a7f96dbfc05:2:cb84224aae12e593",
+    "imageWidth": 341,
+    "imageHeight": 640
   },
   "render/histogram": {
     "sha256": "06cc085d78ee6772e09569ba0749dd95c65cef1f886a5ddd1b23045885e042d7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "06cc085d78ee6772e09569ba0749dd95c65cef1f886a5ddd1b23045885e042d7:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/histogram-of-exam-score-distribution-5-2": {
     "sha256": "84ea253ceb48d828188261d737855226a495103f72db5eb58e4421a4a7ddcfc7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "84ea253ceb48d828188261d737855226a495103f72db5eb58e4421a4a7ddcfc7:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/horizontal-bar-chart-of-fruit-sales-appl": {
     "sha256": "045e68ce0dc894579b779b72228c64128494f7d141851f8628f512bd9ec3b5b4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "045e68ce0dc894579b779b72228c64128494f7d141851f8628f512bd9ec3b5b4:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/iso-bg": {
     "sha256": "4ba1629263577fabe212e24e7b31030d9a3cc424c0d306bc48ee7b47bc19d002",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4ba1629263577fabe212e24e7b31030d9a3cc424c0d306bc48ee7b47bc19d002:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-fill-only": {
     "sha256": "a63a380c667da1c21b1610bd514e983247ff229c67d5e7c215583a0747dd7e99",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a63a380c667da1c21b1610bd514e983247ff229c67d5e7c215583a0747dd7e99:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-padding": {
     "sha256": "b0187fff3c70311cd4f8140b1e3aa9cd4e0e3bdfa453eaa534d963449fca04d9",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b0187fff3c70311cd4f8140b1e3aa9cd4e0e3bdfa453eaa534d963449fca04d9:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-tff": {
     "sha256": "76c433c8561cf1cfcede3863c0f7d81edb288e62054f4c9912ecba0a6b09e69a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "76c433c8561cf1cfcede3863c0f7d81edb288e62054f4c9912ecba0a6b09e69a:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-w-float": {
     "sha256": "e02d85cd6cbb5a7589e8dce736280a3b0759fbdab8cc9de57b2275092c63f265",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e02d85cd6cbb5a7589e8dce736280a3b0759fbdab8cc9de57b2275092c63f265:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-w-only": {
     "sha256": "4dd94c394aa3c01b443d50372a33e905405a5853eac48602c0921d520e3e66ed",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4dd94c394aa3c01b443d50372a33e905405a5853eac48602c0921d520e3e66ed:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/iso-width": {
     "sha256": "8ca0f6186c6c1ca626de2fb7a52684b9fe48041a4c0252d05df31804c35cc79c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8ca0f6186c6c1ca626de2fb7a52684b9fe48041a4c0252d05df31804c35cc79c:2:cb84224aae12e593",
+    "imageWidth": 200,
+    "imageHeight": 200
   },
   "render/j2-130000": {
     "sha256": "a2e8fb81d3727bd06971db1cf9ca41585cb48442cf0889c5a4332e14c08866c1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a2e8fb81d3727bd06971db1cf9ca41585cb48442cf0889c5a4332e14c08866c1:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/j2-3000": {
     "sha256": "6ac43c568e8c8813dc1e71e1c4e9ea297c1340b79e506beedfb2e8261a7f2c9f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6ac43c568e8c8813dc1e71e1c4e9ea297c1340b79e506beedfb2e8261a7f2c9f:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/j2-30000": {
     "sha256": "2ddc948641257c5355879b52b46da323f350224890c94d6179456c9e9f592725",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "2ddc948641257c5355879b52b46da323f350224890c94d6179456c9e9f592725:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/j2-400": {
     "sha256": "73679024051247f925f0ae82fa0183f892725e96f2b7ca80520e455bf5137b20",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "73679024051247f925f0ae82fa0183f892725e96f2b7ca80520e455bf5137b20:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/jit-3000": {
     "sha256": "f26dfe390150404eb1bf7594e2a6b25bfba852cfbe8f037bf5a464a57623c27a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f26dfe390150404eb1bf7594e2a6b25bfba852cfbe8f037bf5a464a57623c27a:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/jit-30000": {
     "sha256": "a31e14baa8cf5aebbf057a9a55ecafea5aa11849f61ab38336b67ce2511bd648",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a31e14baa8cf5aebbf057a9a55ecafea5aa11849f61ab38336b67ce2511bd648:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/jit-400": {
     "sha256": "df5a4a2864fdcb3c78c949673675674b9aa29afd4b55fea9bdfd2421c0b65389",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "df5a4a2864fdcb3c78c949673675674b9aa29afd4b55fea9bdfd2421c0b65389:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/jit-64": {
     "sha256": "7e727b36eabd5e33791de92571f6b8e165faf8fca95b98014e4e8121216e73a5",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7e727b36eabd5e33791de92571f6b8e165faf8fca95b98014e4e8121216e73a5:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/latch-p": {
     "sha256": "18539e34ee3ae7de9d07624b041fe26bbc99f80a0ac6feab4d7e025883519fdc",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "18539e34ee3ae7de9d07624b041fe26bbc99f80a0ac6feab4d7e025883519fdc:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/line-chart": {
     "sha256": "d83538d5ab09478248b9279641944eed13dbe4d89516e19fd40cbaf2b3df9094",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d83538d5ab09478248b9279641944eed13dbe4d89516e19fd40cbaf2b3df9094:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/linear-regression": {
     "sha256": "3e73935add9321121226a2038e0a4f1aad97ae1150d6a3f9800cb99a46e15af7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "3e73935add9321121226a2038e0a4f1aad97ae1150d6a3f9800cb99a46e15af7:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "render/lollipop": {
     "sha256": "2c08985c0722cb6e4871151392455e44d159a521ec2b1a1617a76d2a3861c93e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "2c08985c0722cb6e4871151392455e44d159a521ec2b1a1617a76d2a3861c93e:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/lunar-loop": {
     "sha256": "c009a6c5c23edbe4f84f5cd5132f1253a30a19388033250dac5ea7c043fa8132",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c009a6c5c23edbe4f84f5cd5132f1253a30a19388033250dac5ea7c043fa8132:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/lunar-progress": {
     "sha256": "7e0de6dff949c023b05e95b92712f647516180c4b80be3b41fb85678e44ce96d",
@@ -6509,59 +6587,101 @@
   },
   "render/material-toggle-button": {
     "sha256": "f4e7560d16a264e9c0944f4c2efd9354d8a15912d5d17dd1445274fa772bf3d0",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f4e7560d16a264e9c0944f4c2efd9354d8a15912d5d17dd1445274fa772bf3d0:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 450
   },
   "render/material-toggle-button-macro": {
     "sha256": "733791bed9f3eaa73e26fcb374462e7354f9e1fc38264518213c0cb2514dba34",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "733791bed9f3eaa73e26fcb374462e7354f9e1fc38264518213c0cb2514dba34:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/maze": {
     "sha256": "a7294bacc9005ed830620e0b3703c84d9d1dbc57416cfeaf4a6d356a0c596c95",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a7294bacc9005ed830620e0b3703c84d9d1dbc57416cfeaf4a6d356a0c596c95:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/mondrian": {
     "sha256": "9b256efd881e91678802d5ea922093c08e6a8e8909c4de6e83477f854df73c76",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9b256efd881e91678802d5ea922093c08e6a8e8909c4de6e83477f854df73c76:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 427
   },
   "render/monthly-revenue-line-chart-over-six-mont": {
     "sha256": "5dc289bb70cb7c0f6d8d4a2cdd9e895e54761a5e0d8d5f649910b03e8e33380c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5dc289bb70cb7c0f6d8d4a2cdd9e895e54761a5e0d8d5f649910b03e8e33380c:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 240
   },
   "render/music-player": {
     "sha256": "234724d47d8f52e749d6a6fb39fb55d14f35c5d3715068e127908130611154b7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "234724d47d8f52e749d6a6fb39fb55d14f35c5d3715068e127908130611154b7:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 260
   },
   "render/olympics-loop": {
     "sha256": "8a7c342290b1d1cf3f474f8346c41ba7ad166ba6fe100c530c7c1d81a81386c6",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8a7c342290b1d1cf3f474f8346c41ba7ad166ba6fe100c530c7c1d81a81386c6:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/olympics-progress": {
     "sha256": "e8449a53ede1b672b9c120b507147762d529cf0dd4c451e465e141059f83ccbf",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e8449a53ede1b672b9c120b507147762d529cf0dd4c451e465e141059f83ccbf:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/p-eq-arrayget": {
     "sha256": "24f57dbe9fb93cea7ff4c62f6e3beea649047e61ced19c4272a5a69da68c8ffd",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "24f57dbe9fb93cea7ff4c62f6e3beea649047e61ced19c4272a5a69da68c8ffd:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/p-eq-lag": {
     "sha256": "25985f381eb43fc02935071b4e5dab5496115c283169f7f109a9e3ed33335c4d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "25985f381eb43fc02935071b4e5dab5496115c283169f7f109a9e3ed33335c4d:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/p-init-arrayget": {
     "sha256": "f727191ec28b6e73abc1c4e343f2c4b9262ecee4bc1fed8ba54e8b390a78e36a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f727191ec28b6e73abc1c4e343f2c4b9262ecee4bc1fed8ba54e8b390a78e36a:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/p-init-rand": {
     "sha256": "eb8165afa42a4308e27a6077635038faf945225c213a7101d50fc9e03931d833",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "eb8165afa42a4308e27a6077635038faf945225c213a7101d50fc9e03931d833:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/p01-new-modifiers": {
     "sha256": "34a6c14377b67e3c2c37a4898fa50a9e186c06335d2e49cb477379a294c30ccb",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "34a6c14377b67e3c2c37a4898fa50a9e186c06335d2e49cb477379a294c30ccb:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 320
   },
   "render/p02-new-draw": {
     "sha256": "cbc05900ba2f379acc494fe2111b38092f2dd5a259af5727ed958e859aec2116",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cbc05900ba2f379acc494fe2111b38092f2dd5a259af5727ed958e859aec2116:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 320
   },
   "render/p03-themed-colors": {
     "sha256": "f941c8d0fd663d65b7c75863402dc94de5741d3a3ede69c0a7fe15ecb446ee15",
