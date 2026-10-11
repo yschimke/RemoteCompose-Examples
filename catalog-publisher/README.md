@@ -54,3 +54,54 @@ pixels on its longest side. It never shrinks the player's viewport, which would
 change layout. Each player is destroyed after capture to release its WebGL
 context. Failed captures are listed in `render-failures.json` and can be retried
 with `--retry-failed`.
+
+## Player comparison
+
+After a publish run, the `player-comparison` job renders every published document in each
+Remote Compose player. It writes the results to the delivery branch root, where
+preview.coo.ee's compare page shows the players side by side. The job runs only once
+`publish-progress.json` reports `remaining: 0`, so a partial corpus is never compared.
+
+It uses the same tooling as compose-ai-tools' `design-artifacts-reusable.yml`:
+`rc-compare.mjs` from `@design-parity/export-driver`, installed from compose-ai-tools' locked
+`package-lock.json` at a pinned commit. Its input is a zip that `rc_compare_bundle.py bundle`
+builds from `documents/**.rc` and `images/**.png`. Each document's id is its served id: the image
+path without `images/` and `.png`, with `/` replaced by `__`, for example
+`advanced-samples__2-vtext`. The baked PNG from this publisher is the reference column
+(`rc-baked/`). The job renders these lanes against it:
+
+| Lane | Player | Output |
+| --- | --- | --- |
+| js | compose-ai-tools' vendored TypeScript player in Chromium | `rc/`, `rc-diff/` |
+| embedded | rc-players' vendored Android player (Robolectric) | `rc-embedded/`, `rc-embedded-diff/` |
+| androidx-embedded | AndroidX `remote-player-compose` (Robolectric) | `rc-androidx-embedded/`, `rc-androidx-embedded-diff/` |
+| cmp-jvm | `rc-player-compose` on Compose Desktop / Skiko under xvfb | `rc-embedded-jvm/`, `rc-embedded-jvm-diff/` |
+
+`rc-compare-summary.json` and `rc-compare.html` sit beside the lane directories. Each lane is
+fail-soft on its own: if a harness cannot run, that lane's column is left out and the job
+still succeeds. The step summary explains why the column is missing. Only the js lane is
+required. Every run replaces the lane directories, so a dropped lane never leaves stale
+images behind. A run that drops a requested lane publishes without `rc-compare-key.txt`, so
+the next run retries it instead of treating the incomplete comparison as current.
+
+The **cmp-wasm** lane is off. About 15% of these documents use features the CMP player lacks,
+and the reusable workflow's `--require-cmp-wasm` gate fails on them. To add the column
+report-only, without the gate, dispatch the workflow with `rc-cmp-wasm-lane` enabled.
+
+Comparing all 1,310 documents takes a long time, so the job is **cached by skipping**.
+`rc-compare-key.txt` holds a sha256 over these inputs:
+
+- every compared `.rc` and baked PNG, by served id
+- the catalog's `renderer` string, which carries the baked player's hash
+- the export-driver version, the rc-players tag and the compose-ai-tools commit
+- which lanes are enabled, plus `COMPARE_VERSION` in `rc_compare_bundle.py`
+
+If the key on the delivery branch matches, the job exits early with a notice. To force a
+regeneration, delete `rc-compare-key.txt` from the delivery branch and re-run the workflow. To
+force one from a code change instead, bump `COMPARE_VERSION`.
+
+The comparison sizes each player to the baked PNG. A document larger than 640 pixels on its
+longest side is therefore compared at its scaled-down size, not its declared size. The pins
+`COMPOSE_AI_TOOLS_REF`, `RC_PLAYERS_PIN` and `EXPORT_DRIVER_VERSION` move together. The job
+fails if the driver version disagrees with the compose-ai-tools lock. It skips the embedded
+lanes if `rcplayers` there differs from `RC_PLAYERS_PIN`.
