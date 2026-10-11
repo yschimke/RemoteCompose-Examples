@@ -14124,6 +14124,176 @@
       ]
     },
     {
+      "componentId": "render/d22-sine",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sine wave traced as a smooth green curve on black. #expressions #drawPath",
+      "sourceFile": "docs/render/d22-sine/doc.rc",
+      "rcDocument": "documents/render/d22-sine.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d22-sine.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d23-starburst",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "starburst",
+      "sourceFile": "docs/render/d23-starburst/doc.rc",
+      "rcDocument": "documents/render/d23-starburst.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d23-starburst.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d24-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bar chart with a violet-to-teal gradient across the bars. #graph #paint",
+      "sourceFile": "docs/render/d24-bars/doc.rc",
+      "rcDocument": "documents/render/d24-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d24-bars.png",
+          "width": 340,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d25-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Concentric blue rings drawn as a single continuous spiral. #loop #drawCircle",
+      "sourceFile": "docs/render/d25-rings/doc.rc",
+      "rcDocument": "documents/render/d25-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d25-rings.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d26-checker",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Checkerboard of blue and black squares. #loop #drawRect",
+      "sourceFile": "docs/render/d26-checker/doc.rc",
+      "rcDocument": "documents/render/d26-checker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d26-checker.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d27-ringdots",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "ringdots",
+      "sourceFile": "docs/render/d27-ringdots/doc.rc",
+      "rcDocument": "documents/render/d27-ringdots.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d27-ringdots.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d28-squares",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rotating square spiral: nested squares turning slightly at each step. #loop #transforms",
+      "sourceFile": "docs/render/d28-squares/doc.rc",
+      "rcDocument": "documents/render/d28-squares.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d28-squares.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d29-grid",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Grid of rounded tiles shading from blue through teal to yellow. #loop #paint",
+      "sourceFile": "docs/render/d29-grid/doc.rc",
+      "rcDocument": "documents/render/d29-grid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d29-grid.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d30-flower",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rose curve drawn as six crimson petals from a polar equation. #expressions #drawPath",
+      "sourceFile": "docs/render/d30-flower/doc.rc",
+      "rcDocument": "documents/render/d30-flower.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d30-flower.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d31-clock",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Clock face reduced to its tick marks, with no hands drawn. #clock #loop",
+      "sourceFile": "docs/render/d31-clock/doc.rc",
+      "rcDocument": "documents/render/d31-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d31-clock.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/d32-wavefield",
       "section": "rcjson",
       "group": "render",
@@ -14141,6 +14311,142 @@
       ]
     },
     {
+      "componentId": "render/d33-hist",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Histogram of amber bars forming a bell-shaped distribution. #graph",
+      "sourceFile": "docs/render/d33-hist/doc.rc",
+      "rcDocument": "documents/render/d33-hist.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d33-hist.png",
+          "width": 340,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/d34-fan",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Fan of straight lines sweeping from a corner, fading blue to white. #loop #drawLine",
+      "sourceFile": "docs/render/d34-fan/doc.rc",
+      "rcDocument": "documents/render/d34-fan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d34-fan.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d35-bubbles",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Cluster of violet circle outlines at many sizes, densest at the centre. #loop #drawCircle",
+      "sourceFile": "docs/render/d35-bubbles/doc.rc",
+      "rcDocument": "documents/render/d35-bubbles.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d35-bubbles.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d36-arcs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Segmented ring of arcs cycling through the full colour wheel. #drawArc #loop",
+      "sourceFile": "docs/render/d36-arcs/doc.rc",
+      "rcDocument": "documents/render/d36-arcs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d36-arcs.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d37-spiralsq",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "spiralsq",
+      "sourceFile": "docs/render/d37-spiralsq/doc.rc",
+      "rcDocument": "documents/render/d37-spiralsq.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d37-spiralsq.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d38-dotwave",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Travelling wave sampled as green dots along a sine path. #animation #expressions",
+      "sourceFile": "docs/render/d38-dotwave/doc.rc",
+      "rcDocument": "documents/render/d38-dotwave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d38-dotwave.png",
+          "width": 320,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/d39-trifan",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Radial fan of orange spokes filling an ellipse. #loop #drawLine",
+      "sourceFile": "docs/render/d39-trifan/doc.rc",
+      "rcDocument": "documents/render/d39-trifan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d39-trifan.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d40-cards",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Statistics tiles: 128 Users, 94% Uptime and 3.4k Events in purple, teal and pink. #widget #layout",
+      "sourceFile": "docs/render/d40-cards/doc.rc",
+      "rcDocument": "documents/render/d40-cards.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d40-cards.png",
+          "width": 480,
+          "height": 180
+        }
+      ]
+    },
+    {
       "componentId": "render/dashboard-card",
       "section": "rcjson",
       "group": "render",
@@ -14154,6 +14460,380 @@
           "path": "images/render/dashboard-card.png",
           "width": 380,
           "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-10",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-10/doc.rc",
+      "rcDocument": "documents/render/dd-10.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-10.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-100",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-100/doc.rc",
+      "rcDocument": "documents/render/dd-100.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-100.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-103",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-103/doc.rc",
+      "rcDocument": "documents/render/dd-103.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-103.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-108",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-108/doc.rc",
+      "rcDocument": "documents/render/dd-108.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-108.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-111",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-111/doc.rc",
+      "rcDocument": "documents/render/dd-111.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-111.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-112",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-112/doc.rc",
+      "rcDocument": "documents/render/dd-112.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-112.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-115",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-115/doc.rc",
+      "rcDocument": "documents/render/dd-115.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-115.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-118",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-118/doc.rc",
+      "rcDocument": "documents/render/dd-118.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-118.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-119",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-119/doc.rc",
+      "rcDocument": "documents/render/dd-119.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-119.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-14",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-14/doc.rc",
+      "rcDocument": "documents/render/dd-14.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-14.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-142",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-142/doc.rc",
+      "rcDocument": "documents/render/dd-142.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-142.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-164",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-164/doc.rc",
+      "rcDocument": "documents/render/dd-164.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-164.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-165",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-165/doc.rc",
+      "rcDocument": "documents/render/dd-165.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-165.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-2/doc.rc",
+      "rcDocument": "documents/render/dd-2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-2.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-21",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-21/doc.rc",
+      "rcDocument": "documents/render/dd-21.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-21.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-29",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-29/doc.rc",
+      "rcDocument": "documents/render/dd-29.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-29.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-42",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-42/doc.rc",
+      "rcDocument": "documents/render/dd-42.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-42.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-5",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-5/doc.rc",
+      "rcDocument": "documents/render/dd-5.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-5.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-55",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-55/doc.rc",
+      "rcDocument": "documents/render/dd-55.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-55.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-68",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-68/doc.rc",
+      "rcDocument": "documents/render/dd-68.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-68.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-8",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-8/doc.rc",
+      "rcDocument": "documents/render/dd-8.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-8.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-80",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-80/doc.rc",
+      "rcDocument": "documents/render/dd-80.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-80.png",
+          "width": 480,
+          "height": 480
         }
       ]
     },
