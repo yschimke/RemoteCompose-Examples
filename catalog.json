@@ -16232,6 +16232,686 @@
       ]
     },
     {
+      "componentId": "render/p03-themed-colors",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "themed colours and an exported variable",
+      "sourceFile": "docs/render/p03-themed-colors/doc.rc",
+      "rcDocument": "documents/render/p03-themed-colors.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p03-themed-colors.png",
+          "width": 320,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/p04-click-actions",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "click handlers driving a variable",
+      "sourceFile": "docs/render/p04-click-actions/doc.rc",
+      "rcDocument": "documents/render/p04-click-actions.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p04-click-actions.png",
+          "width": 320,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/p05-path-resource",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "paths resource — regression fixture for the ResourceParser encoding fix",
+      "sourceFile": "docs/render/p05-path-resource/doc.rc",
+      "rcDocument": "documents/render/p05-path-resource.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/p05-path-resource.png",
+          "width": 220,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/paths",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "isolate: svg path vs pathExpression in the CG backend",
+      "sourceFile": "docs/render/paths/doc.rc",
+      "rcDocument": "documents/render/paths.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/paths.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double/doc.rc",
+      "rcDocument": "documents/render/perf-double.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s10",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s10/doc.rc",
+      "rcDocument": "documents/render/perf-double-s10.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s10.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s11",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s11/doc.rc",
+      "rcDocument": "documents/render/perf-double-s11.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s11.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s6",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s6/doc.rc",
+      "rcDocument": "documents/render/perf-double-s6.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s6.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s7",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s7/doc.rc",
+      "rcDocument": "documents/render/perf-double-s7.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s7.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s8",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s8/doc.rc",
+      "rcDocument": "documents/render/perf-double-s8.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s8.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-double-s9",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — draw count doubles every second",
+      "sourceFile": "docs/render/perf-double-s9/doc.rc",
+      "rcDocument": "documents/render/perf-double-s9.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-double-s9.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-limit",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/perf-limit/doc.rc",
+      "rcDocument": "documents/render/perf-limit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-limit.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path/doc.rc",
+      "rcDocument": "documents/render/perf-path.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path-l12",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path-l12/doc.rc",
+      "rcDocument": "documents/render/perf-path-l12.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path-l12.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path-l15",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path-l15/doc.rc",
+      "rcDocument": "documents/render/perf-path-l15.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path-l15.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path-l3",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path-l3/doc.rc",
+      "rcDocument": "documents/render/perf-path-l3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path-l3.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path-l6",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path-l6/doc.rc",
+      "rcDocument": "documents/render/perf-path-l6.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path-l6.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-path-l9",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — path vertex count vs frame rate",
+      "sourceFile": "docs/render/perf-path-l9/doc.rc",
+      "rcDocument": "documents/render/perf-path-l9.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-path-l9.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text/doc.rc",
+      "rcDocument": "documents/render/perf-text.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l12",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l12/doc.rc",
+      "rcDocument": "documents/render/perf-text-l12.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l12.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l15",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l15/doc.rc",
+      "rcDocument": "documents/render/perf-text-l15.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l15.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l3",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l3/doc.rc",
+      "rcDocument": "documents/render/perf-text-l3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l3.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l6",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l6/doc.rc",
+      "rcDocument": "documents/render/perf-text-l6.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l6.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l9",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l9/doc.rc",
+      "rcDocument": "documents/render/perf-text-l9.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l9.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/pidx-ctrl",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "control: constant initial value",
+      "sourceFile": "docs/render/pidx-ctrl/doc.rc",
+      "rcDocument": "documents/render/pidx-ctrl.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pidx-ctrl.png",
+          "width": 400,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/pie-chart-of-continents-by-percent-of-wo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "continents population pie chart",
+      "sourceFile": "docs/render/pie-chart-of-continents-by-percent-of-wo/doc.rc",
+      "rcDocument": "documents/render/pie-chart-of-continents-by-percent-of-wo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pie-chart-of-continents-by-percent-of-wo.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-arr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: array-backed initial values. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-arr/doc.rc",
+      "rcDocument": "documents/render/pr-arr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-arr.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-arrk",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: array-backed initial values, keyed variant. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-arrk/doc.rc",
+      "rcDocument": "documents/render/pr-arrk.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-arrk.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-rand",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: randomised initial values. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-rand/doc.rc",
+      "rcDocument": "documents/render/pr-rand.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-rand.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pressure-gauge",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pressure Gauge with AGSL Energy Plasma Shader",
+      "sourceFile": "docs/render/pressure-gauge/doc.rc",
+      "rcDocument": "documents/render/pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pressure-gauge.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura loading animation",
+      "sourceFile": "docs/render/probe/doc.rc",
+      "rcDocument": "documents/render/probe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-alpha",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "can alpha be an expression?",
+      "sourceFile": "docs/render/probe-alpha/doc.rc",
+      "rcDocument": "documents/render/probe-alpha.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-alpha.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-array",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet: arg order and computed index",
+      "sourceFile": "docs/render/probe-array/doc.rc",
+      "rcDocument": "documents/render/probe-array.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-array.png",
+          "width": 400,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-idx",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet with a computed index, all slots",
+      "sourceFile": "docs/render/probe-idx/doc.rc",
+      "rcDocument": "documents/render/probe-idx.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-idx.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-multi",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "do multi-particle initial values vary?",
+      "sourceFile": "docs/render/probe-multi/doc.rc",
+      "rcDocument": "documents/render/probe-multi.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-multi.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-parr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet inside a particle equation",
+      "sourceFile": "docs/render/probe-parr/doc.rc",
+      "rcDocument": "documents/render/probe-parr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-parr.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-path",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: does pathExpression count re-sample per frame?",
+      "sourceFile": "docs/render/probe-path/doc.rc",
+      "rcDocument": "documents/render/probe-path.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-path.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/progress-ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Progress ring: a circular gauge showing a single percentage (0-100) as a filled arc over a faint track, with the number in the center.",
+      "sourceFile": "docs/render/progress-ring/doc.rc",
+      "rcDocument": "documents/render/progress-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/progress-ring.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pulse-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pulsing concentric rings animation: rings whose radii breathe over time. A looping ambient/loading animation.",
+      "sourceFile": "docs/render/pulse-rings/doc.rc",
+      "rcDocument": "documents/render/pulse-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pulse-rings.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pulsing-concentric-blue-rings-animation",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "pulsing blue rings",
+      "sourceFile": "docs/render/pulsing-concentric-blue-rings-animation/doc.rc",
+      "rcDocument": "documents/render/pulsing-concentric-blue-rings-animation.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pulsing-concentric-blue-rings-animation.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/space-progress",
       "section": "rcjson",
       "group": "render",
