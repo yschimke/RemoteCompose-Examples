@@ -4368,163 +4368,283 @@
   },
   "python-samples/chart-pie": {
     "sha256": "a54a66cea7c8e75171d8207516c4fa8a06e86f76967bea214ab9b6e7291fe194",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a54a66cea7c8e75171d8207516c4fa8a06e86f76967bea214ab9b6e7291fe194:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-polar-area": {
     "sha256": "7e4f9fe3fc800e6810ee56d20414ee31e09a6a81c8af33d456218c133e9553f1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7e4f9fe3fc800e6810ee56d20414ee31e09a6a81c8af33d456218c133e9553f1:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-progress-ring": {
     "sha256": "be9e4739fe2e13449f6c99b530690dec6454e8df80be019c46de896235db0717",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "be9e4739fe2e13449f6c99b530690dec6454e8df80be019c46de896235db0717:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-pyramid": {
     "sha256": "3c4f43dbd5b0fb751191777e578b7ebef6ce72a40c36d6d81ce9d3cb0271247e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "3c4f43dbd5b0fb751191777e578b7ebef6ce72a40c36d6d81ce9d3cb0271247e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-radar-filled": {
     "sha256": "d74cfbb0f2e8871ea1591cb3cfab3b63f1d564fb0ebab5fa737abe6c60cbc1bb",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d74cfbb0f2e8871ea1591cb3cfab3b63f1d564fb0ebab5fa737abe6c60cbc1bb:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-radial-bar": {
     "sha256": "bccdc05b93b811ee8a100e113ba87a5cfc8f4bb28050916be8240432ca853b6f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "bccdc05b93b811ee8a100e113ba87a5cfc8f4bb28050916be8240432ca853b6f:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-range-bar": {
     "sha256": "8d57f44a68393c2c25831f72414c74e079871f00bf71da7f0c83585648985d5a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8d57f44a68393c2c25831f72414c74e079871f00bf71da7f0c83585648985d5a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-sankey-simple": {
     "sha256": "4422151b1d26d6ce47df959242d1d78fd32ef16cee20e38a392ba2da34826359",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4422151b1d26d6ce47df959242d1d78fd32ef16cee20e38a392ba2da34826359:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-scatter-regression": {
     "sha256": "db87d436d41ed0ec1b1d941b1078195521f59df4c5cb2a984e9b24a89d25a0d0",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "db87d436d41ed0ec1b1d941b1078195521f59df4c5cb2a984e9b24a89d25a0d0:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-semi-donut": {
     "sha256": "71b04ef1266b4cd837f76bc37d47d95741dc3b56ae28a40b9a0e4bd5e10a8cfc",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "71b04ef1266b4cd837f76bc37d47d95741dc3b56ae28a40b9a0e4bd5e10a8cfc:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-slope": {
     "sha256": "d916bca2250abdd1eaa3d4c865aa16e18150f23f0ee87e948ea0a55c4475e29e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d916bca2250abdd1eaa3d4c865aa16e18150f23f0ee87e948ea0a55c4475e29e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-span": {
     "sha256": "488cd18b1f8ee96e7620f063bbe01d4603f29b6fedde9fd297b81d98efe3d416",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "488cd18b1f8ee96e7620f063bbe01d4603f29b6fedde9fd297b81d98efe3d416:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-sparkline": {
     "sha256": "a56dade5b17841db2dc44333eba1406d47199d02622e1d04f62e936545d44a9d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a56dade5b17841db2dc44333eba1406d47199d02622e1d04f62e936545d44a9d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-stacked-area": {
     "sha256": "b0bcf3bb3f939f5dd11c79bf3455a548b647dbf8cbe8b499f2ce92be41ee7ba6",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b0bcf3bb3f939f5dd11c79bf3455a548b647dbf8cbe8b499f2ce92be41ee7ba6:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-stacked-bar": {
     "sha256": "b89bf1b136f8e4d7dcbbea1cbe8b820b713ae36e0e59021c1fd8d202f3c9a4a2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b89bf1b136f8e4d7dcbbea1cbe8b820b713ae36e0e59021c1fd8d202f3c9a4a2:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-step-line": {
     "sha256": "2eed72c4dff071c73febfcbe8f5c2acf2b2b8fd7044e34a31362926ad23b5461",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "2eed72c4dff071c73febfcbe8f5c2acf2b2b8fd7044e34a31362926ad23b5461:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-timeline": {
     "sha256": "7cf4237a9b840c3aa2be7c4127260f9d68d02044c6ad9cd596b9a23caba09874",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7cf4237a9b840c3aa2be7c4127260f9d68d02044c6ad9cd596b9a23caba09874:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-tornado": {
     "sha256": "ddb210f26fa15ab0d3fd8442b122ee025c16911ac7218a7ee15a99b4823e57e6",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ddb210f26fa15ab0d3fd8442b122ee025c16911ac7218a7ee15a99b4823e57e6:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-treemap": {
     "sha256": "42db1232060667dd85f2f12a10731e46574f27a0b92855b7f89f4848ec426041",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "42db1232060667dd85f2f12a10731e46574f27a0b92855b7f89f4848ec426041:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-waffle": {
     "sha256": "42a164ea8c812018c3267cf1b42928713f4002ca17c9527c8a7d34b961dc5cf8",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "42a164ea8c812018c3267cf1b42928713f4002ca17c9527c8a7d34b961dc5cf8:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-waterfall": {
     "sha256": "67e8e036e354c2b6c829e6a5b78df52e6267886949b6f07e88ca217741c33f5a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "67e8e036e354c2b6c829e6a5b78df52e6267886949b6f07e88ca217741c33f5a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-background": {
     "sha256": "a91a0b8d77a8bbfa0b329a82b5af951a54652c76b1704adc3ff8c5384b1ba979",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a91a0b8d77a8bbfa0b329a82b5af951a54652c76b1704adc3ff8c5384b1ba979:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-border": {
     "sha256": "aaa8016aa821f3475501321f0fea0c3a481f45042fddf1024a1c1f409b89cd79",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "aaa8016aa821f3475501321f0fea0c3a481f45042fddf1024a1c1f409b89cd79:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-box": {
     "sha256": "c48b6ed3a30a63314ccfe812594e08da6cddb7c5d2ec9e69319ca51b50d9d8e2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c48b6ed3a30a63314ccfe812594e08da6cddb7c5d2ec9e69319ca51b50d9d8e2:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-canvas-cross": {
     "sha256": "b1ca9794dfa54032b64fa7d6154a8fc40ac6c1bd8541a5bfba7821a37ac66c59",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b1ca9794dfa54032b64fa7d6154a8fc40ac6c1bd8541a5bfba7821a37ac66c59:2:cb84224aae12e593",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "python-samples/demo-canvas-shapes": {
     "sha256": "1c4e116fcbffa85069b1062c593a59a627054c9495e36773c9798cee077b2e68",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "1c4e116fcbffa85069b1062c593a59a627054c9495e36773c9798cee077b2e68:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-clock": {
     "sha256": "85575712d4861105c99f79baeaef779de1f56ee2b597225afdbadc83e3789305",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "85575712d4861105c99f79baeaef779de1f56ee2b597225afdbadc83e3789305:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-column": {
     "sha256": "25a765f799a633532311c08db719be9aa5e76cf41ccd27734d6bf3a9468522a4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "25a765f799a633532311c08db719be9aa5e76cf41ccd27734d6bf3a9468522a4:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-fit-box": {
     "sha256": "722f604f232be1e9d301dbf0d5d820656a68c8aa65f22f7bccdb493d57f8ce22",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "722f604f232be1e9d301dbf0d5d820656a68c8aa65f22f7bccdb493d57f8ce22:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-flow": {
     "sha256": "c72f9a4f5df99b13f81f3b5038075e98d97ceb11bf54a294871fd3d96d2840b4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c72f9a4f5df99b13f81f3b5038075e98d97ceb11bf54a294871fd3d96d2840b4:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-nested-layout": {
     "sha256": "56614af286357a32e8461d1b2e470a60a2af07f771ab665a54892f0f34bd9196",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "56614af286357a32e8461d1b2e470a60a2af07f771ab665a54892f0f34bd9196:2:cb84224aae12e593",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "python-samples/demo-new-syntax": {
     "sha256": "ddd4c1601bf515c3c4ff82b932e2752afb571318d2fcc52d5133445c3ef6152d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ddd4c1601bf515c3c4ff82b932e2752afb571318d2fcc52d5133445c3ef6152d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-padding": {
     "sha256": "4e587b293c860927df03e9d439cf909926c1f1587e8b5fa193467bcc633f8c43",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4e587b293c860927df03e9d439cf909926c1f1587e8b5fa193467bcc633f8c43:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-pressure-gauge": {
     "sha256": "e288ccfc8ecc19b3d84d61dac901b32b42a355cb4fa3b6227af8a9b5301b6c32",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e288ccfc8ecc19b3d84d61dac901b32b42a355cb4fa3b6227af8a9b5301b6c32:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-row": {
     "sha256": "f54fd7094390708f915a8c1bd18495347eea3ff78c712e8e73385250b6d1ca76",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f54fd7094390708f915a8c1bd18495347eea3ff78c712e8e73385250b6d1ca76:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-spaced-by": {
     "sha256": "af530257de492757d8eee0d214f77937c0fb3b67afc7218e0f0a7472cc91df8a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "af530257de492757d8eee0d214f77937c0fb3b67afc7218e0f0a7472cc91df8a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-text": {
     "sha256": "a5783ad54c8ce0e9defd4d14c6f8cfbaee7c53d6793af866cdfa25750fe1aeec",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a5783ad54c8ce0e9defd4d14c6f8cfbaee7c53d6793af866cdfa25750fe1aeec:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/gauge-altimeter": {
     "sha256": "16704e5554d907c6fa1bf76d0864fa63999438b72ba077639a90e609e9cb8e84",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "16704e5554d907c6fa1bf76d0864fa63999438b72ba077639a90e609e9cb8e84:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-battery": {
     "sha256": "fae4e94f60ff861a98d45a07fd60ac74798e057020dbdbb572bf94d3bdcafa82",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fae4e94f60ff861a98d45a07fd60ac74798e057020dbdbb572bf94d3bdcafa82:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-compass": {
     "sha256": "b4ee95302692a8402064b6d5c7492276a7296f36d553ebfff79db7c772f45a14",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b4ee95302692a8402064b6d5c7492276a7296f36d553ebfff79db7c772f45a14:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-fuel": {
     "sha256": "25016573be788f24ae38f90a99030360608ea2eccc6ce942104072b1092636c2",

@@ -10605,6 +10605,686 @@
       ]
     },
     {
+      "componentId": "python-samples/chart-pie",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Pie chart showing market share distribution",
+      "sourceFile": "docs/python-samples/chart-pie/doc.rc",
+      "rcDocument": "documents/python-samples/chart-pie.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-pie.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-polar-area",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Polar area (Nightingale) chart showing wind direction data",
+      "sourceFile": "docs/python-samples/chart-polar-area/doc.rc",
+      "rcDocument": "documents/python-samples/chart-polar-area.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-polar-area.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-progress-ring",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Daily Goals - Three concentric progress rings",
+      "sourceFile": "docs/python-samples/chart-progress-ring/doc.rc",
+      "rcDocument": "documents/python-samples/chart-progress-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-progress-ring.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-pyramid",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Population pyramid with back-to-back horizontal bars for age distribution",
+      "sourceFile": "docs/python-samples/chart-pyramid/doc.rc",
+      "rcDocument": "documents/python-samples/chart-pyramid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-pyramid.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-radar-filled",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Radar chart with two overlapping filled polygons for player stats",
+      "sourceFile": "docs/python-samples/chart-radar-filled/doc.rc",
+      "rcDocument": "documents/python-samples/chart-radar-filled.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-radar-filled.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-radial-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Department Scores - Radial bar chart with 5 categories",
+      "sourceFile": "docs/python-samples/chart-radial-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-radial-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-radial-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-range-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Range bar chart showing project timeline like a Gantt chart",
+      "sourceFile": "docs/python-samples/chart-range-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-range-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-range-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-sankey-simple",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Traffic Sources - Simplified Sankey flow diagram",
+      "sourceFile": "docs/python-samples/chart-sankey-simple/doc.rc",
+      "rcDocument": "documents/python-samples/chart-sankey-simple.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-sankey-simple.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-scatter-regression",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Scatter plot with trend line showing study hours vs test score",
+      "sourceFile": "docs/python-samples/chart-scatter-regression/doc.rc",
+      "rcDocument": "documents/python-samples/chart-scatter-regression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-scatter-regression.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-semi-donut",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Semi-circle donut chart showing goal progress at 73 percent",
+      "sourceFile": "docs/python-samples/chart-semi-donut/doc.rc",
+      "rcDocument": "documents/python-samples/chart-semi-donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-semi-donut.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-slope",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Rankings 2023 vs 2024 - Slope chart showing rank changes",
+      "sourceFile": "docs/python-samples/chart-slope/doc.rc",
+      "rcDocument": "documents/python-samples/chart-slope.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-slope.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-span",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Span/Range Chart - Temperature Range",
+      "sourceFile": "docs/python-samples/chart-span/doc.rc",
+      "rcDocument": "documents/python-samples/chart-span.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-span.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-sparkline",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Multiple sparklines showing key metrics",
+      "sourceFile": "docs/python-samples/chart-sparkline/doc.rc",
+      "rcDocument": "documents/python-samples/chart-sparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-sparkline.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-stacked-area",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked Area Chart - Revenue Streams",
+      "sourceFile": "docs/python-samples/chart-stacked-area/doc.rc",
+      "rcDocument": "documents/python-samples/chart-stacked-area.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-stacked-area.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-stacked-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked bar chart showing quarterly revenue by region",
+      "sourceFile": "docs/python-samples/chart-stacked-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-stacked-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-stacked-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-step-line",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Step line chart showing server load over time",
+      "sourceFile": "docs/python-samples/chart-step-line/doc.rc",
+      "rcDocument": "documents/python-samples/chart-step-line.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-step-line.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-timeline",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Project Milestones - Horizontal timeline with 6 events",
+      "sourceFile": "docs/python-samples/chart-timeline/doc.rc",
+      "rcDocument": "documents/python-samples/chart-timeline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-timeline.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-tornado",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Sensitivity Analysis - Tornado butterfly chart with 8 parameter pairs",
+      "sourceFile": "docs/python-samples/chart-tornado/doc.rc",
+      "rcDocument": "documents/python-samples/chart-tornado.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-tornado.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-treemap",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Treemap chart showing disk usage by file category",
+      "sourceFile": "docs/python-samples/chart-treemap/doc.rc",
+      "rcDocument": "documents/python-samples/chart-treemap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-treemap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-waffle",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Waffle chart showing 73% task completion",
+      "sourceFile": "docs/python-samples/chart-waffle/doc.rc",
+      "rcDocument": "documents/python-samples/chart-waffle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-waffle.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-waterfall",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Waterfall chart showing profit analysis",
+      "sourceFile": "docs/python-samples/chart-waterfall/doc.rc",
+      "rcDocument": "documents/python-samples/chart-waterfall.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-waterfall.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-background",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierBackground.kt — ARGB int and float backgrounds",
+      "sourceFile": "docs/python-samples/demo-background/doc.rc",
+      "rcDocument": "documents/python-samples/demo-background.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-background.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-border",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierBorder.kt — rectangular and rounded borders",
+      "sourceFile": "docs/python-samples/demo-border/doc.rc",
+      "rcDocument": "documents/python-samples/demo-border.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-border.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-box",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoBox.kt — simple container with a red background",
+      "sourceFile": "docs/python-samples/demo-box/doc.rc",
+      "rcDocument": "documents/python-samples/demo-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-box.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-canvas-cross",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of RcCanvasComponents1 — canvas with X cross and centered text box",
+      "sourceFile": "docs/python-samples/demo-canvas-cross/doc.rc",
+      "rcDocument": "documents/python-samples/demo-canvas-cross.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-canvas-cross.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-canvas-shapes",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Canvas drawing with various shapes — rect, circle, oval, round_rect, arc, line",
+      "sourceFile": "docs/python-samples/demo-canvas-shapes/doc.rc",
+      "rcDocument": "documents/python-samples/demo-canvas-shapes.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-canvas-shapes.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-clock",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of ExampleClock.kt basicClock() — animated clock with hour/minute/second hands",
+      "sourceFile": "docs/python-samples/demo-clock/doc.rc",
+      "rcDocument": "documents/python-samples/demo-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-clock.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-column",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoColumn.kt — vertical stacking of colored boxes",
+      "sourceFile": "docs/python-samples/demo-column/doc.rc",
+      "rcDocument": "documents/python-samples/demo-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-fit-box",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoFitBox.kt — content scaled to fit bounds",
+      "sourceFile": "docs/python-samples/demo-fit-box/doc.rc",
+      "rcDocument": "documents/python-samples/demo-fit-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-fit-box.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-flow",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoFlow.kt — children wrapping to next line",
+      "sourceFile": "docs/python-samples/demo-flow/doc.rc",
+      "rcDocument": "documents/python-samples/demo-flow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-flow.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-nested-layout",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Nested layout demo — column with header text, row of weighted columns with bordered items (inspired by CanvasComponents5)",
+      "sourceFile": "docs/python-samples/demo-nested-layout/doc.rc",
+      "rcDocument": "documents/python-samples/demo-nested-layout.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-nested-layout.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-new-syntax",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Demonstrates new JSON format features: infix expressions, inline paint, inline expression refs, readable var names, ordered modifiers",
+      "sourceFile": "docs/python-samples/demo-new-syntax/doc.rc",
+      "rcDocument": "documents/python-samples/demo-new-syntax.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-new-syntax.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-padding",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierPadding.kt — uniform and per-side padding",
+      "sourceFile": "docs/python-samples/demo-padding/doc.rc",
+      "rcDocument": "documents/python-samples/demo-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-pressure-gauge",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of PressureGauge.kt — animated circular gauge with tick marks, needle, and text",
+      "sourceFile": "docs/python-samples/demo-pressure-gauge/doc.rc",
+      "rcDocument": "documents/python-samples/demo-pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-row",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoRow.kt — horizontal stacking of colored boxes",
+      "sourceFile": "docs/python-samples/demo-row/doc.rc",
+      "rcDocument": "documents/python-samples/demo-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-spaced-by",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierSpacedBy.kt — automatic spacing between items",
+      "sourceFile": "docs/python-samples/demo-spaced-by/doc.rc",
+      "rcDocument": "documents/python-samples/demo-spaced-by.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-spaced-by.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-text",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoText.kt — text with bold and italic styles",
+      "sourceFile": "docs/python-samples/demo-text/doc.rc",
+      "rcDocument": "documents/python-samples/demo-text.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-text.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-altimeter",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Altimeter Gauge",
+      "sourceFile": "docs/python-samples/gauge-altimeter/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-altimeter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-altimeter.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-battery",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Battery Gauge",
+      "sourceFile": "docs/python-samples/gauge-battery/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-battery.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-battery.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-compass",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Compass Gauge",
+      "sourceFile": "docs/python-samples/gauge-compass/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-compass.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-compass.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
