@@ -81,7 +81,8 @@ path without `images/` and `.png`, with `/` replaced by `__`, for example
 fail-soft on its own: if a harness cannot run, that lane's column is left out and the job
 still succeeds. The step summary explains why the column is missing. Only the js lane is
 required. Every run replaces the lane directories, so a dropped lane never leaves stale
-images behind.
+images behind. A run that drops a requested lane publishes without `rc-compare-key.txt`, so
+the next run retries it instead of treating the incomplete comparison as current.
 
 The **cmp-wasm** lane is off. About 15% of these documents use features the CMP player lacks,
 and the reusable workflow's `--require-cmp-wasm` gate fails on them. To add the column

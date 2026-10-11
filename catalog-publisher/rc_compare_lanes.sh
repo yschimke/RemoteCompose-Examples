@@ -39,6 +39,10 @@ FONTS="$COMPOSE_AI_TOOLS/samples/cmp-wasm-catalog/src/wasmJsMain/resources/fonts
 # cache fetches, the same way the browser lane fetches the same families from the CSS API.
 FONTS_CACHE="${XDG_CACHE_HOME:-$HOME/.cache}/composeai/fonts"
 summary="${GITHUB_STEP_SUMMARY:-/dev/null}"
+# Every requested lane that dropped its column, one per line. `rc_compare_bundle.py install` reads
+# it so an incomplete comparison never records the cache key, and the next run retries the lane.
+DROPPED="$WORK/dropped-lanes"
+: > "$DROPPED"
 
 (cd "$COMPOSE_AI_TOOLS" && ./gradlew stageVendoredRcPlayerJs --quiet)
 PLAYER="$COMPOSE_AI_TOOLS/build/vendored-rc-player-js/bundle.js"
@@ -51,6 +55,7 @@ has_png() { [ -n "$(find "$1" -maxdepth 1 -name '*.png' -print -quit 2>/dev/null
 report_dropped_lane() {
   local label="$1" outdir="$2" log="$3" errors=0
   echo "::warning::${label} lane produced no renders; publishing the comparison without its column"
+  echo "$label" >> "$DROPPED"
   [ -d "$outdir" ] && errors=$(find "$outdir" -maxdepth 1 -name '*.error' | wc -l)
   {
     echo "### ${label} lane dropped its column"
@@ -60,7 +65,7 @@ report_dropped_lane() {
       echo
       echo '```'
       for f in "$outdir"/*.error; do [ -f "$f" ] && { cat "$f"; echo; }; done \
-        | sort | uniq -c | sort -rn | head -5
+        | sort | uniq -c | sort -rn | awk 'NR <= 5'  # awk drains the pipe; `head` would SIGPIPE
       echo '```'
     elif [ -s "$log" ]; then
       echo "The harness wrote nothing. Last lines of its Gradle output:"

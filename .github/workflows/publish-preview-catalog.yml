@@ -243,7 +243,8 @@ jobs:
           git -C output config user.name 'github-actions[bot]'
           git -C output config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           python3 publisher/catalog-publisher/rc_compare_bundle.py install \
-            --compare "$RUNNER_TEMP/rc-compare-out" --output output --key "$KEY"
+            --compare "$RUNNER_TEMP/rc-compare-out" --output output --key "$KEY" \
+            --dropped-lanes "$RUNNER_TEMP/rc-compare-work/dropped-lanes"
           git -C output add -A
           if git -C output diff --cached --quiet; then
             echo "comparison unchanged"

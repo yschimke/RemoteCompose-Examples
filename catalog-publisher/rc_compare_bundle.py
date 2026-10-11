@@ -141,7 +141,18 @@ def cmd_install(args: argparse.Namespace) -> int:
     shutil.copy2(summary, output / SUMMARY_FILE)
     if (source / PAGE_FILE).is_file():
         shutil.copy2(source / PAGE_FILE, output / PAGE_FILE)
-    (output / KEY_FILE).write_text(args.key + "\n")
+    # A lane that dropped its column this run (a harness crash, a flaky runner) must be retried, so
+    # an incomplete comparison is published without the key: the next run sees no match and redoes
+    # it. Any older key goes too, since it would name a complete comparison that is no longer there.
+    dropped = []
+    if args.dropped_lanes and args.dropped_lanes.is_file():
+        dropped = [line for line in args.dropped_lanes.read_text().splitlines() if line.strip()]
+    if dropped:
+        (output / KEY_FILE).unlink(missing_ok=True)
+        print(f"::notice::lanes dropped ({', '.join(dropped)}); not recording the cache key so "
+              "the next run retries them")
+    else:
+        (output / KEY_FILE).write_text(args.key + "\n")
     lanes = sorted(name for name in LANE_DIRS if (output / name).is_dir())
     print(json.dumps({"rows": len(rows), "lanes": lanes}))
     return 0
@@ -169,6 +180,8 @@ def main() -> int:
     install.add_argument("--compare", type=Path, required=True, help="rc-compare.mjs --out dir")
     install.add_argument("--output", type=Path, required=True, help="delivery branch checkout")
     install.add_argument("--key", required=True, help="the key printed by `key`")
+    install.add_argument("--dropped-lanes", type=Path,
+                         help="rc_compare_lanes.sh's list of lanes that dropped their column")
     install.set_defaults(func=cmd_install)
 
     args = parser.parse_args()
