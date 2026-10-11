@@ -1,0 +1,4115 @@
+{
+ "schema": "rc-compare-failures/v1",
+ "generatedAt": "2026-10-11T22:24:03+00:00",
+ "key": "f887f968f92533cd710b359eac0cc88639de9bf9d69a5c777b1272bdb20b704d",
+ "keyRecorded": true,
+ "documents": 1309,
+ "lanes": {
+  "js": {
+   "dropped": false,
+   "rendered": 1308,
+   "failed": 1,
+   "reasons": [
+    {
+     "reason": "player could not decode the document",
+     "count": 1,
+     "ids": [
+      "python-samples__text-badges"
+     ]
+    }
+   ],
+   "failures": [
+    {
+     "id": "python-samples__text-badges",
+     "reason": "player could not decode the document"
+    }
+   ]
+  },
+  "embedded": {
+   "dropped": false,
+   "rendered": 1167,
+   "failed": 142,
+   "suspect": 96,
+   "reasons": [
+    {
+     "reason": "RuntimeException: Unknown operation encountered 114",
+     "count": 52,
+     "ids": [
+      "architecture3d__architecture3d",
+      "charts3d__01-scatter",
+      "charts3d__02-surface",
+      "charts3d__03-wireframe",
+      "charts3d__04-bars",
+      "charts3d__05-trajectory",
+      "charts3d__06-waterfall",
+      "charts3d__07-contour",
+      "charts3d__08-histogram",
+      "charts3d__09-quiver",
+      "charts3d__10-voxel",
+      "shapes3d__shapes3d",
+      "surface-plot3d__surface-plot3d",
+      "vis-set-01__bio-mb-00003",
+      "vis-set-01__eco-micr-00001",
+      "vis-set-01__phy-fpp-00003",
+      "vis-set-02__bio-cb-00008",
+      "vis-set-02__chm-ac-00002",
+      "vis-set-02__phy-fpp-00007",
+      "vis-set-03__bio-cb-00011",
+      "vis-set-03__fin-mark-00001",
+      "vis-set-03__mth-an-00003",
+      "vis-set-03__phy-fpp-00009",
+      "vis-set-04__bio-bioc-00014",
+      "vis-set-04__eng-me-00004",
+      "vis-set-05__chm-ms-00005",
+      "vis-set-05__eng-me-00005",
+      "vis-set-05__med-ha-00001",
+      "vis-set-05__phy-np-00017",
+      "vis-set-06__bio-gene-00021",
+      "vis-set-06__fin-cf-00005",
+      "vis-set-06__phy-np-00019",
+      "vis-set-07__med-dp-00003",
+      "vis-set-07__phy-qm-00024",
+      "vis-set-07__soc-psyc-00007",
+      "vis-set-08__cal-globe-00001",
+      "vis-set-08__ear-geop-00008",
+      "vis-set-08__eco-ie-00012",
+      "vis-set-08__his-ac-00002",
+      "vis-set-08__phy-qm-00026",
+      "vis-set-09__bio-micr-00024",
+      "vis-set-09__ear-geop-00009",
+      "vis-set-10__bio-micr-00028",
+      "vis-set-10__chm-cr-00010",
+      "vis-set-10__phy-cm-00033",
+      "vis-set-10__soc-anth-00010",
+      "vis-set-11__chm-cr-00011",
+      "vis-set-11__geo-pg-00001",
+      "vis-set-11__phy-cm-00035",
+      "vis-set-12__bio-anat-00031",
+      "vis-set-12__eng-ce-00012",
+      "vis-set-12__fin-acco-00011"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Unknown operation encountered 239",
+     "count": 34,
+     "ids": [
+      "python-samples__demo-fit-box",
+      "python-samples__demo-nested-layout",
+      "python-samples__demo-new-syntax",
+      "python-samples__demo-text",
+      "python-samples__layout-card",
+      "python-samples__layout-centered",
+      "python-samples__layout-clip-circle",
+      "python-samples__layout-clip-rounded",
+      "python-samples__layout-deep-nesting",
+      "python-samples__layout-fill-max-height",
+      "python-samples__layout-fill-max-width",
+      "python-samples__layout-form",
+      "python-samples__layout-grid",
+      "python-samples__layout-header-content-footer",
+      "python-samples__layout-sidebar",
+      "python-samples__layout-weighted-column",
+      "python-samples__layout-weighted-row",
+      "python-samples__layout-z-index",
+      "python-samples__text-alignment",
+      "python-samples__text-cards",
+      "python-samples__text-heading-body",
+      "python-samples__text-layered-borders",
+      "python-samples__text-list",
+      "python-samples__text-sizes",
+      "python-samples__text-stats-row",
+      "python-samples__widget-dashboard",
+      "python-samples__widget-metric",
+      "python-samples__widget-music",
+      "python-samples__widget-notification",
+      "python-samples__widget-profile",
+      "python-samples__widget-score",
+      "python-samples__widget-settings",
+      "python-samples__widget-stats",
+      "python-samples__widget-weather"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N N [A_0] N - N / clamp ) len = N",
+     "count": 24,
+     "ids": [
+      "render__ab-eps",
+      "render__compass-tiltvar",
+      "render__dd-100",
+      "render__dd-108",
+      "render__dd-112",
+      "render__dd-119",
+      "render__dd-142",
+      "render__dd-21",
+      "render__dd-29",
+      "render__dd-42",
+      "render__dd-5",
+      "render__dd-55",
+      "render__dd-68",
+      "render__dd-8",
+      "render__dd-82",
+      "render__dd-84",
+      "render__v2-sensvar",
+      "render__v3-dupdiff",
+      "render__v3-dupsame",
+      "render__var-base",
+      "render__var-negonly",
+      "render__var-noacos",
+      "render__var-noneg",
+      "render__w-unguard"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: Index N out of bounds for length N",
+     "count": 9,
+     "ids": [
+      "androidx-demos__clock-demo1-clock1",
+      "androidx-demos__clock-demo2-jancy-clock2",
+      "androidx-demos__clock-demo2-jclock2",
+      "androidx-demos__digital-clock1",
+      "androidx-demos__experimental-sweep-clock1",
+      "androidx-demos__fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock1",
+      "androidx-demos__fancy-clocks-fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock3"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N N [A_0] clamp ) len = N",
+     "count": 5,
+     "ids": [
+      "render__v2-radius",
+      "render__v5-lognegv",
+      "render__v5-nanuse",
+      "render__v5-sqrtneg",
+      "render__v5-zerodiv"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N [A_42] [N]N N + A_DEREF - ) len = N",
+     "count": 4,
+     "ids": [
+      "render__area-chart",
+      "render__area-chart-of-daily-website-visitors-for",
+      "render__line-chart",
+      "render__monthly-revenue-line-chart-over-six-mont"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = ([N]N [N]N [A_42] [A_0] A_SPLINE * - ) len = N",
+     "count": 4,
+     "ids": [
+      "advanced-samples__paths-demos",
+      "androidx-demos__graph-graph1",
+      "androidx-demos__graph-graph2",
+      "androidx-demos__paths-demos"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: null",
+     "count": 3,
+     "ids": [
+      "androidx-demos__experimental-fancy-clock",
+      "render__v2-sysvar",
+      "render__v3-dupwidth"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = ([N]N N * % N % [N]N * N * [N]N N * - ) len = N",
+     "count": 2,
+     "ids": [
+      "render__banner-sf",
+      "render__banner-sf-sweep"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Unknown operation encountered 240",
+     "count": 2,
+     "ids": [
+      "python-samples__demo-flow",
+      "python-samples__text-badges"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Dimension of image is invalid 0xN",
+     "count": 1,
+     "ids": [
+      "render__rc-json-particle-sphere"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Invalid table size N",
+     "count": 1,
+     "ids": [
+      "androidx-demos__c-flow"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Loop step cannot be zero",
+     "count": 1,
+     "ids": [
+      "androidx-demos__path-demo-path2"
+     ]
+    }
+   ],
+   "failures": [
+    {
+     "id": "advanced-samples__paths-demos",
+     "reason": "RuntimeException: FloatExpression[80] = ([75]0.0 [64]0.0 [A_42] [A_0] A_SPLINE * - ) len = 7"
+    },
+    {
+     "id": "androidx-demos__c-flow",
+     "reason": "RuntimeException: Invalid table size 1065353216"
+    },
+    {
+     "id": "androidx-demos__clock-demo1-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jclock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__digital-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__experimental-fancy-clock",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "androidx-demos__experimental-sweep-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock3",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__graph-graph1",
+     "reason": "RuntimeException: FloatExpression[70] = ([64]0.0 [53]0.0 [A_42] [A_0] A_SPLINE * - ) len = 7"
+    },
+    {
+     "id": "androidx-demos__graph-graph2",
+     "reason": "RuntimeException: FloatExpression[69] = ([64]0.0 [53]0.0 [A_42] [A_0] A_SPLINE * - ) len = 7"
+    },
+    {
+     "id": "androidx-demos__path-demo-path2",
+     "reason": "RuntimeException: Loop step cannot be zero"
+    },
+    {
+     "id": "androidx-demos__paths-demos",
+     "reason": "RuntimeException: FloatExpression[80] = ([75]0.0 [64]0.0 [A_42] [A_0] A_SPLINE * - ) len = 7"
+    },
+    {
+     "id": "architecture3d__architecture3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__01-scatter",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__02-surface",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__03-wireframe",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__04-bars",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__05-trajectory",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__06-waterfall",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__07-contour",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__08-histogram",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__09-quiver",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__10-voxel",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "python-samples__demo-fit-box",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-flow",
+     "reason": "RuntimeException: Unknown operation encountered 240"
+    },
+    {
+     "id": "python-samples__demo-nested-layout",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-new-syntax",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-text",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-card",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-centered",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-clip-circle",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-clip-rounded",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-deep-nesting",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-fill-max-height",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-fill-max-width",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-form",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-grid",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-header-content-footer",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-sidebar",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-weighted-column",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-weighted-row",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-z-index",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-alignment",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-badges",
+     "reason": "RuntimeException: Unknown operation encountered 240"
+    },
+    {
+     "id": "python-samples__text-cards",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-heading-body",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-layered-borders",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-list",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-sizes",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-stats-row",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-dashboard",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-metric",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-music",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-notification",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-profile",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-score",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-settings",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-stats",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-weather",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "render__ab-eps",
+     "reason": "RuntimeException: FloatExpression[119] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__area-chart",
+     "reason": "RuntimeException: FloatExpression[51] = (210.0 [A_42] [44]7.0 1.0 + A_DEREF - ) len = 7"
+    },
+    {
+     "id": "render__area-chart-of-daily-website-visitors-for",
+     "reason": "RuntimeException: FloatExpression[51] = (210.0 [A_42] [44]6.0 1.0 + A_DEREF - ) len = 7"
+    },
+    {
+     "id": "render__banner-sf",
+     "reason": "RuntimeException: FloatExpression[137] = ([1]597.705 0.0125 * % 1.0 % [42]1.0 * 1.2 * [42]1.0 0.1 * - ) len = 14"
+    },
+    {
+     "id": "render__banner-sf-sweep",
+     "reason": "RuntimeException: FloatExpression[140] = ([1]597.727 0.0125 * % 1.0 % [42]1.0 * 1.2 * [42]1.0 0.1 * - ) len = 14"
+    },
+    {
+     "id": "render__compass-tiltvar",
+     "reason": "RuntimeException: FloatExpression[119] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-100",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-108",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-112",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-119",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-142",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-21",
+     "reason": "RuntimeException: FloatExpression[76] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-29",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-42",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-5",
+     "reason": "RuntimeException: FloatExpression[106] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-55",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-68",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-8",
+     "reason": "RuntimeException: FloatExpression[89] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-82",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-84",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__line-chart",
+     "reason": "RuntimeException: FloatExpression[48] = (210.0 [A_42] [44]7.0 1.0 + A_DEREF - ) len = 7"
+    },
+    {
+     "id": "render__monthly-revenue-line-chart-over-six-mont",
+     "reason": "RuntimeException: FloatExpression[48] = (210.0 [A_42] [44]5.0 1.0 + A_DEREF - ) len = 7"
+    },
+    {
+     "id": "render__rc-json-particle-sphere",
+     "reason": "RuntimeException: Dimension of image is invalid 0x0"
+    },
+    {
+     "id": "render__v2-radius",
+     "reason": "RuntimeException: FloatExpression[43] = (1.0 99.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v2-sensvar",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v2-sysvar",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v3-dupdiff",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v3-dupsame",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v3-dupwidth",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v5-lognegv",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-nanuse",
+     "reason": "RuntimeException: FloatExpression[43] = (1.0 99.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-sqrtneg",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-zerodiv",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__var-base",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-negonly",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-noacos",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-noneg",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__w-unguard",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "shapes3d__shapes3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "surface-plot3d__surface-plot3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__bio-mb-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__eco-micr-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__phy-fpp-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__bio-cb-00008",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__chm-ac-00002",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__phy-fpp-00007",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__bio-cb-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__fin-mark-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__mth-an-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__phy-fpp-00009",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-04__bio-bioc-00014",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-04__eng-me-00004",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__chm-ms-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__eng-me-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__med-ha-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__phy-np-00017",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__bio-gene-00021",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__fin-cf-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__phy-np-00019",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__med-dp-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__phy-qm-00024",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__soc-psyc-00007",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__cal-globe-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__ear-geop-00008",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__eco-ie-00012",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__his-ac-00002",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__phy-qm-00026",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-09__bio-micr-00024",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-09__ear-geop-00009",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__bio-micr-00028",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__chm-cr-00010",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__phy-cm-00033",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__soc-anth-00010",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__chm-cr-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__geo-pg-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__phy-cm-00035",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__bio-anat-00031",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__eng-ce-00012",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__fin-acco-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    }
+   ],
+   "suspectKinds": {
+    "blank": 50,
+    "content": 18,
+    "coverage": 28
+   },
+   "suspects": [
+    {
+     "id": "advanced-samples__stock",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 4.6%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__anchored-text",
+     "kind": "content",
+     "reason": "colour disagrees on 99.7% of the pixels both painted (js lane 22.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__bitmap-font-watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-height",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-size",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-width",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (4.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__color-theme",
+     "kind": "content",
+     "reason": "colour disagrees on 98.2% of the pixels both painted (js lane 29.5%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__countdown",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 95.9% of the canvas (js lane 1.3%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__demo-bitmap-drawing-bit-draw1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 63.5% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-flick-flick-test",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 98.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.5% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test3",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-use-of-global",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.3% of the canvas (js lane 0.6%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-winding-rule-path-winding",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__experimental-gmt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (81.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__experimental-solar-gmt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (97.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (97.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-test-conditional",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 93.0% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__indexing-demo-path-index",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__path-demo-remote-construction",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (37.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__plot-wave",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 96.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient2",
+     "kind": "content",
+     "reason": "colour disagrees on 94.6% of the pixels both painted (js lane 0.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient3",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 15.9%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__procedure-version",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 50.9% of the canvas (js lane 8.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-acc-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-compass",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 69.8% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-gyro-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-light-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 92.4% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-mag-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__server-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (98.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__shader-calendar",
+     "kind": "content",
+     "reason": "colour disagrees on 99.8% of the pixels both painted (js lane 31.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__simple-java-anim",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__spline-demo-spline-demo1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (12.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__spread-sheet",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 94.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__stock",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 4.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-absolute-pos",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 4.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-ends",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 2.8%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-gently",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 3.0%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-instantly",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 3.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-absolute",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 4.5%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-even",
+     "kind": "content",
+     "reason": "colour disagrees on 98.5% of the pixels both painted (js lane 4.3%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-percents",
+     "kind": "content",
+     "reason": "colour disagrees on 98.5% of the pixels both painted (js lane 4.6%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__text-refresh-bug",
+     "kind": "content",
+     "reason": "colour disagrees on 90.5% of the pixels both painted (js lane 15.5%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__texture-demo-basic-texture",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (74.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.4% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock-test",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__touch-wrap",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.9% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__touch1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__touch2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 98.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__wake-demo-wake-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__01dslclock",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 70.0% of the canvas (js lane 8.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-kotlin__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particledots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particlesphere",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 78.6% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-kotlin__ticker",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 7.8%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "games__order",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__01-draw-commands",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 93.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__02-loop",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 89.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__02-ticker",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 7.9%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "render__03-particles",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.9% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__04-path-expression",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 87.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__12-compvalue",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (16.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__ab-ife",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__asteroids",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__battlezone",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-notilt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-sim",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__cube-3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-10",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-111",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-14",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-dots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-motion",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-oldchips",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-walls",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__mondrian",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__p03-themed-colors",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 5.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "render__seedcross",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__simplewatch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (75.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__starfield",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__tempest",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__twinkle",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__v4-direct",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watchface",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    }
+   ]
+  },
+  "androidx-embedded": {
+   "dropped": false,
+   "rendered": 1170,
+   "failed": 139,
+   "suspect": 96,
+   "reasons": [
+    {
+     "reason": "RuntimeException: Unknown operation encountered 114",
+     "count": 52,
+     "ids": [
+      "architecture3d__architecture3d",
+      "charts3d__01-scatter",
+      "charts3d__02-surface",
+      "charts3d__03-wireframe",
+      "charts3d__04-bars",
+      "charts3d__05-trajectory",
+      "charts3d__06-waterfall",
+      "charts3d__07-contour",
+      "charts3d__08-histogram",
+      "charts3d__09-quiver",
+      "charts3d__10-voxel",
+      "shapes3d__shapes3d",
+      "surface-plot3d__surface-plot3d",
+      "vis-set-01__bio-mb-00003",
+      "vis-set-01__eco-micr-00001",
+      "vis-set-01__phy-fpp-00003",
+      "vis-set-02__bio-cb-00008",
+      "vis-set-02__chm-ac-00002",
+      "vis-set-02__phy-fpp-00007",
+      "vis-set-03__bio-cb-00011",
+      "vis-set-03__fin-mark-00001",
+      "vis-set-03__mth-an-00003",
+      "vis-set-03__phy-fpp-00009",
+      "vis-set-04__bio-bioc-00014",
+      "vis-set-04__eng-me-00004",
+      "vis-set-05__chm-ms-00005",
+      "vis-set-05__eng-me-00005",
+      "vis-set-05__med-ha-00001",
+      "vis-set-05__phy-np-00017",
+      "vis-set-06__bio-gene-00021",
+      "vis-set-06__fin-cf-00005",
+      "vis-set-06__phy-np-00019",
+      "vis-set-07__med-dp-00003",
+      "vis-set-07__phy-qm-00024",
+      "vis-set-07__soc-psyc-00007",
+      "vis-set-08__cal-globe-00001",
+      "vis-set-08__ear-geop-00008",
+      "vis-set-08__eco-ie-00012",
+      "vis-set-08__his-ac-00002",
+      "vis-set-08__phy-qm-00026",
+      "vis-set-09__bio-micr-00024",
+      "vis-set-09__ear-geop-00009",
+      "vis-set-10__bio-micr-00028",
+      "vis-set-10__chm-cr-00010",
+      "vis-set-10__phy-cm-00033",
+      "vis-set-10__soc-anth-00010",
+      "vis-set-11__chm-cr-00011",
+      "vis-set-11__geo-pg-00001",
+      "vis-set-11__phy-cm-00035",
+      "vis-set-12__bio-anat-00031",
+      "vis-set-12__eng-ce-00012",
+      "vis-set-12__fin-acco-00011"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Unknown operation encountered 239",
+     "count": 34,
+     "ids": [
+      "python-samples__demo-fit-box",
+      "python-samples__demo-nested-layout",
+      "python-samples__demo-new-syntax",
+      "python-samples__demo-text",
+      "python-samples__layout-card",
+      "python-samples__layout-centered",
+      "python-samples__layout-clip-circle",
+      "python-samples__layout-clip-rounded",
+      "python-samples__layout-deep-nesting",
+      "python-samples__layout-fill-max-height",
+      "python-samples__layout-fill-max-width",
+      "python-samples__layout-form",
+      "python-samples__layout-grid",
+      "python-samples__layout-header-content-footer",
+      "python-samples__layout-sidebar",
+      "python-samples__layout-weighted-column",
+      "python-samples__layout-weighted-row",
+      "python-samples__layout-z-index",
+      "python-samples__text-alignment",
+      "python-samples__text-cards",
+      "python-samples__text-heading-body",
+      "python-samples__text-layered-borders",
+      "python-samples__text-list",
+      "python-samples__text-sizes",
+      "python-samples__text-stats-row",
+      "python-samples__widget-dashboard",
+      "python-samples__widget-metric",
+      "python-samples__widget-music",
+      "python-samples__widget-notification",
+      "python-samples__widget-profile",
+      "python-samples__widget-score",
+      "python-samples__widget-settings",
+      "python-samples__widget-stats",
+      "python-samples__widget-weather"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N N [A_0] N - N / clamp ) len = N",
+     "count": 24,
+     "ids": [
+      "render__ab-eps",
+      "render__compass-tiltvar",
+      "render__dd-100",
+      "render__dd-108",
+      "render__dd-112",
+      "render__dd-119",
+      "render__dd-142",
+      "render__dd-21",
+      "render__dd-29",
+      "render__dd-42",
+      "render__dd-5",
+      "render__dd-55",
+      "render__dd-68",
+      "render__dd-8",
+      "render__dd-82",
+      "render__dd-84",
+      "render__v2-sensvar",
+      "render__v3-dupdiff",
+      "render__v3-dupsame",
+      "render__var-base",
+      "render__var-negonly",
+      "render__var-noacos",
+      "render__var-noneg",
+      "render__w-unguard"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: Index N out of bounds for length N",
+     "count": 9,
+     "ids": [
+      "androidx-demos__clock-demo1-clock1",
+      "androidx-demos__clock-demo2-jancy-clock2",
+      "androidx-demos__clock-demo2-jclock2",
+      "androidx-demos__digital-clock1",
+      "androidx-demos__experimental-sweep-clock1",
+      "androidx-demos__fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock1",
+      "androidx-demos__fancy-clocks-fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock3"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: null",
+     "count": 5,
+     "ids": [
+      "androidx-demos__experimental-fancy-clock",
+      "render__v2-sysvar",
+      "render__v2-timevar",
+      "render__v3-duptime",
+      "render__v3-dupwidth"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N N [A_0] clamp ) len = N",
+     "count": 5,
+     "ids": [
+      "render__v2-radius",
+      "render__v5-lognegv",
+      "render__v5-nanuse",
+      "render__v5-sqrtneg",
+      "render__v5-zerodiv"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = ([N]N N * % N % [N]N * N * [N]N N * - ) len = N",
+     "count": 2,
+     "ids": [
+      "render__banner-sf",
+      "render__banner-sf-sweep"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Unknown operation encountered 240",
+     "count": 2,
+     "ids": [
+      "python-samples__demo-flow",
+      "python-samples__text-badges"
+     ]
+    },
+    {
+     "reason": "IllegalArgumentException: Software rendering doesn't support RuntimeShader",
+     "count": 1,
+     "ids": [
+      "androidx-demos__shader-calendar"
+     ]
+    },
+    {
+     "reason": "InvocationTargetException: null",
+     "count": 1,
+     "ids": [
+      "androidx-demos__issue"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Dimension of image is invalid 0xN",
+     "count": 1,
+     "ids": [
+      "render__rc-json-particle-sphere"
+     ]
+    },
+    {
+     "reason": "RuntimeException: FloatExpression[N] = (N [A_42] [N]N N + A_DEREF - ) len = N",
+     "count": 1,
+     "ids": [
+      "render__area-chart"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Invalid table size N",
+     "count": 1,
+     "ids": [
+      "androidx-demos__c-flow"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Loop step cannot be zero",
+     "count": 1,
+     "ids": [
+      "androidx-demos__path-demo-path2"
+     ]
+    }
+   ],
+   "failures": [
+    {
+     "id": "androidx-demos__c-flow",
+     "reason": "RuntimeException: Invalid table size 1065353216"
+    },
+    {
+     "id": "androidx-demos__clock-demo1-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jclock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__digital-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__experimental-fancy-clock",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "androidx-demos__experimental-sweep-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock1",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock2",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock3",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "androidx-demos__issue",
+     "reason": "InvocationTargetException: null"
+    },
+    {
+     "id": "androidx-demos__path-demo-path2",
+     "reason": "RuntimeException: Loop step cannot be zero"
+    },
+    {
+     "id": "androidx-demos__shader-calendar",
+     "reason": "IllegalArgumentException: Software rendering doesn't support RuntimeShader"
+    },
+    {
+     "id": "architecture3d__architecture3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__01-scatter",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__02-surface",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__03-wireframe",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__04-bars",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__05-trajectory",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__06-waterfall",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__07-contour",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__08-histogram",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__09-quiver",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "charts3d__10-voxel",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "python-samples__demo-fit-box",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-flow",
+     "reason": "RuntimeException: Unknown operation encountered 240"
+    },
+    {
+     "id": "python-samples__demo-nested-layout",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-new-syntax",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__demo-text",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-card",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-centered",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-clip-circle",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-clip-rounded",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-deep-nesting",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-fill-max-height",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-fill-max-width",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-form",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-grid",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-header-content-footer",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-sidebar",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-weighted-column",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-weighted-row",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__layout-z-index",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-alignment",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-badges",
+     "reason": "RuntimeException: Unknown operation encountered 240"
+    },
+    {
+     "id": "python-samples__text-cards",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-heading-body",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-layered-borders",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-list",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-sizes",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__text-stats-row",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-dashboard",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-metric",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-music",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-notification",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-profile",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-score",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-settings",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-stats",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "python-samples__widget-weather",
+     "reason": "RuntimeException: Unknown operation encountered 239"
+    },
+    {
+     "id": "render__ab-eps",
+     "reason": "RuntimeException: FloatExpression[119] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__area-chart",
+     "reason": "RuntimeException: FloatExpression[51] = (210.0 [A_42] [44]7.0 1.0 + A_DEREF - ) len = 7"
+    },
+    {
+     "id": "render__banner-sf",
+     "reason": "RuntimeException: FloatExpression[137] = ([1]689.352 0.0125 * % 1.0 % [42]1.0 * 1.2 * [42]1.0 0.1 * - ) len = 14"
+    },
+    {
+     "id": "render__banner-sf-sweep",
+     "reason": "RuntimeException: FloatExpression[140] = ([1]689.435 0.0125 * % 1.0 % [42]1.0 * 1.2 * [42]1.0 0.1 * - ) len = 14"
+    },
+    {
+     "id": "render__compass-tiltvar",
+     "reason": "RuntimeException: FloatExpression[119] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-100",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-108",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-112",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-119",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-142",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-21",
+     "reason": "RuntimeException: FloatExpression[76] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-29",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-42",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-5",
+     "reason": "RuntimeException: FloatExpression[106] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-55",
+     "reason": "RuntimeException: FloatExpression[72] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-68",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-8",
+     "reason": "RuntimeException: FloatExpression[89] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-82",
+     "reason": "RuntimeException: FloatExpression[68] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__dd-84",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__rc-json-particle-sphere",
+     "reason": "RuntimeException: Dimension of image is invalid 0x0"
+    },
+    {
+     "id": "render__v2-radius",
+     "reason": "RuntimeException: FloatExpression[43] = (1.0 99.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v2-sensvar",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v2-sysvar",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v2-timevar",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v3-dupdiff",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v3-dupsame",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__v3-duptime",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v3-dupwidth",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__v5-lognegv",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-nanuse",
+     "reason": "RuntimeException: FloatExpression[43] = (1.0 99.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-sqrtneg",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__v5-zerodiv",
+     "reason": "RuntimeException: FloatExpression[43] = (0.0 1.0 [A_0] clamp ) len = 4"
+    },
+    {
+     "id": "render__var-base",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-negonly",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-noacos",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__var-noneg",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "render__w-unguard",
+     "reason": "RuntimeException: FloatExpression[44] = (0.0 1.0 [A_0] 25.0 - 15.0 / clamp ) len = 8"
+    },
+    {
+     "id": "shapes3d__shapes3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "surface-plot3d__surface-plot3d",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__bio-mb-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__eco-micr-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-01__phy-fpp-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__bio-cb-00008",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__chm-ac-00002",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-02__phy-fpp-00007",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__bio-cb-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__fin-mark-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__mth-an-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-03__phy-fpp-00009",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-04__bio-bioc-00014",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-04__eng-me-00004",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__chm-ms-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__eng-me-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__med-ha-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-05__phy-np-00017",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__bio-gene-00021",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__fin-cf-00005",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-06__phy-np-00019",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__med-dp-00003",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__phy-qm-00024",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-07__soc-psyc-00007",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__cal-globe-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__ear-geop-00008",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__eco-ie-00012",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__his-ac-00002",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-08__phy-qm-00026",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-09__bio-micr-00024",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-09__ear-geop-00009",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__bio-micr-00028",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__chm-cr-00010",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__phy-cm-00033",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-10__soc-anth-00010",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__chm-cr-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__geo-pg-00001",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-11__phy-cm-00035",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__bio-anat-00031",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__eng-ce-00012",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    },
+    {
+     "id": "vis-set-12__fin-acco-00011",
+     "reason": "RuntimeException: Unknown operation encountered 114"
+    }
+   ],
+   "suspectKinds": {
+    "blank": 53,
+    "content": 17,
+    "coverage": 26
+   },
+   "suspects": [
+    {
+     "id": "advanced-samples__stock",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 4.6%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__anchored-text",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 22.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__bitmap-font-watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-height",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-size",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-width",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (4.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__color-theme",
+     "kind": "content",
+     "reason": "colour disagrees on 98.2% of the pixels both painted (js lane 29.5%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__countdown",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 100.0% of the canvas (js lane 1.3%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__demo-bitmap-drawing-bit-draw1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 62.2% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-flick-flick-test",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 98.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.6% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test3",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.5% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-use-of-global",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.3% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__demo-winding-rule-path-winding",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__experimental-gmt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (81.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__experimental-solar-gmt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (97.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (97.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-test-conditional",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 93.6% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__graph-graph1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__graph-graph2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__indexing-demo-path-index",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__path-demo-remote-construction",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (37.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__plot-wave",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 96.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient2",
+     "kind": "content",
+     "reason": "colour disagrees on 94.5% of the pixels both painted (js lane 0.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient3",
+     "kind": "content",
+     "reason": "colour disagrees on 99.8% of the pixels both painted (js lane 15.9%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-acc-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-compass",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 69.8% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-gyro-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-light-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 92.4% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-mag-sensor1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__server-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (98.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__simple-java-anim",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__spline-demo-spline-demo1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (16.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__spread-sheet",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 91.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__stock",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 4.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-absolute-pos",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 4.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-ends",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 2.8%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-gently",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 3.0%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-instantly",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 3.4%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-absolute",
+     "kind": "content",
+     "reason": "colour disagrees on 98.4% of the pixels both painted (js lane 4.5%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-even",
+     "kind": "content",
+     "reason": "colour disagrees on 98.5% of the pixels both painted (js lane 4.3%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__stop-notches-percents",
+     "kind": "content",
+     "reason": "colour disagrees on 98.5% of the pixels both painted (js lane 4.6%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__texture-demo-basic-texture",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (74.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.4% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock-test",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__touch-wrap",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.9% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__touch1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__touch2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 98.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__wake-demo-wake-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__01dslclock",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 25.3%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-kotlin__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particledots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particlesphere",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.4% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__ticker",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 7.8%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "games__order",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__01-draw-commands",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 93.7% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__02-loop",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__02-ticker",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 7.9%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "render__03-particles",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.8% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__04-path-expression",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 87.5% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__12-compvalue",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (16.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__ab-ife",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__asteroids",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__battlezone",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-notilt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-sim",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__cube-3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__d29-grid",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 61.5% of the canvas (js lane 0.2%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__dd-10",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-111",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-14",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-dots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-motion",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-oldchips",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-walls",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__mondrian",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__p03-themed-colors",
+     "kind": "content",
+     "reason": "colour disagrees on 100.0% of the pixels both painted (js lane 5.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "render__seedcross",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__simplewatch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (75.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__starfield",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__tempest",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__twinkle",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__v4-direct",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watchface",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    }
+   ]
+  },
+  "cmp-jvm": {
+   "dropped": false,
+   "rendered": 1130,
+   "failed": 179,
+   "suspect": 97,
+   "reasons": [
+    {
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=N vertical=N",
+     "count": 71,
+     "ids": [
+      "advanced-samples__base",
+      "advanced-samples__check-touch-x",
+      "advanced-samples__demo-graphs1",
+      "advanced-samples__demo-text-transform",
+      "advanced-samples__linear-regression",
+      "androidx-demos__base",
+      "androidx-demos__clock",
+      "androidx-demos__clock-demo1-clock1",
+      "androidx-demos__color",
+      "androidx-demos__color-list",
+      "androidx-demos__color-table",
+      "androidx-demos__color-theme",
+      "androidx-demos__countdown",
+      "androidx-demos__demo-bitmap-drawing-bit-draw1",
+      "androidx-demos__demo-bitmap-drawing-bit-draw2",
+      "androidx-demos__demo-graphs0",
+      "androidx-demos__demo-graphs1",
+      "androidx-demos__demo-text-transform",
+      "androidx-demos__demo-use-of-global",
+      "androidx-demos__experimental-fancy-clock",
+      "androidx-demos__experimental-gmt",
+      "androidx-demos__experimental-solar-gmt",
+      "androidx-demos__experimental-sweep-clock1",
+      "androidx-demos__fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock1",
+      "androidx-demos__fancy-clocks-fancy-clock2",
+      "androidx-demos__fancy-clocks-fancy-clock3",
+      "androidx-demos__flow-control-checks-flow-control-checks1",
+      "androidx-demos__flow-control-checks-flow-control-checks2",
+      "androidx-demos__flow-control-checks-test-conditional",
+      "androidx-demos__good-pie-chart",
+      "androidx-demos__graph-graph1",
+      "androidx-demos__graph-graph2",
+      "androidx-demos__haptic-demo-demo-haptic1",
+      "androidx-demos__impulse-demo-confetti-demo",
+      "androidx-demos__impulse-demo-hearts-demo",
+      "androidx-demos__linear-regression",
+      "androidx-demos__particle",
+      "androidx-demos__path-demo-path-tween-demo",
+      "androidx-demos__path-demo-remote-construction",
+      "androidx-demos__pie-chart",
+      "androidx-demos__pie-chart2",
+      "androidx-demos__plot-wave",
+      "androidx-demos__plot2",
+      "androidx-demos__plot3",
+      "androidx-demos__plot4",
+      "androidx-demos__sensor-demo-acc-sensor1",
+      "androidx-demos__sensor-demo-compass",
+      "androidx-demos__sensor-demo-gyro-sensor1",
+      "androidx-demos__sensor-demo-light-sensor1",
+      "androidx-demos__sensor-demo-mag-sensor1",
+      "androidx-demos__server-clock",
+      "androidx-demos__simple-java-anim",
+      "androidx-demos__spline-demo-spline-demo1",
+      "androidx-demos__spread-sheet",
+      "androidx-demos__stop-absolute-pos",
+      "androidx-demos__stop-ends",
+      "androidx-demos__stop-gently",
+      "androidx-demos__stop-instantly",
+      "androidx-demos__stop-notches-absolute",
+      "androidx-demos__stop-notches-even",
+      "androidx-demos__stop-notches-percents",
+      "androidx-demos__themed-plot1",
+      "androidx-demos__thumb-wheel1",
+      "androidx-demos__touch-wrap",
+      "androidx-demos__touch1",
+      "androidx-demos__touch2",
+      "androidx-kotlin__linearregression3",
+      "render__graphs",
+      "render__linear-regression",
+      "render__rc-json-graphs2"
+     ]
+    },
+    {
+     "reason": "RcWireException: Unsupported operation at byte N, opcode=114, field=opcode",
+     "count": 52,
+     "ids": [
+      "architecture3d__architecture3d",
+      "charts3d__01-scatter",
+      "charts3d__02-surface",
+      "charts3d__03-wireframe",
+      "charts3d__04-bars",
+      "charts3d__05-trajectory",
+      "charts3d__06-waterfall",
+      "charts3d__07-contour",
+      "charts3d__08-histogram",
+      "charts3d__09-quiver",
+      "charts3d__10-voxel",
+      "shapes3d__shapes3d",
+      "surface-plot3d__surface-plot3d",
+      "vis-set-01__bio-mb-00003",
+      "vis-set-01__eco-micr-00001",
+      "vis-set-01__phy-fpp-00003",
+      "vis-set-02__bio-cb-00008",
+      "vis-set-02__chm-ac-00002",
+      "vis-set-02__phy-fpp-00007",
+      "vis-set-03__bio-cb-00011",
+      "vis-set-03__fin-mark-00001",
+      "vis-set-03__mth-an-00003",
+      "vis-set-03__phy-fpp-00009",
+      "vis-set-04__bio-bioc-00014",
+      "vis-set-04__eng-me-00004",
+      "vis-set-05__chm-ms-00005",
+      "vis-set-05__eng-me-00005",
+      "vis-set-05__med-ha-00001",
+      "vis-set-05__phy-np-00017",
+      "vis-set-06__bio-gene-00021",
+      "vis-set-06__fin-cf-00005",
+      "vis-set-06__phy-np-00019",
+      "vis-set-07__med-dp-00003",
+      "vis-set-07__phy-qm-00024",
+      "vis-set-07__soc-psyc-00007",
+      "vis-set-08__cal-globe-00001",
+      "vis-set-08__ear-geop-00008",
+      "vis-set-08__eco-ie-00012",
+      "vis-set-08__his-ac-00002",
+      "vis-set-08__phy-qm-00026",
+      "vis-set-09__bio-micr-00024",
+      "vis-set-09__ear-geop-00009",
+      "vis-set-10__bio-micr-00028",
+      "vis-set-10__chm-cr-00010",
+      "vis-set-10__phy-cm-00033",
+      "vis-set-10__soc-anth-00010",
+      "vis-set-11__chm-cr-00011",
+      "vis-set-11__geo-pg-00001",
+      "vis-set-11__phy-cm-00035",
+      "vis-set-12__bio-anat-00031",
+      "vis-set-12__eng-ce-00012",
+      "vis-set-12__fin-acco-00011"
+     ]
+    },
+    {
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction",
+     "count": 20,
+     "ids": [
+      "render__96-perf-limit",
+      "render__arrprobe",
+      "render__btn-top",
+      "render__counter",
+      "render__drag-circles",
+      "render__j2-130000",
+      "render__j2-3000",
+      "render__j2-30000",
+      "render__j2-400",
+      "render__jit-3000",
+      "render__jit-30000",
+      "render__jit-400",
+      "render__jit-64",
+      "render__perf-limit",
+      "render__spir-130000",
+      "render__spir-16000",
+      "render__spir-2000",
+      "render__spir-256",
+      "render__sv-both",
+      "render__sv-probe"
+     ]
+    },
+    {
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation N",
+     "count": 8,
+     "ids": [
+      "advanced-samples__paths-demos",
+      "androidx-demos__paths-demos",
+      "androidx-kotlin__modernshowcase",
+      "render__material-toggle-button-macro",
+      "render__rc-json-macro-demo",
+      "render__rc-json-macro-local-demo",
+      "render__rc-json-referenced-operations-macro-demo",
+      "render__rc-json-style-macro-demo"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: Index N out of bounds for length N",
+     "count": 4,
+     "ids": [
+      "render__area-chart",
+      "render__area-chart-of-daily-website-visitors-for",
+      "render__banner-sf",
+      "render__banner-sf-sweep"
+     ]
+    },
+    {
+     "reason": "IllegalArgumentException: Cannot round NaN value.",
+     "count": 3,
+     "ids": [
+      "androidx-demos__attribute-string",
+      "androidx-demos__c-modifier-align-by-baseline",
+      "androidx-demos__text-baseline"
+     ]
+    },
+    {
+     "reason": "IllegalStateException: Check failed.",
+     "count": 3,
+     "ids": [
+      "python-samples__viewport-basic",
+      "python-samples__viewport-chart",
+      "python-samples__viewport-flipy"
+     ]
+    },
+    {
+     "reason": "RuntimeException: Can't wrap nullptr",
+     "count": 3,
+     "ids": [
+      "androidx-demos__procedure-gradient1",
+      "androidx-demos__procedure-gradient2",
+      "androidx-kotlin__particledots2"
+     ]
+    },
+    {
+     "reason": "ArrayIndexOutOfBoundsException: null",
+     "count": 2,
+     "ids": [
+      "render__line-chart",
+      "render__monthly-revenue-line-chart-over-six-mont"
+     ]
+    },
+    {
+     "reason": "IllegalStateException: Paint command 25 is not implemented by the baseline player",
+     "count": 2,
+     "ids": [
+      "androidx-kotlin__ticker",
+      "render__02-ticker"
+     ]
+    },
+    {
+     "reason": "IllegalStateException: Unknown AndroidX row vertical position N",
+     "count": 2,
+     "ids": [
+      "androidx-demos__digital-clock1",
+      "androidx-demos__text-refresh-bug"
+     ]
+    },
+    {
+     "reason": "RcWireException: Header may only appear once at byte N, opcode=0 (Header)",
+     "count": 2,
+     "ids": [
+      "advanced-samples__stock",
+      "androidx-demos__stock"
+     ]
+    },
+    {
+     "reason": "RcWireException: Invalid header magic 0xN at byte N, opcode=0 (Header), field=majorVersion",
+     "count": 2,
+     "ids": [
+      "androidx-demos__c-flow",
+      "python-samples__demo-flow"
+     ]
+    },
+    {
+     "reason": "IllegalStateException: Unsupported AndroidX text overflow N",
+     "count": 1,
+     "ids": [
+      "python-samples__text-alignment"
+     ]
+    },
+    {
+     "reason": "RcLayoutException: Missing TextStyle id N",
+     "count": 1,
+     "ids": [
+      "androidx-demos__issue"
+     ]
+    },
+    {
+     "reason": "RcWireException: Invalid bitmap dimensions 0xN at byte N, opcode=101 (BitmapData), field=dimensions",
+     "count": 1,
+     "ids": [
+      "render__rc-json-particle-sphere"
+     ]
+    },
+    {
+     "reason": "RcWireException: Loop step cannot be zero at byte N, opcode=215 (LoopOperation), field=step",
+     "count": 1,
+     "ids": [
+      "androidx-demos__path-demo-path2"
+     ]
+    },
+    {
+     "reason": "RcWireException: Unsupported operation at byte N, opcode=255, field=opcode",
+     "count": 1,
+     "ids": [
+      "python-samples__text-badges"
+     ]
+    }
+   ],
+   "failures": [
+    {
+     "id": "advanced-samples__base",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "advanced-samples__check-touch-x",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "advanced-samples__demo-graphs1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "advanced-samples__demo-text-transform",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "advanced-samples__linear-regression",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "advanced-samples__paths-demos",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 425"
+    },
+    {
+     "id": "advanced-samples__stock",
+     "reason": "RcWireException: Header may only appear once at byte 0, opcode=0 (Header)"
+    },
+    {
+     "id": "androidx-demos__attribute-string",
+     "reason": "IllegalArgumentException: Cannot round NaN value."
+    },
+    {
+     "id": "androidx-demos__base",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__c-flow",
+     "reason": "RcWireException: Invalid header magic 0x37000000 at byte 104, opcode=0 (Header), field=majorVersion"
+    },
+    {
+     "id": "androidx-demos__c-modifier-align-by-baseline",
+     "reason": "IllegalArgumentException: Cannot round NaN value."
+    },
+    {
+     "id": "androidx-demos__clock",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__clock-demo1-clock1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__color",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__color-list",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__color-table",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__color-theme",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__countdown",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-bitmap-drawing-bit-draw1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-bitmap-drawing-bit-draw2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-graphs0",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-graphs1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-text-transform",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__demo-use-of-global",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__digital-clock1",
+     "reason": "IllegalStateException: Unknown AndroidX row vertical position 1"
+    },
+    {
+     "id": "androidx-demos__experimental-fancy-clock",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__experimental-gmt",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__experimental-solar-gmt",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__experimental-sweep-clock1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__fancy-clock2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__fancy-clocks-fancy-clock3",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-flow-control-checks2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__flow-control-checks-test-conditional",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__good-pie-chart",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__graph-graph1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__graph-graph2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__haptic-demo-demo-haptic1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__impulse-demo-confetti-demo",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__impulse-demo-hearts-demo",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__issue",
+     "reason": "RcLayoutException: Missing TextStyle id 0"
+    },
+    {
+     "id": "androidx-demos__linear-regression",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__particle",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__path-demo-path-tween-demo",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__path-demo-path2",
+     "reason": "RcWireException: Loop step cannot be zero at byte 486, opcode=215 (LoopOperation), field=step"
+    },
+    {
+     "id": "androidx-demos__path-demo-remote-construction",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__paths-demos",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 425"
+    },
+    {
+     "id": "androidx-demos__pie-chart",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__pie-chart2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__plot-wave",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__plot2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__plot3",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__plot4",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient1",
+     "reason": "RuntimeException: Can't wrap nullptr"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient2",
+     "reason": "RuntimeException: Can't wrap nullptr"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-acc-sensor1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-compass",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-gyro-sensor1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-light-sensor1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__sensor-demo-mag-sensor1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__server-clock",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__simple-java-anim",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__spline-demo-spline-demo1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__spread-sheet",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stock",
+     "reason": "RcWireException: Header may only appear once at byte 0, opcode=0 (Header)"
+    },
+    {
+     "id": "androidx-demos__stop-absolute-pos",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-ends",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-gently",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-instantly",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-notches-absolute",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-notches-even",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__stop-notches-percents",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__text-baseline",
+     "reason": "IllegalArgumentException: Cannot round NaN value."
+    },
+    {
+     "id": "androidx-demos__text-refresh-bug",
+     "reason": "IllegalStateException: Unknown AndroidX row vertical position 1"
+    },
+    {
+     "id": "androidx-demos__themed-plot1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__thumb-wheel1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__touch-wrap",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__touch1",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-demos__touch2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-kotlin__linearregression3",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "androidx-kotlin__modernshowcase",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 128"
+    },
+    {
+     "id": "androidx-kotlin__particledots2",
+     "reason": "RuntimeException: Can't wrap nullptr"
+    },
+    {
+     "id": "androidx-kotlin__ticker",
+     "reason": "IllegalStateException: Paint command 25 is not implemented by the baseline player"
+    },
+    {
+     "id": "architecture3d__architecture3d",
+     "reason": "RcWireException: Unsupported operation at byte 159, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__01-scatter",
+     "reason": "RcWireException: Unsupported operation at byte 276, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__02-surface",
+     "reason": "RcWireException: Unsupported operation at byte 246, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__03-wireframe",
+     "reason": "RcWireException: Unsupported operation at byte 244, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__04-bars",
+     "reason": "RcWireException: Unsupported operation at byte 249, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__05-trajectory",
+     "reason": "RcWireException: Unsupported operation at byte 264, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__06-waterfall",
+     "reason": "RcWireException: Unsupported operation at byte 254, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__07-contour",
+     "reason": "RcWireException: Unsupported operation at byte 252, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__08-histogram",
+     "reason": "RcWireException: Unsupported operation at byte 248, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__09-quiver",
+     "reason": "RcWireException: Unsupported operation at byte 254, opcode=114, field=opcode"
+    },
+    {
+     "id": "charts3d__10-voxel",
+     "reason": "RcWireException: Unsupported operation at byte 263, opcode=114, field=opcode"
+    },
+    {
+     "id": "python-samples__demo-flow",
+     "reason": "RcWireException: Invalid header magic 0x37000000 at byte 96, opcode=0 (Header), field=majorVersion"
+    },
+    {
+     "id": "python-samples__text-alignment",
+     "reason": "IllegalStateException: Unsupported AndroidX text overflow 0"
+    },
+    {
+     "id": "python-samples__text-badges",
+     "reason": "RcWireException: Unsupported operation at byte 180, opcode=255, field=opcode"
+    },
+    {
+     "id": "python-samples__viewport-basic",
+     "reason": "IllegalStateException: Check failed."
+    },
+    {
+     "id": "python-samples__viewport-chart",
+     "reason": "IllegalStateException: Check failed."
+    },
+    {
+     "id": "python-samples__viewport-flipy",
+     "reason": "IllegalStateException: Check failed."
+    },
+    {
+     "id": "render__02-ticker",
+     "reason": "IllegalStateException: Paint command 25 is not implemented by the baseline player"
+    },
+    {
+     "id": "render__96-perf-limit",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__area-chart",
+     "reason": "ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8"
+    },
+    {
+     "id": "render__area-chart-of-daily-website-visitors-for",
+     "reason": "ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7"
+    },
+    {
+     "id": "render__arrprobe",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__banner-sf",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "render__banner-sf-sweep",
+     "reason": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 128"
+    },
+    {
+     "id": "render__btn-top",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__counter",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__drag-circles",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__graphs",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "render__j2-130000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__j2-3000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__j2-30000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__j2-400",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__jit-3000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__jit-30000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__jit-400",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__jit-64",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__line-chart",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__linear-regression",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "render__material-toggle-button-macro",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 4"
+    },
+    {
+     "id": "render__monthly-revenue-line-chart-over-six-mont",
+     "reason": "ArrayIndexOutOfBoundsException: null"
+    },
+    {
+     "id": "render__perf-limit",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__rc-json-graphs2",
+     "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"
+    },
+    {
+     "id": "render__rc-json-macro-demo",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 2"
+    },
+    {
+     "id": "render__rc-json-macro-local-demo",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 2"
+    },
+    {
+     "id": "render__rc-json-particle-sphere",
+     "reason": "RcWireException: Invalid bitmap dimensions 0x0 at byte 389, opcode=101 (BitmapData), field=dimensions"
+    },
+    {
+     "id": "render__rc-json-referenced-operations-macro-demo",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 2"
+    },
+    {
+     "id": "render__rc-json-style-macro-demo",
+     "reason": "RcLinkException: Unmatched ContainerEnd at operation 4"
+    },
+    {
+     "id": "render__spir-130000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__spir-16000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__spir-2000",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__spir-256",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__sv-both",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "render__sv-probe",
+     "reason": "IllegalStateException: Opcode 81 cannot execute inside RunAction"
+    },
+    {
+     "id": "shapes3d__shapes3d",
+     "reason": "RcWireException: Unsupported operation at byte 158, opcode=114, field=opcode"
+    },
+    {
+     "id": "surface-plot3d__surface-plot3d",
+     "reason": "RcWireException: Unsupported operation at byte 7634, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-01__bio-mb-00003",
+     "reason": "RcWireException: Unsupported operation at byte 209, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-01__eco-micr-00001",
+     "reason": "RcWireException: Unsupported operation at byte 213, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-01__phy-fpp-00003",
+     "reason": "RcWireException: Unsupported operation at byte 218, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-02__bio-cb-00008",
+     "reason": "RcWireException: Unsupported operation at byte 13205, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-02__chm-ac-00002",
+     "reason": "RcWireException: Unsupported operation at byte 225, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-02__phy-fpp-00007",
+     "reason": "RcWireException: Unsupported operation at byte 216, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-03__bio-cb-00011",
+     "reason": "RcWireException: Unsupported operation at byte 204, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-03__fin-mark-00001",
+     "reason": "RcWireException: Unsupported operation at byte 196, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-03__mth-an-00003",
+     "reason": "RcWireException: Unsupported operation at byte 206, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-03__phy-fpp-00009",
+     "reason": "RcWireException: Unsupported operation at byte 483, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-04__bio-bioc-00014",
+     "reason": "RcWireException: Unsupported operation at byte 221, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-04__eng-me-00004",
+     "reason": "RcWireException: Unsupported operation at byte 220, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-05__chm-ms-00005",
+     "reason": "RcWireException: Unsupported operation at byte 5331, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-05__eng-me-00005",
+     "reason": "RcWireException: Unsupported operation at byte 237, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-05__med-ha-00001",
+     "reason": "RcWireException: Unsupported operation at byte 205, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-05__phy-np-00017",
+     "reason": "RcWireException: Unsupported operation at byte 208, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-06__bio-gene-00021",
+     "reason": "RcWireException: Unsupported operation at byte 250, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-06__fin-cf-00005",
+     "reason": "RcWireException: Unsupported operation at byte 250, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-06__phy-np-00019",
+     "reason": "RcWireException: Unsupported operation at byte 236, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-07__med-dp-00003",
+     "reason": "RcWireException: Unsupported operation at byte 247, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-07__phy-qm-00024",
+     "reason": "RcWireException: Unsupported operation at byte 252, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-07__soc-psyc-00007",
+     "reason": "RcWireException: Unsupported operation at byte 266, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-08__cal-globe-00001",
+     "reason": "RcWireException: Unsupported operation at byte 34556, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-08__ear-geop-00008",
+     "reason": "RcWireException: Unsupported operation at byte 261, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-08__eco-ie-00012",
+     "reason": "RcWireException: Unsupported operation at byte 34512, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-08__his-ac-00002",
+     "reason": "RcWireException: Unsupported operation at byte 263, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-08__phy-qm-00026",
+     "reason": "RcWireException: Unsupported operation at byte 292, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-09__bio-micr-00024",
+     "reason": "RcWireException: Unsupported operation at byte 242, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-09__ear-geop-00009",
+     "reason": "RcWireException: Unsupported operation at byte 253, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-10__bio-micr-00028",
+     "reason": "RcWireException: Unsupported operation at byte 234, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-10__chm-cr-00010",
+     "reason": "RcWireException: Unsupported operation at byte 237, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-10__phy-cm-00033",
+     "reason": "RcWireException: Unsupported operation at byte 264, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-10__soc-anth-00010",
+     "reason": "RcWireException: Unsupported operation at byte 34521, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-11__chm-cr-00011",
+     "reason": "RcWireException: Unsupported operation at byte 239, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-11__geo-pg-00001",
+     "reason": "RcWireException: Unsupported operation at byte 226, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-11__phy-cm-00035",
+     "reason": "RcWireException: Unsupported operation at byte 272, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-12__bio-anat-00031",
+     "reason": "RcWireException: Unsupported operation at byte 257, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-12__eng-ce-00012",
+     "reason": "RcWireException: Unsupported operation at byte 253, opcode=114, field=opcode"
+    },
+    {
+     "id": "vis-set-12__fin-acco-00011",
+     "reason": "RcWireException: Unsupported operation at byte 250, opcode=114, field=opcode"
+    }
+   ],
+   "suspectKinds": {
+    "blank": 84,
+    "content": 1,
+    "coverage": 12
+   },
+   "suspects": [
+    {
+     "id": "advanced-samples__balls-animation-example",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__anchored-text",
+     "kind": "content",
+     "reason": "colour disagrees on 99.7% of the pixels both painted (js lane 22.1%); likely magnified or drawn in the wrong colours"
+    },
+    {
+     "id": "androidx-demos__bitmap-font-watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-height",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-size",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__c-modifier-fill-parent-max-width",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 75.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jancy-clock2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (96.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__clock-demo2-jclock2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (96.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__demo-flick-flick-test",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 98.2% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test1",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test2",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.6% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-path-expression-path-test3",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__demo-winding-rule-path-winding",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__hostile-actor1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (98.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__hostile-actor1-c",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__indexing-demo-path-index",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 99.3% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-demos__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__maze2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__path-procedural-checks-all-path",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (22.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__path-procedural-checks-basic-path",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (8.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-center-text1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (29.6% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient3",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (54.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-gradient4",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (29.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-look-up1",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (6.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple-clock-fast",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple3",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple4",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple5",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (13.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-simple6",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (66.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-text-path-effects",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (28.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__procedure-version",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (70.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-basic-texture",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (74.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.4% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__texture-demo-texture-clock-test",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (80.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-demos__wake-demo-wake-clock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__01dslclock",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (4.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__cube3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__cubesphere",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__cubesphere2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (99.8% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particledots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (78.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "androidx-kotlin__particlesphere",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 78.8% of the canvas (js lane 0.1%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "androidx-kotlin__spheretimeshader",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "games__order",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-breathing",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (2.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-clock-simple",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-loading-bar",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (1.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-orbit",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-pendulum",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.4% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-pulse",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (8.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-radar",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.1% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-rotate-square",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (2.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-spinner",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.7% of the canvas painted on one side only)"
+    },
+    {
+     "id": "python-samples__anim-wave",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (2.3% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__01-draw-commands",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 94.0% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__02-loop",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 89.6% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__03-particles",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 97.9% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__04-path-expression",
+     "kind": "coverage",
+     "reason": "painted area disagrees with the baked PNG on 87.4% of the canvas (js lane 0.0%); likely magnified, cropped or offset"
+    },
+    {
+     "id": "render__09-expressions",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (2.5% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__12-compvalue",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (16.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__ab-eps",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__ab-ife",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__asteroids",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__battlezone",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-notilt",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-sim",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__compass-tiltvar",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__cube-3d",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-10",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-100",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-108",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.2% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-14",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-2",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-21",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-5",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__dd-8",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-dots",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-motion",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-oldchips",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__droidman-walls",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__maze",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__mondrian",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__p03-themed-colors",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__seedcross",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__simplewatch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (75.9% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__starfield",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__tempest",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__twinkle",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__v2-radius",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__v4-direct",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__v5-nanuse",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (0.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watch",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (100.0% of the canvas painted on one side only)"
+    },
+    {
+     "id": "render__watchface",
+     "kind": "blank",
+     "reason": "nothing it painted overlaps the baked PNG's content (79.0% of the canvas painted on one side only)"
+    }
+   ]
+  }
+ },
+ "publish": {
+  "source": "e0dd2be14cfea36a05bce0927f30f8ea4ef7da7f",
+  "documents": 1310,
+  "images": 1309,
+  "renderFailures": [
+   {
+    "id": "advanced-samples/rc-flow",
+    "reason": "Page.evaluate: RangeError: Offset is outside the bounds of the DataView"
+   }
+  ],
+  "reasons": [
+   {
+    "reason": "Page.evaluate: RangeError: Offset is outside the bounds of the DataView",
+    "count": 1,
+    "ids": [
+     "advanced-samples/rc-flow"
+    ]
+   }
+  ]
+ }
+}
