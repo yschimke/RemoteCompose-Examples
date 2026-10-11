@@ -169,6 +169,9 @@ if [ ${#WASM_ARGS[@]} -gt 0 ]; then
   # lane with it. Retry without it rather than lose the whole comparison.
   if ! run_compare "${compare_args[@]}" "${WASM_ARGS[@]}"; then
     echo "::warning::rc-compare failed with the cmp-wasm lane; retrying without it"
+    # Requested but lost: record it, so the failure report keeps the lane and the cache key is
+    # withheld for a retry next run.
+    echo "cmp-wasm player" >> "$DROPPED"
     rm -rf "$OUT/rc-cmp-wasm" "$OUT/rc-cmp-wasm-diff" "$OUT/rc-cmp-wasm-errors"
     run_compare "${compare_args[@]}"
   fi
