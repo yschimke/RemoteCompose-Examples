@@ -43,163 +43,282 @@
   },
   "advanced-samples/cube3d": {
     "sha256": "ec065b0b02a5b8c5aee9c3ff7a4b5abfd5b3f05b8c4fa5caa195a98ba5d3b8b1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ec065b0b02a5b8c5aee9c3ff7a4b5abfd5b3f05b8c4fa5caa195a98ba5d3b8b1:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "advanced-samples/demo-graphs1": {
     "sha256": "edda268aebba7f4a5b59b6cb31de20c01857005ae38b0b6325d55b228aef399d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "edda268aebba7f4a5b59b6cb31de20c01857005ae38b0b6325d55b228aef399d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "advanced-samples/demo-text-transform": {
     "sha256": "cb4af9f1163e92d0f9dcd23b7249fc45e96ab10ee093bffa65c5547539602c88",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cb4af9f1163e92d0f9dcd23b7249fc45e96ab10ee093bffa65c5547539602c88:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "advanced-samples/double-pendulum-example": {
     "sha256": "846c89ec9e146c14b5614786ef69fb92f6b97f354ce4cf17606b40c8ac7c7ac2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "846c89ec9e146c14b5614786ef69fb92f6b97f354ce4cf17606b40c8ac7c7ac2:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "advanced-samples/linear-regression": {
     "sha256": "b59f021da505cda2551f21a67738d6ba963dcfd96852192b12005009c7b53626",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b59f021da505cda2551f21a67738d6ba963dcfd96852192b12005009c7b53626:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "advanced-samples/paths-demos": {
     "sha256": "8950b8fc61b533d3d3ce985dde1ab43494d0796af7673ffd22a356ca6bfc5028",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8950b8fc61b533d3d3ce985dde1ab43494d0796af7673ffd22a356ca6bfc5028:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "advanced-samples/pressure-gauge": {
     "sha256": "7d324a383337f5eae2e0ef2e66d3ce9eff0b4f9ef20626b5faddd68f634a1240",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7d324a383337f5eae2e0ef2e66d3ce9eff0b4f9ef20626b5faddd68f634a1240:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "advanced-samples/rc-flow": {
     "sha256": "ff94a6a6a5032661a2c3a4ebe4db113a9a9dd0981ad3c7812b072125aaf70612",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ff94a6a6a5032661a2c3a4ebe4db113a9a9dd0981ad3c7812b072125aaf70612:2:cb84224aae12e593",
+    "error": "Page.evaluate: RangeError: Offset is outside the bounds of the DataView\n    at DataView.prototype.getInt32 (<anonymous>)\n    at Xn.readInt (http://127.0.0.1:34395/assets/player.js:9:3764)\n    at pt.readDirect (http://127.0.0.1:34395/assets/player.js:1:20848)\n    at read (http://127.0.0.1:34395/assets/player.js:1:21677)\n    at u.inflateFromBuffer (http://127.0.0.1:34395/assets/player.js:10:33006)\n    at Di.initFromBuffer (http://127.0.0.1:34395/assets/player.js:10:40833)\n    at _i.loadFromArrayBu"
   },
   "advanced-samples/stock": {
     "sha256": "c1ee4b9702cfe7def06d135df08d3165d96f62a421f9097cd52043b16eb0d23a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c1ee4b9702cfe7def06d135df08d3165d96f62a421f9097cd52043b16eb0d23a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/activity-rings": {
     "sha256": "a7bf78b703b1de6eabc219426ea681cc411bc95b03b0d8ea2f9857cef7ef0789",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a7bf78b703b1de6eabc219426ea681cc411bc95b03b0d8ea2f9857cef7ef0789:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/anchored-text": {
     "sha256": "23d1cb44788b29e11ea92df364740b241fa634133e572ff9a1517b02955bb848",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "23d1cb44788b29e11ea92df364740b241fa634133e572ff9a1517b02955bb848:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/attribute-string": {
     "sha256": "c23283863e905e1723acedc23f5b4ebd4307b431ce58ab229a1b037d26cf8723",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c23283863e905e1723acedc23f5b4ebd4307b431ce58ab229a1b037d26cf8723:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/base": {
     "sha256": "71ed485c5de5e6d18ae751b98f7c5b9023ce5f248a2f6ed81e0496f66860287d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "71ed485c5de5e6d18ae751b98f7c5b9023ce5f248a2f6ed81e0496f66860287d:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/battery-radial-gauge": {
     "sha256": "b15fa7529fafb31cd498097c8bceabf5307cab1ca3fd784faed292601f1d0a4d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b15fa7529fafb31cd498097c8bceabf5307cab1ca3fd784faed292601f1d0a4d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/bitmap-font-watch": {
     "sha256": "284fabb3f489ada19112a73f6fa9e3ddb6d1a8dbc980cf2113b1e07cb4d8b36f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "284fabb3f489ada19112a73f6fa9e3ddb6d1a8dbc980cf2113b1e07cb4d8b36f:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-box": {
     "sha256": "5e57ef074795cfbfc89777d980d2d008e6bb0acef129a59d042b6a6d481cd2ce",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5e57ef074795cfbfc89777d980d2d008e6bb0acef129a59d042b6a6d481cd2ce:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-collapsible-column": {
     "sha256": "12c35fab4b465eac4bfa50ebfd757dc76b5f7d07a4c12ca94ec804dd0ca7b668",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "12c35fab4b465eac4bfa50ebfd757dc76b5f7d07a4c12ca94ec804dd0ca7b668:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-collapsible-row": {
     "sha256": "0abe16683d7b86c11343b599ed37b59b0875551fbf66d8eb844a4a5c62ca850e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0abe16683d7b86c11343b599ed37b59b0875551fbf66d8eb844a4a5c62ca850e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-column": {
     "sha256": "7a94256f02f4f4fa55bc8663a5259d82e2e6908a0ccd82b9c52d73b391917afb",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7a94256f02f4f4fa55bc8663a5259d82e2e6908a0ccd82b9c52d73b391917afb:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-fit-box": {
     "sha256": "e59e0cf02f62268f8ea9dc9f0437f53c79a8fa0299963b00daefd5d0cd34a6a1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e59e0cf02f62268f8ea9dc9f0437f53c79a8fa0299963b00daefd5d0cd34a6a1:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-flow": {
     "sha256": "1d86f660924168e55952d8c1b19f9b2dd6ccb77e031aead81d7a737b9931ab0c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "1d86f660924168e55952d8c1b19f9b2dd6ccb77e031aead81d7a737b9931ab0c:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-image": {
     "sha256": "6f6a1e123a3762a3162b11655d9b23b8935665ba9a76069385cc98bebe1aef03",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6f6a1e123a3762a3162b11655d9b23b8935665ba9a76069385cc98bebe1aef03:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-align-by-baseline": {
     "sha256": "d399d86aaa7d5816feb4c5fe5725b16930dfbf7856e21110af5328738a34aade",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d399d86aaa7d5816feb4c5fe5725b16930dfbf7856e21110af5328738a34aade:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-modifier-background": {
     "sha256": "26a2dcaa74cd09b8673bab459326c6b5869747a413f830b56ea14fd61d2ac764",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "26a2dcaa74cd09b8673bab459326c6b5869747a413f830b56ea14fd61d2ac764:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-background-id": {
     "sha256": "bbda5c054ec9f9ebeeb886edffece5d10eed91af9c69333a37ba5627b83d77d1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "bbda5c054ec9f9ebeeb886edffece5d10eed91af9c69333a37ba5627b83d77d1:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-border": {
     "sha256": "e8f8d24800dafcddf24ba3b4ab603cbbd3fd88e47e9a1ac040bee4d17f9f1447",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e8f8d24800dafcddf24ba3b4ab603cbbd3fd88e47e9a1ac040bee4d17f9f1447:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-clip-circle": {
     "sha256": "a91ee3614d1927f8d68e5cf65fd0af1ed96dbef624adbbfb77bfbe0a6b3476f3",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a91ee3614d1927f8d68e5cf65fd0af1ed96dbef624adbbfb77bfbe0a6b3476f3:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-clip-rect": {
     "sha256": "4de341956a2d502bea7c4c8076356be5ffb4cddf52fb0b8dc52af58df123172e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4de341956a2d502bea7c4c8076356be5ffb4cddf52fb0b8dc52af58df123172e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-clip-rounded-rect": {
     "sha256": "46dfc41207e5890829b9b3b4b872e0e5c38e5d91d924f50d4a02b8aad0bb2cf0",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "46dfc41207e5890829b9b3b4b872e0e5c38e5d91d924f50d4a02b8aad0bb2cf0:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-collapsible-priority": {
     "sha256": "c482d78f27503bd1e26c549040034d31a3b2a534d49ca4c6f4c4365714f28b19",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c482d78f27503bd1e26c549040034d31a3b2a534d49ca4c6f4c4365714f28b19:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-component-id": {
     "sha256": "0bfdac44518d323994de7c86669d1714363f71917f5b60dab7ac962235adce13",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0bfdac44518d323994de7c86669d1714363f71917f5b60dab7ac962235adce13:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-compute-measure": {
     "sha256": "000299d0a766ffdb8f011f03bc5d8dc0682fbd5f5d8ac8c3b49d7d3ad4316697",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "000299d0a766ffdb8f011f03bc5d8dc0682fbd5f5d8ac8c3b49d7d3ad4316697:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-modifier-compute-position": {
     "sha256": "ae2cdaffc778685744f9ef38e58cc62a32eea1c172e148556d8ac4f51190b18e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ae2cdaffc778685744f9ef38e58cc62a32eea1c172e148556d8ac4f51190b18e:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/c-modifier-dynamic-border": {
     "sha256": "991b21e40b4e9ac21ead483f587078fd21a1301c85ef0df497e6ed893f5927b4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "991b21e40b4e9ac21ead483f587078fd21a1301c85ef0df497e6ed893f5927b4:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-max-height": {
     "sha256": "6d25792dd1d73279c5108b91e8521cc01e9b02df07b7876db511e0db8d3146fd",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6d25792dd1d73279c5108b91e8521cc01e9b02df07b7876db511e0db8d3146fd:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-max-size": {
     "sha256": "d0386f792a8c47b9047a874fbd40d0882c64dbded2137c8dc8f2416ed9c24c1a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d0386f792a8c47b9047a874fbd40d0882c64dbded2137c8dc8f2416ed9c24c1a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-max-width": {
     "sha256": "66625928ef15c069fd76b915a662b2029b3d2856a82264a6c969ae12171a32ca",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "66625928ef15c069fd76b915a662b2029b3d2856a82264a6c969ae12171a32ca:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-parent-max-height": {
     "sha256": "84600242fe08b8d1215a65f5310497126b421611f993e259a1fd996a4611257a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "84600242fe08b8d1215a65f5310497126b421611f993e259a1fd996a4611257a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-parent-max-size": {
     "sha256": "e196b9d49d1085d37505daf2c4efe7cc132bbd475a94655e88f78b39e992e338",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e196b9d49d1085d37505daf2c4efe7cc132bbd475a94655e88f78b39e992e338:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-fill-parent-max-width": {
     "sha256": "a43af214b23902ae5559b99fcfbab63a689e538a91e8d4902222aed6a8a41e33",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a43af214b23902ae5559b99fcfbab63a689e538a91e8d4902222aed6a8a41e33:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/c-modifier-height": {
     "sha256": "9e0da2bd9ecd98001beb7efb8ec080c1f40cc70895208e99ecc850965c2826b8",

@@ -116,6 +116,669 @@
       ]
     },
     {
+      "componentId": "advanced-samples/cube3d",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Wireframe-shaded 3D cube, cyan top face and red front, inside a dark circular vignette. #3d",
+      "sourceFile": "docs/advanced-samples/cube3d/doc.rc",
+      "rcDocument": "documents/advanced-samples/cube3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/cube3d.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/demo-graphs1",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Line and area chart, red curves over a navy grid with labelled axes and a legend. #graph",
+      "sourceFile": "docs/advanced-samples/demo-graphs1/doc.rc",
+      "rcDocument": "documents/advanced-samples/demo-graphs1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/demo-graphs1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/demo-text-transform",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/advanced-samples/demo-text-transform/doc.rc",
+      "rcDocument": "documents/advanced-samples/demo-text-transform.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/demo-text-transform.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/double-pendulum-example",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Double pendulum swinging on black, drawing a decaying trail of its path. #animation",
+      "sourceFile": "docs/advanced-samples/double-pendulum-example/doc.rc",
+      "rcDocument": "documents/advanced-samples/double-pendulum-example.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/double-pendulum-example.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/linear-regression",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Linear Regression Demo",
+      "sourceFile": "docs/advanced-samples/linear-regression/doc.rc",
+      "rcDocument": "documents/advanced-samples/linear-regression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/linear-regression.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/paths-demos",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Overlapping red and blue path shapes, demonstrating path construction and fill. #drawPath",
+      "sourceFile": "docs/advanced-samples/paths-demos/doc.rc",
+      "rcDocument": "documents/advanced-samples/paths-demos.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/paths-demos.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/pressure-gauge",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Radial pressure gauge with a fine tick scale reading 799 mmHg between Low and High. #iot #widget",
+      "sourceFile": "docs/advanced-samples/pressure-gauge/doc.rc",
+      "rcDocument": "documents/advanced-samples/pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/stock",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Stock watchlist card showing Dow Jones at 47,739.32, down 0.45%, with a refresh control. #widget",
+      "sourceFile": "docs/advanced-samples/stock/doc.rc",
+      "rcDocument": "documents/advanced-samples/stock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/stock.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/activity-rings",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Three concentric activity rings in red, green and blue showing 78%, 62% and 91%. #widget",
+      "sourceFile": "docs/androidx-demos/activity-rings/doc.rc",
+      "rcDocument": "documents/androidx-demos/activity-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/activity-rings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/anchored-text",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Text anchoring reference: the same string drawn at top, centre, bottom and baseline against guide lines. #text #validation",
+      "sourceFile": "docs/androidx-demos/anchored-text/doc.rc",
+      "rcDocument": "documents/androidx-demos/anchored-text.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/anchored-text.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/attribute-string",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Attributed text demo: bold, italic, coloured, underlined, highlighted, oversized and superscript runs in one string. #text",
+      "sourceFile": "docs/androidx-demos/attribute-string/doc.rc",
+      "rcDocument": "documents/androidx-demos/attribute-string.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/attribute-string.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/base",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/base/doc.rc",
+      "rcDocument": "documents/androidx-demos/base.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/base.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/battery-radial-gauge",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Battery gauge as a green radial arc at 67%, with 8.5 hours remaining. #iot #widget",
+      "sourceFile": "docs/androidx-demos/battery-radial-gauge/doc.rc",
+      "rcDocument": "documents/androidx-demos/battery-radial-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/battery-radial-gauge.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/bitmap-font-watch",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Analogue watch face with Roman numerals and copper hour markers, drawn with a bitmap font. #clock",
+      "sourceFile": "docs/androidx-demos/bitmap-font-watch/doc.rc",
+      "rcDocument": "documents/androidx-demos/bitmap-font-watch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/bitmap-font-watch.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-box",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a single red box. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-box/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-box.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-collapsible-column",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a collapsible column of red and blue bands. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-collapsible-column/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-collapsible-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-collapsible-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-collapsible-row",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a collapsible row of red and blue columns. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-collapsible-row/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-collapsible-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-collapsible-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-column",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a column stacking red, green, blue and grey children. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-column/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-fit-box",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoFitBox",
+      "sourceFile": "docs/androidx-demos/c-fit-box/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-fit-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-fit-box.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-flow",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoFlow",
+      "sourceFile": "docs/androidx-demos/c-flow/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-flow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-flow.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-image",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: an image child rendered as a grey placeholder block. #images #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-image/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-image.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-image.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-align-by-baseline",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierAlignByBaseline",
+      "sourceFile": "docs/androidx-demos/c-modifier-align-by-baseline/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-align-by-baseline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-align-by-baseline.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-background",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: background modifier, a red band above a blue one. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-background/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-background.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-background.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-background-id",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: background supplied by resource id rather than a literal colour. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-background-id/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-background-id.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-background-id.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-border",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: border, drawn as a red-outlined square above a blue-outlined one. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-border/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-border.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-border.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-clip-circle",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: clip to a circle, applied to a green block. #clip #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-clip-circle/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-clip-circle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-clip-circle.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-clip-rect",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: clip to a rectangle, applied to a red block. #clip #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-clip-rect/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-clip-rect.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-clip-rect.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-clip-rounded-rect",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: clip to a rounded rectangle, applied to a blue block. #clip #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-clip-rounded-rect/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-clip-rounded-rect.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-clip-rounded-rect.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-collapsible-priority",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: collapsible priority deciding which of three children gives up space first. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-collapsible-priority/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-collapsible-priority.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-collapsible-priority.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-component-id",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: a component addressed by id, shown as a small red block. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-component-id/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-component-id.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-component-id.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-compute-measure",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierComputeMeasure",
+      "sourceFile": "docs/androidx-demos/c-modifier-compute-measure/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-compute-measure.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-compute-measure.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-compute-position",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierComputePosition",
+      "sourceFile": "docs/androidx-demos/c-modifier-compute-position/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-compute-position.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-compute-position.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-dynamic-border",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: a border whose width is driven by an expression rather than a constant. #layout #expressions #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-dynamic-border/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-dynamic-border.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-dynamic-border.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-max-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxHeight, a magenta column stretched to the full height available. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-max-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxSize, a yellow block expanded to fill both axes. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-max-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxWidth, a cyan band stretched across the full width. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxHeight. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxSize. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxWidth. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/clock-demo2-jancy-clock2",
       "section": "androidx",
       "group": "androidx-demos",
