@@ -2968,163 +2968,283 @@
   },
   "iot-panels/58-garage-door": {
     "sha256": "dd134053f1920e444ae859f3cc1763915b5aeb657c24e6c54c5422e408291514",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "dd134053f1920e444ae859f3cc1763915b5aeb657c24e6c54c5422e408291514:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/59-window-opener": {
     "sha256": "d81c193796d5918523a6a1d69c6b2163059d747c4b10d590663911650f34721b",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d81c193796d5918523a6a1d69c6b2163059d747c4b10d590663911650f34721b:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/60-gate-opener": {
     "sha256": "91ca1adaf4e32611fa24ebf84765660f95defdbb9347170cf302e2d9194f9c61",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "91ca1adaf4e32611fa24ebf84765660f95defdbb9347170cf302e2d9194f9c61:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/61-body-scale": {
     "sha256": "9e4becee7b3ce89099c04dc60fe316e052e6e8ce38f28c1120d721e904cd463a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9e4becee7b3ce89099c04dc60fe316e052e6e8ce38f28c1120d721e904cd463a:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/62-sleep-tracker": {
     "sha256": "333832db512d834b5dc5ebe7012e3f85d0d3e0d28a195aa7c2ab6ef4b0f8145a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "333832db512d834b5dc5ebe7012e3f85d0d3e0d28a195aa7c2ab6ef4b0f8145a:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/63-smart-mattress": {
     "sha256": "7121862496e17b620ed8909f38092624c3fe95043e52d7ad0550a8cbeadee5ae",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7121862496e17b620ed8909f38092624c3fe95043e52d7ad0550a8cbeadee5ae:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/64-air-quality": {
     "sha256": "5c435f8c4c0d05338a8da3cc5ef9784668f38f704061af8b07456bb42c934c08",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5c435f8c4c0d05338a8da3cc5ef9784668f38f704061af8b07456bb42c934c08:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/65-smart-mirror": {
     "sha256": "aad5c9de5bdf471d51ef50addcfbf6ad33dccea5fdf6b764cea77c304f6e1dee",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "aad5c9de5bdf471d51ef50addcfbf6ad33dccea5fdf6b764cea77c304f6e1dee:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/66-pet-feeder": {
     "sha256": "451d6d113c8bcdb2f28426874a7d11ea225475518077b5e4894dcc908f52ae6f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "451d6d113c8bcdb2f28426874a7d11ea225475518077b5e4894dcc908f52ae6f:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/67-water-fountain": {
     "sha256": "f45f614ee0f28633bfd42208e0c45d9f468bc4dbc2cf930743eda5fa7a9c95b7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f45f614ee0f28633bfd42208e0c45d9f468bc4dbc2cf930743eda5fa7a9c95b7:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/68-pet-camera": {
     "sha256": "e6d7cbee998a0e49d470c01820b26d14803f75e7b0efc6adb8c6a5d93037a581",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e6d7cbee998a0e49d470c01820b26d14803f75e7b0efc6adb8c6a5d93037a581:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/69-litter-box": {
     "sha256": "72fb9712dd69bcb69fabfe81a6d416e3f23452ed0b8a355f7f4b4d3487e496de",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "72fb9712dd69bcb69fabfe81a6d416e3f23452ed0b8a355f7f4b4d3487e496de:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/70-pet-door": {
     "sha256": "79eb7b009392273e99a5ef2c86bfe8b59384863adcdecee34db1b1709f6f7913",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "79eb7b009392273e99a5ef2c86bfe8b59384863adcdecee34db1b1709f6f7913:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/71-aroma-diffuser": {
     "sha256": "c1429dc66468c29dc3bc428949f53b1550c6b23413090dd2e43fa33ec4d015f8",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c1429dc66468c29dc3bc428949f53b1550c6b23413090dd2e43fa33ec4d015f8:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/72-alarm-clock": {
     "sha256": "74fe312ebd05e4faef315f509b65037888094cbc1a058691d8790221cff888ed",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "74fe312ebd05e4faef315f509b65037888094cbc1a058691d8790221cff888ed:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/73-weather-station": {
     "sha256": "92918c055a95c15b0209c1b413e58f9cebe35956d2cba7d8868fd2f4813bf2d1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "92918c055a95c15b0209c1b413e58f9cebe35956d2cba7d8868fd2f4813bf2d1:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/74-smart-planter": {
     "sha256": "710d69169e61ab4de07d1d0fe46898384c954e9a4b1382459549fa89943a18ef",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "710d69169e61ab4de07d1d0fe46898384c954e9a4b1382459549fa89943a18ef:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/75-aquarium": {
     "sha256": "cee68cc93d231b87933bfc4dc5efdc1a7bf8fbe3a7154743a6e562f09ad65b7a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cee68cc93d231b87933bfc4dc5efdc1a7bf8fbe3a7154743a6e562f09ad65b7a:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/76-baby-monitor": {
     "sha256": "2ddfa40aab8d74e9465ace9a4dff4bb9bb8b465629e59f7fe6142195da94d0e8",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "2ddfa40aab8d74e9465ace9a4dff4bb9bb8b465629e59f7fe6142195da94d0e8:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/77-mailbox-sensor": {
     "sha256": "c4fb7b412c12716b5bd17eb119f53daa51536b74058d3c01ecf5945be3a2a004",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c4fb7b412c12716b5bd17eb119f53daa51536b74058d3c01ecf5945be3a2a004:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/78-smart-vent": {
     "sha256": "0843b30a7e8262de8c7a84ea0e9ff99fd04851d2c3a3893b4b69537f1c38f82d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0843b30a7e8262de8c7a84ea0e9ff99fd04851d2c3a3893b4b69537f1c38f82d:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/79-bird-feeder": {
     "sha256": "fa99eda928e7697299859ad093492357b060d5520dc9d34a86f2aa1b09b32ea3",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fa99eda928e7697299859ad093492357b060d5520dc9d34a86f2aa1b09b32ea3:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/80-smart-bin": {
     "sha256": "6f17e55f0e5284587ee586a00cb5f1318d4a1fd796b92f8b05ede93db6378125",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6f17e55f0e5284587ee586a00cb5f1318d4a1fd796b92f8b05ede93db6378125:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "layout/a01-child-fixed": {
     "sha256": "6881c058aae58f56fd9baf4378a692da866d5e695f175cf69c36d917e4b56b78",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6881c058aae58f56fd9baf4378a692da866d5e695f175cf69c36d917e4b56b78:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a02-child-fillmaxsize": {
     "sha256": "3768ea06e8a05dda3a531cfe45dadf186ad71117abab9536a18941f84664dbff",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "3768ea06e8a05dda3a531cfe45dadf186ad71117abab9536a18941f84664dbff:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a03-child-fillmaxwidth": {
     "sha256": "823898ef6a7b645e06c13621dae88987827f0151a6b0a5cde139fc129d8a24f9",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "823898ef6a7b645e06c13621dae88987827f0151a6b0a5cde139fc129d8a24f9:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a04-child-fillmaxheight": {
     "sha256": "32d9b3c0c841250017b30cfd0b0059796f8122cb721a4a04c995a8e87667771e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "32d9b3c0c841250017b30cfd0b0059796f8122cb721a4a04c995a8e87667771e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a05-fill-fraction": {
     "sha256": "f6ce017f17d28a5dc74b8d33c2cd3c643cc45970269721aa12c17a8c0daa0818",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f6ce017f17d28a5dc74b8d33c2cd3c643cc45970269721aa12c17a8c0daa0818:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a06-size-modifier": {
     "sha256": "6fbbb76cb4f108b96163f69a5f7cc9a0dc7d1a2893728b2e04c6e78b2e56d800",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6fbbb76cb4f108b96163f69a5f7cc9a0dc7d1a2893728b2e04c6e78b2e56d800:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a07-wrap-default": {
     "sha256": "fbfc872e311cfcd7639ce5dcaed4cae55775232433b6482df74fb6de5c219652",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fbfc872e311cfcd7639ce5dcaed4cae55775232433b6482df74fb6de5c219652:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a08-fill-in-wrap-parent": {
     "sha256": "599b4631771806accc59f6e320879bd5bb32aeb71eed08b56efa3ebc4726278e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "599b4631771806accc59f6e320879bd5bb32aeb71eed08b56efa3ebc4726278e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a09-fixed-bigger-than-root": {
     "sha256": "9a7a29bdd148230ee2b609fdd282c88369a3651f4d1a46c8cbb072303e11957a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9a7a29bdd148230ee2b609fdd282c88369a3651f4d1a46c8cbb072303e11957a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a10-root-fixed-size": {
     "sha256": "4d4d45d1d3c6b8809b973248a245084fb9b5bcd84720f65f2e082bc403871bda",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4d4d45d1d3c6b8809b973248a245084fb9b5bcd84720f65f2e082bc403871bda:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/a11-child-exceeds-fixed-parent": {
     "sha256": "01e9a8a1fb482ffd7fecb02b5328c87c7660ec9f6c216beb2e1003c86a727cf2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "01e9a8a1fb482ffd7fecb02b5328c87c7660ec9f6c216beb2e1003c86a727cf2:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b01-box-start-top": {
     "sha256": "5c9069d33bee58fa321410eb47a61f0d7000b66d49ede1a8b0777799070f1ac8",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5c9069d33bee58fa321410eb47a61f0d7000b66d49ede1a8b0777799070f1ac8:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b02-box-start-center": {
     "sha256": "a4226907dee49dbfe79fa13311e87135a5af0d895454c925546b63d8ba95d371",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a4226907dee49dbfe79fa13311e87135a5af0d895454c925546b63d8ba95d371:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b03-box-start-bottom": {
     "sha256": "a888f749344aee6492d48603ff297606c2c6e69dbf8708199ee7905b173dc613",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a888f749344aee6492d48603ff297606c2c6e69dbf8708199ee7905b173dc613:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b04-box-center-top": {
     "sha256": "b5aa1e8db7a4598d6142ac5a016332edbee6e4a9df2ee467af234de78c75a05b",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b5aa1e8db7a4598d6142ac5a016332edbee6e4a9df2ee467af234de78c75a05b:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b05-box-center-center": {
     "sha256": "a60980f76ff7799dd0f22de873fab76627c3e36d500f844b2e15b12299a55d8c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a60980f76ff7799dd0f22de873fab76627c3e36d500f844b2e15b12299a55d8c:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b06-box-center-bottom": {
     "sha256": "4bcd57b647ace1825b098e58eef18724251018e412a9405daeaf0f84f375cc55",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4bcd57b647ace1825b098e58eef18724251018e412a9405daeaf0f84f375cc55:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "layout/b07-box-end-top": {
     "sha256": "d0a47b786d02737be32977fe39098471217452f888e3c994158c29d8dde18918",
