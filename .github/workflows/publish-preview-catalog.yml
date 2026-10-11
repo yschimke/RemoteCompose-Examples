@@ -105,8 +105,13 @@ jobs:
       RC_PLAYERS_REPO: yschimke/rc-players
       RC_PLAYERS_PIN: v2.4.0
       EXPORT_DRIVER_VERSION: 1.9.0
-      RC_EMBEDDED_LANE: 'true'
-      RC_EMBEDDED_JVM_LANE: 'true'
+      # Off until the rc-players harnesses size this corpus's documents the way the baked PNG
+      # does: they drew them magnified and cropped (embedded, cmp-jvm) or blank
+      # (androidx-embedded), and preview.coo.ee serves a published embedded column as the
+      # viewer's AndroidX Embedded answer. The server's own Android player daemon draws these
+      # documents at the catalog's render size, so the live lanes are unaffected.
+      RC_EMBEDDED_LANE: 'false'
+      RC_EMBEDDED_JVM_LANE: 'false'
       # cmp-wasm stays off unless dispatched with rc-cmp-wasm-lane: about 15% of the corpus uses
       # features the CMP player lacks, and the reusable workflow's --require-cmp-wasm gate would
       # fail on them. When on, it runs report-only (no gate).

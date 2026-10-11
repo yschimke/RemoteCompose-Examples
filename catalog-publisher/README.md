@@ -90,6 +90,11 @@ path without `images/` and `.png`, with `/` replaced by `__`, for example
 | androidx-embedded | AndroidX `remote-player-compose` (Robolectric) | `rc-androidx-embedded/`, `rc-androidx-embedded-diff/` |
 | cmp-jvm | `rc-player-compose` on Compose Desktop / Skiko under xvfb | `rc-embedded-jvm/`, `rc-embedded-jvm-diff/` |
 
+The **embedded**, **androidx-embedded** and **cmp-jvm** lanes are currently off
+(`RC_EMBEDDED_LANE` / `RC_EMBEDDED_JVM_LANE` in the workflow): their rc-players harnesses drew
+this corpus magnified and cropped, or blank, and preview.coo.ee serves a published embedded column
+as the viewer's AndroidX Embedded render. Only the js lane is published until that is fixed.
+
 `rc-compare-summary.json` and `rc-compare.html` sit beside the lane directories. Each lane is
 fail-soft on its own: if a harness cannot run, that lane's column is left out and the job
 still succeeds. The step summary explains why the column is missing. Only the js lane is
