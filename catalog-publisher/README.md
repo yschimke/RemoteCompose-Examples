@@ -97,6 +97,57 @@ required. Every run replaces the lane directories, so a dropped lane never leave
 images behind. A run that drops a requested lane publishes without `rc-compare-key.txt`, so
 the next run retries it instead of treating the incomplete comparison as current.
 
+### Failure record
+
+`rc-compare-failures.json` sits beside the summary and records, for the whole run, every document a
+player failed on. The same counts and each lane's five most common reasons go to the job's step
+summary. `rc_compare_bundle.py failures` writes it after `install`, which deletes the previous
+run's copy first, so the file always describes the comparison next to it. It does not feed the
+cache key.
+
+```json
+{
+  "schema": "rc-compare-failures/v1",
+  "generatedAt": "2026-10-11T21:45:37+00:00",
+  "key": "<this run's comparison key>",
+  "keyRecorded": true,
+  "documents": 1309,
+  "lanes": {
+    "cmp-jvm": {
+      "dropped": false, "rendered": 1130, "failed": 179, "suspect": 97,
+      "reasons": [{"reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=N vertical=N",
+                   "count": 71, "ids": ["advanced-samples__base", "…"]}],
+      "failures": [{"id": "advanced-samples__base",
+                    "reason": "IllegalStateException: Unknown AndroidX box alignment horizontal=1 vertical=1"}],
+      "suspectKinds": {"blank": 84, "content": 1, "coverage": 12},
+      "suspects": [{"id": "render__maze", "kind": "blank", "reason": "nothing it painted overlaps …"}]
+    }
+  },
+  "publish": {"source": "<main commit>", "documents": 1310, "images": 1309,
+              "renderFailures": [{"id": "advanced-samples/rc-flow", "reason": "Page.evaluate: RangeError: …"}],
+              "reasons": ["…grouped as above…"]}
+}
+```
+
+- **Lanes** are `js`, `embedded`, `androidx-embedded`, `cmp-jvm` and `cmp-wasm`. Only lanes
+  requested this run appear. A lane that dropped its column has `"dropped": true`, `rendered: 0`,
+  and failures read straight from its harness's `<id>.error` files. In that case `keyRecorded` is
+  false, matching the missing `rc-compare-key.txt`.
+- **`failures[].reason`** is the first line of the harness's own error (`errors.txt` or
+  `<id>.error`), cut to 300 characters. The summary's note is used when there is no error file, for
+  example for a size mismatch or a js-lane decode failure. **`reasons`** groups failures by that
+  line with ids, indices, byte offsets and literals replaced by `N`, sorted by count. Opcodes stay
+  (`opcode=114`, `encountered 239`) because they name what the player lacks.
+- **`suspects`** are renders that succeeded but look grossly wrong, judged from the summary's
+  coverage and content numbers against the js lane on the same document. `blank` means nothing the
+  lane painted overlaps the baked content. `coverage` means its painted area differs from the baked
+  PNG on at least 40 percentage points more of the canvas than the js lane does (magnified, cropped
+  or offset). `content` means at least 90% of the commonly painted pixels differ in colour, and at
+  least 50 points more than for js. The js lane has no control, so it is never suspect. This is a
+  triage hint, not a verdict.
+- **`publish`** comes from the publish step: `render-failures.json` (catalog ids whose baked PNG
+  could not be captured, so they are in no lane) and the counts in `publish-progress.json`.
+
 The **cmp-wasm** lane is off. About 15% of these documents use features the CMP player lacks,
 and the reusable workflow's `--require-cmp-wasm` gate fails on them. To add the column
 report-only, without the gate, dispatch the workflow with `rc-cmp-wasm-lane` enabled.

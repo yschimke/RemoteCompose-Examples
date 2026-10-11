@@ -245,6 +245,14 @@ jobs:
           python3 publisher/catalog-publisher/rc_compare_bundle.py install \
             --compare "$RUNNER_TEMP/rc-compare-out" --output output --key "$KEY" \
             --dropped-lanes "$RUNNER_TEMP/rc-compare-work/dropped-lanes"
+          # Every document a player failed on, grouped by reason, plus renders that look grossly
+          # wrong. `install` removed last run's file, so a crash here leaves none rather than a
+          # stale one; the comparison itself is still published.
+          if ! python3 publisher/catalog-publisher/rc_compare_bundle.py failures \
+               --compare "$RUNNER_TEMP/rc-compare-out" --work "$RUNNER_TEMP/rc-compare-work" \
+               --output output --key "$KEY"; then
+            echo "::warning::could not record the comparison's failures; publishing without rc-compare-failures.json"
+          fi
           git -C output add -A
           if git -C output diff --cached --quiet; then
             echo "comparison unchanged"
