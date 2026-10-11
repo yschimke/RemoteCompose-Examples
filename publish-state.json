@@ -1,27 +1,45 @@
 {
   "advanced-samples/2-vtext": {
     "sha256": "a9cdbc775fefbde6dfc09c430b926d5a6e744ea49c6e6463b4629f53b8d1ce05",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a9cdbc775fefbde6dfc09c430b926d5a6e744ea49c6e6463b4629f53b8d1ce05:2:cb84224aae12e593",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "advanced-samples/alignment-and-justification": {
     "sha256": "0c7b112aa409ce0a695998a48b0e8d6c4a7d3068988c9626651cdb0656b43e87",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0c7b112aa409ce0a695998a48b0e8d6c4a7d3068988c9626651cdb0656b43e87:2:cb84224aae12e593",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "advanced-samples/balls-animation-example": {
     "sha256": "220580fa872ee29a0520a196f31df7fa76ce39a7b139e429416913de677bb74d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "220580fa872ee29a0520a196f31df7fa76ce39a7b139e429416913de677bb74d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "advanced-samples/base": {
     "sha256": "9d48b7a7c571d6f1c1b01051a15de7bff327d9a21954d56dd71d9644240d28f3",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9d48b7a7c571d6f1c1b01051a15de7bff327d9a21954d56dd71d9644240d28f3:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "advanced-samples/canvas": {
     "sha256": "8a2c33fc4211fe0234517110fb93329323032ba60af337c0589ec5f9c7953c47",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8a2c33fc4211fe0234517110fb93329323032ba60af337c0589ec5f9c7953c47:2:cb84224aae12e593",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "advanced-samples/check-touch-x": {
     "sha256": "65b1532acb15b2bb33124030adb8866b5d6f7c100216068f249d2f847655a4cf",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "65b1532acb15b2bb33124030adb8866b5d6f7c100216068f249d2f847655a4cf:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "advanced-samples/cube3d": {
     "sha256": "ec065b0b02a5b8c5aee9c3ff7a4b5abfd5b3f05b8c4fa5caa195a98ba5d3b8b1",
@@ -289,7 +307,10 @@
   },
   "androidx-demos/clock-demo2-jancy-clock2": {
     "sha256": "760800b3f5bfba79b9505115bf90de85465e89a4729488d2d43f257c0997d321",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "760800b3f5bfba79b9505115bf90de85465e89a4729488d2d43f257c0997d321:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/clock-demo2-jclock2": {
     "sha256": "e293c7874d50e6bf9bcade5694b303c0332496ac27f30c63bbfa46d5d213745b",
@@ -341,7 +362,10 @@
   },
   "androidx-demos/demo-graphs0": {
     "sha256": "b707b392f6924583bca000daf904de6e6f7bdfb384f9c1acdf1f49bd1f8345cd",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b707b392f6924583bca000daf904de6e6f7bdfb384f9c1acdf1f49bd1f8345cd:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/demo-graphs1": {
     "sha256": "e6dd8b4b4721f0b9666337f3763b63c1903f9b4f7abe7ac75649831ce8e02c51",
@@ -381,7 +405,10 @@
   },
   "androidx-demos/experimental-gmt": {
     "sha256": "c341be297a1ac33aa99547c707de328d460d9f800a85c385a61c8f60f9b3d34d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c341be297a1ac33aa99547c707de328d460d9f800a85c385a61c8f60f9b3d34d:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-demos/experimental-solar-gmt": {
     "sha256": "ffd83a27451494031d7f17a9a2b72bcbe6333043d30ec7f6937aa5c2681040d4",
@@ -481,7 +508,10 @@
   },
   "androidx-demos/maze2": {
     "sha256": "da6557bd1fdee85a01a2d866a61461e9e5249f61ed1da0846616d0844c191161",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "da6557bd1fdee85a01a2d866a61461e9e5249f61ed1da0846616d0844c191161:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/moon-phase-dial": {
     "sha256": "8e9253858078af7e0d2b39c15a444db9c37087685cf860e5f79e7d81a8dc318d",
@@ -721,7 +751,10 @@
   },
   "androidx-demos/themed-plot1": {
     "sha256": "d6310c801187ed71fae7230783a26ffc6731fa33e51345e47dc8aa45e7741a89",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d6310c801187ed71fae7230783a26ffc6731fa33e51345e47dc8aa45e7741a89:2:cb84224aae12e593",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "androidx-demos/thumb-wheel1": {
     "sha256": "394751c29f8c51e33cf9e196ea5b31c9d8683b8c538b6f23599224fd004df4c8",
@@ -829,7 +862,10 @@
   },
   "androidx-kotlin/cubesphere2": {
     "sha256": "cbbd186822f9cf9d6e183a6603ae9e3a2874f3dbf40e8c4fa56c92fd67b0a6d4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cbbd186822f9cf9d6e183a6603ae9e3a2874f3dbf40e8c4fa56c92fd67b0a6d4:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "androidx-kotlin/dark": {
     "sha256": "9a37728434bdcc4ed10dfa57131c82a0f644d8fe50a7176c75369ea14343d616",
@@ -925,7 +961,10 @@
   },
   "androidx-kotlin/particlesphere": {
     "sha256": "b015abe783e4a41a759371afb864fa7289bed38aebf5e92e23d06d4bb178f219",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "b015abe783e4a41a759371afb864fa7289bed38aebf5e92e23d06d4bb178f219:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "androidx-kotlin/pie": {
     "sha256": "40e2370167a7b033717e14ab25db669e86aa60f6c990ae9aa500cee25991bd6e",
@@ -1057,11 +1096,17 @@
   },
   "charts3d/01-scatter": {
     "sha256": "a0ecfe33bc162782a8f3a253f77281c4d1a1699a6aa4fa5513b60f4df4cc6480",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a0ecfe33bc162782a8f3a253f77281c4d1a1699a6aa4fa5513b60f4df4cc6480:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/02-surface": {
     "sha256": "10e207969e8c16cc4721f814bbd354c35b4d63aa974b57b777b3e09de9270e21",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "10e207969e8c16cc4721f814bbd354c35b4d63aa974b57b777b3e09de9270e21:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/03-wireframe": {
     "sha256": "e0d9b50865778944eecb49fc7d3804613d515069ad9e6bc849ac43b9c2e55648",
@@ -1073,7 +1118,10 @@
   },
   "charts3d/05-trajectory": {
     "sha256": "d79fe279633b8f3ab416b7abc817fab63f0eb51d5f58d0bcc5714d9dafbaa858",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "d79fe279633b8f3ab416b7abc817fab63f0eb51d5f58d0bcc5714d9dafbaa858:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/06-waterfall": {
     "sha256": "599a8ff58642ff51e4cc528b7370c66c2e1d1e9dc635674affc28bb873458f03",
@@ -1089,7 +1137,10 @@
   },
   "charts3d/09-quiver": {
     "sha256": "4a3274dbb801a338cfaf28eaa9a546ca9f36a516bc34026a51b6d1cdd5f6a5a1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4a3274dbb801a338cfaf28eaa9a546ca9f36a516bc34026a51b6d1cdd5f6a5a1:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/10-voxel": {
     "sha256": "e718fdc0afe66b9586572cd066b0e2e6ed416849d11267558e36c116e8b4740a",
@@ -1105,7 +1156,10 @@
   },
   "games/gravity-beacon": {
     "sha256": "f7e75cb1fee43cbd15830e2f883185bab9e4f15080592b485f49e89fb2172718",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f7e75cb1fee43cbd15830e2f883185bab9e4f15080592b485f49e89fb2172718:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/input": {
     "sha256": "e22f3348e57c7aa2963d2191870c11ebe7c1436dd51095ee182508e63ad05930",
@@ -1117,7 +1171,10 @@
   },
   "games/orbit-hop": {
     "sha256": "ca01f3d8e64b3e1c4be02c3556ae1b537ab3e59ee22a40a1216db879542fb85e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ca01f3d8e64b3e1c4be02c3556ae1b537ab3e59ee22a40a1216db879542fb85e:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/order": {
     "sha256": "3b0a763801d569dcb743a55fa1424324a0a075673e38171f5d1bf8c7138f8f55",
@@ -1145,7 +1202,10 @@
   },
   "games/wall-bounce": {
     "sha256": "7ded0ff74a6ea3a95b31568b0d12a99c8a33e8ec3e510564790d22878d666fbf",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7ded0ff74a6ea3a95b31568b0d12a99c8a33e8ec3e510564790d22878d666fbf:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "iot-panels-light/01-smart-bulb": {
     "sha256": "904152b6e95be839df702850e4e46c1a72b0ddb3c0ab490733b183dfc397bf1d",
@@ -1293,7 +1353,10 @@
   },
   "iot-panels-light/37-energy-monitor": {
     "sha256": "7addeb0d985aa0eb7454f366efe158178d15c0a66f608c5cf7bb2c7a0e4797e7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7addeb0d985aa0eb7454f366efe158178d15c0a66f608c5cf7bb2c7a0e4797e7:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/38-solar-inverter": {
     "sha256": "82af163e81f3cfafaf799c5b9aa72b1065fe47cb1ce29b48c3df67078c3deecc",
@@ -1337,7 +1400,10 @@
   },
   "iot-panels-light/48-smart-tv": {
     "sha256": "54bfb6004241cc4ddfdd47d3ffd7b73b07d2b7f106dd2ecb1b8b6b4748c3b861",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "54bfb6004241cc4ddfdd47d3ffd7b73b07d2b7f106dd2ecb1b8b6b4748c3b861:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/49-streaming-box": {
     "sha256": "fce46a141ab1d55c74129e41aac2c752dece22ebc74ce379900311909c74344f",
@@ -1489,7 +1555,10 @@
   },
   "iot-panels/06-thermostat": {
     "sha256": "64ed5fa58c4079ec007c4598663a414c7041e7dfadcde1a1769a69472002675e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "64ed5fa58c4079ec007c4598663a414c7041e7dfadcde1a1769a69472002675e:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/07-radiator-valve": {
     "sha256": "fd1ce6bc2e9a1e1b0a841d894d79cd36c94a388abfa8bb3238241f378cae4281",
@@ -1521,7 +1590,10 @@
   },
   "iot-panels/14-motion-sensor": {
     "sha256": "cd0827ff19b29543aa775f6edc05d0fa4e2794e0a4232bf0484906c0ce979f3b",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cd0827ff19b29543aa775f6edc05d0fa4e2794e0a4232bf0484906c0ce979f3b:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/15-contact-sensor": {
     "sha256": "07e2b4b0cc4c178d12fd5845871bdf07a5f5144f6ac5c27bda7d3a934b384672",
@@ -2849,7 +2921,10 @@
   },
   "render/01-sakura-season": {
     "sha256": "fc9a4284c65cbbf29688421433285a8c8768a7a472ad141f09106c6095e06ff5",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fc9a4284c65cbbf29688421433285a8c8768a7a472ad141f09106c6095e06ff5:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/01-simple-demo": {
     "sha256": "b2cbc944e308ea525cad677690169f7fc9c63492d0283335171b7201afbaadc7",
@@ -2873,7 +2948,10 @@
   },
   "render/03-new-years-fireworks": {
     "sha256": "5f7c7b1f4c6d2fcefe93e88ca3459a80ea229f0c56b11d0ff03842bebceb20e2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "5f7c7b1f4c6d2fcefe93e88ca3459a80ea229f0c56b11d0ff03842bebceb20e2:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/03-particles": {
     "sha256": "a3708635aab8e4ffbdcf28d9978edc28d899f7268539ca4c28f564c9e11ab35b",
@@ -2969,7 +3047,10 @@
   },
   "render/22-friendly-aliens-ufo": {
     "sha256": "c6d04bccca498ac0bb0f77764ea3194b17ff3414c583563dc9f074649be1ea44",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c6d04bccca498ac0bb0f77764ea3194b17ff3414c583563dc9f074649be1ea44:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/23-textfromfloat": {
     "sha256": "b57fe3b606691f40929c7cd95a28fdb41b4ce0c9252931f62fe79cf819378f53",
@@ -2977,7 +3058,10 @@
   },
   "render/23-under-the-sea": {
     "sha256": "fa8b3c88e4e3e428ad67f084e3780caebaaa6a3554e1cafc1bd882532b4bfb33",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fa8b3c88e4e3e428ad67f084e3780caebaaa6a3554e1cafc1bd882532b4bfb33:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/24-textfromfloat-expr": {
     "sha256": "75865bc54db10b94276baa01a8c298f1e2a12f6d40db2a074666ac1a9107b154",
@@ -3029,7 +3113,10 @@
   },
   "render/a2-orbit": {
     "sha256": "552c53e8fdc2a93747bca0f6f7640cc62edeb80a604dbe7b7dd82866883c3f31",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "552c53e8fdc2a93747bca0f6f7640cc62edeb80a604dbe7b7dd82866883c3f31:2:cb84224aae12e593",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/a3-wave": {
     "sha256": "20dfa35dd7c44396bca8c1f6750e9c84a003669daabedb7d8d6f7cd546da1145",
@@ -3109,7 +3196,10 @@
   },
   "render/banner-sf-sweep": {
     "sha256": "48e0ca560c6db11f5967954075d264de0d67cb9fb46d54fd17564f9f25b5a8e2",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "48e0ca560c6db11f5967954075d264de0d67cb9fb46d54fd17564f9f25b5a8e2:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/bar-horizontal": {
     "sha256": "c894ca8d43da7fe8b9ac02244d7c370ac934ee835fcbb9375e34eeafd8ad1b34",
@@ -3137,7 +3227,10 @@
   },
   "render/battlezone": {
     "sha256": "eb8776cb59c40854e838c2b9038e1805613501328b114ecc6701e890aee55b77",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "eb8776cb59c40854e838c2b9038e1805613501328b114ecc6701e890aee55b77:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/beach-loop": {
     "sha256": "f43a5302b3819ae913aab43c39b9962308b7bc4572a6b74de65b6fcf158f561d",
@@ -3365,7 +3458,10 @@
   },
   "render/d32-wavefield": {
     "sha256": "6bc6bc74d61ac52fa0315788b0a9cdbcec55e14c5e8fdbcf504d1184b4241e4e",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6bc6bc74d61ac52fa0315788b0a9cdbcec55e14c5e8fdbcf504d1184b4241e4e:2:cb84224aae12e593",
+    "imageWidth": 320,
+    "imageHeight": 320
   },
   "render/d33-hist": {
     "sha256": "275222d4dae5cd791181c90ad4ac7ba8c30f84f70bb380613737d16a4c3f34b3",
@@ -3401,7 +3497,10 @@
   },
   "render/dashboard-card": {
     "sha256": "6c9440c45fe943e2da5c206c0a10c507b205c32b6953c2a9b0a3fc8fada5bbf4",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6c9440c45fe943e2da5c206c0a10c507b205c32b6953c2a9b0a3fc8fada5bbf4:2:cb84224aae12e593",
+    "imageWidth": 380,
+    "imageHeight": 220
   },
   "render/dd-10": {
     "sha256": "f9f0316aa7d00fea6915b615cd45218fc91759bd9b08629888ec9ff8c1fab14a",
@@ -3577,7 +3676,10 @@
   },
   "render/droidman-oldchips": {
     "sha256": "7e22640d839fa2230b5aa0644cdfaf807931ba8ac8f4e577597caaec69f17d01",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7e22640d839fa2230b5aa0644cdfaf807931ba8ac8f4e577597caaec69f17d01:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/droidman-walls": {
     "sha256": "b33006f310cdfb860e4896a36c147b35d62ccc8813a2176651ab697afd129878",
@@ -3761,7 +3863,10 @@
   },
   "render/lunar-progress": {
     "sha256": "7e0de6dff949c023b05e95b92712f647516180c4b80be3b41fb85678e44ce96d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7e0de6dff949c023b05e95b92712f647516180c4b80be3b41fb85678e44ce96d:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/material-toggle-button": {
     "sha256": "f4e7560d16a264e9c0944f4c2efd9354d8a15912d5d17dd1445274fa772bf3d0",
@@ -4109,7 +4214,10 @@
   },
   "render/space-progress": {
     "sha256": "75b27ee5ea241052dc08b0c3e8dd034d1fb9a2b4f17201b9858f6952a1f8a1e6",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "75b27ee5ea241052dc08b0c3e8dd034d1fb9a2b4f17201b9858f6952a1f8a1e6:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/sparkline": {
     "sha256": "cf60f573e9466ae7944c785aab213030923a72603f061b353f0deafa3a64ea82",
@@ -4133,7 +4241,10 @@
   },
   "render/starfield": {
     "sha256": "6b3ccdc472a183a1e685b90512d4f39b49e12176a5b90072845733b706eccbc6",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "6b3ccdc472a183a1e685b90512d4f39b49e12176a5b90072845733b706eccbc6:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/stat-card": {
     "sha256": "5d911b90cc6b32420aece8c96037d41954146deaa1dacf547a6fa514805d580f",
@@ -4145,7 +4256,10 @@
   },
   "render/sunflower-loop": {
     "sha256": "db348c818f65dd049e61e0ac11bf7bf4e05a0bc6f25630ba636365508e9d1999",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "db348c818f65dd049e61e0ac11bf7bf4e05a0bc6f25630ba636365508e9d1999:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/sunflower-progress": {
     "sha256": "d9f57677bfba44fda0d183ee94200a0a20167ffe4c31e42f703272363430fd51",
@@ -4161,7 +4275,10 @@
   },
   "render/tempest": {
     "sha256": "c3587061565b0a42aa0921f37dc64ce838461d44a9dccce43c4f9c5654455d63",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c3587061565b0a42aa0921f37dc64ce838461d44a9dccce43c4f9c5654455d63:2:cb84224aae12e593",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/textured-sphere": {
     "sha256": "3f95b5dc407e96dabb37d39a24aa14b0c3e2707fa18ea2817100a076ca73665b",
@@ -4401,7 +4518,10 @@
   },
   "surface-plot3d/surface-plot3d": {
     "sha256": "accfd8c2be08d55f8b4b6a2f4ad32f519a9378d75c6be3d88c12077e27c24bb7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "accfd8c2be08d55f8b4b6a2f4ad32f519a9378d75c6be3d88c12077e27c24bb7:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "vis-set-01/bio-mb-00001": {
     "sha256": "b5465fd2f5284cf3aa12ca3c3b85d4ba89839fe350c7d8e34596efc09100108b",

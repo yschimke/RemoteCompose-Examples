@@ -12,5 +12,686 @@
     "ref": "main",
     "commit": "e0dd2be14cfea36a05bce0927f30f8ea4ef7da7f"
   },
-  "components": []
+  "components": [
+    {
+      "componentId": "advanced-samples/2-vtext",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Vertical text layout: two columns of digits running top to bottom on yellow and red panels, under a Hello World heading. #text #layout",
+      "sourceFile": "docs/advanced-samples/2-vtext/doc.rc",
+      "rcDocument": "documents/advanced-samples/2-vtext.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/2-vtext.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/alignment-and-justification",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Side-by-side lorem ipsum blocks comparing left alignment against basic justification. #text #layout #validation",
+      "sourceFile": "docs/advanced-samples/alignment-and-justification/doc.rc",
+      "rcDocument": "documents/advanced-samples/alignment-and-justification.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/alignment-and-justification.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/balls-animation-example",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Coloured balls falling on a dark grid, each leaving a fading trail. #animation",
+      "sourceFile": "docs/advanced-samples/balls-animation-example/doc.rc",
+      "rcDocument": "documents/advanced-samples/balls-animation-example.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/balls-animation-example.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/base",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/advanced-samples/base/doc.rc",
+      "rcDocument": "documents/advanced-samples/base.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/base.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/canvas",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Canvas basics: a blue field crossed by red diagonals with a centred cyan Hello, World! panel. #validation",
+      "sourceFile": "docs/advanced-samples/canvas/doc.rc",
+      "rcDocument": "documents/advanced-samples/canvas.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/canvas.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "advanced-samples/check-touch-x",
+      "section": "origami",
+      "group": "advanced-samples",
+      "caption": "Touch probe: a small blue half-disc pinned to the left edge, used to check horizontal touch coordinates. #interaction #validation",
+      "sourceFile": "docs/advanced-samples/check-touch-x/doc.rc",
+      "rcDocument": "documents/advanced-samples/check-touch-x.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/advanced-samples/check-touch-x.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/clock-demo2-jancy-clock2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Analogue clock with a blue steel dial, tick bezel and a red second hand. #clock",
+      "sourceFile": "docs/androidx-demos/clock-demo2-jancy-clock2/doc.rc",
+      "rcDocument": "documents/androidx-demos/clock-demo2-jancy-clock2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/clock-demo2-jancy-clock2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-graphs0",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/demo-graphs0/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-graphs0.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-graphs0.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/experimental-gmt",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "GMT watch face with a 24-hour outer ring, red arrow hand and a WED 31 date window. #clock",
+      "sourceFile": "docs/androidx-demos/experimental-gmt/doc.rc",
+      "rcDocument": "documents/androidx-demos/experimental-gmt.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/experimental-gmt.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/maze2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Maze rendered as blue corridors on black, medium grid. #game",
+      "sourceFile": "docs/androidx-demos/maze2/doc.rc",
+      "rcDocument": "documents/androidx-demos/maze2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/maze2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/themed-plot1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/themed-plot1/doc.rc",
+      "rcDocument": "documents/androidx-demos/themed-plot1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/themed-plot1.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/cubesphere2",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "CubeSphereTransitionShader2",
+      "sourceFile": "docs/androidx-kotlin/cubesphere2/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/cubesphere2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/cubesphere2.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/particlesphere",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Particles arranged as a lit sphere with a counter at the centre. #particles #3d #kotlin",
+      "sourceFile": "docs/androidx-kotlin/particlesphere/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/particlesphere.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/particlesphere.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/01-scatter",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D scatter / bubble plot, 46 points sized and coloured by magnitude — drag to orbit",
+      "sourceFile": "docs/charts3d/01-scatter/doc.rc",
+      "rcDocument": "documents/charts3d/01-scatter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/01-scatter.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/02-surface",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D surface plot, animated radial sinc — drag to orbit",
+      "sourceFile": "docs/charts3d/02-surface/doc.rc",
+      "rcDocument": "documents/charts3d/02-surface.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/02-surface.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/05-trajectory",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D trajectory, Lorenz attractor coloured along its path — drag to orbit",
+      "sourceFile": "docs/charts3d/05-trajectory/doc.rc",
+      "rcDocument": "documents/charts3d/05-trajectory.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/05-trajectory.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/09-quiver",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D vector field, 5x5x5 swirl about the y axis — drag to orbit",
+      "sourceFile": "docs/charts3d/09-quiver/doc.rc",
+      "rcDocument": "documents/charts3d/09-quiver.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/09-quiver.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "games/gravity-beacon",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Gravity Beacon: tap to place a gravity well and curve the ball into the goal",
+      "sourceFile": "docs/games/gravity-beacon/doc.rc",
+      "rcDocument": "documents/games/gravity-beacon.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/gravity-beacon.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/orbit-hop",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Orbit Hop: tap to leave orbit and fly to the next planet",
+      "sourceFile": "docs/games/orbit-hop/doc.rc",
+      "rcDocument": "documents/games/orbit-hop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/orbit-hop.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/wall-bounce",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Wall Bounce: tap to place bumpers and steer the ball through the checkpoints",
+      "sourceFile": "docs/games/wall-bounce/doc.rc",
+      "rcDocument": "documents/games/wall-bounce.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/wall-bounce.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/37-energy-monitor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Energy Monitor — whole home · live",
+      "sourceFile": "docs/iot-panels-light/37-energy-monitor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/37-energy-monitor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/37-energy-monitor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/48-smart-tv",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart TV — 4K HDR · playing",
+      "sourceFile": "docs/iot-panels-light/48-smart-tv/doc.rc",
+      "rcDocument": "documents/iot-panels-light/48-smart-tv.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/48-smart-tv.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/06-thermostat",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Smart Thermostat — heating · target 22°",
+      "sourceFile": "docs/iot-panels/06-thermostat/doc.rc",
+      "rcDocument": "documents/iot-panels/06-thermostat.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/06-thermostat.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels/14-motion-sensor",
+      "section": "rcjson",
+      "group": "iot-panels",
+      "caption": "Motion Sensor — PIR · 7 zones · 12m",
+      "sourceFile": "docs/iot-panels/14-motion-sensor/doc.rc",
+      "rcDocument": "documents/iot-panels/14-motion-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels/14-motion-sensor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-sakura-season",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura Season — animated loading panel matching reference artwork",
+      "sourceFile": "docs/render/01-sakura-season/doc.rc",
+      "rcDocument": "documents/render/01-sakura-season.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-sakura-season.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-new-years-fireworks",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "New Year's Fireworks — rockets launching and bursting fireworks countdown",
+      "sourceFile": "docs/render/03-new-years-fireworks/doc.rc",
+      "rcDocument": "documents/render/03-new-years-fireworks.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-new-years-fireworks.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/22-friendly-aliens-ufo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Friendly Aliens — UFOs with pulsating tractor beams abducting animals strictly vertically to spaceships",
+      "sourceFile": "docs/render/22-friendly-aliens-ufo/doc.rc",
+      "rcDocument": "documents/render/22-friendly-aliens-ufo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/22-friendly-aliens-ufo.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/23-under-the-sea",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Under the Sea — yellow submarine exploring coral reef with swimming fish that flip direction and bubbles floating up from the sub",
+      "sourceFile": "docs/render/23-under-the-sea/doc.rc",
+      "rcDocument": "documents/render/23-under-the-sea.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/23-under-the-sea.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/a2-orbit",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Orbit animation: blue dots circling the centre, growing and shrinking as they travel. #animation #loop",
+      "sourceFile": "docs/render/a2-orbit/doc.rc",
+      "rcDocument": "documents/render/a2-orbit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a2-orbit.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/banner-sf-sweep",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "San Francisco banner sweeping its own aspect ratio from 1:1 to 3:1 and back every eight seconds — the same document as banner_sf.json, reflowing live",
+      "sourceFile": "docs/render/banner-sf-sweep/doc.rc",
+      "rcDocument": "documents/render/banner-sf-sweep.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/banner-sf-sweep.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/battlezone",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "battlezone — vector world, no tank",
+      "sourceFile": "docs/render/battlezone/doc.rc",
+      "rcDocument": "documents/render/battlezone.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/battlezone.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/d32-wavefield",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "wavefield",
+      "sourceFile": "docs/render/d32-wavefield/doc.rc",
+      "rcDocument": "documents/render/d32-wavefield.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d32-wavefield.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/dashboard-card",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Crypto Dashboard Card with AGSL Plasma Shader",
+      "sourceFile": "docs/render/dashboard-card/doc.rc",
+      "rcDocument": "documents/render/dashboard-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dashboard-card.png",
+          "width": 380,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/droidman-oldchips",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "droid-man (all)",
+      "sourceFile": "docs/render/droidman-oldchips/doc.rc",
+      "rcDocument": "documents/render/droidman-oldchips.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/droidman-oldchips.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/lunar-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Lunar New Year — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/lunar-progress/doc.rc",
+      "rcDocument": "documents/render/lunar-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/lunar-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/space-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Space — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/space-progress/doc.rc",
+      "rcDocument": "documents/render/space-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/space-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/starfield",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "starfield — stars streaming toward the viewer",
+      "sourceFile": "docs/render/starfield/doc.rc",
+      "rcDocument": "documents/render/starfield.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/starfield.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sunflower-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sunflowers — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/sunflower-loop/doc.rc",
+      "rcDocument": "documents/render/sunflower-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sunflower-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/tempest",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "tempest — the tube, enemies climbing",
+      "sourceFile": "docs/render/tempest/doc.rc",
+      "rcDocument": "documents/render/tempest.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/tempest.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "surface-plot3d/surface-plot3d",
+      "section": "droidkaigi26",
+      "group": "surface-plot3d",
+      "caption": "3D surface plot — drag to orbit",
+      "sourceFile": "docs/surface-plot3d/surface-plot3d/doc.rc",
+      "rcDocument": "documents/surface-plot3d/surface-plot3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/surface-plot3d/surface-plot3d.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    }
+  ]
 }
