@@ -18340,6 +18340,363 @@
       ]
     },
     {
+      "componentId": "render/var-noneg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: the same chain without negatives. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/var-noneg/doc.rc",
+      "rcDocument": "documents/render/var-noneg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-noneg.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-nosensor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "nosensor",
+      "sourceFile": "docs/render/var-nosensor/doc.rc",
+      "rcDocument": "documents/render/var-nosensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-nosensor.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-plainneg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "plainneg",
+      "sourceFile": "docs/render/var-plainneg/doc.rc",
+      "rcDocument": "documents/render/var-plainneg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-plainneg.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/w-guard",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Guard probe: a clamped expression protected against out-of-range input. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/w-guard/doc.rc",
+      "rcDocument": "documents/render/w-guard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/w-guard.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/w-unguard",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Guard probe: the same expression without its clamp, for comparison. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/w-unguard/doc.rc",
+      "rcDocument": "documents/render/w-unguard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/w-unguard.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/watch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Watch — a blue face with hour, minute and second hands, sized to the largest circle that fits the window",
+      "sourceFile": "docs/render/watch/doc.rc",
+      "rcDocument": "documents/render/watch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/watch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/watchface",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sleek WatchFace Demo",
+      "sourceFile": "docs/render/watchface/doc.rc",
+      "rcDocument": "documents/render/watchface.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/watchface.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/weather-card",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: a colored card with a city name, a large temperature, and a condition line, centered. Use for a single-location weather summary.",
+      "sourceFile": "docs/render/weather-card/doc.rc",
+      "rcDocument": "documents/render/weather-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/weather-card.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/weather-widget",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather Card with AGSL Atmosphere Shader",
+      "sourceFile": "docs/render/weather-widget/doc.rc",
+      "rcDocument": "documents/render/weather-widget.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/weather-widget.png",
+          "width": 380,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/worldcup-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "World Cup — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/worldcup-loop/doc.rc",
+      "rcDocument": "documents/render/worldcup-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/worldcup-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/worldcup-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "World Cup — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/worldcup-progress/doc.rc",
+      "rcDocument": "documents/render/worldcup-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/worldcup-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-chain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression chain: a darker green circle whose radius comes from several dependent steps. #expressions #drawCircle",
+      "sourceFile": "docs/render/x-chain/doc.rc",
+      "rcDocument": "documents/render/x-chain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-chain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-const",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression control: a green circle sized by a constant, to compare against the chained version. #expressions #drawCircle",
+      "sourceFile": "docs/render/x-const/doc.rc",
+      "rcDocument": "documents/render/x-const.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-const.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-sensor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sensor-driven circle, drawn only once the sensor reports a value. #expressions #sensors #validation",
+      "sourceFile": "docs/render/x-sensor/doc.rc",
+      "rcDocument": "documents/render/x-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-sensor.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-after",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe, after state: the value is read once it has been written. #expressions #validation",
+      "sourceFile": "docs/render/y-after/doc.rc",
+      "rcDocument": "documents/render/y-after.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-after.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-both",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe: a value read both before and after it is written. #expressions #validation",
+      "sourceFile": "docs/render/y-both/doc.rc",
+      "rcDocument": "documents/render/y-both.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-both.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-split",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe: the write split from the read, showing a green circle once resolved. #expressions #drawCircle #validation",
+      "sourceFile": "docs/render/y-split/doc.rc",
+      "rcDocument": "documents/render/y-split.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-split.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-imp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: an impulse applied. Draws nothing visible at rest. #animation #validation",
+      "sourceFile": "docs/render/z-imp/doc.rc",
+      "rcDocument": "documents/render/z-imp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-imp.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-impf",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: an impulse with a float parameter. Draws nothing visible at rest. #animation #validation",
+      "sourceFile": "docs/render/z-impf/doc.rc",
+      "rcDocument": "documents/render/z-impf.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-impf.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-noimp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: the control with no impulse applied. Draws nothing visible. #animation #validation",
+      "sourceFile": "docs/render/z-noimp/doc.rc",
+      "rcDocument": "documents/render/z-noimp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-noimp.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "shapes3d/shapes3d",
+      "section": "droidkaigi26",
+      "group": "shapes3d",
+      "caption": "A gallery of twenty 3D primitives",
+      "sourceFile": "docs/shapes3d/shapes3d/doc.rc",
+      "rcDocument": "documents/shapes3d/shapes3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/shapes3d/shapes3d.png",
+          "width": 640,
+          "height": 525
+        }
+      ]
+    },
+    {
       "componentId": "surface-plot3d/surface-plot3d",
       "section": "droidkaigi26",
       "group": "surface-plot3d",
@@ -18353,6 +18710,329 @@
           "path": "images/surface-plot3d/surface-plot3d.png",
           "width": 640,
           "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Two sugar-phosphate backbones built as stroked paths, antiparallel, with base pairs between them. #biology #dna #path",
+      "sourceFile": "docs/vis-set-01/bio-mb-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00001.png",
+          "width": 360,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A single RNA strand whose every base position is a function of time, so the molecule flexes rather than sitting still. #biology #rna #animated",
+      "sourceFile": "docs/vis-set-01/bio-mb-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00002.png",
+          "width": 420,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A replication fork opening in 3D while a particle pool of ninety free nucleotides drifts around it. #biology #dna #particles #3d #animated",
+      "sourceFile": "docs/vis-set-01/bio-mb-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00003.png",
+          "width": 440,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00004",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Drag a polymerase along a gene; the mRNA transcript grows behind it and the percentage transcribed updates live. #biology #rna #interactive #input",
+      "sourceFile": "docs/vis-set-01/bio-mb-00004/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00004.png",
+          "width": 460,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/chm-ac-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Three atoms as panels of proton, neutron and electron counts, laid out so the comparison is structural rather than drawn. #chemistry #atoms #layout",
+      "sourceFile": "docs/vis-set-01/chm-ac-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/chm-ac-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/chm-ac-00001.png",
+          "width": 520,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/csc-algo-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "One row per pass, placed elements highlighted, so the whole algorithm is visible at once instead of animated and gone. #computing #algorithms #sorting",
+      "sourceFile": "docs/vis-set-01/csc-algo-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/csc-algo-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/csc-algo-00001.png",
+          "width": 520,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/ear-geol-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Twelve tectonic plates by speed in centimetres per year, plotted from a float array. The fast ones are oceanic. #earth #tectonics #chart",
+      "sourceFile": "docs/vis-set-01/ear-geol-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/ear-geol-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/ear-geol-00001.png",
+          "width": 520,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Quantity demanded over price and income as a single computed mesh with turning 3D axes. Constant elasticity, so the surface curves. #economics #demand #3d #surface #animated",
+      "sourceFile": "docs/vis-set-01/eco-micr-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00001.png",
+          "width": 460,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Each dot is a buyer placed at the most they will pay. A sweeping price line cuts through both populations; the tightly packed elastic band empties at once while the spread inelastic one barely notices. #economics #elasticity #particles #animated",
+      "sourceFile": "docs/vis-set-01/eco-micr-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00002.png",
+          "width": 480,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Drag to change the budget and watch spending shares move between necessities and luxuries. #economics #consumer #interactive #input",
+      "sourceFile": "docs/vis-set-01/eco-micr-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00003.png",
+          "width": 460,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00004",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "The same three questions answered four ways, as a typographic table: sellers, product, price power. #economics #competition #text",
+      "sourceFile": "docs/vis-set-01/eco-micr-00004/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00004.png",
+          "width": 560,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eng-me-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A four-bar linkage frozen at one angle, with the coupler point's full locus traced as a closed path. #engineering #mechanism #path",
+      "sourceFile": "docs/vis-set-01/eng-me-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/eng-me-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eng-me-00001.png",
+          "width": 440,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/mth-an-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Integers from -5 to 5 with halves marked and pi placed where it actually falls. A typography document: the labels carry the meaning. #maths #numbers #text",
+      "sourceFile": "docs/vis-set-01/mth-an-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/mth-an-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/mth-an-00001.png",
+          "width": 560,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Twelve fermions on a log mass axis, quarks against leptons, plotted from a float array. The three neutrinos fall below the axis entirely. #physics #particles #chart",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00001.png",
+          "width": 520,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A reflowing card layout of the six quark flavours with their electric charges, and a note on gluon colour. Built from layout containers, no canvas. #physics #particles #layout",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00002.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Two up quarks and one down inside the confining volume, each with a wireframe colour-charge halo, joined by gluon bonds drawn as vibrating standing waves. #physics #particles #3d #animated",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00003.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-cb-00007",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Drag across to cross-fade between the two; shared organelles stay put so only the differences move. #biology #cells #interactive #input",
+      "sourceFile": "docs/vis-set-02/bio-cb-00007/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-cb-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-cb-00007.png",
+          "width": 480,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-cb-00008",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "A 3D cell with a bitmap-textured nucleus, organelles placed inside it and a wireframe membrane cage. #biology #cells #3d #texture #animated",
+      "sourceFile": "docs/vis-set-02/bio-cb-00008/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-cb-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-cb-00008.png",
+          "width": 460,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-mb-00005",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "A ribosome walking the message codon by codon, the polypeptide growing behind it and tRNA arriving at the A site. Every position is a function of one clock. #biology #rna #animated",
+      "sourceFile": "docs/vis-set-02/bio-mb-00005/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-mb-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-mb-00005.png",
+          "width": 520,
+          "height": 320
         }
       ]
     }
