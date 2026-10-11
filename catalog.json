@@ -3601,6 +3601,329 @@
       ]
     },
     {
+      "componentId": "androidx-kotlin/fan",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Forecast Fan",
+      "sourceFile": "docs/androidx-kotlin/fan/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/fan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/fan.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/forest",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Meta-analysis",
+      "sourceFile": "docs/androidx-kotlin/forest/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/forest.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/forest.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/function",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Plot of f(x) = sin(x)·e^(−x²/20) with labelled axes and gridlines. #graph #expressions #kotlin",
+      "sourceFile": "docs/androidx-kotlin/function/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/function.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/function.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/funnel",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Conversion Funnel",
+      "sourceFile": "docs/androidx-kotlin/funnel/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/funnel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/funnel.png",
+          "width": 640,
+          "height": 498
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/gantt",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Schedule",
+      "sourceFile": "docs/androidx-kotlin/gantt/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/gantt.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/gantt.png",
+          "width": 640,
+          "height": 396
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/gauge",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Performance",
+      "sourceFile": "docs/androidx-kotlin/gauge/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/gauge.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/heartrate",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Heart Rate Timeline",
+      "sourceFile": "docs/androidx-kotlin/heartrate/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/heartrate.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/heartrate.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/hydrationwave",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Hydration Progress Wave",
+      "sourceFile": "docs/androidx-kotlin/hydrationwave/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/hydrationwave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/hydrationwave.png",
+          "width": 400,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/interactive",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Interactive multi-series line chart, Drag to Inspect, with a readout for Products A, B and C. #graph #interaction #kotlin",
+      "sourceFile": "docs/androidx-kotlin/interactive/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/interactive.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/interactive.png",
+          "width": 640,
+          "height": 398
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/likert",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Customer survey as diverging Likert bars from Disagree through Strongly agree. #graph #kotlin",
+      "sourceFile": "docs/androidx-kotlin/likert/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/likert.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/likert.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/linearregression3",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Linear Regression Demo",
+      "sourceFile": "docs/androidx-kotlin/linearregression3/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/linearregression3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/linearregression3.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/maze",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Maze rendered as blue corridors on black. #game #kotlin",
+      "sourceFile": "docs/androidx-kotlin/maze/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/maze.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/maze.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/metronome",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Metronome: a blue weight sliding along a red beam. #animation #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/metronome/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/metronome.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/metronome.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/modernshowcase",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Title card: Premium Kotlin DSL Showcase, a fully architected modern type-safe DSL. #text #kotlin",
+      "sourceFile": "docs/androidx-kotlin/modernshowcase/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/modernshowcase.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/modernshowcase.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/moonphasedial",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Moon phase dial: waxing gibbous, 72% illuminated, craters picked out. #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/moonphasedial/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/moonphasedial.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/moonphasedial.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/multi",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Active Users by Product",
+      "sourceFile": "docs/androidx-kotlin/multi/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/multi.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/multi.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/pareto",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Defect Causes",
+      "sourceFile": "docs/androidx-kotlin/pareto/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/pareto.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/pareto.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/particledots",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Particle field forming a soft blue disc on black. #particles #kotlin",
+      "sourceFile": "docs/androidx-kotlin/particledots/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/particledots.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/particledots.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/particledots2",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Particle disc with a live 0.0 counter at its centre. #particles #kotlin",
+      "sourceFile": "docs/androidx-kotlin/particledots2/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/particledots2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/particledots2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-kotlin/particlesphere",
       "section": "androidx",
       "group": "androidx-kotlin",
@@ -3614,6 +3937,363 @@
           "path": "images/androidx-kotlin/particlesphere.png",
           "width": 400,
           "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/pie",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Platform Share",
+      "sourceFile": "docs/androidx-kotlin/pie/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/pie.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/pie.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/pressuregauge",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Radial pressure gauge with a fine tick scale reading 799 mmHg between Low and High. #iot #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/pressuregauge/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/pressuregauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/pressuregauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/qq",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Normal Q-Q plot: sample quantiles against theoretical, with a fitted reference line. #graph #kotlin",
+      "sourceFile": "docs/androidx-kotlin/qq/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/qq.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/qq.png",
+          "width": 620,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/quadrant",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Portfolio",
+      "sourceFile": "docs/androidx-kotlin/quadrant/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/quadrant.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/quadrant.png",
+          "width": 640,
+          "height": 533
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/radar",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Product Comparison",
+      "sourceFile": "docs/androidx-kotlin/radar/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/radar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/radar.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/radialbar",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Daily Activity",
+      "sourceFile": "docs/androidx-kotlin/radialbar/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/radialbar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/radialbar.png",
+          "width": 620,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/ridgeline",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Distributions",
+      "sourceFile": "docs/androidx-kotlin/ridgeline/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/ridgeline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/ridgeline.png",
+          "width": 640,
+          "height": 551
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/rose",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Monthly Rainfall",
+      "sourceFile": "docs/androidx-kotlin/rose/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/rose.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/rose.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/scatter",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Spend vs Revenue",
+      "sourceFile": "docs/androidx-kotlin/scatter/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/scatter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/scatter.png",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/sleeprings",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Sleep Quality Rings",
+      "sourceFile": "docs/androidx-kotlin/sleeprings/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/sleeprings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/sleeprings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/spheretimeshader",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Shaded sphere with the month name wrapped around it, driven by a time shader. #shaders #3d #kotlin",
+      "sourceFile": "docs/androidx-kotlin/spheretimeshader/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/spheretimeshader.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/spheretimeshader.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/spline",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Smoothed Trend",
+      "sourceFile": "docs/androidx-kotlin/spline/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/spline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/spline.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/step",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Pricing Tier Over Time",
+      "sourceFile": "docs/androidx-kotlin/step/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/step.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/step.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/stepprogressarc",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Step progress arc reading 7250 of 10000 steps with quarter markers. #widget #graph #kotlin",
+      "sourceFile": "docs/androidx-kotlin/stepprogressarc/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/stepprogressarc.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/stepprogressarc.png",
+          "width": 400,
+          "height": 350
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/stocksparkline",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Stock sparkline at 44850, up 6.41%, as a green trend line over a filled gradient. #graph #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/stocksparkline/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/stocksparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/stocksparkline.png",
+          "width": 500,
+          "height": 350
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/stopwatch",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Stopwatch at 00:00.00 inside a teal progress ring. #clock #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/stopwatch/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/stopwatch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/stopwatch.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/ticker",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Watchlist ticker scrolling a value across a pale card. #animation #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/ticker/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/ticker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/ticker.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/treemap",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Market Caps",
+      "sourceFile": "docs/androidx-kotlin/treemap/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/treemap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/treemap.png",
+          "width": 640,
+          "height": 505
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/waterfall",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Revenue Bridge",
+      "sourceFile": "docs/androidx-kotlin/waterfall/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/waterfall.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/waterfall.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/weatherforecast",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Weather Forecast Bars",
+      "sourceFile": "docs/androidx-kotlin/weatherforecast/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/weatherforecast.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/weatherforecast.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "architecture3d/architecture3d",
+      "section": "droidkaigi26",
+      "group": "architecture3d",
+      "caption": "RemoteCompose architecture diagram",
+      "sourceFile": "docs/architecture3d/architecture3d/doc.rc",
+      "rcDocument": "documents/architecture3d/architecture3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/architecture3d/architecture3d.png",
+          "width": 640,
+          "height": 360
         }
       ]
     },
