@@ -12713,6 +12713,159 @@
       ]
     },
     {
+      "componentId": "render/a-battery-icon-at-about-75-percent-green",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery icon at about 75%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/a-battery-icon-at-about-75-percent-green/doc.rc",
+      "rcDocument": "documents/render/a-battery-icon-at-about-75-percent-green.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-battery-icon-at-about-75-percent-green.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-battery-indicator-showing-40-percent-c",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery indicator at about 40%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/a-battery-indicator-showing-40-percent-c/doc.rc",
+      "rcDocument": "documents/render/a-battery-indicator-showing-40-percent-c.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-battery-indicator-showing-40-percent-c.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-bullseye-target-red-and-white",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "bullseye",
+      "sourceFile": "docs/render/a-bullseye-target-red-and-white/doc.rc",
+      "rcDocument": "documents/render/a-bullseye-target-red-and-white.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-bullseye-target-red-and-white.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-cpu-usage-gauge-showing-47-percent",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "cpu usage gauge",
+      "sourceFile": "docs/render/a-cpu-usage-gauge-showing-47-percent/doc.rc",
+      "rcDocument": "documents/render/a-cpu-usage-gauge-showing-47-percent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-cpu-usage-gauge-showing-47-percent.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-donut-chart-with-three-colored-segment",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "donut chart",
+      "sourceFile": "docs/render/a-donut-chart-with-three-colored-segment/doc.rc",
+      "rcDocument": "documents/render/a-donut-chart-with-three-colored-segment.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-donut-chart-with-three-colored-segment.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-speedometer-gauge-with-a-red-needle",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "speedometer",
+      "sourceFile": "docs/render/a-speedometer-gauge-with-a-red-needle/doc.rc",
+      "rcDocument": "documents/render/a-speedometer-gauge-with-a-red-needle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-speedometer-gauge-with-a-red-needle.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-tappable-counter-with-plus-and-minus-b",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Tappable counter with minus and plus controls either side of the value. #interaction #widget",
+      "sourceFile": "docs/render/a-tappable-counter-with-plus-and-minus-b/doc.rc",
+      "rcDocument": "documents/render/a-tappable-counter-with-plus-and-minus-b.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-tappable-counter-with-plus-and-minus-b.png",
+          "width": 320,
+          "height": 160
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-weather-card-london-12-degrees-rainy-b",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: London, 12 degrees, Rainy, on a blue panel. #widget",
+      "sourceFile": "docs/render/a-weather-card-london-12-degrees-rainy-b/doc.rc",
+      "rcDocument": "documents/render/a-weather-card-london-12-degrees-rainy-b.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-weather-card-london-12-degrees-rainy-b.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/a1-pulse",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pulse animation: concentric teal rings expanding from the centre. #animation #drawCircle",
+      "sourceFile": "docs/render/a1-pulse/doc.rc",
+      "rcDocument": "documents/render/a1-pulse.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a1-pulse.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/a2-orbit",
       "section": "rcjson",
       "group": "render",
@@ -12726,6 +12879,329 @@
           "path": "images/render/a2-orbit.png",
           "width": 300,
           "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a3-wave",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Wave animation: amber dots tracing a travelling sine curve. #animation #expressions",
+      "sourceFile": "docs/render/a3-wave/doc.rc",
+      "rcDocument": "documents/render/a3-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a3-wave.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a4-spin",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Spin animation: a dense starburst of pink rays radiating from the centre. #animation #loop",
+      "sourceFile": "docs/render/a4-spin/doc.rc",
+      "rcDocument": "documents/render/a4-spin.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a4-spin.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/ab-eps",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/ab-eps/doc.rc",
+      "rcDocument": "documents/render/ab-eps.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ab-eps.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/ab-ife",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/ab-ife/doc.rc",
+      "rcDocument": "documents/render/ab-ife.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ab-ife.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-arith",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Arithmetic check: a green circle whose radius comes from a computed expression. #expressions #validation",
+      "sourceFile": "docs/render/al-arith/doc.rc",
+      "rcDocument": "documents/render/al-arith.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-arith.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-chain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Chained expressions: a green circle sized by several dependent calculations. #expressions #validation",
+      "sourceFile": "docs/render/al-chain/doc.rc",
+      "rcDocument": "documents/render/al-chain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-chain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-plain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseline case: a plain green circle with no expressions, used as the control. #drawCircle #validation",
+      "sourceFile": "docs/render/al-plain/doc.rc",
+      "rcDocument": "documents/render/al-plain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-plain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/aliens-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Friendly Aliens — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/aliens-loop/doc.rc",
+      "rcDocument": "documents/render/aliens-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/aliens-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/aliens-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Friendly Aliens — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/aliens-progress/doc.rc",
+      "rcDocument": "documents/render/aliens-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/aliens-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/antarctica-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Antarctica — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/antarctica-loop/doc.rc",
+      "rcDocument": "documents/render/antarctica-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/antarctica-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/antarctica-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Antarctica — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/antarctica-progress/doc.rc",
+      "rcDocument": "documents/render/antarctica-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/antarctica-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/area-chart",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Area chart: a filled region under a series of y-values. Like a line chart but shaded to the baseline. Use for cumulative/volume-over-time feel.",
+      "sourceFile": "docs/render/area-chart/doc.rc",
+      "rcDocument": "documents/render/area-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-chart.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/area-chart-of-daily-website-visitors-for",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "area chart of daily website visitors",
+      "sourceFile": "docs/render/area-chart-of-daily-website-visitors-for/doc.rc",
+      "rcDocument": "documents/render/area-chart-of-daily-website-visitors-for.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-chart-of-daily-website-visitors-for.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/area-stacked",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Stacked area chart, traffic by source",
+      "sourceFile": "docs/render/area-stacked/doc.rc",
+      "rcDocument": "documents/render/area-stacked.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-stacked.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "render/arrprobe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: does setArrayValue write, and can arrayGet read it back?",
+      "sourceFile": "docs/render/arrprobe/doc.rc",
+      "rcDocument": "documents/render/arrprobe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/arrprobe.png",
+          "width": 400,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/asteroids",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "asteroids — tumbling wireframe rocks",
+      "sourceFile": "docs/render/asteroids/doc.rc",
+      "rcDocument": "documents/render/asteroids.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/asteroids.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/autumn-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Autumn Leaves — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/autumn-loop/doc.rc",
+      "rcDocument": "documents/render/autumn-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/autumn-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/autumn-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Autumn Leaves — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/autumn-progress/doc.rc",
+      "rcDocument": "documents/render/autumn-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/autumn-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/banner-sf",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "San Francisco banner — Golden Gate Bridge, Alcatraz, the downtown skyline, Painted Ladies and a cable car, composed to hold from 3:1 to 1:1",
+      "sourceFile": "docs/render/banner-sf/doc.rc",
+      "rcDocument": "documents/render/banner-sf.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/banner-sf.png",
+          "width": 640,
+          "height": 213
         }
       ]
     },
@@ -12747,6 +13223,108 @@
       ]
     },
     {
+      "componentId": "render/bar-horizontal",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Horizontal bar chart: one colored bar per value, growing left-to-right, length proportional to the value. Good for ranked lists / long labels.",
+      "sourceFile": "docs/render/bar-horizontal/doc.rc",
+      "rcDocument": "documents/render/bar-horizontal.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bar-horizontal.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/bar-vertical",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Vertical bar chart: one colored bar per value in an array, bar height proportional to the value. Use for comparing quantities across categories.",
+      "sourceFile": "docs/render/bar-vertical/doc.rc",
+      "rcDocument": "documents/render/bar-vertical.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bar-vertical.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/baseball-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseball — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/baseball-loop/doc.rc",
+      "rcDocument": "documents/render/baseball-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/baseball-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/baseball-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseball — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/baseball-progress/doc.rc",
+      "rcDocument": "documents/render/baseball-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/baseball-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/battery",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery icon with a charge level (0-100%): outlined body, terminal nub, and a green fill whose width is driven by the percentage.",
+      "sourceFile": "docs/render/battery/doc.rc",
+      "rcDocument": "documents/render/battery.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/battery.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/battery-at-30",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery indicator at about 30%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/battery-at-30/doc.rc",
+      "rcDocument": "documents/render/battery-at-30.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/battery-at-30.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/battlezone",
       "section": "rcjson",
       "group": "render",
@@ -12760,6 +13338,108 @@
           "path": "images/render/battlezone.png",
           "width": 480,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/beach-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Summer Beach — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/beach-loop/doc.rc",
+      "rcDocument": "documents/render/beach-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/beach-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/beach-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Summer Beach — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/beach-progress/doc.rc",
+      "rcDocument": "documents/render/beach-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/beach-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/bogus",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "unknown canvas command",
+      "sourceFile": "docs/render/bogus/doc.rc",
+      "rcDocument": "documents/render/bogus.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bogus.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/btn-top",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/btn-top/doc.rc",
+      "rcDocument": "documents/render/btn-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/btn-top.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/bullseye",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bullseye/target: concentric alternating-color filled circles. A simple decorative/score graphic.",
+      "sourceFile": "docs/render/bullseye/doc.rc",
+      "rcDocument": "documents/render/bullseye.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bullseye.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/c10-grazing-canvas",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "C10 grazing textured quad, canvas",
+      "sourceFile": "docs/render/c10-grazing-canvas/doc.rc",
+      "rcDocument": "documents/render/c10-grazing-canvas.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/c10-grazing-canvas.png",
+          "width": 320,
+          "height": 320
         }
       ]
     },
