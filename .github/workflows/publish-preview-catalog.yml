@@ -5,10 +5,19 @@ on:
     branches:
       - agent/preview-catalog-publisher
   workflow_dispatch:
+    inputs:
+      rc-cmp-wasm-lane:
+        description: >-
+          Add the CMP/Wasm player column to the player comparison (report-only). Off by default:
+          about 15% of these documents use features the CMP player lacks.
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
+# One group for the whole run: the publish job pushes without retrying, so the comparison must
+# not push underneath it. Comparisons are skipped in seconds when nothing changed.
 concurrency:
   group: remote-compose-preview-catalog
   cancel-in-progress: false
@@ -77,3 +86,178 @@ jobs:
             python publisher/catalog-publisher/publish.py "${args[@]}" --batch-size 40
             publish_changes "render batch $batch"
           done
+
+  # Every Remote Compose player's render of every published document, side by side, for
+  # preview.coo.ee's compare page. Mirrors the rc-compare step of compose-ai-tools'
+  # design-artifacts-reusable.yml. Cached by skipping: the job exits early when
+  # rc-compare-key.txt on the delivery branch already names this exact set of inputs.
+  player-comparison:
+    if: github.repository == 'yschimke/RemoteCompose-Examples'
+    needs: publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      # Literals, never computed: what these name is executed with this job's token around.
+      # compose-ai-tools v2.43.0 consumes rcplayers 2.4.0 and locks export-driver 1.9.0; move the
+      # three together (the job checks the last two against that checkout).
+      COMPOSE_AI_TOOLS_REPO: yschimke/compose-ai-tools
+      COMPOSE_AI_TOOLS_REF: cb9e0d5388657c6ea5be2cb34608f019b4a90143 # v2.43.0
+      RC_PLAYERS_REPO: yschimke/rc-players
+      RC_PLAYERS_PIN: v2.4.0
+      EXPORT_DRIVER_VERSION: 1.9.0
+      RC_EMBEDDED_LANE: 'true'
+      RC_EMBEDDED_JVM_LANE: 'true'
+      # cmp-wasm stays off unless dispatched with rc-cmp-wasm-lane: about 15% of the corpus uses
+      # features the CMP player lacks, and the reusable workflow's --require-cmp-wasm gate would
+      # fail on them. When on, it runs report-only (no gate).
+      RC_CMP_WASM_LANE: ${{ inputs.rc-cmp-wasm-lane && 'true' || 'false' }}
+    steps:
+      - name: Check out publisher
+        uses: actions/checkout@v4
+        with:
+          path: publisher
+          persist-credentials: false
+
+      - name: Check out delivery branch
+        uses: actions/checkout@v4
+        with:
+          ref: design-artifacts/remote-compose-examples
+          path: output
+          persist-credentials: true
+
+      - name: Decide whether the comparison is current
+        id: gate
+        run: |
+          set -euo pipefail
+          python3 publisher/catalog-publisher/rc_compare_bundle.py key --output output \
+            --input "driver=$EXPORT_DRIVER_VERSION" \
+            --input "rc-players=$RC_PLAYERS_PIN" \
+            --input "compose-ai-tools=$COMPOSE_AI_TOOLS_REF" \
+            --input "lanes=embedded:$RC_EMBEDDED_LANE,embedded-jvm:$RC_EMBEDDED_JVM_LANE,cmp-wasm:$RC_CMP_WASM_LANE" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Check out compose-ai-tools (export driver, player bundles, fonts)
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.COMPOSE_AI_TOOLS_REPO }}
+          ref: ${{ env.COMPOSE_AI_TOOLS_REF }}
+          path: compose-ai-tools
+          persist-credentials: false
+
+      - name: Check the pins against compose-ai-tools
+        if: steps.gate.outputs.run == 'true'
+        id: pins
+        run: |
+          set -euo pipefail
+          driver="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["dependencies"]["@design-parity/export-driver"])' \
+            compose-ai-tools/.github/design-artifacts-driver/package.json)"
+          if [ "$driver" != "$EXPORT_DRIVER_VERSION" ]; then
+            echo "::error::EXPORT_DRIVER_VERSION is $EXPORT_DRIVER_VERSION but compose-ai-tools@$COMPOSE_AI_TOOLS_REF locks $driver"
+            exit 1
+          fi
+          players="$(sed -n '/^rcplayers = /{s/^rcplayers = "\([^"]*\)".*/\1/p;q;}' compose-ai-tools/gradle/libs.versions.toml)"
+          if [ "v$players" = "$RC_PLAYERS_PIN" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::RC_PLAYERS_PIN is $RC_PLAYERS_PIN but compose-ai-tools consumes rcplayers $players; the embedded lanes are skipped"
+          fi
+
+      - name: Check out rc-players (embedded player harnesses)
+        if: steps.gate.outputs.run == 'true' && steps.pins.outputs.ok == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.RC_PLAYERS_REPO }}
+          ref: ${{ env.RC_PLAYERS_PIN }}
+          path: rc-players
+          persist-credentials: false
+
+      # rc-players pins a Java 17 toolchain; compose-ai-tools builds on 21. Install 17 first so
+      # JAVA_HOME ends on 21, then name every JDK for Gradle's toolchain detection, which does
+      # not look in the runner's tool cache.
+      - name: Set up the rc-players toolchain
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up JDK 21
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Point Gradle's toolchain detection at every installed JDK
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          set -euo pipefail
+          paths="$(env | sed -n 's/^JAVA_HOME_[0-9A-Za-z_]*=//p' | sort -u | paste -sd, -)"
+          if [ -n "$paths" ]; then
+            echo "GRADLE_OPTS=-Dorg.gradle.java.installations.paths=${paths} ${GRADLE_OPTS:-}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Set up Node
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # From compose-ai-tools' reviewed lock with `npm ci`; exports DRIVER_DIR and DRIVER_ROOT.
+      - name: Install the export driver and Chromium
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          set -euo pipefail
+          compose-ai-tools/.github/scripts/install-export-driver.sh "$RUNNER_TEMP/export-driver" >/dev/null
+          "$RUNNER_TEMP/export-driver/node_modules/.bin/playwright" install --with-deps chromium \
+            > "$RUNNER_TEMP/playwright-install.log" 2>&1 \
+            || { tail -n 80 "$RUNNER_TEMP/playwright-install.log"; exit 1; }
+
+      - name: Build the comparison bundle
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python3 publisher/catalog-publisher/rc_compare_bundle.py bundle \
+            --output output --bundle "$RUNNER_TEMP/rc-compare-bundle.zip"
+
+      # The Android SDK the Robolectric lanes need is preinstalled on ubuntu-latest.
+      - name: Render every player lane
+        if: steps.gate.outputs.run == 'true'
+        env:
+          COMPOSE_AI_TOOLS: ${{ github.workspace }}/compose-ai-tools
+          RC_PLAYERS: ${{ steps.pins.outputs.ok == 'true' && format('{0}/rc-players', github.workspace) || '' }}
+          BUNDLE: ${{ runner.temp }}/rc-compare-bundle.zip
+          OUT: ${{ runner.temp }}/rc-compare-out
+          WORK: ${{ runner.temp }}/rc-compare-work
+          SYSTEM: remote-compose-examples
+        run: bash publisher/catalog-publisher/rc_compare_lanes.sh
+
+      - name: Commit the comparison to the delivery branch
+        if: steps.gate.outputs.run == 'true'
+        env:
+          KEY: ${{ steps.gate.outputs.key }}
+        run: |
+          set -euo pipefail
+          branch=design-artifacts/remote-compose-examples
+          git -C output config user.name 'github-actions[bot]'
+          git -C output config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python3 publisher/catalog-publisher/rc_compare_bundle.py install \
+            --compare "$RUNNER_TEMP/rc-compare-out" --output output --key "$KEY"
+          git -C output add -A
+          if git -C output diff --cached --quiet; then
+            echo "comparison unchanged"
+            exit 0
+          fi
+          git -C output commit -q -m "chore(catalog): player comparison ${KEY:0:12}"
+          # The run-wide concurrency group keeps publishes out, but a manual push to the branch
+          # can still land meanwhile. Publish files and these never overlap, so rebase and retry.
+          for attempt in 1 2 3 4 5; do
+            if git -C output push origin "HEAD:$branch"; then exit 0; fi
+            echo "push rejected (attempt $attempt); rebasing onto the branch tip"
+            git -C output fetch origin "$branch"
+            git -C output rebase "origin/$branch"
+            sleep $((attempt * 5))
+          done
+          echo "::error::could not push the comparison after 5 attempts"
+          exit 1
