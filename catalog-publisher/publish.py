@@ -13,32 +13,39 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path, PurePosixPath
 
-RENDER_VERSION = 1
+# Part of the image cache key with the player hash: bump it when the capture changes.
+RENDER_VERSION = 2
 SYSTEM = "remote-compose-examples"
 CAPTURE_PAGE = b"""<!doctype html><html><head><script src='/assets/player.js'></script></head><body></body></html>"""
 CAPTURE_SCRIPT = r"""
 async ({id, width, height, maxDimension}) => {
-  const host = document.createElement('div');
-  host.style.cssText = 'position:fixed;left:-10000px;top:0';
-  document.body.appendChild(host);
-  let handle;
+  // The canvas is sized before the document loads, exactly as rc-compare.mjs's js lane does.
+  // `RC.createPlayer` would load into a 256x256 canvas and only then resize; Remote Compose
+  // animates a layout's change of size, so a capture shortly after the resize caught the root
+  // part-way from 256 px to the corpus size and left the rest of the canvas transparent.
+  const canvas = document.createElement('canvas');
+  canvas.width = width;
+  canvas.height = height;
+  canvas.style.cssText = 'position:fixed;left:-10000px;top:0';
+  document.body.appendChild(canvas);
+  let player;
   try {
     const response = await fetch(`/docs/${id}/doc.rc`);
     if (!response.ok) throw new Error(`document fetch returned ${response.status}`);
-    handle = RC.createPlayer(host, {width, height});
-    await handle.loadFromArrayBuffer(await response.arrayBuffer());
-    handle.player.repaint();
-    await new Promise(resolve => setTimeout(resolve, 40));
-    handle.player.repaint();
+    player = new RC.RcdPlayer(canvas);
+    player.setTheme('light');
+    await player.loadFromArrayBuffer(await response.arrayBuffer());
+    await new Promise(resolve => setTimeout(resolve, 250));
+    player.repaint();
     const scale = Math.min(1, maxDimension / Math.max(width, height));
     const image = document.createElement('canvas');
     image.width = Math.max(1, Math.round(width * scale));
     image.height = Math.max(1, Math.round(height * scale));
-    image.getContext('2d').drawImage(handle.canvas, 0, 0, image.width, image.height);
+    image.getContext('2d').drawImage(canvas, 0, 0, image.width, image.height);
     return {png: image.toDataURL('image/png'), width: image.width, height: image.height};
   } finally {
-    if (handle) handle.destroy();
-    host.remove();
+    if (player) player.destroy();
+    canvas.remove();
   }
 }
 """

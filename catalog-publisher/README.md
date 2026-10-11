@@ -48,12 +48,25 @@ python3 catalog-publisher/publish.py \
   --revision "$(git rev-parse main)" --batch-size 40
 ```
 
-The publisher renders each document at its declared size (400 × 400 when the
-header leaves it unspecified), then scales the captured frame to at most 640
-pixels on its longest side. It never shrinks the player's viewport, which would
-change layout. Each player is destroyed after capture to release its WebGL
-context. Failed captures are listed in `render-failures.json` and can be retried
-with `--retry-failed`.
+The publisher renders each document at its corpus size (`width` × `height` in
+main's `catalog/corpus.jsonl`, 400 × 400 when the row leaves it unspecified),
+then scales the captured frame to at most 640 pixels on its longest side. It
+never shrinks the player's canvas, which would change layout.
+
+The canvas is sized **before** the document loads, the same way the comparison's
+js lane does it (`new RC.RcdPlayer(canvas)` on a `width` × `height` canvas, light
+theme, one repaint 250 ms after load). Do not switch back to `RC.createPlayer(host,
+{width, height})`: it loads into a 256 × 256 canvas and resizes afterwards, and
+Remote Compose animates a layout's change of size over roughly 300 ms, so a
+capture taken soon after the resize records the root part-way from 256 px and
+leaves the rest of the PNG transparent.
+
+Each player is destroyed after capture. Failed captures are listed in
+`render-failures.json` and can be retried with `--retry-failed`.
+
+`RENDER_VERSION` in `publish.py` is part of the image cache key with the player
+hash. Bump it whenever the capture itself changes, so the next run re-renders
+every image.
 
 ## Player comparison
 
