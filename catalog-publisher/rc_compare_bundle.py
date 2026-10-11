@@ -31,7 +31,8 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 
 # Bump when the bundle layout or the set of comparison inputs changes, to force one regeneration.
-COMPARE_VERSION = 1
+# 2: the first run with rc-compare-failures.json, so a current comparison regenerates once.
+COMPARE_VERSION = 2
 KEY_FILE = "rc-compare-key.txt"
 SUMMARY_FILE = "rc-compare-summary.json"
 PAGE_FILE = "rc-compare.html"
