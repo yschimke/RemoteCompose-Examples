@@ -1771,47 +1771,80 @@
   },
   "charts2d/annotations": {
     "sha256": "96865cd8b551879af0202076f494064041f1bc0891f90b269d5c6cf72cb0789a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "96865cd8b551879af0202076f494064041f1bc0891f90b269d5c6cf72cb0789a:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 398
   },
   "charts2d/bar-grouped": {
     "sha256": "bbacde583de1eabebcd708ba5ce6fab1ab75b763ccf30650590a181549c3f76a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "bbacde583de1eabebcd708ba5ce6fab1ab75b763ccf30650590a181549c3f76a:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 370
   },
   "charts2d/box-plot": {
     "sha256": "381f5529b1e72920f65dc140816e1eb55fbe8a56992d047c53f0258e469a19f7",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "381f5529b1e72920f65dc140816e1eb55fbe8a56992d047c53f0258e469a19f7:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 416
   },
   "charts2d/bubble": {
     "sha256": "7bcde5772713611355484f504fd7d9fffea8b44203101815dc44cacd8514d10d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7bcde5772713611355484f504fd7d9fffea8b44203101815dc44cacd8514d10d:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 498
   },
   "charts2d/bullet": {
     "sha256": "afb0962aadd69a58e8f59b5b4765849056a7e31a13764d82573b0584e45b4062",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "afb0962aadd69a58e8f59b5b4765849056a7e31a13764d82573b0584e45b4062:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 354
   },
   "charts2d/forest": {
     "sha256": "e7b5a5fabbccab32384d558860d1b8257c09eb35bb2396255517c78227038c84",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e7b5a5fabbccab32384d558860d1b8257c09eb35bb2396255517c78227038c84:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts2d/heatmap": {
     "sha256": "0f504f2d4797b3e150ef85cad7f9368cfd425645658042335677d67673fbbf46",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0f504f2d4797b3e150ef85cad7f9368cfd425645658042335677d67673fbbf46:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts2d/radar": {
     "sha256": "8ba657cafe16be4d604bfc2518177f12e6da1e9cabe1c9da542f3bcd584e1f8b",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "8ba657cafe16be4d604bfc2518177f12e6da1e9cabe1c9da542f3bcd584e1f8b:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "charts2d/rose": {
     "sha256": "cf56eff1ab4e549baf3f8c7e303887d54a4d2062c05c8ceee0c2338da6faaf50",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cf56eff1ab4e549baf3f8c7e303887d54a4d2062c05c8ceee0c2338da6faaf50:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "charts2d/waffle": {
     "sha256": "674715f4f60cfc66fbe47144e5985c8dec7a5dd46a10df578dd71b398a1b0514",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "674715f4f60cfc66fbe47144e5985c8dec7a5dd46a10df578dd71b398a1b0514:2:cb84224aae12e593",
+    "imageWidth": 602,
+    "imageHeight": 640
   },
   "charts2d/waterfall": {
     "sha256": "c365ae1b6488b8c5032580eaa10c61873cc572978073cb9481807e90060abd2f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c365ae1b6488b8c5032580eaa10c61873cc572978073cb9481807e90060abd2f:2:cb84224aae12e593",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts3d/01-scatter": {
     "sha256": "a0ecfe33bc162782a8f3a253f77281c4d1a1699a6aa4fa5513b60f4df4cc6480",
@@ -1829,11 +1862,17 @@
   },
   "charts3d/03-wireframe": {
     "sha256": "e0d9b50865778944eecb49fc7d3804613d515069ad9e6bc849ac43b9c2e55648",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e0d9b50865778944eecb49fc7d3804613d515069ad9e6bc849ac43b9c2e55648:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/04-bars": {
     "sha256": "cebc0f73e812ada6caaec9ac4facccb63707dc62b7c1612cd93bf1a70e60b7ce",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cebc0f73e812ada6caaec9ac4facccb63707dc62b7c1612cd93bf1a70e60b7ce:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/05-trajectory": {
     "sha256": "d79fe279633b8f3ab416b7abc817fab63f0eb51d5f58d0bcc5714d9dafbaa858",
@@ -1844,15 +1883,24 @@
   },
   "charts3d/06-waterfall": {
     "sha256": "599a8ff58642ff51e4cc528b7370c66c2e1d1e9dc635674affc28bb873458f03",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "599a8ff58642ff51e4cc528b7370c66c2e1d1e9dc635674affc28bb873458f03:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/07-contour": {
     "sha256": "f6b4f83213405d53ce9e78ca6fb637c66fdf323443e926dee272e3dca8bddd17",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f6b4f83213405d53ce9e78ca6fb637c66fdf323443e926dee272e3dca8bddd17:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/08-histogram": {
     "sha256": "c240814cc7f44f6a32d5916282195ddd7153f8995d6997ab8f366707e218ac52",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "c240814cc7f44f6a32d5916282195ddd7153f8995d6997ab8f366707e218ac52:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/09-quiver": {
     "sha256": "4a3274dbb801a338cfaf28eaa9a546ca9f36a516bc34026a51b6d1cdd5f6a5a1",
@@ -1863,15 +1911,24 @@
   },
   "charts3d/10-voxel": {
     "sha256": "e718fdc0afe66b9586572cd066b0e2e6ed416849d11267558e36c116e8b4740a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e718fdc0afe66b9586572cd066b0e2e6ed416849d11267558e36c116e8b4740a:2:cb84224aae12e593",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "games/bubble-drop": {
     "sha256": "ac91ab4c18b70a12bc4407d057f73abc0e693cd870ea30dbe0253ae3554778bb",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ac91ab4c18b70a12bc4407d057f73abc0e693cd870ea30dbe0253ae3554778bb:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/chain-reaction": {
     "sha256": "7e5b005f6765fbc08a24773b06ba047631bebea8a4e98c8fd4ae4b468e56242a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "7e5b005f6765fbc08a24773b06ba047631bebea8a4e98c8fd4ae4b468e56242a:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/gravity-beacon": {
     "sha256": "f7e75cb1fee43cbd15830e2f883185bab9e4f15080592b485f49e89fb2172718",
@@ -1882,11 +1939,17 @@
   },
   "games/input": {
     "sha256": "e22f3348e57c7aa2963d2191870c11ebe7c1436dd51095ee182508e63ad05930",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e22f3348e57c7aa2963d2191870c11ebe7c1436dd51095ee182508e63ad05930:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/one-tap-pinball": {
     "sha256": "1c526a5991ec5a0ac5a9e250a36ef968bf1ba8b1b3c207d18471207310ad50b1",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "1c526a5991ec5a0ac5a9e250a36ef968bf1ba8b1b3c207d18471207310ad50b1:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/orbit-hop": {
     "sha256": "ca01f3d8e64b3e1c4be02c3556ae1b537ab3e59ee22a40a1216db879542fb85e",
@@ -1897,27 +1960,45 @@
   },
   "games/order": {
     "sha256": "3b0a763801d569dcb743a55fa1424324a0a075673e38171f5d1bf8c7138f8f55",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "3b0a763801d569dcb743a55fa1424324a0a075673e38171f5d1bf8c7138f8f55:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/particle-shepherd": {
     "sha256": "9eab57547a73408c7922fa4fca12acc9308eaa50bf56a1d4c77fd2aeb1ffa1a3",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9eab57547a73408c7922fa4fca12acc9308eaa50bf56a1d4c77fd2aeb1ffa1a3:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/polarity": {
     "sha256": "fe7d242bf21dc6bb2f02fff713f8c28338bc918f80b23a43462afcaeef53c1db",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "fe7d242bf21dc6bb2f02fff713f8c28338bc918f80b23a43462afcaeef53c1db:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/pulse-push": {
     "sha256": "2e19b77eb996e85be2d05ce23c5155a7a8ef179982ca9c01b26388a7e606d36c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "2e19b77eb996e85be2d05ce23c5155a7a8ef179982ca9c01b26388a7e606d36c:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/safe-zone": {
     "sha256": "ace111b0c7cc14f44c89c8d6caae5a487d9b320358443a44459d7bd96a8b1b42",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ace111b0c7cc14f44c89c8d6caae5a487d9b320358443a44459d7bd96a8b1b42:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/skeleton": {
     "sha256": "0f85901d0fea4713a6ecd03c426564eec9c243b8dcbd1243d34b0dc896020a3c",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "0f85901d0fea4713a6ecd03c426564eec9c243b8dcbd1243d34b0dc896020a3c:2:cb84224aae12e593",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/wall-bounce": {
     "sha256": "7ded0ff74a6ea3a95b31568b0d12a99c8a33e8ec3e510564790d22878d666fbf",
@@ -1928,55 +2009,94 @@
   },
   "iot-panels-light/01-smart-bulb": {
     "sha256": "904152b6e95be839df702850e4e46c1a72b0ddb3c0ab490733b183dfc397bf1d",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "904152b6e95be839df702850e4e46c1a72b0ddb3c0ab490733b183dfc397bf1d:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/02-led-strip": {
     "sha256": "91c36b1116204b71a268aba5c1a188bd3160a352f5059bf9d87213cfadf148d5",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "91c36b1116204b71a268aba5c1a188bd3160a352f5059bf9d87213cfadf148d5:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/03-dimmer-switch": {
     "sha256": "a1d03973503b7f7048f99ace148b59bafbd8fb42bbae4a8440d29ef2f0ca2372",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "a1d03973503b7f7048f99ace148b59bafbd8fb42bbae4a8440d29ef2f0ca2372:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/04-motion-night-light": {
     "sha256": "f81a625a5ac9ff4f31e29f53f3d6543018834b95cbb2ac64a407d5bae5851d30",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "f81a625a5ac9ff4f31e29f53f3d6543018834b95cbb2ac64a407d5bae5851d30:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/05-mood-lamp": {
     "sha256": "66dcc763a38c104aa329e545f48640782377f2a32d48b4c6b9e81e0607d064be",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "66dcc763a38c104aa329e545f48640782377f2a32d48b4c6b9e81e0607d064be:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/06-thermostat": {
     "sha256": "aadeada2042f090f5e2409b7bbe2ae6dc03305bb5593f12a0ae6ef2827713b84",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "aadeada2042f090f5e2409b7bbe2ae6dc03305bb5593f12a0ae6ef2827713b84:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/07-radiator-valve": {
     "sha256": "ea0e54af4298fb733608973365946dbfc9aa53e165001e70c3548b340b4b163f",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "ea0e54af4298fb733608973365946dbfc9aa53e165001e70c3548b340b4b163f:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/08-air-purifier": {
     "sha256": "74052f096f60d2270e3b8099af534ceb35392ace035c92c3229f78d484508766",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "74052f096f60d2270e3b8099af534ceb35392ace035c92c3229f78d484508766:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/09-humidifier": {
     "sha256": "89bedb43ee6c2894e04ed517f537705fe30e72d7f0648a5f91aae695ea2ba5ed",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "89bedb43ee6c2894e04ed517f537705fe30e72d7f0648a5f91aae695ea2ba5ed:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/10-ceiling-fan": {
     "sha256": "4cb20a9d915b5fc76c8d1d3ca4d0d190e7b55171347428c56c2cd0dbdd880727",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "4cb20a9d915b5fc76c8d1d3ca4d0d190e7b55171347428c56c2cd0dbdd880727:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/11-video-doorbell": {
     "sha256": "e549649f71795c21dfcf4d0639b61fcd6ca18dca2c6c7e588957f677d40e4a39",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "e549649f71795c21dfcf4d0639b61fcd6ca18dca2c6c7e588957f677d40e4a39:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/12-security-camera": {
     "sha256": "cb73bf48ae271db07b845630f1a1e6440532c412b71aca6d83ed9a8d2c91b229",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "cb73bf48ae271db07b845630f1a1e6440532c412b71aca6d83ed9a8d2c91b229:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/13-smart-lock": {
     "sha256": "9ba4698b0a0a1d0ec23d2afa8f435ca55f16edb7f2012e1aaab93b9e15e8067a",
-    "renderVersion": "2:cb84224aae12e593"
+    "renderVersion": "2:cb84224aae12e593",
+    "renderKey": "9ba4698b0a0a1d0ec23d2afa8f435ca55f16edb7f2012e1aaab93b9e15e8067a:2:cb84224aae12e593",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/14-motion-sensor": {
     "sha256": "7e5b9bcc5937e2e9cd45f17f0b20b57cfc860357ba718e5020d7b299cbb0dd93",

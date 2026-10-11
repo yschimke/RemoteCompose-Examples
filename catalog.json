@@ -4298,6 +4298,193 @@
       ]
     },
     {
+      "componentId": "charts2d/annotations",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Annotated KPI line chart",
+      "sourceFile": "docs/charts2d/annotations/doc.rc",
+      "rcDocument": "documents/charts2d/annotations.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/annotations.png",
+          "width": 640,
+          "height": 398
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/bar-grouped",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Grouped bar chart, sales by region",
+      "sourceFile": "docs/charts2d/bar-grouped/doc.rc",
+      "rcDocument": "documents/charts2d/bar-grouped.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/bar-grouped.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/box-plot",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Box plot, response by treatment",
+      "sourceFile": "docs/charts2d/box-plot/doc.rc",
+      "rcDocument": "documents/charts2d/box-plot.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/box-plot.png",
+          "width": 640,
+          "height": 416
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/bubble",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Bubble chart, market map",
+      "sourceFile": "docs/charts2d/bubble/doc.rc",
+      "rcDocument": "documents/charts2d/bubble.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/bubble.png",
+          "width": 640,
+          "height": 498
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/bullet",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Bullet chart, KPIs against target",
+      "sourceFile": "docs/charts2d/bullet/doc.rc",
+      "rcDocument": "documents/charts2d/bullet.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/bullet.png",
+          "width": 640,
+          "height": 354
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/forest",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Forest plot of a meta-analysis",
+      "sourceFile": "docs/charts2d/forest/doc.rc",
+      "rcDocument": "documents/charts2d/forest.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/forest.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/heatmap",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Heatmap of sessions by day and hour",
+      "sourceFile": "docs/charts2d/heatmap/doc.rc",
+      "rcDocument": "documents/charts2d/heatmap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/heatmap.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/radar",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Radar chart comparing two products",
+      "sourceFile": "docs/charts2d/radar/doc.rc",
+      "rcDocument": "documents/charts2d/radar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/radar.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/rose",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Rose / polar area chart of monthly rainfall",
+      "sourceFile": "docs/charts2d/rose/doc.rc",
+      "rcDocument": "documents/charts2d/rose.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/rose.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/waffle",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Waffle chart of energy mix",
+      "sourceFile": "docs/charts2d/waffle/doc.rc",
+      "rcDocument": "documents/charts2d/waffle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/waffle.png",
+          "width": 602,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "charts2d/waterfall",
+      "section": "droidkaigi26",
+      "group": "charts2d",
+      "caption": "Waterfall / revenue bridge chart",
+      "sourceFile": "docs/charts2d/waterfall/doc.rc",
+      "rcDocument": "documents/charts2d/waterfall.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts2d/waterfall.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
       "componentId": "charts3d/01-scatter",
       "section": "rc-experiments",
       "group": "charts3d",
@@ -4332,6 +4519,40 @@
       ]
     },
     {
+      "componentId": "charts3d/03-wireframe",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "wireframe mesh over a shaded saddle — drag to orbit",
+      "sourceFile": "docs/charts3d/03-wireframe/doc.rc",
+      "rcDocument": "documents/charts3d/03-wireframe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/03-wireframe.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/04-bars",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D bar chart, 8x8 columns on an XY floor — drag to orbit",
+      "sourceFile": "docs/charts3d/04-bars/doc.rc",
+      "rcDocument": "documents/charts3d/04-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/04-bars.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
       "componentId": "charts3d/05-trajectory",
       "section": "rc-experiments",
       "group": "charts3d",
@@ -4343,6 +4564,57 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/charts3d/05-trajectory.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/06-waterfall",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "waterfall / ribbon plot, eleven offset traces — drag to orbit",
+      "sourceFile": "docs/charts3d/06-waterfall/doc.rc",
+      "rcDocument": "documents/charts3d/06-waterfall.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/06-waterfall.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/07-contour",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D contour plot, nine quantised level slabs — drag to orbit",
+      "sourceFile": "docs/charts3d/07-contour/doc.rc",
+      "rcDocument": "documents/charts3d/07-contour.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/07-contour.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "charts3d/08-histogram",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "3D histogram, 2600 samples binned 10x10 — drag to orbit",
+      "sourceFile": "docs/charts3d/08-histogram/doc.rc",
+      "rcDocument": "documents/charts3d/08-histogram.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/08-histogram.png",
           "width": 340,
           "height": 340
         }
@@ -4366,6 +4638,57 @@
       ]
     },
     {
+      "componentId": "charts3d/10-voxel",
+      "section": "rc-experiments",
+      "group": "charts3d",
+      "caption": "voxel density plot, two gaussian blobs in a 7x7x7 grid — drag to orbit",
+      "sourceFile": "docs/charts3d/10-voxel/doc.rc",
+      "rcDocument": "documents/charts3d/10-voxel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/charts3d/10-voxel.png",
+          "width": 340,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "games/bubble-drop",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Bubble Drop: tap to release bubbles and land all three in the bin",
+      "sourceFile": "docs/games/bubble-drop/doc.rc",
+      "rcDocument": "documents/games/bubble-drop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/bubble-drop.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/chain-reaction",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Chain Reaction: tap a mote to detonate it and chain to the others",
+      "sourceFile": "docs/games/chain-reaction/doc.rc",
+      "rcDocument": "documents/games/chain-reaction.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/chain-reaction.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "games/gravity-beacon",
       "section": "rcjson",
       "group": "games",
@@ -4377,6 +4700,40 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/games/gravity-beacon.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/input",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "input probe 2",
+      "sourceFile": "docs/games/input/doc.rc",
+      "rcDocument": "documents/games/input.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/input.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/one-tap-pinball",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "One-Tap Pinball: tap to fire the bumpers, hit the rings in order",
+      "sourceFile": "docs/games/one-tap-pinball/doc.rc",
+      "rcDocument": "documents/games/one-tap-pinball.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/one-tap-pinball.png",
           "width": 400,
           "height": 400
         }
@@ -4400,6 +4757,108 @@
       ]
     },
     {
+      "componentId": "games/order",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "equation order probe",
+      "sourceFile": "docs/games/order/doc.rc",
+      "rcDocument": "documents/games/order.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/order.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/particle-shepherd",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Particle Shepherd: tap to repel the sparks and herd them into the pen",
+      "sourceFile": "docs/games/particle-shepherd/doc.rc",
+      "rcDocument": "documents/games/particle-shepherd.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/particle-shepherd.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/polarity",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Polarity: tap to switch between attract and repel and ride the magnetic field to the goal",
+      "sourceFile": "docs/games/polarity/doc.rc",
+      "rcDocument": "documents/games/polarity.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/polarity.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/pulse-push",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Pulse Push: tap to push the ball to the goal without hitting a hazard",
+      "sourceFile": "docs/games/pulse-push/doc.rc",
+      "rcDocument": "documents/games/pulse-push.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/pulse-push.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/safe-zone",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "Safe Zone: tap to shield the drifters from incoming projectiles",
+      "sourceFile": "docs/games/safe-zone/doc.rc",
+      "rcDocument": "documents/games/safe-zone.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/safe-zone.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "games/skeleton",
+      "section": "rcjson",
+      "group": "games",
+      "caption": "skeleton: one actor bouncing in a box",
+      "sourceFile": "docs/games/skeleton/doc.rc",
+      "rcDocument": "documents/games/skeleton.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/games/skeleton.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "games/wall-bounce",
       "section": "rcjson",
       "group": "games",
@@ -4413,6 +4872,227 @@
           "path": "images/games/wall-bounce.png",
           "width": 400,
           "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/01-smart-bulb",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Bulb — warm white · 82%",
+      "sourceFile": "docs/iot-panels-light/01-smart-bulb/doc.rc",
+      "rcDocument": "documents/iot-panels-light/01-smart-bulb.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/01-smart-bulb.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/02-led-strip",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "LED Light Strip — chase · 60 fps",
+      "sourceFile": "docs/iot-panels-light/02-led-strip/doc.rc",
+      "rcDocument": "documents/iot-panels-light/02-led-strip.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/02-led-strip.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/03-dimmer-switch",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Dimmer Switch — rotary · scene 2",
+      "sourceFile": "docs/iot-panels-light/03-dimmer-switch/doc.rc",
+      "rcDocument": "documents/iot-panels-light/03-dimmer-switch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/03-dimmer-switch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/04-motion-night-light",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Motion Night Light — PIR · auto-on",
+      "sourceFile": "docs/iot-panels-light/04-motion-night-light/doc.rc",
+      "rcDocument": "documents/iot-panels-light/04-motion-night-light.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/04-motion-night-light.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/05-mood-lamp",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Mood Lamp — colour cycle · 12s",
+      "sourceFile": "docs/iot-panels-light/05-mood-lamp/doc.rc",
+      "rcDocument": "documents/iot-panels-light/05-mood-lamp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/05-mood-lamp.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/06-thermostat",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Thermostat — heating · target 22°",
+      "sourceFile": "docs/iot-panels-light/06-thermostat/doc.rc",
+      "rcDocument": "documents/iot-panels-light/06-thermostat.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/06-thermostat.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/07-radiator-valve",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Radiator Valve — TRV · opening to 60%",
+      "sourceFile": "docs/iot-panels-light/07-radiator-valve/doc.rc",
+      "rcDocument": "documents/iot-panels-light/07-radiator-valve.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/07-radiator-valve.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/08-air-purifier",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Air Purifier — HEPA · auto · PM2.5 12",
+      "sourceFile": "docs/iot-panels-light/08-air-purifier/doc.rc",
+      "rcDocument": "documents/iot-panels-light/08-air-purifier.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/08-air-purifier.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/09-humidifier",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Humidifier — ultrasonic · 48% RH",
+      "sourceFile": "docs/iot-panels-light/09-humidifier/doc.rc",
+      "rcDocument": "documents/iot-panels-light/09-humidifier.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/09-humidifier.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/10-ceiling-fan",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Ceiling Fan — speed 3 · reverse off",
+      "sourceFile": "docs/iot-panels-light/10-ceiling-fan/doc.rc",
+      "rcDocument": "documents/iot-panels-light/10-ceiling-fan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/10-ceiling-fan.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/11-video-doorbell",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Video Doorbell — 1440p · chime · motion",
+      "sourceFile": "docs/iot-panels-light/11-video-doorbell/doc.rc",
+      "rcDocument": "documents/iot-panels-light/11-video-doorbell.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/11-video-doorbell.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/12-security-camera",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Security Camera — PTZ · night vision · REC",
+      "sourceFile": "docs/iot-panels-light/12-security-camera/doc.rc",
+      "rcDocument": "documents/iot-panels-light/12-security-camera.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/12-security-camera.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/13-smart-lock",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Lock — deadbolt · auto-lock 30s",
+      "sourceFile": "docs/iot-panels-light/13-smart-lock/doc.rc",
+      "rcDocument": "documents/iot-panels-light/13-smart-lock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/13-smart-lock.png",
+          "width": 360,
+          "height": 360
         }
       ]
     },
