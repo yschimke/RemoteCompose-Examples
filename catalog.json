@@ -2887,6 +2887,176 @@
       ]
     },
     {
+      "componentId": "androidx-demos/stop-gently",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_GENTLY, shown on a red dial marked at 0.50. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-gently/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-gently.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-gently.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-instantly",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_INSTANTLY, shown on a red dial marked at 0.50. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-instantly/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-instantly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-instantly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-notches-absolute",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_NOTCHES_ABSOLUTE, the dial gaining detent marks around its rim. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-notches-absolute/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-notches-absolute.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-notches-absolute.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-notches-even",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_NOTCHES_EVEN, with evenly spaced detents around the dial. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-notches-even/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-notches-even.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-notches-even.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/stop-notches-percents",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Scroll stop mode STOP_NOTCHES_PERCENTS, with detents placed at percentage points. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/stop-notches-percents/doc.rc",
+      "rcDocument": "documents/androidx-demos/stop-notches-percents.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/stop-notches-percents.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/text-baseline",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Text baseline reference: Hello World repeated at several sizes on yellow, aligned to a common baseline. #text #validation",
+      "sourceFile": "docs/androidx-demos/text-baseline/doc.rc",
+      "rcDocument": "documents/androidx-demos/text-baseline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/text-baseline.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/text-refresh-bug",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Price card for BTC at $109,846.26, up 0.3%, used to reproduce a text refresh problem. #text #widget",
+      "sourceFile": "docs/androidx-demos/text-refresh-bug/doc.rc",
+      "rcDocument": "documents/androidx-demos/text-refresh-bug.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/text-refresh-bug.png",
+          "width": 475,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/texture-demo-basic-texture",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Texture fill: cyan spheres tiled across a shaded circular field. #images #paint",
+      "sourceFile": "docs/androidx-demos/texture-demo-basic-texture/doc.rc",
+      "rcDocument": "documents/androidx-demos/texture-demo-basic-texture.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/texture-demo-basic-texture.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/texture-demo-texture-clock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Clock on a heavily grained noise texture, with a small dark hub and thin hands. #clock #images",
+      "sourceFile": "docs/androidx-demos/texture-demo-texture-clock/doc.rc",
+      "rcDocument": "documents/androidx-demos/texture-demo-texture-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/texture-demo-texture-clock.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/texture-demo-texture-clock-test",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Textured clock: a chequered hand over a grey hub, ringed by black saw-tooth markers. #clock #images",
+      "sourceFile": "docs/androidx-demos/texture-demo-texture-clock-test/doc.rc",
+      "rcDocument": "documents/androidx-demos/texture-demo-texture-clock-test.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/texture-demo-texture-clock-test.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/themed-plot1",
       "section": "androidx",
       "group": "androidx-demos",
@@ -2904,6 +3074,448 @@
       ]
     },
     {
+      "componentId": "androidx-demos/thumb-wheel1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Thumb wheel: a digit drum behind a rounded lens, scrolled by dragging. #interaction #widget",
+      "sourceFile": "docs/androidx-demos/thumb-wheel1/doc.rc",
+      "rcDocument": "documents/androidx-demos/thumb-wheel1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/thumb-wheel1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/thumb-wheel2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Thumb wheel scrolling through haptic constant names, with the selected row picked out in green. #interaction #widget",
+      "sourceFile": "docs/androidx-demos/thumb-wheel2/doc.rc",
+      "rcDocument": "documents/androidx-demos/thumb-wheel2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/thumb-wheel2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/touch-wrap",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Touch wrapping: a red field with a cyan handle whose value wraps past its limits. #interaction #validation",
+      "sourceFile": "docs/androidx-demos/touch-wrap/doc.rc",
+      "rcDocument": "documents/androidx-demos/touch-wrap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/touch-wrap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/touch1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Horizontal touch slider with a red thumb on a grey track and a 0.50 readout. #interaction",
+      "sourceFile": "docs/androidx-demos/touch1/doc.rc",
+      "rcDocument": "documents/androidx-demos/touch1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/touch1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/touch2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Vertical touch slider with a red thumb, showing both the raw and scaled values. #interaction",
+      "sourceFile": "docs/androidx-demos/touch2/doc.rc",
+      "rcDocument": "documents/androidx-demos/touch2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/touch2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/wake-demo-wake-clock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Wake-on-tap clock: grained dial with hands, drawn only while the display is awake. #clock",
+      "sourceFile": "docs/androidx-demos/wake-demo-wake-clock/doc.rc",
+      "rcDocument": "documents/androidx-demos/wake-demo-wake-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/wake-demo-wake-clock.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/weather-forecast-bars",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Hourly temperature forecast as stacked horizontal bars on a green-to-yellow scale. #graph #widget",
+      "sourceFile": "docs/androidx-demos/weather-forecast-bars/doc.rc",
+      "rcDocument": "documents/androidx-demos/weather-forecast-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/weather-forecast-bars.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/01dslclock",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Minimal clock on a soft scalloped badge, hands only. Built with the Kotlin DSL. #clock #kotlin",
+      "sourceFile": "docs/androidx-kotlin/01dslclock/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/01dslclock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/01dslclock.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/activityrings",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Three concentric activity rings in red, green and blue reading 78% Move, 62% Exercise, 91% Stand. #widget #kotlin",
+      "sourceFile": "docs/androidx-kotlin/activityrings/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/activityrings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/activityrings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/animated",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Animated Area",
+      "sourceFile": "docs/androidx-kotlin/animated/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/animated.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/animated.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/areabasic",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Cumulative Signups",
+      "sourceFile": "docs/androidx-kotlin/areabasic/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/areabasic.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/areabasic.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/areapercent",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Traffic Composition",
+      "sourceFile": "docs/androidx-kotlin/areapercent/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/areapercent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/areapercent.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/areastacked",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Traffic by Source",
+      "sourceFile": "docs/androidx-kotlin/areastacked/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/areastacked.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/areastacked.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/band",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Forecast with CI",
+      "sourceFile": "docs/androidx-kotlin/band/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/band.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/band.png",
+          "width": 640,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/bar",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Wind by Direction",
+      "sourceFile": "docs/androidx-kotlin/bar/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/bar.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/basic",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Monthly Active Users",
+      "sourceFile": "docs/androidx-kotlin/basic/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/basic.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/basic.png",
+          "width": 640,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/basictimer",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Flip-style timer digit on a grey gradient, split by the seam where the flip occurs. #clock #animation #kotlin",
+      "sourceFile": "docs/androidx-kotlin/basictimer/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/basictimer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/basictimer.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/batterygauge",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Battery Radial Gauge",
+      "sourceFile": "docs/androidx-kotlin/batterygauge/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/batterygauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/batterygauge.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/bubble",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Market Map",
+      "sourceFile": "docs/androidx-kotlin/bubble/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/bubble.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/bubble.png",
+          "width": 640,
+          "height": 498
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/bullet",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "KPIs vs Target",
+      "sourceFile": "docs/androidx-kotlin/bullet/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/bullet.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/bullet.png",
+          "width": 640,
+          "height": 354
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/calendarheatmap",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Calendar Heatmap Grid",
+      "sourceFile": "docs/androidx-kotlin/calendarheatmap/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/calendarheatmap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/calendarheatmap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/clock",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Android-themed watch face: bugdroid at the centre, date window, music glyphs and a tick bezel. #clock #kotlin",
+      "sourceFile": "docs/androidx-kotlin/clock/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/clock.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/confusion",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Confusion Matrix",
+      "sourceFile": "docs/androidx-kotlin/confusion/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/confusion.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/confusion.png",
+          "width": 640,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/connectedscatter",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Phase Trajectory",
+      "sourceFile": "docs/androidx-kotlin/connectedscatter/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/connectedscatter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/connectedscatter.png",
+          "width": 640,
+          "height": 498
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/cube3d",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Shaded 3D cube, cyan top face and red front, inside a dark circular vignette. #3d #kotlin",
+      "sourceFile": "docs/androidx-kotlin/cube3d/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/cube3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/cube3d.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/cubesphere",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "CubeSphereTransitionShader",
+      "sourceFile": "docs/androidx-kotlin/cubesphere/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/cubesphere.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/cubesphere.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
       "componentId": "androidx-kotlin/cubesphere2",
       "section": "androidx",
       "group": "androidx-kotlin",
@@ -2917,6 +3529,74 @@
           "path": "images/androidx-kotlin/cubesphere2.png",
           "width": 640,
           "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/dark",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Requests per Minute",
+      "sourceFile": "docs/androidx-kotlin/dark/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/dark.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/dark.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/dogecalendar",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Calendar card with dense overlaid text on a rounded dark panel. #text #layout #kotlin",
+      "sourceFile": "docs/androidx-kotlin/dogecalendar/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/dogecalendar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/dogecalendar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/donut",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Platform Share",
+      "sourceFile": "docs/androidx-kotlin/donut/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/donut.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-kotlin/errorbar",
+      "section": "androidx",
+      "group": "androidx-kotlin",
+      "caption": "Measurements",
+      "sourceFile": "docs/androidx-kotlin/errorbar/doc.rc",
+      "rcDocument": "documents/androidx-kotlin/errorbar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-kotlin/errorbar.png",
+          "width": 640,
+          "height": 400
         }
       ]
     },
