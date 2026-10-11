@@ -5097,6 +5097,397 @@
       ]
     },
     {
+      "componentId": "iot-panels-light/14-motion-sensor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Motion Sensor — PIR · 7 zones · 12m",
+      "sourceFile": "docs/iot-panels-light/14-motion-sensor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/14-motion-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/14-motion-sensor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/15-contact-sensor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Door/Window Sensor — reed contact · open",
+      "sourceFile": "docs/iot-panels-light/15-contact-sensor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/15-contact-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/15-contact-sensor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/16-smoke-alarm",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smoke Alarm — photoelectric · alarm",
+      "sourceFile": "docs/iot-panels-light/16-smoke-alarm/doc.rc",
+      "rcDocument": "documents/iot-panels-light/16-smoke-alarm.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/16-smoke-alarm.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/17-co-detector",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "CO Detector — electrochemical · ppm",
+      "sourceFile": "docs/iot-panels-light/17-co-detector/doc.rc",
+      "rcDocument": "documents/iot-panels-light/17-co-detector.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/17-co-detector.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/18-water-leak",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Water Leak Sensor — probe pair · alarm",
+      "sourceFile": "docs/iot-panels-light/18-water-leak/doc.rc",
+      "rcDocument": "documents/iot-panels-light/18-water-leak.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/18-water-leak.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/19-glass-break",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Glass-Break Sensor — acoustic · dual-stage",
+      "sourceFile": "docs/iot-panels-light/19-glass-break/doc.rc",
+      "rcDocument": "documents/iot-panels-light/19-glass-break.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/19-glass-break.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/20-siren-keypad",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Siren Keypad — entry delay · arming",
+      "sourceFile": "docs/iot-panels-light/20-siren-keypad/doc.rc",
+      "rcDocument": "documents/iot-panels-light/20-siren-keypad.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/20-siren-keypad.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/21-smart-fridge",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Fridge — 3°C · door closed",
+      "sourceFile": "docs/iot-panels-light/21-smart-fridge/doc.rc",
+      "rcDocument": "documents/iot-panels-light/21-smart-fridge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/21-smart-fridge.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/22-smart-oven",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Oven — fan bake · 190°C",
+      "sourceFile": "docs/iot-panels-light/22-smart-oven/doc.rc",
+      "rcDocument": "documents/iot-panels-light/22-smart-oven.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/22-smart-oven.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/23-coffee-maker",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Coffee Maker — brewing · 4 cups",
+      "sourceFile": "docs/iot-panels-light/23-coffee-maker/doc.rc",
+      "rcDocument": "documents/iot-panels-light/23-coffee-maker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/23-coffee-maker.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/24-smart-kettle",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Kettle — heating · 88°C",
+      "sourceFile": "docs/iot-panels-light/24-smart-kettle/doc.rc",
+      "rcDocument": "documents/iot-panels-light/24-smart-kettle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/24-smart-kettle.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/25-dishwasher",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Dishwasher — eco 50° · 42 min",
+      "sourceFile": "docs/iot-panels-light/25-dishwasher/doc.rc",
+      "rcDocument": "documents/iot-panels-light/25-dishwasher.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/25-dishwasher.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/26-microwave",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Microwave — 900W · 2:30 remaining",
+      "sourceFile": "docs/iot-panels-light/26-microwave/doc.rc",
+      "rcDocument": "documents/iot-panels-light/26-microwave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/26-microwave.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/27-sous-vide",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Sous-Vide — circulator · 56.5°C",
+      "sourceFile": "docs/iot-panels-light/27-sous-vide/doc.rc",
+      "rcDocument": "documents/iot-panels-light/27-sous-vide.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/27-sous-vide.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/28-kitchen-scale",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Kitchen Scale — tare · grams",
+      "sourceFile": "docs/iot-panels-light/28-kitchen-scale/doc.rc",
+      "rcDocument": "documents/iot-panels-light/28-kitchen-scale.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/28-kitchen-scale.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/29-toaster",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Toaster — medium · 2 slice",
+      "sourceFile": "docs/iot-panels-light/29-toaster/doc.rc",
+      "rcDocument": "documents/iot-panels-light/29-toaster.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/29-toaster.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/30-wine-fridge",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Wine Fridge — cellar · 12°C · 18 bottles",
+      "sourceFile": "docs/iot-panels-light/30-wine-fridge/doc.rc",
+      "rcDocument": "documents/iot-panels-light/30-wine-fridge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/30-wine-fridge.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/31-robot-vacuum",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Robot Vacuum — mapping · 5 passes",
+      "sourceFile": "docs/iot-panels-light/31-robot-vacuum/doc.rc",
+      "rcDocument": "documents/iot-panels-light/31-robot-vacuum.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/31-robot-vacuum.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/32-robot-mop",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Robot Mop — wet pass · tank 60%",
+      "sourceFile": "docs/iot-panels-light/32-robot-mop/doc.rc",
+      "rcDocument": "documents/iot-panels-light/32-robot-mop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/32-robot-mop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/33-washing-machine",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Washing Machine — cottons 40° · spin",
+      "sourceFile": "docs/iot-panels-light/33-washing-machine/doc.rc",
+      "rcDocument": "documents/iot-panels-light/33-washing-machine.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/33-washing-machine.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/34-tumble-dryer",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Tumble Dryer — heat pump · 46 min",
+      "sourceFile": "docs/iot-panels-light/34-tumble-dryer/doc.rc",
+      "rcDocument": "documents/iot-panels-light/34-tumble-dryer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/34-tumble-dryer.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/35-trash-compactor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Trash Compactor — 4:1 · ram down",
+      "sourceFile": "docs/iot-panels-light/35-trash-compactor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/35-trash-compactor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/35-trash-compactor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/36-smart-plug",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Plug — relay · metering",
+      "sourceFile": "docs/iot-panels-light/36-smart-plug/doc.rc",
+      "rcDocument": "documents/iot-panels-light/36-smart-plug.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/36-smart-plug.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "iot-panels-light/37-energy-monitor",
       "section": "rcjson",
       "group": "iot-panels-light",
@@ -5114,6 +5505,176 @@
       ]
     },
     {
+      "componentId": "iot-panels-light/38-solar-inverter",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Solar Inverter — string · MPPT",
+      "sourceFile": "docs/iot-panels-light/38-solar-inverter/doc.rc",
+      "rcDocument": "documents/iot-panels-light/38-solar-inverter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/38-solar-inverter.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/39-home-battery",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Home Battery — 13.5 kWh · cycling",
+      "sourceFile": "docs/iot-panels-light/39-home-battery/doc.rc",
+      "rcDocument": "documents/iot-panels-light/39-home-battery.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/39-home-battery.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/40-ev-charger",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "EV Charger — 7.4 kW · 62%",
+      "sourceFile": "docs/iot-panels-light/40-ev-charger/doc.rc",
+      "rcDocument": "documents/iot-panels-light/40-ev-charger.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/40-ev-charger.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/41-sprinkler",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Sprinkler Controller — 6 zones · zone 3 live",
+      "sourceFile": "docs/iot-panels-light/41-sprinkler/doc.rc",
+      "rcDocument": "documents/iot-panels-light/41-sprinkler.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/41-sprinkler.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/42-soil-moisture",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Soil Moisture Sensor — VWC · capacitive",
+      "sourceFile": "docs/iot-panels-light/42-soil-moisture/doc.rc",
+      "rcDocument": "documents/iot-panels-light/42-soil-moisture.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/42-soil-moisture.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/43-hose-valve",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Hose Valve — flow · 9.2 L/min",
+      "sourceFile": "docs/iot-panels-light/43-hose-valve/doc.rc",
+      "rcDocument": "documents/iot-panels-light/43-hose-valve.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/43-hose-valve.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/44-pool-monitor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Pool Monitor — pH 7.4 · 27.4°C",
+      "sourceFile": "docs/iot-panels-light/44-pool-monitor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/44-pool-monitor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/44-pool-monitor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/45-rain-sensor",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Rain Sensor — tipping bucket · mm",
+      "sourceFile": "docs/iot-panels-light/45-rain-sensor/doc.rc",
+      "rcDocument": "documents/iot-panels-light/45-rain-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/45-rain-sensor.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/46-smart-speaker",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Speaker — listening · far-field",
+      "sourceFile": "docs/iot-panels-light/46-smart-speaker/doc.rc",
+      "rcDocument": "documents/iot-panels-light/46-smart-speaker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/46-smart-speaker.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/47-smart-display",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Display — ambient · 7in",
+      "sourceFile": "docs/iot-panels-light/47-smart-display/doc.rc",
+      "rcDocument": "documents/iot-panels-light/47-smart-display.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/47-smart-display.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "iot-panels-light/48-smart-tv",
       "section": "rcjson",
       "group": "iot-panels-light",
@@ -5125,6 +5686,125 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/iot-panels-light/48-smart-tv.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/49-streaming-box",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Streaming Box — buffering · adaptive",
+      "sourceFile": "docs/iot-panels-light/49-streaming-box/doc.rc",
+      "rcDocument": "documents/iot-panels-light/49-streaming-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/49-streaming-box.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/50-projector",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Projector — lamp 78% · 1080p",
+      "sourceFile": "docs/iot-panels-light/50-projector/doc.rc",
+      "rcDocument": "documents/iot-panels-light/50-projector.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/50-projector.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/51-mesh-router",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Mesh Router — Wi-Fi 6E · 12 clients",
+      "sourceFile": "docs/iot-panels-light/51-mesh-router/doc.rc",
+      "rcDocument": "documents/iot-panels-light/51-mesh-router.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/51-mesh-router.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/52-range-extender",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Range Extender — repeater · 5 GHz",
+      "sourceFile": "docs/iot-panels-light/52-range-extender/doc.rc",
+      "rcDocument": "documents/iot-panels-light/52-range-extender.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/52-range-extender.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/53-smart-hub",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Smart Hub — Thread · 24 paired",
+      "sourceFile": "docs/iot-panels-light/53-smart-hub/doc.rc",
+      "rcDocument": "documents/iot-panels-light/53-smart-hub.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/53-smart-hub.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/54-network-switch",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Network Switch — 8-port gigabit · PoE",
+      "sourceFile": "docs/iot-panels-light/54-network-switch/doc.rc",
+      "rcDocument": "documents/iot-panels-light/54-network-switch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/54-network-switch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "iot-panels-light/55-doorbell-chime",
+      "section": "rcjson",
+      "group": "iot-panels-light",
+      "caption": "Doorbell Chime — two-tone · indoor",
+      "sourceFile": "docs/iot-panels-light/55-doorbell-chime/doc.rc",
+      "rcDocument": "documents/iot-panels-light/55-doorbell-chime.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/iot-panels-light/55-doorbell-chime.png",
           "width": 360,
           "height": 360
         }
