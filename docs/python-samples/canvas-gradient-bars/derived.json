@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-gradient-bars",
-  "sha256": "45b706469554fd1cf758157f59c9e65a82c225b3850fc5a542f123978c0bab0a",
-  "bytes": 680,
+  "sha256": "cbbc302795c04d0e922f622e23d632d601fcf8c896d132951a94e8b908e9c0a4",
+  "bytes": 688,
   "ops": 42,
   "distinctOps": 10,
   "width": 400,

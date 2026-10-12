@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-progress-ring",
-  "sha256": "be9e4739fe2e13449f6c99b530690dec6454e8df80be019c46de896235db0717",
-  "bytes": 801,
+  "sha256": "356bdf6425dda0414a921f7c627f4a06994769f4b7287ac8c8dd0ec0c98d2989",
+  "bytes": 809,
   "ops": 37,
   "distinctOps": 12,
   "width": 400,

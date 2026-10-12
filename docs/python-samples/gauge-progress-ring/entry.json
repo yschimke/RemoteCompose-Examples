@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "128d67897a33757c9a2e29fb4a8c97fe9ce04e3b93d28f5ddc5078184b645f89",
+  "sha256": "1bd539402ff0d8a815863badf6050321d47731545cdcffab8f70d1a89280d359",
   "provenance": "github/Origami/pythonRcCreation/samples/output/gauge_progress_ring.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

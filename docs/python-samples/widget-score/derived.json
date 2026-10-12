@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-score",
-  "sha256": "dd1e67ec511b8e101fcafd615516e7e99391a2f877f178ca2e52e943593dfc4d",
-  "bytes": 1548,
+  "sha256": "70bc27ef40fffae7733e08f7368b7045e39b71c7d9294859bc7c00c864d4e3a2",
+  "bytes": 1556,
   "ops": 132,
   "distinctOps": 19,
   "width": 400,

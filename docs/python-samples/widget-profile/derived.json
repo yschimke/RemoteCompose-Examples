@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-profile",
-  "sha256": "ce8217d2394c3be8cad56e1ca0323a79833b85905dd9dc02a356b90da90f1724",
-  "bytes": 1184,
+  "sha256": "99009a382b31db554d014ac5e6dde5241abe4d4d55ff353dca54fb39a5cee690",
+  "bytes": 1192,
   "ops": 119,
   "distinctOps": 15,
   "width": 400,

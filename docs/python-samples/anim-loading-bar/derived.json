@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-loading-bar",
-  "sha256": "02f3c44405a4d3a24754de086cfe856d97d15591e59765c0d8bb6dbe1b9fa690",
-  "bytes": 1116,
+  "sha256": "a50108e5b802a1d93338d1294c84b6e66e0914abeaaf4e288d6c1aa320850489",
+  "bytes": 1124,
   "ops": 58,
   "distinctOps": 15,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-box",
-  "sha256": "c48b6ed3a30a63314ccfe812594e08da6cddb7c5d2ec9e69319ca51b50d9d8e2",
-  "bytes": 133,
+  "sha256": "04ac4afa65d73334e0faa53d4c546eacbfdf4ad4fde914077bebd0c1c1ab1692",
+  "bytes": 141,
   "ops": 10,
   "distinctOps": 8,
   "width": 400,

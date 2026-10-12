@@ -1,7 +1,7 @@
 {
   "id": "python-samples/text-stats-row",
-  "sha256": "c1a2c1d78f171b12abba00ea590ec5762597ae34351c0578143d61b1bf1121d7",
-  "bytes": 938,
+  "sha256": "3f641da6df7fe03745261a6eb0103a99b62f6694921a23c24cab3aed62b4b8ee",
+  "bytes": 946,
   "ops": 93,
   "distinctOps": 14,
   "width": 500,

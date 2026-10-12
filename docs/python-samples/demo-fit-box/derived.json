@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-fit-box",
-  "sha256": "722f604f232be1e9d301dbf0d5d820656a68c8aa65f22f7bccdb493d57f8ce22",
-  "bytes": 259,
+  "sha256": "e59e0cf02f62268f8ea9dc9f0437f53c79a8fa0299963b00daefd5d0cd34a6a1",
+  "bytes": 267,
   "ops": 22,
   "distinctOps": 11,
   "width": 500,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-breathing",
-  "sha256": "9191bd25000bb982861f64348fa9061ef88bc7658574a8f03bc6a62f08b06732",
-  "bytes": 769,
+  "sha256": "28f3e6cc8bdeb687410a3e05914e351c46334165ecef881a1dd94421f2cdc9f7",
+  "bytes": 777,
   "ops": 41,
   "distinctOps": 13,
   "width": 400,

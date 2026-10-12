@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-tornado",
-  "sha256": "ddb210f26fa15ab0d3fd8442b122ee025c16911ac7218a7ee15a99b4823e57e6",
-  "bytes": 1624,
+  "sha256": "adea7da888227bfaf247f5578010f58e4e87eac6819d657a39638f6c0f780e46",
+  "bytes": 1632,
   "ops": 79,
   "distinctOps": 14,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-metric",
-  "sha256": "10c35851ad2ebe9232e676b1d184187964a6ade68df39670502fb2368be77ee3",
-  "bytes": 1508,
+  "sha256": "b90b6b20f7ebc95c09ef6123b73e7c09eeb4d3be2970833fa8d8149639ec0c53",
+  "bytes": 1516,
   "ops": 102,
   "distinctOps": 22,
   "width": 300,

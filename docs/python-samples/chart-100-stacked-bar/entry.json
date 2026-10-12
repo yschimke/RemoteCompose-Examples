@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "d248cf7206d8bab26707f9552a92cc6f1d383c19b0f74f17b793e830865aec4b",
+  "sha256": "77a5c0be11a01276582d3e311d009ec3e77c4a1267c8f4fdc0c968eed9df7276",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_100_stacked_bar.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

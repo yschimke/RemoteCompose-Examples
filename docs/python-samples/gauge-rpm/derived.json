@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-rpm",
-  "sha256": "08dc352014a2211329d1772047084a04820b0b571106830e6c4e998f8b3789af",
-  "bytes": 1769,
+  "sha256": "066c3e002784fc21c774d7be11819d15b2bc9476b4c4832e92ead40a38988c5e",
+  "bytes": 1777,
   "ops": 119,
   "distinctOps": 21,
   "width": 400,

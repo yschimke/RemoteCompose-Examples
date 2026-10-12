@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-pulse",
-  "sha256": "53ad8fb9d090007c2a8974340f01b3be84ac43d4c140d0e51b650501678886ff",
-  "bytes": 580,
+  "sha256": "9c87ba05e9193c6eab862d6992ae3a5485965014f2a2ac3d3dc6c481f78a2ff6",
+  "bytes": 588,
   "ops": 31,
   "distinctOps": 13,
   "width": 400,

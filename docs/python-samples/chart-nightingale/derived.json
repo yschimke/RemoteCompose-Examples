@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-nightingale",
-  "sha256": "72ec93d39f166b86e684c7cd0ddd96ad3e21e2c088f9ef2b23f6226490b8cf31",
-  "bytes": 1304,
+  "sha256": "cc3d7fe1c8db96237855e335941a659ea0c3112c2b37966c132aafb456a79fbb",
+  "bytes": 1312,
   "ops": 65,
   "distinctOps": 12,
   "width": 400,

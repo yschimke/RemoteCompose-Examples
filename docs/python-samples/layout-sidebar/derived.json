@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-sidebar",
-  "sha256": "5689fa189fafa24f714da2d03440acc3d5dfaa35abeebfe7a70b9c8e3c8fdc39",
-  "bytes": 1462,
+  "sha256": "aacb4b36441effd42cb8fe0be2a1b5e7930e001fcc5bfb48a4db9ac3f4701bfd",
+  "bytes": 1470,
   "ops": 143,
   "distinctOps": 14,
   "width": 600,

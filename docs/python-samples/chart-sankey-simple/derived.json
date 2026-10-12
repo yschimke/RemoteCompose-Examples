@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-sankey-simple",
-  "sha256": "4422151b1d26d6ce47df959242d1d78fd32ef16cee20e38a392ba2da34826359",
-  "bytes": 1132,
+  "sha256": "f45e1614370e57ac07a5ceb95bf690b24f53cbf89e9df7bdad3865bdcef4a5c4",
+  "bytes": 1140,
   "ops": 58,
   "distinctOps": 12,
   "width": 400,

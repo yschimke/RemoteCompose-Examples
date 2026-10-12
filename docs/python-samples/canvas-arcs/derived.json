@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-arcs",
-  "sha256": "436761dbf9aff13f6615f735629c858d9a98676b60a30a916c6ae5fab87ba58c",
-  "bytes": 548,
+  "sha256": "6196cbbf99d3ec2f71e669998e29f8dc121a3130b78d222402961b7f047feefb",
+  "bytes": 556,
   "ops": 30,
   "distinctOps": 10,
   "width": 400,

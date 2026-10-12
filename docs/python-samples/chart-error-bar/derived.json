@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-error-bar",
-  "sha256": "21392906917fb67cbd5bd2d8e1ab066a471c9481501b10060489e16a7b0b8e16",
-  "bytes": 1337,
+  "sha256": "c9824a204b983d0e9e5c45c2de82a82a46f1074add3b321c916e416fb540f3f5",
+  "bytes": 1345,
   "ops": 68,
   "distinctOps": 13,
   "width": 400,

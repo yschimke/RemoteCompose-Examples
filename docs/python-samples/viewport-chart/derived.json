@@ -1,7 +1,7 @@
 {
   "id": "python-samples/viewport-chart",
-  "sha256": "d060424f31b1c3b87d7efba3a00d584d88702e6b8ea25b971e486eadda3676cc",
-  "bytes": 2294,
+  "sha256": "30aa2126286b0157fd24885d5bb083a195cdec83a1f097872d3e8d184146e6a3",
+  "bytes": 2302,
   "ops": 124,
   "distinctOps": 17,
   "width": 500,

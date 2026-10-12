@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-100-stacked-bar",
-  "sha256": "d248cf7206d8bab26707f9552a92cc6f1d383c19b0f74f17b793e830865aec4b",
-  "bytes": 2012,
+  "sha256": "77a5c0be11a01276582d3e311d009ec3e77c4a1267c8f4fdc0c968eed9df7276",
+  "bytes": 2020,
   "ops": 96,
   "distinctOps": 13,
   "width": 400,

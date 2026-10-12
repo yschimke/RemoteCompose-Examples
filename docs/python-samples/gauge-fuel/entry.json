@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "25016573be788f24ae38f90a99030360608ea2eccc6ce942104072b1092636c2",
+  "sha256": "9d59d466d9480c2fc42c1d3b7bbbcf836cc5ad400f2806e0da7b6afdc8e35cfd",
   "provenance": "github/Origami/pythonRcCreation/samples/output/gauge_fuel.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

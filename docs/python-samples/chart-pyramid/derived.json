@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-pyramid",
-  "sha256": "3c4f43dbd5b0fb751191777e578b7ebef6ce72a40c36d6d81ce9d3cb0271247e",
-  "bytes": 1767,
+  "sha256": "028557601fdf5d9ac20b5c0762be0abb4d46af95a1eba0f88ecf0804dfdda840",
+  "bytes": 1775,
   "ops": 76,
   "distinctOps": 13,
   "width": 400,

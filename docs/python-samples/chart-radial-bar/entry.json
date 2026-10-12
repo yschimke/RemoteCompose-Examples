@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "bccdc05b93b811ee8a100e113ba87a5cfc8f4bb28050916be8240432ca853b6f",
+  "sha256": "48328e2ee546dd51b23e9929e3c6a955242027654f7e4b5f139cec7ffdbb7809",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_radial_bar.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

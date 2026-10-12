@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-grid",
-  "sha256": "23a8fa32c7d47cad07457f57e6196a138507d141b4c6abc4f1a8653d328eace9",
-  "bytes": 1508,
+  "sha256": "d26176318de67737927969dbb82cf95651e0dbf31e4d56563e590fdc6f6190f3",
+  "bytes": 1516,
   "ops": 146,
   "distinctOps": 13,
   "width": 400,

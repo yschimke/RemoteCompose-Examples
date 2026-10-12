@@ -1,7 +1,7 @@
 {
   "id": "python-samples/text-cards",
-  "sha256": "bc541aac6dffcbffd9617c16aeb575de79cbf52545bf16f025a0aa596fd09f6a",
-  "bytes": 1079,
+  "sha256": "649bd98f88f3e26fc61a1f4e96b119e6fc6efe8ef96ce2e477b99c49950aaa34",
+  "bytes": 1087,
   "ops": 87,
   "distinctOps": 13,
   "width": 400,

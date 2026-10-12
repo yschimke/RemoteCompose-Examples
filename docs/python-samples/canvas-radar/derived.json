@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-radar",
-  "sha256": "4d458d0db03b7d9e40ce23e7fdb69ca0805ddc2b121d34b0563be99466836f60",
-  "bytes": 1162,
+  "sha256": "7e3c39ae36a86402f7b35a00d89a4ce4ffc315b637dcf47d0fc3e521a98c5def",
+  "bytes": 1170,
   "ops": 67,
   "distinctOps": 13,
   "width": 400,

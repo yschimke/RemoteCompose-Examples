@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "b4d55a6de4f1e81e9017ac936e675eb9d40a3ef19f845805e606a9e5321bea56",
+  "sha256": "6e58b484d28b57baef725017f3e1a0853bc228b588127bc818d044a858cbf36e",
   "provenance": "github/Origami/pythonRcCreation/samples/output/gauge_speedometer.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

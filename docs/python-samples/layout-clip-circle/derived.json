@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-clip-circle",
-  "sha256": "93f63f4b1212455a4624a806831ca931b5692ed5d73250eedfe4daa8db84bab2",
-  "bytes": 365,
+  "sha256": "da3bc96833b3e9226c8c968e80e0545a18676dd55815214a379e450a7bc36c6a",
+  "bytes": 373,
   "ops": 34,
   "distinctOps": 12,
   "width": 400,

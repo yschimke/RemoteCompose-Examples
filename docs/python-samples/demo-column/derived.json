@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-column",
-  "sha256": "25a765f799a633532311c08db719be9aa5e76cf41ccd27734d6bf3a9468522a4",
-  "bytes": 368,
+  "sha256": "5e6b01dd83bf91babdc22e84d5a6ab23834d7336a254a4222c973ede229ae443",
+  "bytes": 376,
   "ops": 30,
   "distinctOps": 9,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-weighted-column",
-  "sha256": "8d3fef170164bba97bcaf31e4f1f993b680da6260520487354fef8a69c72905b",
-  "bytes": 609,
+  "sha256": "71f688db74770f66b9406fb17cf5cd2284f49a1b80aa0fa68fb5848dc081bd94",
+  "bytes": 617,
   "ops": 50,
   "distinctOps": 12,
   "width": 400,

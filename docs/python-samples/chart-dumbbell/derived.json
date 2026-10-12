@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-dumbbell",
-  "sha256": "3e3f60047d5b13727646c6afd2c40c9b52539c87d1b89b3c53672b85514c686a",
-  "bytes": 1392,
+  "sha256": "f5b019973dc42e052503bb02a9995afc734abba5d402c09434595b2ca6157f4b",
+  "bytes": 1400,
   "ops": 71,
   "distinctOps": 13,
   "width": 400,

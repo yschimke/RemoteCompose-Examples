@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-gauge",
-  "sha256": "2a926543eebf9e4c0f1f7954dea8fa8cca62e6eec584c1aa77cc59ff85394787",
-  "bytes": 1280,
+  "sha256": "2270d74367190d88db9780114eb36f4530ac10d805a6c51467717e282a40a4fc",
+  "bytes": 1288,
   "ops": 72,
   "distinctOps": 20,
   "width": 400,

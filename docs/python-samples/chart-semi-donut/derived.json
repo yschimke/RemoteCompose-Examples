@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-semi-donut",
-  "sha256": "71b04ef1266b4cd837f76bc37d47d95741dc3b56ae28a40b9a0e4bd5e10a8cfc",
-  "bytes": 1177,
+  "sha256": "9f7391d81c73a256e3f8f9b5054e3f6833c4d5ac0ee496717962217f4002540f",
+  "bytes": 1185,
   "ops": 49,
   "distinctOps": 14,
   "width": 400,

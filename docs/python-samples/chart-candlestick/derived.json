@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-candlestick",
-  "sha256": "b19b707b52d9fefd8464118ae696a10f9931801eef1e3480926301535c6b7da1",
-  "bytes": 2227,
+  "sha256": "454d3fa1ce68535ee2ea8586004ed1271da567d5cc49ae90b9e07a53ffa25f32",
+  "bytes": 2235,
   "ops": 102,
   "distinctOps": 13,
   "width": 400,

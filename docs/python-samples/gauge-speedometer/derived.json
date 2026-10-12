@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-speedometer",
-  "sha256": "b4d55a6de4f1e81e9017ac936e675eb9d40a3ef19f845805e606a9e5321bea56",
-  "bytes": 1535,
+  "sha256": "6e58b484d28b57baef725017f3e1a0853bc228b588127bc818d044a858cbf36e",
+  "bytes": 1543,
   "ops": 101,
   "distinctOps": 20,
   "width": 400,

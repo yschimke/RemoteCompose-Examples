@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-form",
-  "sha256": "6d0eca0e0e2c4823de8423025c65d37b711dd05bdd36a5c151d2334d659c0beb",
-  "bytes": 1679,
+  "sha256": "819a0b1efa2fe8da7eb09a43a5776d3e2d4d586c6337b41ea549ded57f6b633e",
+  "bytes": 1687,
   "ops": 160,
   "distinctOps": 15,
   "width": 400,
