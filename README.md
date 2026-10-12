@@ -179,11 +179,21 @@ tools/rcx.py rm <id>…                                        # remove cleanly
 tools/rcx.py catalog                                         # rebuild all derived data
 tools/rcx.py verify [--self-test]                            # integrity check
 tools/rcx.py serve [--port 8000]                             # preview locally
+tools/rcpatch.py [--check | --list]                          # fixes for imported documents
 ```
 
 `add` deduplicates by content hash and survives repeated runs. `catalog` is idempotent.
-`verify --self-test` breaks the corpus on purpose five ways and asserts each break is caught —
+`verify --self-test` breaks the corpus on purpose six ways and asserts each break is caught —
 a validator that has never been seen to fail is not evidence of anything.
+
+Some collections arrive as compiled `.rc` from a generator outside this repository, and some
+of those generators write documents players cannot read (python-samples, from Origami's
+`pythonRcCreation`, is the case today). `rcpatch` holds each fix as a named, idempotent
+function, and `add` runs every fix that matches a document's collection before hashing it, so
+a re-import lands already fixed and dedupes against what is here; the entry records the fixes
+under `patches` and the source file's hash as `importedSha256`. `verify` fails while any
+document still needs a fix. A new fix goes in `rcpatch.FIXES`; run `tools/rcpatch.py` once to
+apply it to the documents already in the corpus.
 
 Cataloguing needs `rc2json` for operation extraction; set `RC2JSON` if it is not at the default
 path. Dimensions are parsed natively and do not need it.

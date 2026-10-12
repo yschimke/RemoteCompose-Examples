@@ -5,6 +5,10 @@
     python3 tools/rcpatch.py --check      # exit 1 if any document still needs a fix
     python3 tools/rcpatch.py --list       # the fixes and what they touch
 
+`rcx add` runs the same fixes on every document it ingests, before it hashes or writes it, so
+a re-import of a collection lands already fixed, and `rcx verify` fails while any document in
+the corpus still needs one.
+
 Some collections were imported as compiled `.rc` from a generator that lives elsewhere -
 python-samples comes from Origami's pythonRcCreation, whose JSON dialect (`header`/`ops`)
 nothing in this repository compiles. When such a generator writes a wrong document the fix
@@ -25,6 +29,7 @@ rcj dependencies) to keep the catalog consistent.
 from __future__ import annotations
 
 import argparse
+import fnmatch
 import hashlib
 import json
 import struct
@@ -311,6 +316,46 @@ FIXES = {
 }
 
 
+def patch_document(did: str, data: bytes,
+                   fixes: dict | None = None) -> tuple[bytes, list[str]]:
+    """Apply every fix (of `fixes`, default all) whose pattern matches the document id `did`.
+    Returns the new bytes and the names of the fixes that changed them, in the order they ran.
+
+    Fixes run in FIXES order, repeated until none changes anything, so a fix that can only
+    parse a document once another has run still gets its turn whatever the order. Every fix is
+    idempotent, so this always stops; the bound only turns a broken fix into an error rather
+    than a hang.
+    """
+    fixes = FIXES if fixes is None else fixes
+    applied: list[str] = []
+    for _ in range(len(fixes) + 1):
+        changed = False
+        for name, (pattern, fn) in fixes.items():
+            if not fnmatch.fnmatchcase(did, pattern):
+                continue
+            try:
+                out = fn(data)
+            except Skip:
+                continue
+            if out != data:
+                data, changed = out, True
+                applied.append(name)
+        if not changed:
+            return data, applied
+    raise SystemExit(f"{did}: fixes did not settle: {', '.join(applied)}")
+
+
+def pending() -> dict[str, list[str]]:
+    """Document id -> the fixes it still needs, for every document in the corpus that needs any."""
+    out = {}
+    for rc in sorted(DOCS.glob("*/*/doc.rc")):
+        did = f"{rc.parent.parent.name}/{rc.parent.name}"
+        _, applied = patch_document(did, rc.read_bytes())
+        if applied:
+            out[did] = applied
+    return out
+
+
 # ── Catalog refresh ───────────────────────────────────────────────────────────
 
 def _rewrite_json(path: Path, fn) -> None:
@@ -432,28 +477,24 @@ def refresh_catalog(changed: dict[str, bytes], original: dict[str, bytes]) -> No
 # ── Driver ────────────────────────────────────────────────────────────────────
 
 def run(names: list[str], check: bool) -> int:
+    selected = {n: FIXES[n] for n in names}
     changed: dict[str, bytes] = {}
-    pending = 0
-    for name in names:
-        pattern, fn = FIXES[name]
-        fixed = skipped = 0
-        for rc in sorted(DOCS.glob(f"{pattern}/doc.rc")):
-            did = f"{rc.parent.parent.name}/{rc.parent.name}"
-            data = changed.get(did) or rc.read_bytes()
-            try:
-                out = fn(data)
-            except Skip:
-                skipped += 1
-                continue
-            if out == data:
-                continue
-            fixed += 1
+    counts = {n: 0 for n in names}
+    for rc in sorted(DOCS.glob("*/*/doc.rc")):
+        did = f"{rc.parent.parent.name}/{rc.parent.name}"
+        if not any(fnmatch.fnmatchcase(did, p) for p, _ in selected.values()):
+            continue
+        data = rc.read_bytes()
+        out, applied = patch_document(did, data, selected)
+        for n in applied:
+            counts[n] += 1
+        if out != data:
             changed[did] = out
-        verb = "need" if check else "fixed"
-        print(f"  {name}: {fixed} {verb}, {skipped} already fixed or not applicable")
-        pending += fixed
+    verb = "need" if check else "fixed"
+    for name in names:
+        print(f"  {name}: {counts[name]} {verb}")
     if check:
-        return 1 if pending else 0
+        return 1 if changed else 0
     original = {did: (DOCS / did / "doc.rc").read_bytes() for did in changed}
     for did, data in changed.items():
         (DOCS / did / "doc.rc").write_bytes(data)
