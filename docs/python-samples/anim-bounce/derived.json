@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-bounce",
-  "sha256": "23da7b7248202e393a1b314851a5f0f607abda55dd6fb2db606085a52b20412b",
-  "bytes": 641,
-  "ops": 35,
-  "distinctOps": 13,
+  "sha256": "fd7189d5319efd27ebc28bad165b33c1231f10f4f431c1e446bda09ed521402f",
+  "bytes": 667,
+  "ops": 37,
+  "distinctOps": 14,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -19,7 +19,8 @@
     "DRAW_LINE": 1,
     "DRAW_OVAL": 1,
     "DRAW_CIRCLE": 2,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

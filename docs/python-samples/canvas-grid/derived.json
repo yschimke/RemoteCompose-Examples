@@ -1,9 +1,9 @@
 {
   "id": "python-samples/canvas-grid",
-  "sha256": "974789741a9dd0ad97bbbdf5b4a76c1fa8a91c1cb21f1bcbc45a05e4347cf4d1",
-  "bytes": 394,
-  "ops": 28,
-  "distinctOps": 13,
+  "sha256": "0ae8890636c7e1d0155694177533ed278b38848195e071c056c1747d39354d23",
+  "bytes": 420,
+  "ops": 30,
+  "distinctOps": 14,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -19,7 +19,8 @@
     "LOOP_START": 4,
     "DRAW_LINE": 4,
     "CONTAINER_END": 7,
-    "DRAW_RECT": 1
+    "DRAW_RECT": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawLine",

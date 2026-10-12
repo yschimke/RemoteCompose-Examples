@@ -1,7 +1,7 @@
 {
   "id": "python-samples/text-badges",
-  "sha256": "5ea9d0d62a1767b23786e03cb3381889b41c496155882038608cd3242de04890",
-  "bytes": 1603,
+  "sha256": "d4eabe7f64a1833c0eb6d62313730cfd715fb898d2cfda972b7ffd243d9dcea1",
+  "bytes": 1611,
   "ops": 135,
   "distinctOps": 13,
   "width": 400,

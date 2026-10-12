@@ -1,9 +1,9 @@
 {
   "id": "python-samples/widget-stats",
-  "sha256": "8b24aead40c39e4a109ca291ed532806c34dc7f0936245895b1f4cd6974d9757",
-  "bytes": 3562,
-  "ops": 249,
-  "distinctOps": 19,
+  "sha256": "9ed5b8d02ea1dec233eab7472e080475ed37cd6f2aa0de1674222c0e2a46bf76",
+  "bytes": 3666,
+  "ops": 257,
+  "distinctOps": 20,
   "width": 500,
   "height": 200,
   "histogram": {
@@ -25,7 +25,8 @@
     "LAYOUT_CANVAS": 4,
     "ANIMATED_FLOAT": 80,
     "PAINT_VALUES": 4,
-    "DRAW_LINE": 20
+    "DRAW_LINE": 20,
+    "COMPONENT_VALUE": 8
   },
   "apis": [
     "drawLine",

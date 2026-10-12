@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-clock-simple",
-  "sha256": "cd32a8f29c17e349dfa79efed9fa72ba106c610cea6aa8dd363618493cf526d0",
-  "bytes": 888,
-  "ops": 53,
-  "distinctOps": 18,
+  "sha256": "421c9f43466fa7966942483ca1a2d753341ef8b0f682991f8d1283a8fc9f85f5",
+  "bytes": 914,
+  "ops": 55,
+  "distinctOps": 19,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -24,7 +24,8 @@
     "MATRIX_RESTORE": 3,
     "CONTAINER_END": 4,
     "TEXT_FROM_FLOAT": 1,
-    "DRAW_TEXT_ANCHOR": 1
+    "DRAW_TEXT_ANCHOR": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

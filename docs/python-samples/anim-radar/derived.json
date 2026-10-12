@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-radar",
-  "sha256": "748b377959194f820ddafbfa9b119c33b024e2adcfac24dc28eb1e5b6d8f3232",
-  "bytes": 1122,
-  "ops": 61,
-  "distinctOps": 16,
+  "sha256": "291acafa7573382e36f4714b6d6f1e2e5286a7709cc15aeddca98f00b754d02d",
+  "bytes": 1148,
+  "ops": 63,
+  "distinctOps": 17,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -22,7 +22,8 @@
     "MATRIX_ROTATE": 1,
     "MATRIX_RESTORE": 1,
     "DRAW_ARC": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

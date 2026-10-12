@@ -1,9 +1,9 @@
 {
   "id": "python-samples/gauge-speedometer",
-  "sha256": "6e58b484d28b57baef725017f3e1a0853bc228b588127bc818d044a858cbf36e",
-  "bytes": 1543,
-  "ops": 101,
-  "distinctOps": 20,
+  "sha256": "be7ed5f40fe8ec9e91a29ab0fa009a0162773cb695a477164ea97995bf0b58d9",
+  "bytes": 1569,
+  "ops": 103,
+  "distinctOps": 21,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -26,7 +26,8 @@
     "CONTAINER_END": 5,
     "DATA_TEXT": 8,
     "DRAW_TEXT_ANCHOR": 9,
-    "TEXT_FROM_FLOAT": 1
+    "TEXT_FROM_FLOAT": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

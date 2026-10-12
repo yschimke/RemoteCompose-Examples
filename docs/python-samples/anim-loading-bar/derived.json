@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-loading-bar",
-  "sha256": "a50108e5b802a1d93338d1294c84b6e66e0914abeaaf4e288d6c1aa320850489",
-  "bytes": 1124,
-  "ops": 58,
-  "distinctOps": 15,
+  "sha256": "e8789b6fd679c82616aac456e22fbe56f1daa71e53959a1e78bf0d9579f28c66",
+  "bytes": 1150,
+  "ops": 60,
+  "distinctOps": 16,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -21,7 +21,8 @@
     "TEXT_FROM_FLOAT": 1,
     "DRAW_TEXT_ANCHOR": 3,
     "DATA_TEXT": 2,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

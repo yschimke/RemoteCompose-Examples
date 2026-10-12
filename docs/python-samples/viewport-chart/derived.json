@@ -1,9 +1,9 @@
 {
   "id": "python-samples/viewport-chart",
-  "sha256": "30aa2126286b0157fd24885d5bb083a195cdec83a1f097872d3e8d184146e6a3",
-  "bytes": 2302,
-  "ops": 124,
-  "distinctOps": 17,
+  "sha256": "073610227dfb7a584b80f12d761a101df9d7d88586ae62734962ea4d45021659",
+  "bytes": 2328,
+  "ops": 126,
+  "distinctOps": 18,
   "width": 500,
   "height": 400,
   "histogram": {
@@ -23,7 +23,8 @@
     "DRAW_LINE": 39,
     "DRAW_CIRCLE": 9,
     "MATRIX_RESTORE": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

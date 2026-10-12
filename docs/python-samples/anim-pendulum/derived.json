@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-pendulum",
-  "sha256": "11d7e312a08ed5161a45efd3d9fe80f78ba0f369cd67481bc5a30099e3c3d4ac",
-  "bytes": 721,
-  "ops": 37,
-  "distinctOps": 13,
+  "sha256": "ecf6abba19703aa2d2a3b6b56891ccad4670fab45db7a81a88412f64e8363166",
+  "bytes": 747,
+  "ops": 39,
+  "distinctOps": 14,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -19,7 +19,8 @@
     "DRAW_ARC": 1,
     "DRAW_LINE": 1,
     "DRAW_CIRCLE": 4,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

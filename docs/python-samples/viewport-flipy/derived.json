@@ -1,9 +1,9 @@
 {
   "id": "python-samples/viewport-flipy",
-  "sha256": "8e5b32189ceb211efc9faa98fa55b9d2d74e8cc83c53c047b6a7062c08b2977b",
-  "bytes": 661,
-  "ops": 40,
-  "distinctOps": 18,
+  "sha256": "94e96cbd88dabe9e3568805de5ef68e31dfb276e2d33a79c3882471ee2a0e534",
+  "bytes": 687,
+  "ops": 42,
+  "distinctOps": 19,
   "width": 400,
   "height": 300,
   "histogram": {
@@ -24,7 +24,8 @@
     "DATA_TEXT": 4,
     "DRAW_TEXT_ANCHOR": 4,
     "MATRIX_RESTORE": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawLine",
