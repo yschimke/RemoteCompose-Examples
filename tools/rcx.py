@@ -511,6 +511,11 @@ def shorten(p: Path) -> str:
 
 
 def cmd_add(args):
+    # Documents from a generator that lives outside this repository can be wrong in ways
+    # rcpatch knows how to fix. Fix them here, before hashing, so the corpus never holds the
+    # broken bytes and a re-import of an already-fixed collection dedupes instead of minting
+    # a second, broken copy of every document.
+    from rcpatch import patch_document
     DOCS.mkdir(exist_ok=True)
     # Dedupe index keyed on content hash. Read from entry.json, not derived.json: derived data
     # only exists after `catalog`, so keying on it would re-import the whole sweep on any `add`
@@ -518,9 +523,12 @@ def cmd_add(args):
     seen_hashes = {}
     for e in sorted(DOCS.glob("*/*/entry.json")):
         try:
-            h = json.loads(e.read_text()).get("sha256")
-            if h:
-                seen_hashes[h] = e.parent
+            entry = json.loads(e.read_text())
+            # importedSha256 too: the same source file is a duplicate even once a later fix
+            # has changed the bytes it was patched into.
+            for h in (entry.get("sha256"), entry.get("importedSha256")):
+                if h:
+                    seen_hashes[h] = e.parent
         except Exception:
             pass
 
@@ -537,20 +545,23 @@ def cmd_add(args):
     skip = ("/build/", "/node_modules/", "/.git/", "/dist/", "/.gradle/")
     candidates = [c for c in candidates if not any(s in str(c) for s in skip)]
 
-    added = dupe = bad = 0
+    added = dupe = bad = patched = 0
     for rc in candidates:
-        data = rc.read_bytes()
-        if len(data) < 16:
+        raw = rc.read_bytes()
+        if len(raw) < 16:
             bad += 1
-            continue
-        sha = hashlib.sha256(data).hexdigest()
-        if sha in seen_hashes:
-            dupe += 1
             continue
 
         collection = args.collection or slugify(rc.parent.name)
         base = slugify(rc.stem)
         did = f"{collection}/{base}"
+        # Patterns match on the collection, so the id before any -2 suffix is enough.
+        data, fixes = patch_document(did, raw)
+        sha = hashlib.sha256(data).hexdigest()
+        raw_sha = hashlib.sha256(raw).hexdigest()
+        if sha in seen_hashes or raw_sha in seen_hashes:
+            dupe += 1
+            continue
         n = 2
         while (DOCS / did).exists():
             did = f"{collection}/{base}-{n}"
@@ -558,7 +569,8 @@ def cmd_add(args):
 
         dest = DOCS / did
         (dest / "src").mkdir(parents=True, exist_ok=True)
-        shutil.copy2(rc, dest / "doc.rc")
+        (dest / "doc.rc").write_bytes(data)
+        shutil.copystat(rc, dest / "doc.rc")
 
         authoring = []
         for kind, path in find_sidecars(rc).items():
@@ -586,12 +598,18 @@ def cmd_add(args):
             # path leaks the maintainer's home directory layout onto a public site.
             "provenance": shorten(rc),
         }
+        if fixes:
+            # What changed the bytes on the way in, and the hash of what the source held, so
+            # the document can still be traced back to the file it came from.
+            entry["patches"] = fixes
+            entry["importedSha256"] = raw_sha
+            patched += 1
         (dest / "entry.json").write_text(json.dumps(entry, indent=2) + "\n")
-        seen_hashes[sha] = dest
+        seen_hashes[sha] = seen_hashes[raw_sha] = dest
         added += 1
 
-    print(f"  added {added}, skipped {dupe} duplicate, {bad} unreadable "
-          f"(of {len(candidates)} .rc found)")
+    print(f"  added {added} ({patched} patched by rcpatch), skipped {dupe} duplicate, "
+          f"{bad} unreadable (of {len(candidates)} .rc found)")
 
 
 def cmd_rm(args):
@@ -931,6 +949,13 @@ def _checks() -> list[tuple[str, bool, str]]:
         except Exception as ex:
             out.append((f"{did}: entry.json parses", False, str(ex)))
 
+    # A document a known fix would still change came in by some path other than `add` -
+    # copied in by hand, or restored from an old commit - or a fix was added since.
+    from rcpatch import pending
+    for did, fixes in pending().items():
+        out.append((f"{did}: rcpatch fixes applied", False,
+                    f"needs {', '.join(fixes)}; run tools/rcpatch.py"))
+
     if (CATALOG / "facets.json").exists():
         f = json.loads((CATALOG / "facets.json").read_text())
         out.append(("catalog total matches disk", f.get("total") == len(ids),
@@ -992,6 +1017,23 @@ def self_test():
     run_case("entry.json missing source",
              lambda: ep.write_text(json.dumps({"id": "x", "title": "t"})),
              lambda: ep.write_text(ebak))
+
+    # A document that has lost a fix rcpatch applies: drop python-samples' DOC_PROFILES tag.
+    fixed = sorted(DOCS.glob("python-samples/*/doc.rc"))
+    if fixed:
+        import struct
+        from rcpatch import DOC_PROFILES, header_tags
+        prc = fixed[0]
+        pbak = prc.read_bytes()
+
+        def unpatch():
+            _, tags = header_tags(pbak)
+            _, off, size = tags[DOC_PROFILES]
+            b = bytearray(pbak)
+            del b[off - 4:off + size]
+            struct.pack_into(">i", b, 13, struct.unpack_from(">i", pbak, 13)[0] - 1)
+            prc.write_bytes(bytes(b))
+        run_case("doc.rc lost an rcpatch fix", unpatch, lambda: prc.write_bytes(pbak))
 
     fp = CATALOG / "facets.json"
     if fp.exists():
