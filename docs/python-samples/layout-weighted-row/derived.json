@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-weighted-row",
-  "sha256": "71bb40909014dad19d044a7e275e698d38d5131931820d44a0d588ad7aaad2a6",
-  "bytes": 586,
+  "sha256": "e1cf371c48b9d51fee4fab834107021a15be1e7f5858ad89508f64d7e2d4c497",
+  "bytes": 594,
   "ops": 49,
   "distinctOps": 12,
   "width": 600,

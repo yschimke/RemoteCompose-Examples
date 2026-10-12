@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-thermometer",
-  "sha256": "c3a680c2972bf3108f79fff27271288f000448edb49b3a92f456304e5b115361",
-  "bytes": 1082,
+  "sha256": "9365b432aab0e14ecece87af4286408d64b841557a952ca8dfb43781cf0d0bc3",
+  "bytes": 1090,
   "ops": 51,
   "distinctOps": 18,
   "width": 400,

@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "fdf801ac75429b632d772acffbc27da7ed11fa494eec045a5c4e6be9d8fbfad7",
+  "sha256": "3edafd8cd9d1618f60e70c3217b254531cabad88f896abf6aca03fdd8020b3e8",
   "provenance": "github/Origami/pythonRcCreation/samples/output/gauge_vu_meter.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

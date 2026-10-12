@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-comparison-bar",
-  "sha256": "e3f2a773ae1fdc460986b5a6740dd1db20bcd50fcfd30a4ef27b32d19e785a62",
-  "bytes": 1384,
+  "sha256": "694de1a87ff0638f3f3578d81e7e31b6ac30c916fc975cd127c28311ccaec9a9",
+  "bytes": 1392,
   "ops": 69,
   "distinctOps": 13,
   "width": 400,

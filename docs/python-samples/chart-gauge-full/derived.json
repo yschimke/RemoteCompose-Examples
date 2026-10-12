@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-gauge-full",
-  "sha256": "c148d13a3e502df01927415826babaa9177340fb6c0b98850844d9765e1669b7",
-  "bytes": 1384,
+  "sha256": "a05cc47af243f313a17a22b9f2721b9937bbb9c0218551e9ee145a9e3e5373d8",
+  "bytes": 1392,
   "ops": 63,
   "distinctOps": 14,
   "width": 400,

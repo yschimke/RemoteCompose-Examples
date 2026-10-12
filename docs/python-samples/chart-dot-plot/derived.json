@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-dot-plot",
-  "sha256": "54dd91843246ffc89e2bb9d31564e7756039eb830db04a1c77d38037635f1ef7",
-  "bytes": 1632,
+  "sha256": "64448eae99acb881dc764cf6b2102383b871974ee81fc7ba073e5821508359ae",
+  "bytes": 1640,
   "ops": 91,
   "distinctOps": 14,
   "width": 400,

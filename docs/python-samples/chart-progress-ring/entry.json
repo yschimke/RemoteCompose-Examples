@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "be9e4739fe2e13449f6c99b530690dec6454e8df80be019c46de896235db0717",
+  "sha256": "356bdf6425dda0414a921f7c627f4a06994769f4b7287ac8c8dd0ec0c98d2989",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_progress_ring.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

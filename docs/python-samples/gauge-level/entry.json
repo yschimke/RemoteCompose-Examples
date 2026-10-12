@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "27a3af874f047afc6a480289a8ab5686dd2d70c9cc763f4cc27c053d6f112309",
+  "sha256": "f07f974e0bb386a8f0d605e52a68e8eedf98253fe398f151fef255be71b55b4a",
   "provenance": "github/Origami/pythonRcCreation/samples/output/gauge_level.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

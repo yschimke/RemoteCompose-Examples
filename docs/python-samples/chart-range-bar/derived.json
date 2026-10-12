@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-range-bar",
-  "sha256": "8d57f44a68393c2c25831f72414c74e079871f00bf71da7f0c83585648985d5a",
-  "bytes": 1745,
+  "sha256": "0451a002dcc38633685cc48c47869261b57cd0e5fa06ddba060b86c7b007bb7d",
+  "bytes": 1753,
   "ops": 78,
   "distinctOps": 14,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-border",
-  "sha256": "aaa8016aa821f3475501321f0fea0c3a481f45042fddf1024a1c1f409b89cd79",
-  "bytes": 284,
+  "sha256": "a21e6f4f24c1df6bdbd5fa5bc524382d7f6c59e5ebf7d43109243b53e4542843",
+  "bytes": 292,
   "ops": 22,
   "distinctOps": 10,
   "width": 400,

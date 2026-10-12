@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-step-line",
-  "sha256": "2eed72c4dff071c73febfcbe8f5c2acf2b2b8fd7044e34a31362926ad23b5461",
-  "bytes": 1707,
+  "sha256": "7aeb71bf6a8d889f3851ca9b157da7f2cbc7c97c7b0854b039158cf3a40b7cbd",
+  "bytes": 1715,
   "ops": 89,
   "distinctOps": 13,
   "width": 400,

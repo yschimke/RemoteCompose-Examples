@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-pendulum",
-  "sha256": "1021488cca876a29a130e624070cdc6d324e1929c8145a2f0bd3fb3a13cb43ad",
-  "bytes": 713,
+  "sha256": "11d7e312a08ed5161a45efd3d9fe80f78ba0f369cd67481bc5a30099e3c3d4ac",
+  "bytes": 721,
   "ops": 37,
   "distinctOps": 13,
   "width": 400,

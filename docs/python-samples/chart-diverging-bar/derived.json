@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-diverging-bar",
-  "sha256": "cc2805b114adce1c96b100a6794b6310f4458bd1e537c189a25fe5262695a002",
-  "bytes": 1457,
+  "sha256": "d31a491daa22523a81c6e5d0f051c4c866c106ea183e3743b09e32dbaaecd31e",
+  "bytes": 1465,
   "ops": 70,
   "distinctOps": 13,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-bullet",
-  "sha256": "7ef9764347b96c2308ae8381715a909b33371510fb4f14b07fcd47b07b5e1c20",
-  "bytes": 1756,
+  "sha256": "27eaf81724ed874c8668dfe38e32548c507e300fb72c168cbc7c8d82a819d629",
+  "bytes": 1764,
   "ops": 74,
   "distinctOps": 13,
   "width": 400,

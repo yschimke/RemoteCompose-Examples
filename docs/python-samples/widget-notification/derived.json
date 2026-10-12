@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-notification",
-  "sha256": "10042f55fca5b1a5d81dff3ee9a19a67e1d52c183b3a805517b45d7646389596",
-  "bytes": 961,
+  "sha256": "0b892e1932ac0476eed11444f0de24cb628cf9cd163f83488de392d77bf9dbe3",
+  "bytes": 969,
   "ops": 71,
   "distinctOps": 21,
   "width": 400,

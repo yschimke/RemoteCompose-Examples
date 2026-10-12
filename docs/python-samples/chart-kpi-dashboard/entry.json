@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "d0a3cf5dca7bc82c16af58664988ad8ecf126885ec9e80408c23de708b0d4b32",
+  "sha256": "7f91aed529faedd4fa7c7205860febc2e3d0bd94f27809f63233fef38519eeea",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_kpi_dashboard.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

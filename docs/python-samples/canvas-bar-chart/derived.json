@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-bar-chart",
-  "sha256": "c6eec19a615ab80d05e4f8a4708e2052c0def3a12ea5418befc80854f0a6f5d6",
-  "bytes": 909,
+  "sha256": "7c2688a4dcb3559637651fc8d979621107b99cae331778735544a8f9279ae2e3",
+  "bytes": 917,
   "ops": 51,
   "distinctOps": 13,
   "width": 400,

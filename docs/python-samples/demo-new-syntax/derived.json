@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-new-syntax",
-  "sha256": "ddd4c1601bf515c3c4ff82b932e2752afb571318d2fcc52d5133445c3ef6152d",
-  "bytes": 722,
+  "sha256": "b504ef474f4d6e4b3c7da3cfbd99774af1ac700d52b8d2d695131b88ef50ca49",
+  "bytes": 730,
   "ops": 46,
   "distinctOps": 18,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-music",
-  "sha256": "e3de960bcb7596e8bc7fcd95eb3c467ed41588001475e44d01f49c05f5da8c56",
-  "bytes": 1601,
+  "sha256": "3d08cb43a08aa57e3ccecaee8f5822acc613ecc6f34d6be479470268660d18f7",
+  "bytes": 1609,
   "ops": 117,
   "distinctOps": 21,
   "width": 400,

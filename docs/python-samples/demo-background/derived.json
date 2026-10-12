@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-background",
-  "sha256": "a91a0b8d77a8bbfa0b329a82b5af951a54652c76b1704adc3ff8c5384b1ba979",
-  "bytes": 273,
+  "sha256": "1ef2593cb9d6b977f75d27818c8570016a72802a9890d6109dcf539ebdbe7006",
+  "bytes": 281,
   "ops": 23,
   "distinctOps": 9,
   "width": 400,

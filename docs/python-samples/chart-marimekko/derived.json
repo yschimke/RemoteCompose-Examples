@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-marimekko",
-  "sha256": "4c3b6cd0dda1671164f8d05dcb5ba505f8b845100f0d5427baa1c060d022a3d1",
-  "bytes": 2157,
+  "sha256": "81741d34ffd41db79ab744dfab246b0535c352f61ff85d2b99d4f10344e481ab",
+  "bytes": 2165,
   "ops": 96,
   "distinctOps": 13,
   "width": 400,

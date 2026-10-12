@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-pie-segments",
-  "sha256": "f6b582463d12b203231854e3ec298941a69a23c58ce2edf8408c3944eccc7552",
-  "bytes": 826,
+  "sha256": "b7c1f1eb74054de1a54ae61bb3d5b29109c9b2e9092c3e7f11f512756dff4a9e",
+  "bytes": 834,
   "ops": 43,
   "distinctOps": 13,
   "width": 400,

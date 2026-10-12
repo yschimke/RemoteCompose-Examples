@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-span",
-  "sha256": "488cd18b1f8ee96e7620f063bbe01d4603f29b6fedde9fd297b81d98efe3d416",
-  "bytes": 1649,
+  "sha256": "0f5445175c381d88bc4b71f6edfd2cb3919abd7eb33247f8137ae9e3fd98ad67",
+  "bytes": 1657,
   "ops": 78,
   "distinctOps": 13,
   "width": 400,

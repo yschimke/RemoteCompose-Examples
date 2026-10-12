@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-rotate-square",
-  "sha256": "64e30fc3816a831eae8a32fab400e16e220b61f97b570f3f7bc21a1a64252283",
-  "bytes": 631,
+  "sha256": "874c08b837913e9df64025d607ab162352cdb55774874db86d6ece32bccc0299",
+  "bytes": 639,
   "ops": 39,
   "distinctOps": 15,
   "width": 400,

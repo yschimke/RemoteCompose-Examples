@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-area",
-  "sha256": "03d3f2001bf135dcfa924dfde95dedb7bb1ef01167aa5e0bf1ff38359bdcc7f8",
-  "bytes": 1793,
+  "sha256": "b53d258250bdae1a583cde8442c56fdfebbdb404df6a4e47c19b470f32be1c11",
+  "bytes": 1801,
   "ops": 93,
   "distinctOps": 14,
   "width": 400,

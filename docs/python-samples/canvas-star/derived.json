@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-star",
-  "sha256": "1a0502370f1b5023465a8c68fee3d9e12c75fed8f12ac19d3fdee4783086d8eb",
-  "bytes": 400,
+  "sha256": "6fdf49498c2aa104d3f71e3094903055291b85cf2eaea86d5836bbcfbe5ad191",
+  "bytes": 408,
   "ops": 30,
   "distinctOps": 16,
   "width": 400,

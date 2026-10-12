@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-wave",
-  "sha256": "ca6392f0c1af0d26e7e75607da51be6ecc92fe206a2e4ef7b7c5d42f389103cb",
-  "bytes": 864,
+  "sha256": "c339b0497a1d27d6ff2d9028ab571379bf0ac17310f0831aad0dc6bb31b54784",
+  "bytes": 872,
   "ops": 40,
   "distinctOps": 12,
   "width": 400,

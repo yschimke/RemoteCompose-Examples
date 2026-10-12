@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-waterfall",
-  "sha256": "67e8e036e354c2b6c829e6a5b78df52e6267886949b6f07e88ca217741c33f5a",
-  "bytes": 1541,
+  "sha256": "e7a8dbc2de2f6f0bf67529949d15d5772e4a75bd1736aa96df3b28d986367b20",
+  "bytes": 1549,
   "ops": 74,
   "distinctOps": 13,
   "width": 400,

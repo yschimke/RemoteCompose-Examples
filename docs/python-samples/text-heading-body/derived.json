@@ -1,7 +1,7 @@
 {
   "id": "python-samples/text-heading-body",
-  "sha256": "deb5b333bf5bd26d03eb5cdb43049d4a2a0ef9ce0a9b44274b8c8e07e213f3b1",
-  "bytes": 1009,
+  "sha256": "3c3dff73a123184dde1bab524432e9493c207a3893196270d6720deb90180979",
+  "bytes": 1017,
   "ops": 58,
   "distinctOps": 12,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-pie",
-  "sha256": "a54a66cea7c8e75171d8207516c4fa8a06e86f76967bea214ab9b6e7291fe194",
-  "bytes": 1989,
+  "sha256": "b792e3a95b3d331e080415452faef1f345ae8fb6ac2e91183c62932ba005b49a",
+  "bytes": 1997,
   "ops": 84,
   "distinctOps": 14,
   "width": 400,

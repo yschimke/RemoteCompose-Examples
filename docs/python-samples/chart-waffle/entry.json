@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "42a164ea8c812018c3267cf1b42928713f4002ca17c9527c8a7d34b961dc5cf8",
+  "sha256": "6d23cc8d652c5925053b5fad185bcd5c9d1ce1e097fd669d7aeeb55e961d0141",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_waffle.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

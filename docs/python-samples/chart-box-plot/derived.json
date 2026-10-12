@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-box-plot",
-  "sha256": "3e1dc2181d5c4f6612229d7bd95f38e8da0efc76f843fcb689ae45e6f78c24f3",
-  "bytes": 1876,
+  "sha256": "e34c38ae4b9d8e70fa5b6b589019b425c48682b3c70d305a2e59c83cdaafddda",
+  "bytes": 1884,
   "ops": 89,
   "distinctOps": 13,
   "width": 400,

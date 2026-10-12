@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-compass",
-  "sha256": "b4ee95302692a8402064b6d5c7492276a7296f36d553ebfff79db7c772f45a14",
-  "bytes": 1335,
+  "sha256": "405a31573d1d8353387347d01e7ee4f0f15a3fa09b2eae2d8bb58775dcd9be57",
+  "bytes": 1343,
   "ops": 96,
   "distinctOps": 20,
   "width": 400,

@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "1f314020f6f5d39e6f66c333c40b206e2377feb1c93a5c9f2b98198be0560ce7",
+  "sha256": "6a50ad8cd0fd093f847a439f7a661dabf2dfe412843fd8906ffcd19f27624625",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_histogram.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

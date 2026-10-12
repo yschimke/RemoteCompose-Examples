@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-card",
-  "sha256": "a7c3069de2d12720a84e74b8f0605a0bc618a447b0c1d6c89fbb3a39ce8d03bf",
-  "bytes": 1032,
+  "sha256": "075ca26121150fecd0a46553474b5758899ba62e52325f4b45cfe18747ee8f51",
+  "bytes": 1040,
   "ops": 90,
   "distinctOps": 15,
   "width": 400,

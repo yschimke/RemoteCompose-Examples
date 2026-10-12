@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-horizontal-bar",
-  "sha256": "c2b1b2886af6001592bea6f0da0da12705de56345d455c13d27702fcd98db6c9",
-  "bytes": 1508,
+  "sha256": "da39593a7d86caad259fd633300de0a21f6be9da9470be3030d67a84aea815c7",
+  "bytes": 1516,
   "ops": 70,
   "distinctOps": 13,
   "width": 400,

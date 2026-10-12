@@ -9,7 +9,7 @@
   "tags": [
     "python"
   ],
-  "sha256": "b0bcf3bb3f939f5dd11c79bf3455a548b647dbf8cbe8b499f2ce92be41ee7ba6",
+  "sha256": "36de9cd67e349e5e3f9f02b84fc9ecc007ac16f8b3d976e8bcda7dad7374e4ca",
   "provenance": "github/Origami/pythonRcCreation/samples/output/chart_stacked_area.rc",
   "descriptionSource": "json:header.description",
   "addedAt": "2026-09-29T10:56:47-07:00"

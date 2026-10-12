@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-network",
-  "sha256": "fcb69684c898f5493bafa00331b60b37af0d6b2dd569f61c54295897e8df20a3",
-  "bytes": 1229,
+  "sha256": "6e2b7342a149da175b62c00d98602d147899f3082e29f9280bf7ac92a65f7dd1",
+  "bytes": 1237,
   "ops": 63,
   "distinctOps": 13,
   "width": 400,

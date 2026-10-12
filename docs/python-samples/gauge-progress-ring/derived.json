@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-progress-ring",
-  "sha256": "128d67897a33757c9a2e29fb4a8c97fe9ce04e3b93d28f5ddc5078184b645f89",
-  "bytes": 777,
+  "sha256": "1bd539402ff0d8a815863badf6050321d47731545cdcffab8f70d1a89280d359",
+  "bytes": 785,
   "ops": 46,
   "distinctOps": 20,
   "width": 400,

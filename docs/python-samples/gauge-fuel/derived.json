@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-fuel",
-  "sha256": "25016573be788f24ae38f90a99030360608ea2eccc6ce942104072b1092636c2",
-  "bytes": 1428,
+  "sha256": "9d59d466d9480c2fc42c1d3b7bbbcf836cc5ad400f2806e0da7b6afdc8e35cfd",
+  "bytes": 1436,
   "ops": 86,
   "distinctOps": 21,
   "width": 400,

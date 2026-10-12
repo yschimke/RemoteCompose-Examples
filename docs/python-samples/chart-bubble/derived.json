@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-bubble",
-  "sha256": "2016878bbb575315cad1ecfdffa8e954f0887eed402b02eaf0efb08d375ad192",
-  "bytes": 1403,
+  "sha256": "28d21d2c6076303041f0d99eba2034494872bb1c1639907e9595bf5d688bb111",
+  "bytes": 1411,
   "ops": 74,
   "distinctOps": 13,
   "width": 400,

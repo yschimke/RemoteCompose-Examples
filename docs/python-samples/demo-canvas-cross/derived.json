@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-canvas-cross",
-  "sha256": "b1ca9794dfa54032b64fa7d6154a8fc40ac6c1bd8541a5bfba7821a37ac66c59",
-  "bytes": 288,
+  "sha256": "891418939c7ce604a9a4c87e48f2ac7b56227598130016d7fe0e72322d3988be",
+  "bytes": 296,
   "ops": 21,
   "distinctOps": 12,
   "width": 600,

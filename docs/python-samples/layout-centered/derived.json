@@ -1,7 +1,7 @@
 {
   "id": "python-samples/layout-centered",
-  "sha256": "b56c649100c54aaf4ef6f4fb4a82539c846c10edaee8b29c21ba8aee591bd731",
-  "bytes": 565,
+  "sha256": "067ad7a344c0ec2728c2e5b8aca709e84640dcf9cba5e0411046ed6f619e4dcf",
+  "bytes": 573,
   "ops": 47,
   "distinctOps": 13,
   "width": 400,

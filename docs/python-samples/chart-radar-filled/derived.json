@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-radar-filled",
-  "sha256": "d74cfbb0f2e8871ea1591cb3cfab3b63f1d564fb0ebab5fa737abe6c60cbc1bb",
-  "bytes": 1708,
+  "sha256": "8b02e47d2a3372871260570d3fb03760016ebf8ae73cf77a162c8838382b889b",
+  "bytes": 1716,
   "ops": 87,
   "distinctOps": 13,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-target",
-  "sha256": "e71e0aa620aec7d8c049013f25363739f79281c396a118a39e3c596d5c2575da",
-  "bytes": 429,
+  "sha256": "4c89bdfd189bfd73669604005bd813379ce22c4a38839751704b4819076721f3",
+  "bytes": 437,
   "ops": 29,
   "distinctOps": 11,
   "width": 400,

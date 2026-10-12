@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-grouped-bar",
-  "sha256": "9f3585c38e243eb8f4475f7a0041ee5c3671727e53a69fd72cd387cccf56c0eb",
-  "bytes": 1647,
+  "sha256": "2030b7302f392dc807a95845b4cc1bc9418c183744bdd064023fd0debeda7f43",
+  "bytes": 1655,
   "ops": 74,
   "distinctOps": 14,
   "width": 400,

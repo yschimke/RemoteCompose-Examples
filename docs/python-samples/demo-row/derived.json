@@ -1,7 +1,7 @@
 {
   "id": "python-samples/demo-row",
-  "sha256": "f54fd7094390708f915a8c1bd18495347eea3ff78c712e8e73385250b6d1ca76",
-  "bytes": 365,
+  "sha256": "2cb553cc383eadf33c0005ea1d02c24ecf9e2828c8555ddd3d573512ff7fcb41",
+  "bytes": 373,
   "ops": 30,
   "distinctOps": 9,
   "width": 400,

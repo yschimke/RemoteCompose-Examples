@@ -1,7 +1,7 @@
 {
   "id": "python-samples/gauge-signal",
-  "sha256": "9028855e337987373f0a74a6975d7fc136b4741529b1567603fb6ae9a4a1fda1",
-  "bytes": 1387,
+  "sha256": "8a98a42487723e54ab944bd95187b020051df21a57429c8af3433b9562c6c88d",
+  "bytes": 1395,
   "ops": 52,
   "distinctOps": 14,
   "width": 400,

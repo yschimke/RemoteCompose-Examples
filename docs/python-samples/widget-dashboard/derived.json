@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-dashboard",
-  "sha256": "8fd79579d18dac877f6598e56874dbb20f51d0593f908d1b03be69b18648123e",
-  "bytes": 3743,
+  "sha256": "c495c899e4f6a417de3b178db5b9c468d1b8f17606f8dfe272e6e03cf1f117e9",
+  "bytes": 3751,
   "ops": 238,
   "distinctOps": 21,
   "width": 600,

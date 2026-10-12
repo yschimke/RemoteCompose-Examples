@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-scatter",
-  "sha256": "313b7d51a7c9d626badfd2f5436e1ddb8fa9cd68b400ea901ec5a3b0048ed0eb",
-  "bytes": 937,
+  "sha256": "6ee70490be32a97ea705aba3b1d4c729b173e24e354876312017e8f73e160cd3",
+  "bytes": 945,
   "ops": 58,
   "distinctOps": 13,
   "width": 400,

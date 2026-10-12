@@ -1,7 +1,7 @@
 {
   "id": "python-samples/canvas-concentric",
-  "sha256": "781122dbf8747b9fe98e66f45b6ec0ba67c2afcddd269596b00d6ce1f41ddbb5",
-  "bytes": 404,
+  "sha256": "d5bcaed941bbbcdd3425c9b49da51e0a19752ec820b89783b8df4c21334c32e5",
+  "bytes": 412,
   "ops": 28,
   "distinctOps": 10,
   "width": 400,

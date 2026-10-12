@@ -1,7 +1,7 @@
 {
   "id": "python-samples/widget-settings",
-  "sha256": "a013c0a3e928e802d9780e08ffe44e7671929d397e7130b87711cd8a9fbbeef9",
-  "bytes": 4059,
+  "sha256": "b97dc69db004dcaa5e5ef9dce14c719208e77dce9935653b82412467401b2800",
+  "bytes": 4067,
   "ops": 365,
   "distinctOps": 20,
   "width": 400,

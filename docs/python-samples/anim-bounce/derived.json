@@ -1,7 +1,7 @@
 {
   "id": "python-samples/anim-bounce",
-  "sha256": "9a2358b41a50487b5e5b1e3e2d43ab25338e75809b45767d9c535f3526b78121",
-  "bytes": 633,
+  "sha256": "23da7b7248202e393a1b314851a5f0f607abda55dd6fb2db606085a52b20412b",
+  "bytes": 641,
   "ops": 35,
   "distinctOps": 13,
   "width": 400,

@@ -1,7 +1,7 @@
 {
   "id": "python-samples/chart-pareto",
-  "sha256": "77784a45f6c62b4f9ff0beb0b63fd76d383ffb72effc450608bbd14b71871e49",
-  "bytes": 1722,
+  "sha256": "aa083d3cab234f4fe679e9f37486d0f0f28a4723c4f98a10c98e088bce079b38",
+  "bytes": 1730,
   "ops": 88,
   "distinctOps": 14,
   "width": 400,
