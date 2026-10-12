@@ -120,7 +120,7 @@ FIXED_SIZE = {
 }
 PAINT_VALUES, ANIMATED_FLOAT, DATA_TEXT, CORE_TEXT = 40, 81, 102, 239
 COMPONENT_VALUE, CONTAINER_END = 150, 214
-LAYOUT_CONTENT, LAYOUT_CANVAS, LOOP_START = 201, 205, 215
+LAYOUT_CONTENT, LAYOUT_CANVAS, LOOP_START, LAYOUT_FLOW = 201, 205, 215, 240
 # Operations closed by a CONTAINER_END.
 CONTAINERS = {200, 201, 202, 203, 204, 205, 176, 240, 215, CORE_TEXT}
 # CoreText parameters (TextStyle.PARAMETERS): id -> payload size, None for an array.
@@ -140,10 +140,11 @@ def field(data: bytes, op: Op, k: int) -> int:
     return struct.unpack_from(">i", data, op.start + 1 + 4 * k)[0]
 
 
-def walk(data: bytes) -> list[Op]:
+def walk(data: bytes, flow_size: int = 28) -> list[Op]:
     """Every operation in the document, with the innermost container that holds it.
 
     Raises Skip unless the whole stream parses to the last byte with balanced containers.
+    `flow_size` reads LAYOUT_FLOW in its older five-field form (20 bytes) instead.
     """
     end, _ = header_tags(data)
     ops = [Op(0, 0, end, None)]
@@ -152,7 +153,9 @@ def walk(data: bytes) -> list[Op]:
     while off < len(data):
         code = data[off]
         p = off + 1
-        if code in FIXED_SIZE:
+        if code == LAYOUT_FLOW:
+            p += flow_size
+        elif code in FIXED_SIZE:
             p += FIXED_SIZE[code]
         elif code == PAINT_VALUES:
             (n,) = struct.unpack_from(">i", data, p)
@@ -270,9 +273,41 @@ def fix_python_component_size(data: bytes) -> bytes:
     return bytes(out)
 
 
+INT_MAX = 0x7FFFFFFF
+
+
+def fix_python_flow(data: bytes) -> bytes:
+    """pythonRcCreation writes LAYOUT_FLOW (240) in an older five-field form - component id,
+    animation id, horizontal and vertical positioning, spacedBy - the same bytes as
+    androidx-demos/c-flow. remote-core alpha19 reads seven fields, adding maxItemsInEachRow and
+    maxLines, so it reads the next operation's bytes as those two and loses the stream
+    (`Invalid table size`, `Unknown operation encountered 255`), and the TypeScript player,
+    which reads seven as well, draws nothing. This appends both fields with the values
+    FlowLayout uses when they are not given, Integer.MAX_VALUE, which is what the five-field
+    form meant: no limit. A document is changed only if it parses completely with the older
+    form and not with the current one."""
+    def parses(flow_size: int) -> list[Op] | None:
+        try:
+            return walk(data, flow_size)
+        except (Skip, struct.error, IndexError):
+            return None
+
+    if parses(28) is not None:
+        raise Skip("already parses with the current LAYOUT_FLOW")
+    ops = parses(20)
+    if ops is None:
+        raise Skip("does not parse with the older LAYOUT_FLOW either")
+    out = bytearray(data)
+    for op in reversed([o for o in ops if o.code == LAYOUT_FLOW]):
+        out[op.end:op.end] = struct.pack(">ii", INT_MAX, INT_MAX)
+    walk(bytes(out))
+    return bytes(out)
+
+
 FIXES = {
     "python-profiles": ("python-samples/*", fix_python_profiles),
     "python-component-size": ("python-samples/*", fix_python_component_size),
+    "python-flow": ("python-samples/*", fix_python_flow),
 }
 
 
