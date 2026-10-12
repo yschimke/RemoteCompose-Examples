@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-spinner",
-  "sha256": "900b05c903b319797122b3ef04887ab9b1b27ca4f050b4d133f034410c34bdd6",
-  "bytes": 750,
-  "ops": 40,
-  "distinctOps": 15,
+  "sha256": "cec61779e83cff2cfa934391ab5c4d7d858c4e3e659918fe7c193a2bca4b7180",
+  "bytes": 776,
+  "ops": 42,
+  "distinctOps": 16,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -21,7 +21,8 @@
     "CONTAINER_END": 4,
     "DRAW_ARC": 1,
     "DATA_TEXT": 1,
-    "DRAW_TEXT_ANCHOR": 1
+    "DRAW_TEXT_ANCHOR": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

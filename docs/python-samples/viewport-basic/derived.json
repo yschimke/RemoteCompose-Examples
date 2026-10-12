@@ -1,9 +1,9 @@
 {
   "id": "python-samples/viewport-basic",
-  "sha256": "c4d62faf47bf070900f007deec20650def24376ab90c775739cb309cc1e00f64",
-  "bytes": 565,
-  "ops": 32,
-  "distinctOps": 17,
+  "sha256": "948ec2e727c8eac840e26edef1fce24ae4b18856fbca63f4c6c624529de557be",
+  "bytes": 591,
+  "ops": 34,
+  "distinctOps": 18,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -23,7 +23,8 @@
     "DATA_TEXT": 2,
     "DRAW_TEXT_ANCHOR": 2,
     "MATRIX_RESTORE": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

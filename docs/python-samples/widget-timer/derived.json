@@ -1,9 +1,9 @@
 {
   "id": "python-samples/widget-timer",
-  "sha256": "7e5134952c80b5f069e445c80b596172000deab648b6fdf08d31036cb7f8d70f",
-  "bytes": 1283,
-  "ops": 66,
-  "distinctOps": 17,
+  "sha256": "977dae58474113674040c16f80f29b51e50439e51ca7cfa83b620cd2546728b5",
+  "bytes": 1309,
+  "ops": 68,
+  "distinctOps": 18,
   "width": 300,
   "height": 300,
   "histogram": {
@@ -23,7 +23,8 @@
     "DRAW_TEXT_ANCHOR": 4,
     "DATA_TEXT": 2,
     "DRAW_LINE": 4,
-    "CONTAINER_END": 5
+    "CONTAINER_END": 5,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

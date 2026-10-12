@@ -1,9 +1,9 @@
 {
   "id": "python-samples/canvas-gauge",
-  "sha256": "2270d74367190d88db9780114eb36f4530ac10d805a6c51467717e282a40a4fc",
-  "bytes": 1288,
-  "ops": 72,
-  "distinctOps": 20,
+  "sha256": "168b8822fc58581222df3e718c3d0d07519706d63e5a00a3174a13d10f22e556",
+  "bytes": 1314,
+  "ops": 74,
+  "distinctOps": 21,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -26,7 +26,8 @@
     "CONTAINER_END": 4,
     "MATRIX_RESTORE": 3,
     "DRAW_CIRCLE": 2,
-    "TEXT_FROM_FLOAT": 1
+    "TEXT_FROM_FLOAT": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawArc",

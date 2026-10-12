@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-wave",
-  "sha256": "c339b0497a1d27d6ff2d9028ab571379bf0ac17310f0831aad0dc6bb31b54784",
-  "bytes": 872,
-  "ops": 40,
-  "distinctOps": 12,
+  "sha256": "8c512a6d04658294c27a6e710b0cf88a35d2f8578a12e58ba262de1687205df9",
+  "bytes": 898,
+  "ops": 42,
+  "distinctOps": 13,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -18,7 +18,8 @@
     "DRAW_RECT": 1,
     "DRAW_LINE": 4,
     "LOOP_START": 3,
-    "CONTAINER_END": 6
+    "CONTAINER_END": 6,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawLine",

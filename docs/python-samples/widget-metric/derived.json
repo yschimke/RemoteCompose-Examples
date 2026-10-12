@@ -1,9 +1,9 @@
 {
   "id": "python-samples/widget-metric",
-  "sha256": "b90b6b20f7ebc95c09ef6123b73e7c09eeb4d3be2970833fa8d8149639ec0c53",
-  "bytes": 1516,
-  "ops": 102,
-  "distinctOps": 22,
+  "sha256": "23906254b957b5af83416f371110e1e7a2f41dc666c617893789e1e031b3395f",
+  "bytes": 1542,
+  "ops": 104,
+  "distinctOps": 23,
   "width": 300,
   "height": 200,
   "histogram": {
@@ -28,7 +28,8 @@
     "DRAW_TEXT_ANCHOR": 1,
     "LAYOUT_ROW": 1,
     "DRAW_LINE": 3,
-    "DRAW_ROUND_RECT": 8
+    "DRAW_ROUND_RECT": 8,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawLine",

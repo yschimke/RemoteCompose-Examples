@@ -1,9 +1,9 @@
 {
   "id": "python-samples/widget-dashboard",
-  "sha256": "c495c899e4f6a417de3b178db5b9c468d1b8f17606f8dfe272e6e03cf1f117e9",
-  "bytes": 3751,
-  "ops": 238,
-  "distinctOps": 21,
+  "sha256": "fd57da8bec803c8042d29bb0c1bb40b268061292ad7723589fccc1d0b0df447e",
+  "bytes": 3855,
+  "ops": 246,
+  "distinctOps": 22,
   "width": 600,
   "height": 400,
   "histogram": {
@@ -27,7 +27,8 @@
     "PAINT_VALUES": 16,
     "DRAW_ARC": 8,
     "TEXT_FROM_FLOAT": 4,
-    "DRAW_TEXT_ANCHOR": 8
+    "DRAW_TEXT_ANCHOR": 8,
+    "COMPONENT_VALUE": 8
   },
   "apis": [
     "drawArc",

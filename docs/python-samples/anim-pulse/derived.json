@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-pulse",
-  "sha256": "9c87ba05e9193c6eab862d6992ae3a5485965014f2a2ac3d3dc6c481f78a2ff6",
-  "bytes": 588,
-  "ops": 31,
-  "distinctOps": 13,
+  "sha256": "7b9993ed54df1b5d1fa8d09fbbfe563308fd9ab90874c8f8bcdedd61dc128bd8",
+  "bytes": 614,
+  "ops": 33,
+  "distinctOps": 14,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -19,7 +19,8 @@
     "DRAW_CIRCLE": 4,
     "TEXT_FROM_FLOAT": 1,
     "DRAW_TEXT_ANCHOR": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

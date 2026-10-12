@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-breathing",
-  "sha256": "28f3e6cc8bdeb687410a3e05914e351c46334165ecef881a1dd94421f2cdc9f7",
-  "bytes": 777,
-  "ops": 41,
-  "distinctOps": 13,
+  "sha256": "9d8903eb3b7b384005047305a9af11e13a5c8dd6e687ba7987ccae45cea82e4b",
+  "bytes": 803,
+  "ops": 43,
+  "distinctOps": 14,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -19,7 +19,8 @@
     "DRAW_CIRCLE": 7,
     "DATA_TEXT": 1,
     "DRAW_TEXT_ANCHOR": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

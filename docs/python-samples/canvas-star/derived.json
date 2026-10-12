@@ -1,9 +1,9 @@
 {
   "id": "python-samples/canvas-star",
-  "sha256": "6fdf49498c2aa104d3f71e3094903055291b85cf2eaea86d5836bbcfbe5ad191",
-  "bytes": 408,
-  "ops": 30,
-  "distinctOps": 16,
+  "sha256": "1a89607470d3a190e1150cea0830d5bf065fb9d4864aab07e77ff09e52aebd27",
+  "bytes": 434,
+  "ops": 32,
+  "distinctOps": 17,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -22,7 +22,8 @@
     "DRAW_LINE": 2,
     "CONTAINER_END": 5,
     "MATRIX_RESTORE": 2,
-    "DRAW_CIRCLE": 1
+    "DRAW_CIRCLE": 1,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

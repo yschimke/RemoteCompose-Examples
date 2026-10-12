@@ -1,9 +1,9 @@
 {
   "id": "python-samples/demo-new-syntax",
-  "sha256": "b504ef474f4d6e4b3c7da3cfbd99774af1ac700d52b8d2d695131b88ef50ca49",
-  "bytes": 730,
-  "ops": 46,
-  "distinctOps": 18,
+  "sha256": "7d8458db213e818e0b5f1c319d4028e86f1e598ed373367760075f529bb137aa",
+  "bytes": 756,
+  "ops": 48,
+  "distinctOps": 19,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -24,7 +24,8 @@
     "PAINT_VALUES": 4,
     "DRAW_CIRCLE": 1,
     "DRAW_RECT": 1,
-    "DRAW_LINE": 2
+    "DRAW_LINE": 2,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",

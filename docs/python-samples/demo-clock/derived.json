@@ -1,9 +1,9 @@
 {
   "id": "python-samples/demo-clock",
-  "sha256": "32b8944def509cca20f878baa6a9d32a44d1f86f1abf7672c728b8b13d8454ab",
-  "bytes": 627,
-  "ops": 41,
-  "distinctOps": 15,
+  "sha256": "246b6516a7676a18464a2170dbd9466ce75dbe828b65b9c22f53c681488f6e44",
+  "bytes": 653,
+  "ops": 43,
+  "distinctOps": 16,
   "width": 500,
   "height": 500,
   "histogram": {
@@ -21,7 +21,8 @@
     "MATRIX_ROTATE": 2,
     "DRAW_LINE": 3,
     "MATRIX_RESTORE": 2,
-    "CONTAINER_END": 5
+    "CONTAINER_END": 5,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawLine",

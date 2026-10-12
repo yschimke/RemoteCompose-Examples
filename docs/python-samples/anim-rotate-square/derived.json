@@ -1,9 +1,9 @@
 {
   "id": "python-samples/anim-rotate-square",
-  "sha256": "874c08b837913e9df64025d607ab162352cdb55774874db86d6ece32bccc0299",
-  "bytes": 639,
-  "ops": 39,
-  "distinctOps": 15,
+  "sha256": "c8a5624b56e54107d113df3717b993874803d74a9284b90fcf6ae320282a86a7",
+  "bytes": 665,
+  "ops": 41,
+  "distinctOps": 16,
   "width": 400,
   "height": 400,
   "histogram": {
@@ -21,7 +21,8 @@
     "MATRIX_SAVE": 1,
     "MATRIX_ROTATE": 1,
     "MATRIX_RESTORE": 1,
-    "CONTAINER_END": 3
+    "CONTAINER_END": 3,
+    "COMPONENT_VALUE": 2
   },
   "apis": [
     "drawCircle",
