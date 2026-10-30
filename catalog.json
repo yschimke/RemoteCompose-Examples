@@ -1374,6 +1374,74 @@
       ]
     },
     {
+      "componentId": "androidx-demos/cube3d",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Shaded 3D cube, cyan top face and red front, inside a dark circular vignette. #3d",
+      "sourceFile": "docs/androidx-demos/cube3d/doc.rc",
+      "rcDocument": "documents/androidx-demos/cube3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/cube3d.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-bitmap-drawing-bit-draw1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Bitmap tiling: a repeated red, green and blue motif clipped to a circle. #images",
+      "sourceFile": "docs/androidx-demos/demo-bitmap-drawing-bit-draw1/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-bitmap-drawing-bit-draw1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-bitmap-drawing-bit-draw1.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-bitmap-drawing-bit-draw2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Bitmap tiling: black discs on a yellow grid, repeated across the canvas. #images",
+      "sourceFile": "docs/androidx-demos/demo-bitmap-drawing-bit-draw2/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-bitmap-drawing-bit-draw2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-bitmap-drawing-bit-draw2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-flick-flick-test",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Flick gesture test: a vertical track with a draggable green handle and a numeric readout. #interaction",
+      "sourceFile": "docs/androidx-demos/demo-flick-flick-test/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-flick-flick-test.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-flick-flick-test.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/demo-graphs0",
       "section": "androidx",
       "group": "androidx-demos",
@@ -1387,6 +1455,159 @@
           "path": "images/androidx-demos/demo-graphs0.png",
           "width": 500,
           "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-graphs1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/demo-graphs1/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-graphs1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-graphs1.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-path-expression-path-test1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Path driven by an expression: concentric scalloped rings in red, blue and yellow over a tan field. #drawPath #expressions",
+      "sourceFile": "docs/androidx-demos/demo-path-expression-path-test1/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-path-expression-path-test1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-path-expression-path-test1.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-path-expression-path-test2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Path driven by an expression: a magenta star with a white outline on a violet field. #drawPath #expressions",
+      "sourceFile": "docs/androidx-demos/demo-path-expression-path-test2/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-path-expression-path-test2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-path-expression-path-test2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-path-expression-path-test3",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Path driven by an expression: a sharper magenta star with a white outline on a violet field. #drawPath #expressions",
+      "sourceFile": "docs/androidx-demos/demo-path-expression-path-test3/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-path-expression-path-test3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-path-expression-path-test3.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-text-transform",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/demo-text-transform/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-text-transform.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-text-transform.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-use-of-global",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Global value demo: a large digit on a grey gradient, redrawn from shared state. #expressions",
+      "sourceFile": "docs/androidx-demos/demo-use-of-global/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-use-of-global.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-use-of-global.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/demo-winding-rule-path-winding",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Winding rule comparison: the same spiral path filled four ways over blue, green, red and yellow quadrants. #drawPath #validation",
+      "sourceFile": "docs/androidx-demos/demo-winding-rule-path-winding/doc.rc",
+      "rcDocument": "documents/androidx-demos/demo-winding-rule-path-winding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/demo-winding-rule-path-winding.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/digital-clock1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Digital clock rendered as tall cyan seven-segment panels inside a green frame. #clock",
+      "sourceFile": "docs/androidx-demos/digital-clock1/doc.rc",
+      "rcDocument": "documents/androidx-demos/digital-clock1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/digital-clock1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/experimental-fancy-clock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Analogue clock on a black dial with a fine tick bezel and a red second hand. #clock",
+      "sourceFile": "docs/androidx-demos/experimental-fancy-clock/doc.rc",
+      "rcDocument": "documents/androidx-demos/experimental-fancy-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/experimental-fancy-clock.png",
+          "width": 400,
+          "height": 400
         }
       ]
     },
@@ -1419,6 +1640,23 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/androidx-demos/experimental-solar-gmt.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/experimental-sweep-clock1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Analogue clock with a sweeping second hand on a brushed grey dial and knurled black bezel. #clock",
+      "sourceFile": "docs/androidx-demos/experimental-sweep-clock1/doc.rc",
+      "rcDocument": "documents/androidx-demos/experimental-sweep-clock1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/experimental-sweep-clock1.png",
           "width": 400,
           "height": 400
         }
@@ -1493,6 +1731,193 @@
       ]
     },
     {
+      "componentId": "androidx-demos/flow-control-checks-flow-control-checks1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Flow-control check. Renders black at rest; the behaviour under test is branching, not drawing. #conditionals #validation",
+      "sourceFile": "docs/androidx-demos/flow-control-checks-flow-control-checks1/doc.rc",
+      "rcDocument": "documents/androidx-demos/flow-control-checks-flow-control-checks1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/flow-control-checks-flow-control-checks1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/flow-control-checks-flow-control-checks2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Flow-control check. Renders black at rest; the behaviour under test is branching, not drawing. #conditionals #validation",
+      "sourceFile": "docs/androidx-demos/flow-control-checks-flow-control-checks2/doc.rc",
+      "rcDocument": "documents/androidx-demos/flow-control-checks-flow-control-checks2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/flow-control-checks-flow-control-checks2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/flow-control-checks-test-conditional",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Conditional check: yellow text drawn only when a branch is taken. #conditionals #validation",
+      "sourceFile": "docs/androidx-demos/flow-control-checks-test-conditional/doc.rc",
+      "rcDocument": "documents/androidx-demos/flow-control-checks-test-conditional.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/flow-control-checks-test-conditional.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/good-pie-chart",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Pie Chart Demo",
+      "sourceFile": "docs/androidx-demos/good-pie-chart/doc.rc",
+      "rcDocument": "documents/androidx-demos/good-pie-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/good-pie-chart.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/graph-graph1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Bar chart with a green trend curve overlaid and value labels inside each bar. #graph",
+      "sourceFile": "docs/androidx-demos/graph-graph1/doc.rc",
+      "rcDocument": "documents/androidx-demos/graph-graph1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/graph-graph1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/graph-graph2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Bar chart with a thick red curve tracing the peaks, on a light frame. #graph",
+      "sourceFile": "docs/androidx-demos/graph-graph2/doc.rc",
+      "rcDocument": "documents/androidx-demos/graph-graph2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/graph-graph2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/haptic-demo-demo-haptic1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Haptic feedback catalogue: a grid of buttons, one per constant, from keyboard tap to segment tick. #interaction",
+      "sourceFile": "docs/androidx-demos/haptic-demo-demo-haptic1/doc.rc",
+      "rcDocument": "documents/androidx-demos/haptic-demo-demo-haptic1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/haptic-demo-demo-haptic1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/heart-rate-timeline",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Heart-rate timeline: a red trace over banded zones with a 60 BPM marker. #graph #widget",
+      "sourceFile": "docs/androidx-demos/heart-rate-timeline/doc.rc",
+      "rcDocument": "documents/androidx-demos/heart-rate-timeline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/heart-rate-timeline.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/hostile-actor1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Stress test: several hundred overlapping translucent grey bubbles with a live count. #particles #animation",
+      "sourceFile": "docs/androidx-demos/hostile-actor1/doc.rc",
+      "rcDocument": "documents/androidx-demos/hostile-actor1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/hostile-actor1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/hostile-actor1-c",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Stress test: several hundred overlapping translucent coloured discs with a live count. #particles #animation",
+      "sourceFile": "docs/androidx-demos/hostile-actor1-c/doc.rc",
+      "rcDocument": "documents/androidx-demos/hostile-actor1-c.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/hostile-actor1-c.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/hydration-wave",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Hydration Progress Wave",
+      "sourceFile": "docs/androidx-demos/hydration-wave/doc.rc",
+      "rcDocument": "documents/androidx-demos/hydration-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/hydration-wave.png",
+          "width": 400,
+          "height": 450
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/impulse-demo-confetti-demo",
       "section": "androidx",
       "group": "androidx-demos",
@@ -1510,6 +1935,108 @@
       ]
     },
     {
+      "componentId": "androidx-demos/impulse-demo-hearts-demo",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Impulse-driven hearts burst, shown here before the impulse fires. #animation",
+      "sourceFile": "docs/androidx-demos/impulse-demo-hearts-demo/doc.rc",
+      "rcDocument": "documents/androidx-demos/impulse-demo-hearts-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/impulse-demo-hearts-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/indexing-demo-path-index",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Indexing demo: a black 1 with a red 0 offset beside it, addressing glyphs by index. #text #validation",
+      "sourceFile": "docs/androidx-demos/indexing-demo-path-index/doc.rc",
+      "rcDocument": "documents/androidx-demos/indexing-demo-path-index.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/indexing-demo-path-index.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/issue",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Anniversary card: 274 days to 20 May 2027, inside a soft scalloped badge. #widget",
+      "sourceFile": "docs/androidx-demos/issue/doc.rc",
+      "rcDocument": "documents/androidx-demos/issue.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/issue.png",
+          "width": 470,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/linear-regression",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Linear Regression Demo",
+      "sourceFile": "docs/androidx-demos/linear-regression/doc.rc",
+      "rcDocument": "documents/androidx-demos/linear-regression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/linear-regression.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/maze",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Maze rendered as blue corridors on black, coarse grid. #game",
+      "sourceFile": "docs/androidx-demos/maze/doc.rc",
+      "rcDocument": "documents/androidx-demos/maze.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/maze.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/maze1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Maze rendered as blue corridors on black, fine grid. #game",
+      "sourceFile": "docs/androidx-demos/maze1/doc.rc",
+      "rcDocument": "documents/androidx-demos/maze1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/maze1.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/maze2",
       "section": "androidx",
       "group": "androidx-demos",
@@ -1521,6 +2048,159 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/androidx-demos/maze2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/moon-phase-dial",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Moon phase dial: waxing gibbous, 72% illuminated, with craters picked out. #widget",
+      "sourceFile": "docs/androidx-demos/moon-phase-dial/doc.rc",
+      "rcDocument": "documents/androidx-demos/moon-phase-dial.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/moon-phase-dial.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/moon-phases",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Moon Phases Demo",
+      "sourceFile": "docs/androidx-demos/moon-phases/doc.rc",
+      "rcDocument": "documents/androidx-demos/moon-phases.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/moon-phases.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/particle",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Portrait avatar with a rounded mask on a mauve backdrop. #images",
+      "sourceFile": "docs/androidx-demos/particle/doc.rc",
+      "rcDocument": "documents/androidx-demos/particle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/particle.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/path-demo-path-tween-demo",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Path tween: a rounded blob part-way through a morph between two shapes. #drawPath #animation",
+      "sourceFile": "docs/androidx-demos/path-demo-path-tween-demo/doc.rc",
+      "rcDocument": "documents/androidx-demos/path-demo-path-tween-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/path-demo-path-tween-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/path-demo-path2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Minimal path: an L-shaped stroke forming two axes. #drawPath #validation",
+      "sourceFile": "docs/androidx-demos/path-demo-path2/doc.rc",
+      "rcDocument": "documents/androidx-demos/path-demo-path2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/path-demo-path2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/path-demo-remote-construction",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Path built remotely rather than supplied whole: a green disc with a thick olive rim. #drawPath",
+      "sourceFile": "docs/androidx-demos/path-demo-remote-construction/doc.rc",
+      "rcDocument": "documents/androidx-demos/path-demo-remote-construction.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/path-demo-remote-construction.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/path-procedural-checks-all-path",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Procedural path check: stacked blue arcs exercising the full set of path segment types. #drawPath #validation",
+      "sourceFile": "docs/androidx-demos/path-procedural-checks-all-path/doc.rc",
+      "rcDocument": "documents/androidx-demos/path-procedural-checks-all-path.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/path-procedural-checks-all-path.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/path-procedural-checks-basic-path",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Procedural path check: a single thick blue curve, the simplest case. #drawPath #validation",
+      "sourceFile": "docs/androidx-demos/path-procedural-checks-basic-path/doc.rc",
+      "rcDocument": "documents/androidx-demos/path-procedural-checks-basic-path.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/path-procedural-checks-basic-path.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/paths-demos",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Overlapping red and blue path shapes over a thin vertical rule. #drawPath",
+      "sourceFile": "docs/androidx-demos/paths-demos/doc.rc",
+      "rcDocument": "documents/androidx-demos/paths-demos.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/paths-demos.png",
           "width": 500,
           "height": 500
         }
