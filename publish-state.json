@@ -2093,7 +2093,10 @@
   },
   "games/skeleton": {
     "sha256": "0f85901d0fea4713a6ecd03c426564eec9c243b8dcbd1243d34b0dc896020a3c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0f85901d0fea4713a6ecd03c426564eec9c243b8dcbd1243d34b0dc896020a3c:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/wall-bounce": {
     "sha256": "7ded0ff74a6ea3a95b31568b0d12a99c8a33e8ec3e510564790d22878d666fbf",
@@ -2104,159 +2107,276 @@
   },
   "gears/clock": {
     "sha256": "4dbda47e6c185556993b2e6d0230a4237be8a30428195b88f263ef7c8e579175",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4dbda47e6c185556993b2e6d0230a4237be8a30428195b88f263ef7c8e579175:2:1f8aee19fe003312",
+    "imageWidth": 512,
+    "imageHeight": 512
   },
   "gears/gears": {
     "sha256": "04941ebd6574df311f427fb93122d3441d8bc995a51b33d095782014c96962df",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "04941ebd6574df311f427fb93122d3441d8bc995a51b33d095782014c96962df:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "gears/gears3d": {
     "sha256": "6fad12d5beb14519e86f5746ae6077a76c277fd7a7c5a29cbea1a20c40a4f112",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6fad12d5beb14519e86f5746ae6077a76c277fd7a7c5a29cbea1a20c40a4f112:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "iot-panels-light/01-smart-bulb": {
     "sha256": "904152b6e95be839df702850e4e46c1a72b0ddb3c0ab490733b183dfc397bf1d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "904152b6e95be839df702850e4e46c1a72b0ddb3c0ab490733b183dfc397bf1d:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/02-led-strip": {
     "sha256": "91c36b1116204b71a268aba5c1a188bd3160a352f5059bf9d87213cfadf148d5",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "91c36b1116204b71a268aba5c1a188bd3160a352f5059bf9d87213cfadf148d5:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/03-dimmer-switch": {
     "sha256": "a1d03973503b7f7048f99ace148b59bafbd8fb42bbae4a8440d29ef2f0ca2372",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a1d03973503b7f7048f99ace148b59bafbd8fb42bbae4a8440d29ef2f0ca2372:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/04-motion-night-light": {
     "sha256": "f81a625a5ac9ff4f31e29f53f3d6543018834b95cbb2ac64a407d5bae5851d30",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f81a625a5ac9ff4f31e29f53f3d6543018834b95cbb2ac64a407d5bae5851d30:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/05-mood-lamp": {
     "sha256": "66dcc763a38c104aa329e545f48640782377f2a32d48b4c6b9e81e0607d064be",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "66dcc763a38c104aa329e545f48640782377f2a32d48b4c6b9e81e0607d064be:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/06-thermostat": {
     "sha256": "aadeada2042f090f5e2409b7bbe2ae6dc03305bb5593f12a0ae6ef2827713b84",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "aadeada2042f090f5e2409b7bbe2ae6dc03305bb5593f12a0ae6ef2827713b84:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/07-radiator-valve": {
     "sha256": "ea0e54af4298fb733608973365946dbfc9aa53e165001e70c3548b340b4b163f",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ea0e54af4298fb733608973365946dbfc9aa53e165001e70c3548b340b4b163f:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/08-air-purifier": {
     "sha256": "74052f096f60d2270e3b8099af534ceb35392ace035c92c3229f78d484508766",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "74052f096f60d2270e3b8099af534ceb35392ace035c92c3229f78d484508766:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/09-humidifier": {
     "sha256": "89bedb43ee6c2894e04ed517f537705fe30e72d7f0648a5f91aae695ea2ba5ed",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "89bedb43ee6c2894e04ed517f537705fe30e72d7f0648a5f91aae695ea2ba5ed:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/10-ceiling-fan": {
     "sha256": "4cb20a9d915b5fc76c8d1d3ca4d0d190e7b55171347428c56c2cd0dbdd880727",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4cb20a9d915b5fc76c8d1d3ca4d0d190e7b55171347428c56c2cd0dbdd880727:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/11-video-doorbell": {
     "sha256": "e549649f71795c21dfcf4d0639b61fcd6ca18dca2c6c7e588957f677d40e4a39",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e549649f71795c21dfcf4d0639b61fcd6ca18dca2c6c7e588957f677d40e4a39:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/12-security-camera": {
     "sha256": "cb73bf48ae271db07b845630f1a1e6440532c412b71aca6d83ed9a8d2c91b229",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "cb73bf48ae271db07b845630f1a1e6440532c412b71aca6d83ed9a8d2c91b229:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/13-smart-lock": {
     "sha256": "9ba4698b0a0a1d0ec23d2afa8f435ca55f16edb7f2012e1aaab93b9e15e8067a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9ba4698b0a0a1d0ec23d2afa8f435ca55f16edb7f2012e1aaab93b9e15e8067a:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/14-motion-sensor": {
     "sha256": "7e5b9bcc5937e2e9cd45f17f0b20b57cfc860357ba718e5020d7b299cbb0dd93",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7e5b9bcc5937e2e9cd45f17f0b20b57cfc860357ba718e5020d7b299cbb0dd93:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/15-contact-sensor": {
     "sha256": "1b47066573c8d0bd63f0d89baf54bde21d3aeca44bc06542a669543497f99f75",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1b47066573c8d0bd63f0d89baf54bde21d3aeca44bc06542a669543497f99f75:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/16-smoke-alarm": {
     "sha256": "feb8345a1096b8c4d6af9554ea27d969d102382b985c5b2d1e63368ab280eb59",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "feb8345a1096b8c4d6af9554ea27d969d102382b985c5b2d1e63368ab280eb59:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/17-co-detector": {
     "sha256": "e683519ebdae603610c3f007f34587d824ee58f360f8ad320915162b9a6f919c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e683519ebdae603610c3f007f34587d824ee58f360f8ad320915162b9a6f919c:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/18-water-leak": {
     "sha256": "897c7b75373248bdf098fe63935e2f703283401b2be9c34453150cb58d9e6af6",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "897c7b75373248bdf098fe63935e2f703283401b2be9c34453150cb58d9e6af6:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/19-glass-break": {
     "sha256": "7654262e642f17186da644b13455f93796bc3fdf759157d2ae3f5a5f45a6b7cc",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7654262e642f17186da644b13455f93796bc3fdf759157d2ae3f5a5f45a6b7cc:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/20-siren-keypad": {
     "sha256": "013d9ea169bd7f488db17ca5a9aaf1f4023840c5626514ac77de2c35905a2eac",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "013d9ea169bd7f488db17ca5a9aaf1f4023840c5626514ac77de2c35905a2eac:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/21-smart-fridge": {
     "sha256": "436202a9e97037ecb5ecc9454d58eee6af942fd00a921d542048e679122764e0",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "436202a9e97037ecb5ecc9454d58eee6af942fd00a921d542048e679122764e0:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/22-smart-oven": {
     "sha256": "58782cce753c156ec49de0c23ffd528508e657348f67cb9f4e62740e0cc22166",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "58782cce753c156ec49de0c23ffd528508e657348f67cb9f4e62740e0cc22166:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/23-coffee-maker": {
     "sha256": "02e63b826feb222d247892eec5e9bf54cf3fa807eeb781a50c1536dc1728daec",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "02e63b826feb222d247892eec5e9bf54cf3fa807eeb781a50c1536dc1728daec:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/24-smart-kettle": {
     "sha256": "36c5256aae4b8c23efabc1586f6abb0ba25550fd80e78aa5bae6c2f347b52172",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "36c5256aae4b8c23efabc1586f6abb0ba25550fd80e78aa5bae6c2f347b52172:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/25-dishwasher": {
     "sha256": "193fe251ee4a48638684cae3e1a8be8eb21f59c90a59a408fb1c72a4040310fa",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "193fe251ee4a48638684cae3e1a8be8eb21f59c90a59a408fb1c72a4040310fa:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/26-microwave": {
     "sha256": "61b2c695e475225458ed88c17ab17cf6cacdcef2580399ee713eb9044327e744",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "61b2c695e475225458ed88c17ab17cf6cacdcef2580399ee713eb9044327e744:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/27-sous-vide": {
     "sha256": "a6639358ea166c805fe7d80160774fc014afbfbcf700fd10728242b3ded95b70",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a6639358ea166c805fe7d80160774fc014afbfbcf700fd10728242b3ded95b70:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/28-kitchen-scale": {
     "sha256": "46fa3eb07a29c588bc6d1cb1cb374a4e20d113aae1c781e7daa1167965ad32bd",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "46fa3eb07a29c588bc6d1cb1cb374a4e20d113aae1c781e7daa1167965ad32bd:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/29-toaster": {
     "sha256": "1c399216ffeb9bf940d0596a6143650cbb1d9bbe7ef298f501ff9276b232be7c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1c399216ffeb9bf940d0596a6143650cbb1d9bbe7ef298f501ff9276b232be7c:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/30-wine-fridge": {
     "sha256": "787b9ffc3e2edc1c59af2acc98af6a861a8037b2a6f661ac9f37950707038e9e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "787b9ffc3e2edc1c59af2acc98af6a861a8037b2a6f661ac9f37950707038e9e:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/31-robot-vacuum": {
     "sha256": "bae6938e4a591e9ed6f3c3847a97e88e4a49b0cc06201c2fa1cf311aee542681",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bae6938e4a591e9ed6f3c3847a97e88e4a49b0cc06201c2fa1cf311aee542681:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/32-robot-mop": {
     "sha256": "c3c2033dfe331af8c548a708b800e7656cd7beb63b31615753564384a77aad47",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c3c2033dfe331af8c548a708b800e7656cd7beb63b31615753564384a77aad47:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/33-washing-machine": {
     "sha256": "6b86baac1ca6237b726323ec7372ddc12c559b6aff04fe973016631c24d04181",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6b86baac1ca6237b726323ec7372ddc12c559b6aff04fe973016631c24d04181:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/34-tumble-dryer": {
     "sha256": "af18b58eaf8bdab10e0ea3534bbc211c96f9762972b687d95bb31cb40b615112",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "af18b58eaf8bdab10e0ea3534bbc211c96f9762972b687d95bb31cb40b615112:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/35-trash-compactor": {
     "sha256": "61a798c2482b75ee842ad9b2c1e890e043c664a667852a5fd6aa5d5bd9fed54e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "61a798c2482b75ee842ad9b2c1e890e043c664a667852a5fd6aa5d5bd9fed54e:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/36-smart-plug": {
     "sha256": "5c2fbcd790e69be8abe6b5a083247d12ed40c5d1f4154dec2e2036d66516d822",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "5c2fbcd790e69be8abe6b5a083247d12ed40c5d1f4154dec2e2036d66516d822:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels-light/37-energy-monitor": {
     "sha256": "7addeb0d985aa0eb7454f366efe158178d15c0a66f608c5cf7bb2c7a0e4797e7",
