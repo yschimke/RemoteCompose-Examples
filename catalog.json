@@ -21075,6 +21075,686 @@
           "height": 470
         }
       ]
+    },
+    {
+      "componentId": "vis-set-08/cal-globe-00001",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "A graticule and six coastal landmarks drawn by latitude and longitude over the Blue Marble texture, to check that the two agree. #3d #input",
+      "sourceFile": "docs/vis-set-08/cal-globe-00001/doc.rc",
+      "rcDocument": "documents/vis-set-08/cal-globe-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/cal-globe-00001.png",
+          "width": 498,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/chm-ms-00008",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Polar molecules aligning in a field beside non-polar ones that keep tumbling. #chemistry #particles #animated",
+      "sourceFile": "docs/vis-set-08/chm-ms-00008/doc.rc",
+      "rcDocument": "documents/vis-set-08/chm-ms-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/chm-ms-00008.png",
+          "width": 560,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/csc-ds-00008",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "A search descending a binary tree one level at a time, halving what remains at each step. #animated #computing",
+      "sourceFile": "docs/vis-set-08/csc-ds-00008/doc.rc",
+      "rcDocument": "documents/vis-set-08/csc-ds-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/csc-ds-00008.png",
+          "width": 600,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/ear-geop-00008",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Drag to send P and S rays through a wireframe Earth, with the S rays dying at the liquid outer core. #3d #earth #interactive #input",
+      "sourceFile": "docs/vis-set-08/ear-geop-00008/doc.rc",
+      "rcDocument": "documents/vis-set-08/ear-geop-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/ear-geop-00008.png",
+          "width": 520,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/eco-ie-00012",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Four major trade corridors as arcs over a slowly turning globe. #3d #animated #economics",
+      "sourceFile": "docs/vis-set-08/eco-ie-00012/doc.rc",
+      "rcDocument": "documents/vis-set-08/eco-ie-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/eco-ie-00012.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/eco-ie-00013",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "The four effects of a tariff as stacked bars on one scale, with the net result. #economics",
+      "sourceFile": "docs/vis-set-08/eco-ie-00013/doc.rc",
+      "rcDocument": "documents/vis-set-08/eco-ie-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/eco-ie-00013.png",
+          "width": 500,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/eco-ie-00014",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Trade and capital flows plotted above the exchange rate they produce, with the crossings marked. #economics",
+      "sourceFile": "docs/vis-set-08/eco-ie-00014/doc.rc",
+      "rcDocument": "documents/vis-set-08/eco-ie-00014.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/eco-ie-00014.png",
+          "width": 600,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/eco-ie-00015",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "The current and capital accounts as mirrored filled paths, showing they sum to zero by construction. #economics",
+      "sourceFile": "docs/vis-set-08/eco-ie-00015/doc.rc",
+      "rcDocument": "documents/vis-set-08/eco-ie-00015.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/eco-ie-00015.png",
+          "width": 600,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/eng-ee-00008",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "A transistor transfer curve with its cut-off, active and saturation regions marked. #engineering",
+      "sourceFile": "docs/vis-set-08/eng-ee-00008/doc.rc",
+      "rcDocument": "documents/vis-set-08/eng-ee-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/eng-ee-00008.png",
+          "width": 600,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/his-ac-00002",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Four ancient civilisations as 3D columns whose heights are their spans, showing how much they overlap. #3d #animated #history #particles",
+      "sourceFile": "docs/vis-set-08/his-ac-00002/doc.rc",
+      "rcDocument": "documents/vis-set-08/his-ac-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/his-ac-00002.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/his-emh-00004",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "The cost and time to produce one book across four stages from manuscript to the mature press. #history",
+      "sourceFile": "docs/vis-set-08/his-emh-00004/doc.rc",
+      "rcDocument": "documents/vis-set-08/his-emh-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/his-emh-00004.png",
+          "width": 580,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/his-mh-00003",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Labour obligations falling and real wages rising across the fourteenth century, draggable by year. #history #interactive #input",
+      "sourceFile": "docs/vis-set-08/his-mh-00003/doc.rc",
+      "rcDocument": "documents/vis-set-08/his-mh-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/his-mh-00003.png",
+          "width": 600,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/his-wh-00001",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "World population from 4000 BCE to the present with historical eras marked, and a sweeping time marker. #animated #history",
+      "sourceFile": "docs/vis-set-08/his-wh-00001/doc.rc",
+      "rcDocument": "documents/vis-set-08/his-wh-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/his-wh-00001.png",
+          "width": 620,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/mth-alge-00008",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "One polygon under four linear transformations, each over a ghost of the original, with determinants. #geometry #maths",
+      "sourceFile": "docs/vis-set-08/mth-alge-00008/doc.rc",
+      "rcDocument": "documents/vis-set-08/mth-alge-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/mth-alge-00008.png",
+          "width": 620,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/phy-qm-00025",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "A correlated pair and an entangled pair measured along three axes, showing where the two stop agreeing. #physics",
+      "sourceFile": "docs/vis-set-08/phy-qm-00025/doc.rc",
+      "rcDocument": "documents/vis-set-08/phy-qm-00025.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/phy-qm-00025.png",
+          "width": 620,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/phy-qm-00026",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "A precessing spin state on the Bloch sphere, with what the picture does and does not claim. #3d #animated #physics",
+      "sourceFile": "docs/vis-set-08/phy-qm-00026/doc.rc",
+      "rcDocument": "documents/vis-set-08/phy-qm-00026.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/phy-qm-00026.png",
+          "width": 500,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/bio-micr-00024",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "A coccus and a bacillus dividing in 3D on a shared clock, at true relative scale. #3d #animated #biology #cells",
+      "sourceFile": "docs/vis-set-09/bio-micr-00024/doc.rc",
+      "rcDocument": "documents/vis-set-09/bio-micr-00024.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/bio-micr-00024.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/bio-micr-00025",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "A single infected cell releasing a burst of virions as a particle system, with the numbers beside it. #biology #cells #particles #animated",
+      "sourceFile": "docs/vis-set-09/bio-micr-00025/doc.rc",
+      "rcDocument": "documents/vis-set-09/bio-micr-00025.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/bio-micr-00025.png",
+          "width": 540,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/bio-micr-00026",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Drag to grow a branching fungal network from a single spore. #biology #cells #interactive #input",
+      "sourceFile": "docs/vis-set-09/bio-micr-00026/doc.rc",
+      "rcDocument": "documents/vis-set-09/bio-micr-00026.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/bio-micr-00026.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/bio-micr-00027",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Four protozoa drawn to a common scale against a human hair, grouped by how they move. #biology #cells",
+      "sourceFile": "docs/vis-set-09/bio-micr-00027/doc.rc",
+      "rcDocument": "documents/vis-set-09/bio-micr-00027.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/bio-micr-00027.png",
+          "width": 600,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/chm-cr-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "A two-step reaction energy profile with the rate-determining barrier marked. #chemistry #mechanism",
+      "sourceFile": "docs/vis-set-09/chm-cr-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/chm-cr-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/chm-cr-00009.png",
+          "width": 580,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/csc-ds-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "One graph drawn four ways, showing that the layout carries meaning the graph does not. #computing #graphs",
+      "sourceFile": "docs/vis-set-09/csc-ds-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/csc-ds-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/csc-ds-00009.png",
+          "width": 540,
+          "height": 502
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/ear-geop-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Dipole field lines as ribbons around a tilted magnetic axis, with the Earth turning beneath. #3d #animated #earth",
+      "sourceFile": "docs/vis-set-09/ear-geop-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/ear-geop-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/ear-geop-00009.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/eng-ee-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "A four-bit ripple-carry adder drawn as bit cells that flash as each stage reads its inputs and writes its sum. #animated #engineering #signals",
+      "sourceFile": "docs/vis-set-09/eng-ee-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/eng-ee-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/eng-ee-00009.png",
+          "width": 600,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/fin-acco-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "An income statement as proportional bars, draggable line by line from revenue to net profit. #finance #interactive #input",
+      "sourceFile": "docs/vis-set-09/fin-acco-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/fin-acco-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/fin-acco-00009.png",
+          "width": 560,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/fin-acco-00010",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "A balance sheet as two stacked columns of equal height, assets against the claims on them. #accounting #finance",
+      "sourceFile": "docs/vis-set-09/fin-acco-00010/doc.rc",
+      "rcDocument": "documents/vis-set-09/fin-acco-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/fin-acco-00010.png",
+          "width": 560,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/fin-cf-00008",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Cash arriving as particles and being claimed by debt at a fixed level and equity with all the variation. #animated #finance #particles",
+      "sourceFile": "docs/vis-set-09/fin-cf-00008/doc.rc",
+      "rcDocument": "documents/vis-set-09/fin-cf-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/fin-cf-00008.png",
+          "width": 540,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/mth-geom-00009",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Euclid's five postulates drawn as diagrams, with the parallel postulate set apart. #geometry #maths",
+      "sourceFile": "docs/vis-set-09/mth-geom-00009/doc.rc",
+      "rcDocument": "documents/vis-set-09/mth-geom-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/mth-geom-00009.png",
+          "width": 620,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/phy-cm-00028",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Four free-body diagrams with their forces named and the net force stated for each. #forces #physics",
+      "sourceFile": "docs/vis-set-09/phy-cm-00028/doc.rc",
+      "rcDocument": "documents/vis-set-09/phy-cm-00028.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/phy-cm-00028.png",
+          "width": 500,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/phy-cm-00029",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Position, velocity and acceleration for one journey stacked on a shared time axis. #mechanics #physics",
+      "sourceFile": "docs/vis-set-09/phy-cm-00029/doc.rc",
+      "rcDocument": "documents/vis-set-09/phy-cm-00029.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/phy-cm-00029.png",
+          "width": 580,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/phy-cm-00030",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "Two carts colliding, drawn as paths in position against time, with the momentum arithmetic beneath. #mechanics #physics",
+      "sourceFile": "docs/vis-set-09/phy-cm-00030/doc.rc",
+      "rcDocument": "documents/vis-set-09/phy-cm-00030.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/phy-cm-00030.png",
+          "width": 580,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-09/phy-qm-00027",
+      "section": "rcjson",
+      "group": "vis-set-09",
+      "caption": "One quantum field drawn at four excitation levels, showing particles as lumps in the field. #physics #quantum",
+      "sourceFile": "docs/vis-set-09/phy-qm-00027/doc.rc",
+      "rcDocument": "documents/vis-set-09/phy-qm-00027.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-09/phy-qm-00027.png",
+          "width": 620,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/bio-micr-00028",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Microbial community composition at four body sites as stacked 3D columns. #3d #animated #biology #cells",
+      "sourceFile": "docs/vis-set-10/bio-micr-00028/doc.rc",
+      "rcDocument": "documents/vis-set-10/bio-micr-00028.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/bio-micr-00028.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/chm-cr-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Catalysed and uncatalysed routes drawn over the same energy landscape in 3D. #3d #animated #chemistry",
+      "sourceFile": "docs/vis-set-10/chm-cr-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/chm-cr-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/chm-cr-00010.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/csc-ds-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "A hash table with chained collisions, showing the average and worst-case lookup together. #algorithms #computing",
+      "sourceFile": "docs/vis-set-10/csc-ds-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/csc-ds-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/csc-ds-00010.png",
+          "width": 600,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/ear-geop-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Temperature against depth through the Earth, comparing the real gradient with pure conduction. #earth #geology",
+      "sourceFile": "docs/vis-set-10/ear-geop-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/ear-geop-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/ear-geop-00010.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/eng-ee-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "A square wave approximated by 1, 2, 4 and 8 odd harmonics, with the Gibbs overshoot marked. #engineering #signals",
+      "sourceFile": "docs/vis-set-10/eng-ee-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/eng-ee-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/eng-ee-00010.png",
+          "width": 600,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/mth-geom-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "The vertex figure of each Platonic solid, gathering to a shared corner, with the leftover angle that lets it fold - and the hexagons that leave none. #animated #geometry #maths",
+      "sourceFile": "docs/vis-set-10/mth-geom-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/mth-geom-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/mth-geom-00010.png",
+          "width": 640,
+          "height": 424
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/mth-geom-00011",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "A cloud of particles under a repeated linear map, revealing the stretching and squashing eigendirections. #geometry #maths #particles #animated",
+      "sourceFile": "docs/vis-set-10/mth-geom-00011/doc.rc",
+      "rcDocument": "documents/vis-set-10/mth-geom-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/mth-geom-00011.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/mth-geom-00012",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Five regular polygons tested for whether they tile the plane, selected with buttons, the tiles pulling apart and closing again. #animated #geometry #interactive #maths #input",
+      "sourceFile": "docs/vis-set-10/mth-geom-00012/doc.rc",
+      "rcDocument": "documents/vis-set-10/mth-geom-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/mth-geom-00012.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
     }
   ]
 }
