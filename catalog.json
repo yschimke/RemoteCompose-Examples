@@ -9925,6 +9925,686 @@
       ]
     },
     {
+      "componentId": "python-samples/anim-bounce",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Circle bouncing up and down with a sin wave against a dark background",
+      "sourceFile": "docs/python-samples/anim-bounce/doc.rc",
+      "rcDocument": "documents/python-samples/anim-bounce.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-bounce.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-breathing",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Concentric circles that slowly expand and contract — breathing effect",
+      "sourceFile": "docs/python-samples/anim-breathing/doc.rc",
+      "rcDocument": "documents/python-samples/anim-breathing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-breathing.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-clock-simple",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Simple clock face with second hand rotating based on time.seconds",
+      "sourceFile": "docs/python-samples/anim-clock-simple/doc.rc",
+      "rcDocument": "documents/python-samples/anim-clock-simple.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-clock-simple.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-loading-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Horizontal loading bar that fills left-to-right then resets, using fract",
+      "sourceFile": "docs/python-samples/anim-loading-bar/doc.rc",
+      "rcDocument": "documents/python-samples/anim-loading-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-loading-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-metronome",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Metronome arm swinging side to side, with pivot at bottom",
+      "sourceFile": "docs/python-samples/anim-metronome/doc.rc",
+      "rcDocument": "documents/python-samples/anim-metronome.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-metronome.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-orbit",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Small circle orbiting around center using sin/cos",
+      "sourceFile": "docs/python-samples/anim-orbit/doc.rc",
+      "rcDocument": "documents/python-samples/anim-orbit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-orbit.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-pendulum",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Line swinging like a pendulum from top-center using sin for angle",
+      "sourceFile": "docs/python-samples/anim-pendulum/doc.rc",
+      "rcDocument": "documents/python-samples/anim-pendulum.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-pendulum.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-pulse",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Circle pulsing in size using sin modulation",
+      "sourceFile": "docs/python-samples/anim-pulse/doc.rc",
+      "rcDocument": "documents/python-samples/anim-pulse.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-pulse.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-radar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Radar sweep: circle outline + rotating line from center using save/rotate/restore",
+      "sourceFile": "docs/python-samples/anim-radar/doc.rc",
+      "rcDocument": "documents/python-samples/anim-radar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-radar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-rotate-square",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Square rotating around canvas center at constant speed",
+      "sourceFile": "docs/python-samples/anim-rotate-square/doc.rc",
+      "rcDocument": "documents/python-samples/anim-rotate-square.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-rotate-square.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-spinner",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "8 dots arranged in circle, with rotating arc sweep to simulate spinner",
+      "sourceFile": "docs/python-samples/anim-spinner/doc.rc",
+      "rcDocument": "documents/python-samples/anim-spinner.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-spinner.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/anim-wave",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Animated sine wave drawn with a loop of small line segments across screen",
+      "sourceFile": "docs/python-samples/anim-wave/doc.rc",
+      "rcDocument": "documents/python-samples/anim-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/anim-wave.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-arcs",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Fan of arc segments in rainbow colors",
+      "sourceFile": "docs/python-samples/canvas-arcs/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-arcs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-arcs.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-bar-chart",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Simple 5-bar chart with labels",
+      "sourceFile": "docs/python-samples/canvas-bar-chart/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-bar-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-bar-chart.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-concentric",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Concentric circles with alternating fill colors",
+      "sourceFile": "docs/python-samples/canvas-concentric/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-concentric.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-concentric.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-donut",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Donut/ring chart using overlapping arcs with stroke style",
+      "sourceFile": "docs/python-samples/canvas-donut/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-donut.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-gauge",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Semi-circular gauge with needle and scale marks",
+      "sourceFile": "docs/python-samples/canvas-gauge/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-gauge.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-gradient-bars",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Horizontal bars with progressively shifting colors creating a gradient effect",
+      "sourceFile": "docs/python-samples/canvas-gradient-bars/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-gradient-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-gradient-bars.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-grid",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Grid pattern using loops for horizontal and vertical lines",
+      "sourceFile": "docs/python-samples/canvas-grid/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-grid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-grid.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-line-chart",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Line chart with 6 data points connected by lines, dots at each point",
+      "sourceFile": "docs/python-samples/canvas-line-chart/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-line-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-line-chart.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-ovals",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Several overlapping ovals in different colors",
+      "sourceFile": "docs/python-samples/canvas-ovals/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-ovals.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-ovals.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-pie-segments",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "4-segment pie chart using draw_sector",
+      "sourceFile": "docs/python-samples/canvas-pie-segments/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-pie-segments.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-pie-segments.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-radar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Simple radar/spider chart outline (hexagonal) with data shape",
+      "sourceFile": "docs/python-samples/canvas-radar/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-radar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-radar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-round-rects",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Grid of rounded rectangles with varying corner radii",
+      "sourceFile": "docs/python-samples/canvas-round-rects/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-round-rects.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-round-rects.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-scatter",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Scatter plot with dots (small filled circles) and axis lines",
+      "sourceFile": "docs/python-samples/canvas-scatter/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-scatter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-scatter.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-stacked-bars",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked bar chart with 3 categories across 4 groups",
+      "sourceFile": "docs/python-samples/canvas-stacked-bars/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-stacked-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-stacked-bars.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-star",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Star shape using rotated lines from center",
+      "sourceFile": "docs/python-samples/canvas-star/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-star.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-star.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/canvas-target",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Bullseye target with alternating red and white rings",
+      "sourceFile": "docs/python-samples/canvas-target/doc.rc",
+      "rcDocument": "documents/python-samples/canvas-target.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/canvas-target.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-100-stacked-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "100% Stacked Bar Chart - Browser Market Share",
+      "sourceFile": "docs/python-samples/chart-100-stacked-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-100-stacked-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-100-stacked-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-area",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Area chart showing website traffic over a week",
+      "sourceFile": "docs/python-samples/chart-area/doc.rc",
+      "rcDocument": "documents/python-samples/chart-area.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-area.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-box-plot",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Box-and-whisker plot showing score distributions across 5 groups",
+      "sourceFile": "docs/python-samples/chart-box-plot/doc.rc",
+      "rcDocument": "documents/python-samples/chart-box-plot.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-box-plot.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-bubble",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Bubble chart showing market analysis with 3 color groups",
+      "sourceFile": "docs/python-samples/chart-bubble/doc.rc",
+      "rcDocument": "documents/python-samples/chart-bubble.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-bubble.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-bullet",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Bullet chart showing 4 performance metrics with ranges and targets",
+      "sourceFile": "docs/python-samples/chart-bullet/doc.rc",
+      "rcDocument": "documents/python-samples/chart-bullet.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-bullet.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-candlestick",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Candlestick chart showing 10 days of stock price data",
+      "sourceFile": "docs/python-samples/chart-candlestick/doc.rc",
+      "rcDocument": "documents/python-samples/chart-candlestick.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-candlestick.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-comparison-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Comparison Bar Chart - Budget vs Actual",
+      "sourceFile": "docs/python-samples/chart-comparison-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-comparison-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-comparison-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-diverging-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Survey Results - Diverging bar chart with positive and negative responses",
+      "sourceFile": "docs/python-samples/chart-diverging-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-diverging-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-diverging-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-donut-thick",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Thick Donut Chart - Energy Sources",
+      "sourceFile": "docs/python-samples/chart-donut-thick/doc.rc",
+      "rcDocument": "documents/python-samples/chart-donut-thick.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-donut-thick.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-dot-plot",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Dot plot showing response time distributions across 5 categories",
+      "sourceFile": "docs/python-samples/chart-dot-plot/doc.rc",
+      "rcDocument": "documents/python-samples/chart-dot-plot.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-dot-plot.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-dumbbell",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Dumbbell chart showing before vs after comparison for 6 items",
+      "sourceFile": "docs/python-samples/chart-dumbbell/doc.rc",
+      "rcDocument": "documents/python-samples/chart-dumbbell.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-dumbbell.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-error-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Bar Chart with Error Bars - Experiment Results",
+      "sourceFile": "docs/python-samples/chart-error-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-error-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-error-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
