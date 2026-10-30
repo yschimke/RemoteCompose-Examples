@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "0ae8890636c7e1d0155694177533ed278b38848195e071c056c1747d39354d23",
   "provenance": "github/Origami/pythonRcCreation/samples/output/canvas_grid.rc",

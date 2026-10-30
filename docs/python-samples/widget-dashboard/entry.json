@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "fd57da8bec803c8042d29bb0c1bb40b268061292ad7723589fccc1d0b0df447e",
   "provenance": "github/Origami/pythonRcCreation/samples/output/widget_dashboard.rc",

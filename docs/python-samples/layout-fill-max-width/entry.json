@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "d5a7f3e23532b210c729898c567f5e745f06f58bb83a051a1a2f621ed896a0ee",
   "provenance": "github/Origami/pythonRcCreation/samples/output/layout_fill_max_width.rc",

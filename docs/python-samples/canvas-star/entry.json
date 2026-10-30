@@ -7,7 +7,9 @@
     "json"
   ],
   "tags": [
-    "python"
+    "animated",
+    "python",
+    "test"
   ],
   "sha256": "1a89607470d3a190e1150cea0830d5bf065fb9d4864aab07e77ff09e52aebd27",
   "provenance": "github/Origami/pythonRcCreation/samples/output/canvas_star.rc",

@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "3dffda787c9a067d3aed370ff7cc1ee6a0d4018ac04542ebcdf0f4cfb7e0709c",
   "provenance": "github/Origami/pythonRcCreation/samples/output/demo_nested_layout.rc",

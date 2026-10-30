@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "9ce25355ef1180183053f11f55ef41bc4624dd8ba3afe64b7a829f55894fd66d",
   "provenance": "github/Origami/pythonRcCreation/samples/output/widget_music.rc",

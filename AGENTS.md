@@ -21,6 +21,22 @@ To create a new RemoteCompose document:
 Check the interface itself first with `playground.html?agent=1&test=1`. If you cannot run
 scripts in a page, use `node tools/rc.mjs validate` instead — same converter, same verdicts.
 
+## Recipes
+
+`recipes/` holds complete, self-contained builds: the generator sources, their checkers,
+and a README explaining what is forced and what is free. They exist so a collection can be
+taken apart and varied rather than only looked at. Each folder runs on its own with nothing
+but Python — no imports outside the folder, no repository layout assumed.
+
+This is more than `derived.src` carries. That names the generator a document came from;
+a recipe adds the verifiers, which are deliberately excluded there because a verifier is
+not the code that produced anything — and the verifiers are the part you need in order to
+change something safely.
+
+`recipes/skeleton-watch/` is the worked example: eight documents making a mechanical watch
+that keeps real time, with three checkers that read the shipped documents rather than the
+code that wrote them, and `--selftest` on each to break them on purpose first.
+
 ## Start here
 
 `catalog/corpus.jsonl` — one JSON object per line, one line per document. This is the file to
@@ -98,7 +114,7 @@ a document that uses X".
 ## The JSON surface — catalog/schema.json
 
 Generated from the converter's own tables by `tools/mkschema.py`, so it cannot drift from what
-is actually accepted: 62 commands, 43 expression functions, 107 system variables, the four
+is actually accepted: 77 commands, 43 expression functions, 107 system variables, the four
 argument-order traps, and the cost model. Fetch it before authoring; it is the only complete
 list that is not the minified bundle.
 
