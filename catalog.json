@@ -9245,6 +9245,686 @@
       ]
     },
     {
+      "componentId": "layout/g08-widthin-wrap-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G08 widthIn min inside a wrapping parent",
+      "sourceFile": "docs/layout/g08-widthin-wrap-parent/doc.rc",
+      "rcDocument": "documents/layout/g08-widthin-wrap-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g08-widthin-wrap-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g09-dimension-constraints",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G09 dimensionConstraints modifier",
+      "sourceFile": "docs/layout/g09-dimension-constraints/doc.rc",
+      "rcDocument": "documents/layout/g09-dimension-constraints.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g09-dimension-constraints.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/g10-widthin-exceeds-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "G10 widthIn min larger than the parent - does the parent still bound it?",
+      "sourceFile": "docs/layout/g10-widthin-exceeds-parent/doc.rc",
+      "rcDocument": "documents/layout/g10-widthin-exceeds-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/g10-widthin-exceeds-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h01-row-in-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H01 a row nested inside a column",
+      "sourceFile": "docs/layout/h01-row-in-column/doc.rc",
+      "rcDocument": "documents/layout/h01-row-in-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h01-row-in-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h02-column-in-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H02 a column nested inside a row",
+      "sourceFile": "docs/layout/h02-column-in-row/doc.rc",
+      "rcDocument": "documents/layout/h02-column-in-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h02-column-in-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h03-box-in-row-aligned",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H03 a box inside a row, aligned within its own bounds",
+      "sourceFile": "docs/layout/h03-box-in-row-aligned/doc.rc",
+      "rcDocument": "documents/layout/h03-box-in-row-aligned.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h03-box-in-row-aligned.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h04-three-levels",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H04 three levels of nesting, each inset",
+      "sourceFile": "docs/layout/h04-three-levels/doc.rc",
+      "rcDocument": "documents/layout/h04-three-levels.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h04-three-levels.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h05-alignment-through-nesting",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H05 outer centres, inner pushes to the end - alignment does not inherit",
+      "sourceFile": "docs/layout/h05-alignment-through-nesting/doc.rc",
+      "rcDocument": "documents/layout/h05-alignment-through-nesting.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h05-alignment-through-nesting.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h06-nested-fills",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H06 fill inside fill inside a fixed box",
+      "sourceFile": "docs/layout/h06-nested-fills/doc.rc",
+      "rcDocument": "documents/layout/h06-nested-fills.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h06-nested-fills.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h07-nested-weights",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H07 a weighted row inside a weighted column",
+      "sourceFile": "docs/layout/h07-nested-weights/doc.rc",
+      "rcDocument": "documents/layout/h07-nested-weights.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h07-nested-weights.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h08-nested-padding-alignment",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H08 padding at two levels with centring at both",
+      "sourceFile": "docs/layout/h08-nested-padding-alignment/doc.rc",
+      "rcDocument": "documents/layout/h08-nested-padding-alignment.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h08-nested-padding-alignment.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h09-wrap-inside-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H09 a wrapping box inside a filling one",
+      "sourceFile": "docs/layout/h09-wrap-inside-fill/doc.rc",
+      "rcDocument": "documents/layout/h09-wrap-inside-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h09-wrap-inside-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/h10-row-of-columns",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "H10 a row of three columns, each with its own arrangement",
+      "sourceFile": "docs/layout/h10-row-of-columns/doc.rc",
+      "rcDocument": "documents/layout/h10-row-of-columns.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/h10-row-of-columns.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i01-row-children-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I01 row whose children total more than its width",
+      "sourceFile": "docs/layout/i01-row-children-overflow/doc.rc",
+      "rcDocument": "documents/layout/i01-row-children-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i01-row-children-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i02-column-children-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I02 column whose children total more than its height",
+      "sourceFile": "docs/layout/i02-column-children-overflow/doc.rc",
+      "rcDocument": "documents/layout/i02-column-children-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i02-column-children-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i03-nested-overflow",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I03 a grandchild larger than its grandparent",
+      "sourceFile": "docs/layout/i03-nested-overflow/doc.rc",
+      "rcDocument": "documents/layout/i03-nested-overflow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i03-nested-overflow.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i04-clip-oversized-child",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I04 clip on a parent holding an oversized child",
+      "sourceFile": "docs/layout/i04-clip-oversized-child/doc.rc",
+      "rcDocument": "documents/layout/i04-clip-oversized-child.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i04-clip-oversized-child.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i05-clip-with-padding",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I05 clip combined with padding",
+      "sourceFile": "docs/layout/i05-clip-with-padding/doc.rc",
+      "rcDocument": "documents/layout/i05-clip-with-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i05-clip-with-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/i06-row-overflow-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "I06 overflowing row with spaceBetween - no slack, possibly negative",
+      "sourceFile": "docs/layout/i06-row-overflow-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/i06-row-overflow-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/i06-row-overflow-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j01-spacedby-with-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J01 spacedBy combined with a centring arrangement",
+      "sourceFile": "docs/layout/j01-spacedby-with-center/doc.rc",
+      "rcDocument": "documents/layout/j01-spacedby-with-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j01-spacedby-with-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j02-spacedby-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J02 spacedBy on a column",
+      "sourceFile": "docs/layout/j02-spacedby-column/doc.rc",
+      "rcDocument": "documents/layout/j02-spacedby-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j02-spacedby-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j03-offset",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J03 offset modifier on a child",
+      "sourceFile": "docs/layout/j03-offset/doc.rc",
+      "rcDocument": "documents/layout/j03-offset.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j03-offset.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j04-offset-negative",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J04 negative offset pushing a child out of its parent",
+      "sourceFile": "docs/layout/j04-offset-negative/doc.rc",
+      "rcDocument": "documents/layout/j04-offset-negative.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j04-offset-negative.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j05-visibility-gone",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J05 a GONE child in a row - does it still take space?",
+      "sourceFile": "docs/layout/j05-visibility-gone/doc.rc",
+      "rcDocument": "documents/layout/j05-visibility-gone.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j05-visibility-gone.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j06-visibility-invisible",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J06 an INVISIBLE child in a row - space should be kept",
+      "sourceFile": "docs/layout/j06-visibility-invisible/doc.rc",
+      "rcDocument": "documents/layout/j06-visibility-invisible.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j06-visibility-invisible.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j07-zindex",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J07 zIndex should reorder painting, not layout",
+      "sourceFile": "docs/layout/j07-zindex/doc.rc",
+      "rcDocument": "documents/layout/j07-zindex.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j07-zindex.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j08-spacedby-exceeds",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J08 spacedBy larger than the space left over",
+      "sourceFile": "docs/layout/j08-spacedby-exceeds/doc.rc",
+      "rcDocument": "documents/layout/j08-spacedby-exceeds.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j08-spacedby-exceeds.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/j09-visibility-control",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "J09 control: same row with no visibility modifier",
+      "sourceFile": "docs/layout/j09-visibility-control/doc.rc",
+      "rcDocument": "documents/layout/j09-visibility-control.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/j09-visibility-control.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k01-text-wrap",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K01 text sizing itself - pure font metrics, expected to differ",
+      "sourceFile": "docs/layout/k01-text-wrap/doc.rc",
+      "rcDocument": "documents/layout/k01-text-wrap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k01-text-wrap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k02-text-in-fixed-box",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K02 text inside a fixed 200-wide box - the BOX must be 200 everywhere",
+      "sourceFile": "docs/layout/k02-text-in-fixed-box/doc.rc",
+      "rcDocument": "documents/layout/k02-text-in-fixed-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k02-text-in-fixed-box.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k03-text-maxlines-1",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K03 maxLines 1 in a narrow box - height should be one line",
+      "sourceFile": "docs/layout/k03-text-maxlines-1/doc.rc",
+      "rcDocument": "documents/layout/k03-text-maxlines-1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k03-text-maxlines-1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k04-text-maxlines-3",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K04 the same text with maxLines 3 - height should be taller than K03",
+      "sourceFile": "docs/layout/k04-text-maxlines-3/doc.rc",
+      "rcDocument": "documents/layout/k04-text-maxlines-3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k04-text-maxlines-3.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k05-text-weight-in-row",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K05 text with weight beside a fixed sibling - the weighted BOX is pure logic",
+      "sourceFile": "docs/layout/k05-text-weight-in-row/doc.rc",
+      "rcDocument": "documents/layout/k05-text-weight-in-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k05-text-weight-in-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k06-text-padding",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K06 padding around text inside a fixed box",
+      "sourceFile": "docs/layout/k06-text-padding/doc.rc",
+      "rcDocument": "documents/layout/k06-text-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k06-text-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k07-text-fontsize",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K07 two font sizes stacked - relative heights should track the sizes",
+      "sourceFile": "docs/layout/k07-text-fontsize/doc.rc",
+      "rcDocument": "documents/layout/k07-text-fontsize.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k07-text-fontsize.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k08-text-fill-width",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K08 text filling the width - the box is logic, the wrapping is metrics",
+      "sourceFile": "docs/layout/k08-text-fill-width/doc.rc",
+      "rcDocument": "documents/layout/k08-text-fill-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k08-text-fill-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/k09-text-in-collapsible-column",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "K09 text inside a CollapsibleColumnLayout, as foo.rc does",
+      "sourceFile": "docs/layout/k09-text-in-collapsible-column/doc.rc",
+      "rcDocument": "documents/layout/k09-text-in-collapsible-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/k09-text-in-collapsible-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l01-flow-no-spacing",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L01 flow, four children that exactly fit one row with no spacing",
+      "sourceFile": "docs/layout/l01-flow-no-spacing/doc.rc",
+      "rcDocument": "documents/layout/l01-flow-no-spacing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l01-flow-no-spacing.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l02-flow-spacedby-wraps",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L02 same flow with spacedBy 30 - the spacing alone must force a wrap",
+      "sourceFile": "docs/layout/l02-flow-spacedby-wraps/doc.rc",
+      "rcDocument": "documents/layout/l02-flow-spacedby-wraps.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l02-flow-spacedby-wraps.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/l03-flow-spacedby-large",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "L03 flow spacing larger than the children, so each row holds fewer",
+      "sourceFile": "docs/layout/l03-flow-spacedby-large/doc.rc",
+      "rcDocument": "documents/layout/l03-flow-spacedby-large.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/l03-flow-spacedby-large.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
