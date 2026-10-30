@@ -16912,6 +16912,686 @@
       ]
     },
     {
+      "componentId": "render/perf-text-l6",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l6/doc.rc",
+      "rcDocument": "documents/render/perf-text-l6.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l6.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/perf-text-l9",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Perf probe — glyph count vs frame rate",
+      "sourceFile": "docs/render/perf-text-l9/doc.rc",
+      "rcDocument": "documents/render/perf-text-l9.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/perf-text-l9.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/pidx-ctrl",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "control: constant initial value",
+      "sourceFile": "docs/render/pidx-ctrl/doc.rc",
+      "rcDocument": "documents/render/pidx-ctrl.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pidx-ctrl.png",
+          "width": 400,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/pie-chart-of-continents-by-percent-of-wo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "continents population pie chart",
+      "sourceFile": "docs/render/pie-chart-of-continents-by-percent-of-wo/doc.rc",
+      "rcDocument": "documents/render/pie-chart-of-continents-by-percent-of-wo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pie-chart-of-continents-by-percent-of-wo.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-arr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: array-backed initial values. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-arr/doc.rc",
+      "rcDocument": "documents/render/pr-arr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-arr.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-arrk",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: array-backed initial values, keyed variant. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-arrk/doc.rc",
+      "rcDocument": "documents/render/pr-arrk.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-arrk.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pr-rand",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Particle probe: randomised initial values. Renders as a plain dark field at rest. #particles #validation",
+      "sourceFile": "docs/render/pr-rand/doc.rc",
+      "rcDocument": "documents/render/pr-rand.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pr-rand.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/pressure-gauge",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pressure Gauge with AGSL Energy Plasma Shader",
+      "sourceFile": "docs/render/pressure-gauge/doc.rc",
+      "rcDocument": "documents/render/pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pressure-gauge.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura loading animation",
+      "sourceFile": "docs/render/probe/doc.rc",
+      "rcDocument": "documents/render/probe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-alpha",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "can alpha be an expression?",
+      "sourceFile": "docs/render/probe-alpha/doc.rc",
+      "rcDocument": "documents/render/probe-alpha.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-alpha.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-array",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet: arg order and computed index",
+      "sourceFile": "docs/render/probe-array/doc.rc",
+      "rcDocument": "documents/render/probe-array.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-array.png",
+          "width": 400,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-idx",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet with a computed index, all slots",
+      "sourceFile": "docs/render/probe-idx/doc.rc",
+      "rcDocument": "documents/render/probe-idx.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-idx.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-multi",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "do multi-particle initial values vary?",
+      "sourceFile": "docs/render/probe-multi/doc.rc",
+      "rcDocument": "documents/render/probe-multi.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-multi.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-parr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "arrayGet inside a particle equation",
+      "sourceFile": "docs/render/probe-parr/doc.rc",
+      "rcDocument": "documents/render/probe-parr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-parr.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/probe-path",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: does pathExpression count re-sample per frame?",
+      "sourceFile": "docs/render/probe-path/doc.rc",
+      "rcDocument": "documents/render/probe-path.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/probe-path.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/progress-ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Progress ring: a circular gauge showing a single percentage (0-100) as a filled arc over a faint track, with the number in the center.",
+      "sourceFile": "docs/render/progress-ring/doc.rc",
+      "rcDocument": "documents/render/progress-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/progress-ring.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pulse-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pulsing concentric rings animation: rings whose radii breathe over time. A looping ambient/loading animation.",
+      "sourceFile": "docs/render/pulse-rings/doc.rc",
+      "rcDocument": "documents/render/pulse-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pulse-rings.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/pulsing-concentric-blue-rings-animation",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "pulsing blue rings",
+      "sourceFile": "docs/render/pulsing-concentric-blue-rings-animation/doc.rc",
+      "rcDocument": "documents/render/pulsing-concentric-blue-rings-animation.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/pulsing-concentric-blue-rings-animation.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/radial-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Radial/polar bar chart: bars radiating from the center, one per value, length proportional to value, evenly spaced around the circle.",
+      "sourceFile": "docs/render/radial-bars/doc.rc",
+      "rcDocument": "documents/render/radial-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/radial-bars.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/rainy-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rainy Season — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/rainy-loop/doc.rc",
+      "rcDocument": "documents/render/rainy-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rainy-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/rainy-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rainy Season — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/rainy-progress/doc.rc",
+      "rcDocument": "documents/render/rainy-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rainy-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-graphs2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/render/rc-json-graphs2/doc.rc",
+      "rcDocument": "documents/render/rc-json-graphs2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-graphs2.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macro Buttons Demo: a heading on an orange-to-green gradient with a placeholder slot. #text #paint",
+      "sourceFile": "docs/render/rc-json-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-macro-local-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macro-Local State Demo, explaining that each button below keeps its own state. #text #interaction",
+      "sourceFile": "docs/render/rc-json-macro-local-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-macro-local-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-macro-local-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-particle-sphere",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "spinning",
+      "sourceFile": "docs/render/rc-json-particle-sphere/doc.rc",
+      "rcDocument": "documents/render/rc-json-particle-sphere.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-particle-sphere.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-pressure-gauge",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pressure Gauge",
+      "sourceFile": "docs/render/rc-json-pressure-gauge/doc.rc",
+      "rcDocument": "documents/render/rc-json-pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-referenced-operations-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Macros with Content Inclusion: a title page for referenced-operation macros. #text",
+      "sourceFile": "docs/render/rc-json-referenced-operations-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-referenced-operations-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-referenced-operations-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/rc-json-style-macro-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Modifier Macros (Style Factories): a title page over sample styled buttons. #text #layout",
+      "sourceFile": "docs/render/rc-json-style-macro-demo/doc.rc",
+      "rcDocument": "documents/render/rc-json-style-macro-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/rc-json-style-macro-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Progress ring at 70%, green sweep on a dark track with the value at the centre. #widget #drawArc",
+      "sourceFile": "docs/render/ring/doc.rc",
+      "rcDocument": "documents/render/ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ring.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/sakura-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/sakura-loop/doc.rc",
+      "rcDocument": "documents/render/sakura-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sakura-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sakura-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sakura — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sakura-progress/doc.rc",
+      "rcDocument": "documents/render/sakura-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sakura-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/scatter-plot",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Scatter plot: a dot for each (x,y) pair from two parallel arrays. Use for correlation / point clouds.",
+      "sourceFile": "docs/render/scatter-plot/doc.rc",
+      "rcDocument": "documents/render/scatter-plot.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scatter-plot.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-h",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_h",
+      "sourceFile": "docs/render/scroll-h/doc.rc",
+      "rcDocument": "documents/render/scroll-h.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-h.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-nested",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "nested scrollers: the inner one must take the press",
+      "sourceFile": "docs/render/scroll-nested/doc.rc",
+      "rcDocument": "documents/render/scroll-nested.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-nested.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-notch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_notch",
+      "sourceFile": "docs/render/scroll-notch/doc.rc",
+      "rcDocument": "documents/render/scroll-notch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-notch.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-two",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "two independent scrollers: drag must lock to the press",
+      "sourceFile": "docs/render/scroll-two/doc.rc",
+      "rcDocument": "documents/render/scroll-two.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-two.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/scroll-v",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "scroll probe: scroll_v",
+      "sourceFile": "docs/render/scroll-v/doc.rc",
+      "rcDocument": "documents/render/scroll-v.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/scroll-v.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/sea-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Under the Sea — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/sea-loop/doc.rc",
+      "rcDocument": "documents/render/sea-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sea-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sea-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Under the Sea — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sea-progress/doc.rc",
+      "rcDocument": "documents/render/sea-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sea-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/seedcross",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "seeded placement, cross-engine",
+      "sourceFile": "docs/render/seedcross/doc.rc",
+      "rcDocument": "documents/render/seedcross.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/seedcross.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "render/space-progress",
       "section": "rcjson",
       "group": "render",

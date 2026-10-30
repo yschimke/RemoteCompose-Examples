@@ -6965,163 +6965,283 @@
   },
   "render/perf-text-l6": {
     "sha256": "fa644e0677fd15b8636131cb869415524a63f85b2f26a499168594b824627527",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fa644e0677fd15b8636131cb869415524a63f85b2f26a499168594b824627527:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/perf-text-l9": {
     "sha256": "830f463115f8b9b5dc787e480cceefb1b40c52f11f1c45f4ece7fa8501938040",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "830f463115f8b9b5dc787e480cceefb1b40c52f11f1c45f4ece7fa8501938040:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "render/pidx-ctrl": {
     "sha256": "a9bfd73cf78d5b0d4f80345b57ac8625ccc1146a51ab0c788a73c33dd9bc51e1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a9bfd73cf78d5b0d4f80345b57ac8625ccc1146a51ab0c788a73c33dd9bc51e1:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 120
   },
   "render/pie-chart-of-continents-by-percent-of-wo": {
     "sha256": "d7599868b0470c5e743ce68ca22efb363a6d260ad4cd3959d31e840d1c982a60",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d7599868b0470c5e743ce68ca22efb363a6d260ad4cd3959d31e840d1c982a60:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/pr-arr": {
     "sha256": "314054617fec1c96494c17b378fd8ba7983ec0280ca70c9f496ce67057f8d5f0",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "314054617fec1c96494c17b378fd8ba7983ec0280ca70c9f496ce67057f8d5f0:2:1f8aee19fe003312",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/pr-arrk": {
     "sha256": "42ef4fa70a994db43c7e00040ca4fc29c828027db5125c9777c40a7f6e3a99bd",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "42ef4fa70a994db43c7e00040ca4fc29c828027db5125c9777c40a7f6e3a99bd:2:1f8aee19fe003312",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/pr-rand": {
     "sha256": "bb6318b0560017b5323a27fdf185e081eb78452f870c6009d405683d76e987bb",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bb6318b0560017b5323a27fdf185e081eb78452f870c6009d405683d76e987bb:2:1f8aee19fe003312",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/pressure-gauge": {
     "sha256": "fb9d8f308722967dc36779809362ea2a5355cbc574aacefa8c33e518a85abeb6",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fb9d8f308722967dc36779809362ea2a5355cbc574aacefa8c33e518a85abeb6:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/probe": {
     "sha256": "e1d744a7cdfbbf21ed78ab3a2bfb4b505fad51b00dd4466bbdaf7bb54068ac4e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e1d744a7cdfbbf21ed78ab3a2bfb4b505fad51b00dd4466bbdaf7bb54068ac4e:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 420
   },
   "render/probe-alpha": {
     "sha256": "e31f2db9584fccccca706bdf8a14a477d5dde49f98fa0cc9b1d9b3646dd67a30",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e31f2db9584fccccca706bdf8a14a477d5dde49f98fa0cc9b1d9b3646dd67a30:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 200
   },
   "render/probe-array": {
     "sha256": "2c5327ab0224c040a90aecf66fe33783f053409735790f095c7ddac3aa78cc6e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2c5327ab0224c040a90aecf66fe33783f053409735790f095c7ddac3aa78cc6e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 260
   },
   "render/probe-idx": {
     "sha256": "30af50a53343cd0ddcc0a597882f47cf4c3a59eb844528cade4307a69f82b1af",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "30af50a53343cd0ddcc0a597882f47cf4c3a59eb844528cade4307a69f82b1af:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 300
   },
   "render/probe-multi": {
     "sha256": "45b1b9d214a7a3d4769365dca9790f3029882b6e21e1a2cc640a9d105b41e92c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "45b1b9d214a7a3d4769365dca9790f3029882b6e21e1a2cc640a9d105b41e92c:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 200
   },
   "render/probe-parr": {
     "sha256": "bc89244e9ff7025b86afb010d804242ab80a6e0ddea73c972f1c60673f4f2dfc",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bc89244e9ff7025b86afb010d804242ab80a6e0ddea73c972f1c60673f4f2dfc:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 200
   },
   "render/probe-path": {
     "sha256": "0c486268f05811ed60f8ab73d3978365f0f929ad54041f0d76e9c7c7f24b0b8d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0c486268f05811ed60f8ab73d3978365f0f929ad54041f0d76e9c7c7f24b0b8d:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/progress-ring": {
     "sha256": "0b20ce978802c5666c1c9de8585390362671e8cfab749092391f61e6f79deaf3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0b20ce978802c5666c1c9de8585390362671e8cfab749092391f61e6f79deaf3:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/pulse-rings": {
     "sha256": "3883814e4d5e9519a02b810a6812bb8dfcc9ae932c687cfcd811c94018f3cd9c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3883814e4d5e9519a02b810a6812bb8dfcc9ae932c687cfcd811c94018f3cd9c:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/pulsing-concentric-blue-rings-animation": {
     "sha256": "20372ecb1ba7c7c8ec0865c94c6c86ca3005a2aae5c655b9ac88c44a74cf1189",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "20372ecb1ba7c7c8ec0865c94c6c86ca3005a2aae5c655b9ac88c44a74cf1189:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/radial-bars": {
     "sha256": "2c6c622a354fb7619ca47481f81995d1be9359d33a7456931fd5082d91f73e99",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2c6c622a354fb7619ca47481f81995d1be9359d33a7456931fd5082d91f73e99:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/rainy-loop": {
     "sha256": "47113b4f3b0de4aa2041a3e5bfd22795f2d0a87025b484d01d42941bcaaa13d2",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "47113b4f3b0de4aa2041a3e5bfd22795f2d0a87025b484d01d42941bcaaa13d2:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/rainy-progress": {
     "sha256": "d3d055894f67c5f9237874feb75da93a7101d20f8ffd1653e602b2d7c31becea",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d3d055894f67c5f9237874feb75da93a7101d20f8ffd1653e602b2d7c31becea:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/rc-json-graphs2": {
     "sha256": "51059c65641501208be975018567bf3b8f4fc6090c4b3a135eb5bb52347ae3fe",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "51059c65641501208be975018567bf3b8f4fc6090c4b3a135eb5bb52347ae3fe:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "render/rc-json-macro-demo": {
     "sha256": "727a36311ef5dbd7f5b6efcbf2636a3e6a9c46dd198d0b064ba5307f46b06d80",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "727a36311ef5dbd7f5b6efcbf2636a3e6a9c46dd198d0b064ba5307f46b06d80:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/rc-json-macro-local-demo": {
     "sha256": "f0edf52ec8b93cc4d787be4e338824d4b7fdeef9b6ac42a924b8014ff7fc7d6f",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f0edf52ec8b93cc4d787be4e338824d4b7fdeef9b6ac42a924b8014ff7fc7d6f:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/rc-json-particle-sphere": {
     "sha256": "4e79b8941451ddc0d9262fe7687519fe8359bf29b40727d8852e5f8112135208",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4e79b8941451ddc0d9262fe7687519fe8359bf29b40727d8852e5f8112135208:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/rc-json-pressure-gauge": {
     "sha256": "8be5a11b7711f712b21a46e201d1ee872ab0c71ddc8f6ca161361ec8485eb563",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8be5a11b7711f712b21a46e201d1ee872ab0c71ddc8f6ca161361ec8485eb563:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "render/rc-json-referenced-operations-macro-demo": {
     "sha256": "d97efa65de9073b4066ff4437a11d97f2554855749e90857cc5e58ecd570bc2a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d97efa65de9073b4066ff4437a11d97f2554855749e90857cc5e58ecd570bc2a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/rc-json-style-macro-demo": {
     "sha256": "911bc0e49e878e0e3fcc7c7270cfbfbcff523821826ab0421007e53900740907",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "911bc0e49e878e0e3fcc7c7270cfbfbcff523821826ab0421007e53900740907:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "render/ring": {
     "sha256": "da234245787056ce897b8bf72052e97b6e25d54c3084257a75d35c841a717ca8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "da234245787056ce897b8bf72052e97b6e25d54c3084257a75d35c841a717ca8:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/sakura-loop": {
     "sha256": "bf83b4cd37c39dcdf455d7684bc10b744ffc7529e1ae55e382d3cfa86ca7f2b1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bf83b4cd37c39dcdf455d7684bc10b744ffc7529e1ae55e382d3cfa86ca7f2b1:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/sakura-progress": {
     "sha256": "ca938b4c034c7057260af5896fc0e57371566138d59d6d8ab5a13dd34b0ffc80",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ca938b4c034c7057260af5896fc0e57371566138d59d6d8ab5a13dd34b0ffc80:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/scatter-plot": {
     "sha256": "d69c225ac1a01b99b88b87051d85db99e9a6c2d8f0a4d8f560686a5d9dcbfa66",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d69c225ac1a01b99b88b87051d85db99e9a6c2d8f0a4d8f560686a5d9dcbfa66:2:1f8aee19fe003312",
+    "imageWidth": 300,
+    "imageHeight": 300
   },
   "render/scroll-h": {
     "sha256": "fd0fd478add46499c71ee76e812cb27e9529f95427771af01cd19fd03b34d125",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fd0fd478add46499c71ee76e812cb27e9529f95427771af01cd19fd03b34d125:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "render/scroll-nested": {
     "sha256": "ed92809e13b3a8961cc06edabe034139dc634b401b9c1782f3c277c00bedbc20",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ed92809e13b3a8961cc06edabe034139dc634b401b9c1782f3c277c00bedbc20:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "render/scroll-notch": {
     "sha256": "09abc261ff749ef81c2700a933a7899428f762f748de3503cc3709963a631813",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "09abc261ff749ef81c2700a933a7899428f762f748de3503cc3709963a631813:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "render/scroll-two": {
     "sha256": "c601ea3735a8546e021264cf75ff4954af7610664e696be603945bac4d76d061",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c601ea3735a8546e021264cf75ff4954af7610664e696be603945bac4d76d061:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "render/scroll-v": {
     "sha256": "3857ff31b2421c3461ecfb0a6db3ccae2a2dc451e8328ac8e67ba2e89264dbea",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3857ff31b2421c3461ecfb0a6db3ccae2a2dc451e8328ac8e67ba2e89264dbea:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "render/sea-loop": {
     "sha256": "6e31819f14051c15549198221a4bf507df4c6a0b062ed93ad9e91ef0fe55c645",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6e31819f14051c15549198221a4bf507df4c6a0b062ed93ad9e91ef0fe55c645:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/sea-progress": {
     "sha256": "53896beafa4683f5c36d448b614f41e93d19e4ad7f3094e924fc6b06d5224855",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "53896beafa4683f5c36d448b614f41e93d19e4ad7f3094e924fc6b06d5224855:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "render/seedcross": {
     "sha256": "1d72a86b57c34ad87115a99c39bf7d7d2d05f7cc43aa833586e7a7fac80e3374",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1d72a86b57c34ad87115a99c39bf7d7d2d05f7cc43aa833586e7a7fac80e3374:2:1f8aee19fe003312",
+    "imageWidth": 480,
+    "imageHeight": 360
   },
   "render/sens2": {
     "sha256": "ac1438ce9b2da69c011f161e8fc1608dd2244aa19d28c1b1b11a10b0f9edd286",
