@@ -677,6 +677,550 @@
       ]
     },
     {
+      "componentId": "androidx-demos/c-modifier-fill-max-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxHeight, a magenta column stretched to the full height available. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-max-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxSize, a yellow block expanded to fill both axes. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-max-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillMaxWidth, a cyan band stretched across the full width. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-max-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-max-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-max-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxHeight. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxSize. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-fill-parent-max-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: fillParentMaxWidth. Draws nothing at the default size, so it is only meaningful inside a sized parent. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-fill-parent-max-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-fill-parent-max-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-fill-parent-max-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: a fixed height applied to a green block. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-height-in",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: heightIn bounds, a short red and blue pair constrained to a height range. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-height-in/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-height-in.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-height-in.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-horizontal-scroll",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierHorizontalScroll",
+      "sourceFile": "docs/androidx-demos/c-modifier-horizontal-scroll/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-horizontal-scroll.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-horizontal-scroll.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-horizontal-weight",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: horizontal weight splitting a row between a red and a wider blue child. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-horizontal-weight/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-horizontal-weight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-horizontal-weight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-on-click",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierOnClick",
+      "sourceFile": "docs/androidx-demos/c-modifier-on-click/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-on-click.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-on-click.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-on-touch-cancel",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierOnTouchCancel",
+      "sourceFile": "docs/androidx-demos/c-modifier-on-touch-cancel/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-on-touch-cancel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-on-touch-cancel.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-on-touch-down",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierOnTouchDown",
+      "sourceFile": "docs/androidx-demos/c-modifier-on-touch-down/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-on-touch-down.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-on-touch-down.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-on-touch-up",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierOnTouchUp",
+      "sourceFile": "docs/androidx-demos/c-modifier-on-touch-up/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-on-touch-up.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-on-touch-up.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-padding",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: padding, insetting a blue block from the red one above it. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-padding/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: an explicit size on each of two children, one red and one blue. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-spaced-by",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: spacedBy, three small red, green and blue squares separated by a fixed gap. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-spaced-by/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-spaced-by.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-spaced-by.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-vertical-scroll",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoModifierVerticalScroll",
+      "sourceFile": "docs/androidx-demos/c-modifier-vertical-scroll/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-vertical-scroll.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-vertical-scroll.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-vertical-weight",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: vertical weight splitting a column between a red child and a taller blue one. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-vertical-weight/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-vertical-weight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-vertical-weight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-visibility",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: visibility, with the visible child shown as a red block. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-visibility/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-visibility.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-visibility.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: a fixed width applied to a blue block. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-wrap-content-height",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: wrapContentHeight, collapsing the child to a small dark square. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-wrap-content-height/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-wrap-content-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-wrap-content-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-wrap-content-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: wrapContentSize. Collapses the child to nothing at the default size. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-wrap-content-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-wrap-content-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-wrap-content-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-wrap-content-width",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: wrapContentWidth, collapsing the child to a small dark square. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-wrap-content-width/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-wrap-content-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-wrap-content-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-modifier-zindex",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: zIndex, a blue square drawn over an offset red one to show stacking order. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-modifier-zindex/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-modifier-zindex.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-modifier-zindex.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-row",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a row placing red, green and blue children beside a grey remainder. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-row/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-state-layout",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Component check: a state-driven layout, shown here in its blue state. #layout #validation",
+      "sourceFile": "docs/androidx-demos/c-state-layout/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-state-layout.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-state-layout.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-text",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoText",
+      "sourceFile": "docs/androidx-demos/c-text/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-text.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-text.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/c-text-auto-size",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "DemoTextAutoSize",
+      "sourceFile": "docs/androidx-demos/c-text-auto-size/doc.rc",
+      "rcDocument": "documents/androidx-demos/c-text-auto-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/c-text-auto-size.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/calendar-heatmap-grid",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Contribution heatmap over the last 35 days, green cells scaled from Less to More. #graph #widget",
+      "sourceFile": "docs/androidx-demos/calendar-heatmap-grid/doc.rc",
+      "rcDocument": "documents/androidx-demos/calendar-heatmap-grid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/calendar-heatmap-grid.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/clock",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/clock/doc.rc",
+      "rcDocument": "documents/androidx-demos/clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/clock.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/clock-demo1-clock1",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Analogue clock on a brushed grey dial with a black knurled bezel. #clock",
+      "sourceFile": "docs/androidx-demos/clock-demo1-clock1/doc.rc",
+      "rcDocument": "documents/androidx-demos/clock-demo1-clock1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/clock-demo1-clock1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "androidx-demos/clock-demo2-jancy-clock2",
       "section": "androidx",
       "group": "androidx-demos",
@@ -688,6 +1232,142 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/androidx-demos/clock-demo2-jancy-clock2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/clock-demo2-jclock2",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "World clock: a central dial ringed by eight sub-dials showing New York, Denver, Los Angeles, Anchorage, Hawaii, Buenos Aires and Caracas. #clock",
+      "sourceFile": "docs/androidx-demos/clock-demo2-jclock2/doc.rc",
+      "rcDocument": "documents/androidx-demos/clock-demo2-jclock2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/clock-demo2-jclock2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/cm-odifier-width-in",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Modifier check: widthIn bounds, a red and a blue block constrained to a width range. #layout #validation",
+      "sourceFile": "docs/androidx-demos/cm-odifier-width-in/doc.rc",
+      "rcDocument": "documents/androidx-demos/cm-odifier-width-in.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/cm-odifier-width-in.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/color",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/color/doc.rc",
+      "rcDocument": "documents/androidx-demos/color.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/color.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/color-list",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/color-list/doc.rc",
+      "rcDocument": "documents/androidx-demos/color-list.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/color-list.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/color-table",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/color-table/doc.rc",
+      "rcDocument": "documents/androidx-demos/color-table.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/color-table.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/color-theme",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Simple Timer",
+      "sourceFile": "docs/androidx-demos/color-theme/doc.rc",
+      "rcDocument": "documents/androidx-demos/color-theme.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/color-theme.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/count-down",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Overlapping translucent colour discs arranged as a flower, labelled with the current hue value. #animation",
+      "sourceFile": "docs/androidx-demos/count-down/doc.rc",
+      "rcDocument": "documents/androidx-demos/count-down.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/count-down.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "androidx-demos/countdown",
+      "section": "androidx",
+      "group": "androidx-demos",
+      "caption": "Large countdown digit on a grey gradient, split by a vertical seam where the flip occurs. #clock #animation",
+      "sourceFile": "docs/androidx-demos/countdown/doc.rc",
+      "rcDocument": "documents/androidx-demos/countdown.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/androidx-demos/countdown.png",
           "width": 400,
           "height": 400
         }
