@@ -7885,6 +7885,686 @@
       ]
     },
     {
+      "componentId": "layout/a01-child-fixed",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A01 fixed 120x80 child in a filled root",
+      "sourceFile": "docs/layout/a01-child-fixed/doc.rc",
+      "rcDocument": "documents/layout/a01-child-fixed.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a01-child-fixed.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a02-child-fillmaxsize",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A02 child fillMaxSize inside filled root",
+      "sourceFile": "docs/layout/a02-child-fillmaxsize/doc.rc",
+      "rcDocument": "documents/layout/a02-child-fillmaxsize.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a02-child-fillmaxsize.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a03-child-fillmaxwidth",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A03 child fillMaxWidth, fixed height",
+      "sourceFile": "docs/layout/a03-child-fillmaxwidth/doc.rc",
+      "rcDocument": "documents/layout/a03-child-fillmaxwidth.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a03-child-fillmaxwidth.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a04-child-fillmaxheight",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A04 child fillMaxHeight, fixed width",
+      "sourceFile": "docs/layout/a04-child-fillmaxheight/doc.rc",
+      "rcDocument": "documents/layout/a04-child-fillmaxheight.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a04-child-fillmaxheight.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a05-fill-fraction",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A05 fractional fill: 0.5 width, 0.25 height",
+      "sourceFile": "docs/layout/a05-fill-fraction/doc.rc",
+      "rcDocument": "documents/layout/a05-fill-fraction.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a05-fill-fraction.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a06-size-modifier",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A06 size modifier as a pair",
+      "sourceFile": "docs/layout/a06-size-modifier/doc.rc",
+      "rcDocument": "documents/layout/a06-size-modifier.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a06-size-modifier.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a07-wrap-default",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A07 no size modifier anywhere: everything wraps",
+      "sourceFile": "docs/layout/a07-wrap-default/doc.rc",
+      "rcDocument": "documents/layout/a07-wrap-default.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a07-wrap-default.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a08-fill-in-wrap-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A08 fillMaxSize child inside a WRAP parent - no maximum to fill",
+      "sourceFile": "docs/layout/a08-fill-in-wrap-parent/doc.rc",
+      "rcDocument": "documents/layout/a08-fill-in-wrap-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a08-fill-in-wrap-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a09-fixed-bigger-than-root",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A09 child larger than the root",
+      "sourceFile": "docs/layout/a09-fixed-bigger-than-root/doc.rc",
+      "rcDocument": "documents/layout/a09-fixed-bigger-than-root.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a09-fixed-bigger-than-root.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a10-root-fixed-size",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A10 root has a fixed size smaller than the document",
+      "sourceFile": "docs/layout/a10-root-fixed-size/doc.rc",
+      "rcDocument": "documents/layout/a10-root-fixed-size.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a10-root-fixed-size.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/a11-child-exceeds-fixed-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "A11 child larger than a fixed-size parent that is NOT the root, so overflow is visible",
+      "sourceFile": "docs/layout/a11-child-exceeds-fixed-parent/doc.rc",
+      "rcDocument": "documents/layout/a11-child-exceeds-fixed-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/a11-child-exceeds-fixed-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b01-box-start-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/top",
+      "sourceFile": "docs/layout/b01-box-start-top/doc.rc",
+      "rcDocument": "documents/layout/b01-box-start-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b01-box-start-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b02-box-start-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/center",
+      "sourceFile": "docs/layout/b02-box-start-center/doc.rc",
+      "rcDocument": "documents/layout/b02-box-start-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b02-box-start-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b03-box-start-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment start/bottom",
+      "sourceFile": "docs/layout/b03-box-start-bottom/doc.rc",
+      "rcDocument": "documents/layout/b03-box-start-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b03-box-start-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b04-box-center-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/top",
+      "sourceFile": "docs/layout/b04-box-center-top/doc.rc",
+      "rcDocument": "documents/layout/b04-box-center-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b04-box-center-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b05-box-center-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/center",
+      "sourceFile": "docs/layout/b05-box-center-center/doc.rc",
+      "rcDocument": "documents/layout/b05-box-center-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b05-box-center-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b06-box-center-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment center/bottom",
+      "sourceFile": "docs/layout/b06-box-center-bottom/doc.rc",
+      "rcDocument": "documents/layout/b06-box-center-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b06-box-center-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b07-box-end-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/top",
+      "sourceFile": "docs/layout/b07-box-end-top/doc.rc",
+      "rcDocument": "documents/layout/b07-box-end-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b07-box-end-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b08-box-end-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/center",
+      "sourceFile": "docs/layout/b08-box-end-center/doc.rc",
+      "rcDocument": "documents/layout/b08-box-end-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b08-box-end-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b09-box-end-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B box alignment end/bottom",
+      "sourceFile": "docs/layout/b09-box-end-bottom/doc.rc",
+      "rcDocument": "documents/layout/b09-box-end-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b09-box-end-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b10-box-two-children",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B10 two children of different size, centred - they stack",
+      "sourceFile": "docs/layout/b10-box-two-children/doc.rc",
+      "rcDocument": "documents/layout/b10-box-two-children.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b10-box-two-children.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/b11-box-fixed-parent",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "B11 alignment inside a fixed-size box, not the root",
+      "sourceFile": "docs/layout/b11-box-fixed-parent/doc.rc",
+      "rcDocument": "documents/layout/b11-box-fixed-parent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/b11-box-fixed-parent.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c01-row-arrange-start",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=start",
+      "sourceFile": "docs/layout/c01-row-arrange-start/doc.rc",
+      "rcDocument": "documents/layout/c01-row-arrange-start.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c01-row-arrange-start.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c02-row-arrange-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=center",
+      "sourceFile": "docs/layout/c02-row-arrange-center/doc.rc",
+      "rcDocument": "documents/layout/c02-row-arrange-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c02-row-arrange-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c03-row-arrange-end",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=end",
+      "sourceFile": "docs/layout/c03-row-arrange-end/doc.rc",
+      "rcDocument": "documents/layout/c03-row-arrange-end.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c03-row-arrange-end.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c04-row-arrange-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceBetween",
+      "sourceFile": "docs/layout/c04-row-arrange-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/c04-row-arrange-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c04-row-arrange-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c05-row-arrange-spaceevenly",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceEvenly",
+      "sourceFile": "docs/layout/c05-row-arrange-spaceevenly/doc.rc",
+      "rcDocument": "documents/layout/c05-row-arrange-spaceevenly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c05-row-arrange-spaceevenly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c06-row-arrange-spacearound",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row horizontalArrangement=spaceAround",
+      "sourceFile": "docs/layout/c06-row-arrange-spacearound/doc.rc",
+      "rcDocument": "documents/layout/c06-row-arrange-spacearound.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c06-row-arrange-spacearound.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c07-row-valign-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=top",
+      "sourceFile": "docs/layout/c07-row-valign-top/doc.rc",
+      "rcDocument": "documents/layout/c07-row-valign-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c07-row-valign-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c08-row-valign-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=center",
+      "sourceFile": "docs/layout/c08-row-valign-center/doc.rc",
+      "rcDocument": "documents/layout/c08-row-valign-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c08-row-valign-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c09-row-valign-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C row verticalAlignment=bottom",
+      "sourceFile": "docs/layout/c09-row-valign-bottom/doc.rc",
+      "rcDocument": "documents/layout/c09-row-valign-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c09-row-valign-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c10-row-spacedby",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C10 row with spacedBy 20",
+      "sourceFile": "docs/layout/c10-row-spacedby/doc.rc",
+      "rcDocument": "documents/layout/c10-row-spacedby.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c10-row-spacedby.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c11-row-wrap-width",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C11 row that wraps its width - arrangement has no slack to distribute",
+      "sourceFile": "docs/layout/c11-row-wrap-width/doc.rc",
+      "rcDocument": "documents/layout/c11-row-wrap-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c11-row-wrap-width.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c12-row-single-child-spacebetween",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C12 spaceBetween with one child - degenerate case",
+      "sourceFile": "docs/layout/c12-row-single-child-spacebetween/doc.rc",
+      "rcDocument": "documents/layout/c12-row-single-child-spacebetween.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c12-row-single-child-spacebetween.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c13-row-fixed-height-children-fill",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C13 children filling the cross axis inside a row",
+      "sourceFile": "docs/layout/c13-row-fixed-height-children-fill/doc.rc",
+      "rcDocument": "documents/layout/c13-row-fixed-height-children-fill.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c13-row-fixed-height-children-fill.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c1a-row-single-spacearound",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C single child with spaceAround",
+      "sourceFile": "docs/layout/c1a-row-single-spacearound/doc.rc",
+      "rcDocument": "documents/layout/c1a-row-single-spacearound.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c1a-row-single-spacearound.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/c1e-row-single-spaceevenly",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "C single child with spaceEvenly",
+      "sourceFile": "docs/layout/c1e-row-single-spaceevenly/doc.rc",
+      "rcDocument": "documents/layout/c1e-row-single-spaceevenly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/c1e-row-single-spaceevenly.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d01-col-arrange-top",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=top",
+      "sourceFile": "docs/layout/d01-col-arrange-top/doc.rc",
+      "rcDocument": "documents/layout/d01-col-arrange-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d01-col-arrange-top.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d02-col-arrange-center",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=center",
+      "sourceFile": "docs/layout/d02-col-arrange-center/doc.rc",
+      "rcDocument": "documents/layout/d02-col-arrange-center.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d02-col-arrange-center.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "layout/d03-col-arrange-bottom",
+      "section": "rcjson",
+      "group": "layout",
+      "caption": "D column verticalArrangement=bottom",
+      "sourceFile": "docs/layout/d03-col-arrange-bottom/doc.rc",
+      "rcDocument": "documents/layout/d03-col-arrange-bottom.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/layout/d03-col-arrange-bottom.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
