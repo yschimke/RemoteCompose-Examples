@@ -11965,6 +11965,431 @@
       ]
     },
     {
+      "componentId": "python-samples/text-alignment",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Three tinted bands demonstrating left, centre and right text alignment. #text #layout",
+      "sourceFile": "docs/python-samples/text-alignment/doc.rc",
+      "rcDocument": "documents/python-samples/text-alignment.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-alignment.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-badges",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Step progress arc reading 7250 of 10000, with percentage badges around the sweep. #widget #graph",
+      "sourceFile": "docs/python-samples/text-badges/doc.rc",
+      "rcDocument": "documents/python-samples/text-badges.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-badges.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-cards",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked information cards - Getting Started, Components, Advanced Topics - each with a coloured header. #layout #text",
+      "sourceFile": "docs/python-samples/text-cards/doc.rc",
+      "rcDocument": "documents/python-samples/text-cards.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-cards.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-heading-body",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Document page: a RemoteCompose heading, subtitle and body paragraph. #text",
+      "sourceFile": "docs/python-samples/text-heading-body/doc.rc",
+      "rcDocument": "documents/python-samples/text-heading-body.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-heading-body.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-layered-borders",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Border treatments compared: layered borders, a double border and a gradient effect. #layout #paint",
+      "sourceFile": "docs/python-samples/text-layered-borders/doc.rc",
+      "rcDocument": "documents/python-samples/text-layered-borders.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-layered-borders.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-list",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Numbered checklist of eight setup steps on alternating row stripes. #text #layout",
+      "sourceFile": "docs/python-samples/text-list/doc.rc",
+      "rcDocument": "documents/python-samples/text-list.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-list.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-sizes",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Type scale: the same label repeated at sizes 16 through 64. #text",
+      "sourceFile": "docs/python-samples/text-sizes/doc.rc",
+      "rcDocument": "documents/python-samples/text-sizes.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-sizes.png",
+          "width": 400,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/text-stats-row",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Statistics row: three coloured tiles reading 1,284 Users, 847 Active and 99.7% Uptime. #widget #layout",
+      "sourceFile": "docs/python-samples/text-stats-row/doc.rc",
+      "rcDocument": "documents/python-samples/text-stats-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/text-stats-row.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/viewport-basic",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Viewport test: shapes drawn in 1000x1000 virtual space, rendered at any size",
+      "sourceFile": "docs/python-samples/viewport-basic/doc.rc",
+      "rcDocument": "documents/python-samples/viewport-basic.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/viewport-basic.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/viewport-chart",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "USD/SGD chart rewritten using viewport - scalable to any size",
+      "sourceFile": "docs/python-samples/viewport-chart/doc.rc",
+      "rcDocument": "documents/python-samples/viewport-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/viewport-chart.png",
+          "width": 500,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/viewport-flipy",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Viewport with flip_y: y=0 at bottom, bars grow upward naturally",
+      "sourceFile": "docs/python-samples/viewport-flipy/doc.rc",
+      "rcDocument": "documents/python-samples/viewport-flipy.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/viewport-flipy.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-dashboard",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "2x2 dashboard grid with four mini-gauge panels: speed, temp, fuel, battery",
+      "sourceFile": "docs/python-samples/widget-dashboard/doc.rc",
+      "rcDocument": "documents/python-samples/widget-dashboard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-dashboard.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-metric",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Single metric card: large animated number, label, trend arrow drawn in canvas",
+      "sourceFile": "docs/python-samples/widget-metric/doc.rc",
+      "rcDocument": "documents/python-samples/widget-metric.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-metric.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-music",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Music player widget: album art area, song info, playback controls as canvas shapes",
+      "sourceFile": "docs/python-samples/widget-music/doc.rc",
+      "rcDocument": "documents/python-samples/widget-music.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-music.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-notification",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Notification card: icon circle, title + message, colored left accent via ordered modifiers",
+      "sourceFile": "docs/python-samples/widget-notification/doc.rc",
+      "rcDocument": "documents/python-samples/widget-notification.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-notification.png",
+          "width": 400,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-profile",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Profile card: avatar circle, name, role, 3 metric values",
+      "sourceFile": "docs/python-samples/widget-profile/doc.rc",
+      "rcDocument": "documents/python-samples/widget-profile.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-profile.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-score",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Game score display: Home vs Away with large canvas-drawn score numbers",
+      "sourceFile": "docs/python-samples/widget-score/doc.rc",
+      "rcDocument": "documents/python-samples/widget-score.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-score.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-settings",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Settings panel: 5 rows with icon box, label, and toggle indicator",
+      "sourceFile": "docs/python-samples/widget-settings/doc.rc",
+      "rcDocument": "documents/python-samples/widget-settings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-settings.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-stats",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stats bar: 4 equal-weight stat boxes with value, label, and mini sparkline canvas",
+      "sourceFile": "docs/python-samples/widget-stats/doc.rc",
+      "rcDocument": "documents/python-samples/widget-stats.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-stats.png",
+          "width": 500,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-timer",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Countdown timer: circular progress ring with animated time display in center",
+      "sourceFile": "docs/python-samples/widget-timer/doc.rc",
+      "rcDocument": "documents/python-samples/widget-timer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-timer.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/widget-weather",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Weather card: city name, animated temperature, 3-day forecast with canvas icons",
+      "sourceFile": "docs/python-samples/widget-weather/doc.rc",
+      "rcDocument": "documents/python-samples/widget-weather.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/widget-weather.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/00-header-only",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Hello RcJson",
+      "sourceFile": "docs/render/00-header-only/doc.rc",
+      "rcDocument": "documents/render/00-header-only.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/00-header-only.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/00-ring",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "live — a ring of bars with a wave travelling around it",
+      "sourceFile": "docs/render/00-ring/doc.rc",
+      "rcDocument": "documents/render/00-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/00-ring.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-draw-commands",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "A ring, a sweeping arc and an orbiting dot, all driven by the clock",
+      "sourceFile": "docs/render/01-draw-commands/doc.rc",
+      "rcDocument": "documents/render/01-draw-commands.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-draw-commands.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/01-hello",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Hello RcJson",
+      "sourceFile": "docs/render/01-hello/doc.rc",
+      "rcDocument": "documents/render/01-hello.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-hello.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
@@ -11982,6 +12407,91 @@
       ]
     },
     {
+      "componentId": "render/01-simple-demo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple Demo",
+      "sourceFile": "docs/render/01-simple-demo/doc.rc",
+      "rcDocument": "documents/render/01-simple-demo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/01-simple-demo.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "36 radial bars whose lengths follow a wave travelling around the circle",
+      "sourceFile": "docs/render/02-loop/doc.rc",
+      "rcDocument": "documents/render/02-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-loop.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-text-layout",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Match card: Arsenal vs Bayern Munich on yellow, with competition and date lines and an image slot. #text #layout",
+      "sourceFile": "docs/render/02-text-layout/doc.rc",
+      "rcDocument": "documents/render/02-text-layout.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-text-layout.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "render/02-ticker",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Watchlist ticker scrolling a value across a pale card. #animation #widget",
+      "sourceFile": "docs/render/02-ticker/doc.rc",
+      "rcDocument": "documents/render/02-ticker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/02-ticker.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-canvas-draw",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Canvas draw ops",
+      "sourceFile": "docs/render/03-canvas-draw/doc.rc",
+      "rcDocument": "documents/render/03-canvas-draw.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-canvas-draw.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/03-new-years-fireworks",
       "section": "rcjson",
       "group": "render",
@@ -11995,6 +12505,176 @@
           "path": "images/render/03-new-years-fireworks.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-particles",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "120 snowflakes falling and swaying, each one a particle with its own speed, size and opacity",
+      "sourceFile": "docs/render/03-particles/doc.rc",
+      "rcDocument": "documents/render/03-particles.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-particles.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/03-thermostat-light",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Thermostat — detail",
+      "sourceFile": "docs/render/03-thermostat-light/doc.rc",
+      "rcDocument": "documents/render/03-thermostat-light.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/03-thermostat-light.png",
+          "width": 295,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/04-align-padding",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Alignment and padding check: left and right labels pinned to opposite edges with a stacked marker. #layout #validation",
+      "sourceFile": "docs/render/04-align-padding/doc.rc",
+      "rcDocument": "documents/render/04-align-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/04-align-padding.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/04-path-expression",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Three Lissajous curves generated from expressions, drifting in phase",
+      "sourceFile": "docs/render/04-path-expression/doc.rc",
+      "rcDocument": "documents/render/04-path-expression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/04-path-expression.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/05-box-sizes",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Box sizing check: the word hi on a dark red block sized to its content. #layout #validation",
+      "sourceFile": "docs/render/05-box-sizes/doc.rc",
+      "rcDocument": "documents/render/05-box-sizes.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/05-box-sizes.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/06-canvas-paints",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Paint styles on one canvas: a filled rounded rectangle, a stroked green circle and a red rule. #paint #validation",
+      "sourceFile": "docs/render/06-canvas-paints/doc.rc",
+      "rcDocument": "documents/render/06-canvas-paints.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/06-canvas-paints.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "componentId": "render/07-box-canvas",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Canvas inside a box: a single hairline diagonal across a black field. #layout #validation",
+      "sourceFile": "docs/render/07-box-canvas/doc.rc",
+      "rcDocument": "documents/render/07-box-canvas.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/07-box-canvas.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/08-transforms",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Transform demo: a circle quartered in green, blue and red with a rotated yellow square at its centre. #transforms",
+      "sourceFile": "docs/render/08-transforms/doc.rc",
+      "rcDocument": "documents/render/08-transforms.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/08-transforms.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/09-expressions",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression basics: a green circle with a tangent line whose endpoint is computed. #expressions #drawCircle",
+      "sourceFile": "docs/render/09-expressions/doc.rc",
+      "rcDocument": "documents/render/09-expressions.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/09-expressions.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/10-variables",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variables demo: a yellow smiley face assembled from values held in named variables. #expressions",
+      "sourceFile": "docs/render/10-variables/doc.rc",
+      "rcDocument": "documents/render/10-variables.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/10-variables.png",
+          "width": 320,
+          "height": 320
         }
       ]
     },
