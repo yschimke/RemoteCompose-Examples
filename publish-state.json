@@ -2968,163 +2968,283 @@
   },
   "iot-panels/41-sprinkler": {
     "sha256": "8e45b617910eb6d46eeaf2a887227f8689e4d3918c9f0c33aa6aa7d09281c0cc",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8e45b617910eb6d46eeaf2a887227f8689e4d3918c9f0c33aa6aa7d09281c0cc:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/42-soil-moisture": {
     "sha256": "3e6c44a983257361bd255f4bc0741b0bc47ed38632d5936f299340859dc97e79",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3e6c44a983257361bd255f4bc0741b0bc47ed38632d5936f299340859dc97e79:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/43-hose-valve": {
     "sha256": "ff1732d0e8c449e83654b8f8dfa486f822aced78ec77a47f66a0801fbeeafd82",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ff1732d0e8c449e83654b8f8dfa486f822aced78ec77a47f66a0801fbeeafd82:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/44-pool-monitor": {
     "sha256": "789cfb3b8e1381300bfc44d98d927bfea8343f089fe9174d84187896fc55055b",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "789cfb3b8e1381300bfc44d98d927bfea8343f089fe9174d84187896fc55055b:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/45-rain-sensor": {
     "sha256": "89e7a5f3b0dfbae7b74443b7bc60e7c7c1e4aa41426fd02497776c120f8d742d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "89e7a5f3b0dfbae7b74443b7bc60e7c7c1e4aa41426fd02497776c120f8d742d:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/46-smart-speaker": {
     "sha256": "7be79d586cddde4ee5bd26e480fc7d4998359623ef06ff082480f948bed5dc50",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7be79d586cddde4ee5bd26e480fc7d4998359623ef06ff082480f948bed5dc50:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/47-smart-display": {
     "sha256": "259d7688a324e6ede8b468f1195cb72beda29c87f73ea398083b6b6c7ed1e684",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "259d7688a324e6ede8b468f1195cb72beda29c87f73ea398083b6b6c7ed1e684:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/48-smart-tv": {
     "sha256": "e542f57b85c856acc4c940dc77f099ea3db187fcc86f0ea11def51949a9f1df8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e542f57b85c856acc4c940dc77f099ea3db187fcc86f0ea11def51949a9f1df8:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/49-streaming-box": {
     "sha256": "45bfe7c42d4da8bf92056e8cd08191c0424b7c3bea1d03572ac36bc8ba28e801",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "45bfe7c42d4da8bf92056e8cd08191c0424b7c3bea1d03572ac36bc8ba28e801:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/50-projector": {
     "sha256": "8e9e3aa180e0d679f22e2560561dc8adc40c9a73fcec2023a25164f68114e8c6",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8e9e3aa180e0d679f22e2560561dc8adc40c9a73fcec2023a25164f68114e8c6:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/51-mesh-router": {
     "sha256": "ab3cdd150490dfcc5471cb31fb7140ba58e344744d2bf38bb2d2c24cc25c956e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ab3cdd150490dfcc5471cb31fb7140ba58e344744d2bf38bb2d2c24cc25c956e:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/52-range-extender": {
     "sha256": "3a0e14f2b726228b63a78cf7e1952906ee7393494c98e1a1f266f30e5e835d72",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3a0e14f2b726228b63a78cf7e1952906ee7393494c98e1a1f266f30e5e835d72:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/53-smart-hub": {
     "sha256": "fbe1996f9510affd3e6a40d144a56c654043ebedb89873124cca1bb3875eae36",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fbe1996f9510affd3e6a40d144a56c654043ebedb89873124cca1bb3875eae36:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/54-network-switch": {
     "sha256": "4fce1a63630c09e864a3f23372e02b8b887fc219aa28e11d40cf25f9bfd83fc8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4fce1a63630c09e864a3f23372e02b8b887fc219aa28e11d40cf25f9bfd83fc8:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/55-doorbell-chime": {
     "sha256": "d06643e4e32a383ad75f194701f4de442a87dec7928f20cd7f3ccc0dc61313e6",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d06643e4e32a383ad75f194701f4de442a87dec7928f20cd7f3ccc0dc61313e6:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/56-smart-blinds": {
     "sha256": "670329b7e9f4858fa42320a16f546d7a280c4f0bf9879a85793d581b0bad6796",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "670329b7e9f4858fa42320a16f546d7a280c4f0bf9879a85793d581b0bad6796:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/57-smart-curtains": {
     "sha256": "3eb4163e81c4413614f0d3c5a733bffba17be96dd933d7fd0e0fc5f51f32b77c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3eb4163e81c4413614f0d3c5a733bffba17be96dd933d7fd0e0fc5f51f32b77c:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/58-garage-door": {
     "sha256": "dd134053f1920e444ae859f3cc1763915b5aeb657c24e6c54c5422e408291514",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "dd134053f1920e444ae859f3cc1763915b5aeb657c24e6c54c5422e408291514:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/59-window-opener": {
     "sha256": "d81c193796d5918523a6a1d69c6b2163059d747c4b10d590663911650f34721b",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d81c193796d5918523a6a1d69c6b2163059d747c4b10d590663911650f34721b:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/60-gate-opener": {
     "sha256": "91ca1adaf4e32611fa24ebf84765660f95defdbb9347170cf302e2d9194f9c61",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "91ca1adaf4e32611fa24ebf84765660f95defdbb9347170cf302e2d9194f9c61:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/61-body-scale": {
     "sha256": "9e4becee7b3ce89099c04dc60fe316e052e6e8ce38f28c1120d721e904cd463a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9e4becee7b3ce89099c04dc60fe316e052e6e8ce38f28c1120d721e904cd463a:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/62-sleep-tracker": {
     "sha256": "333832db512d834b5dc5ebe7012e3f85d0d3e0d28a195aa7c2ab6ef4b0f8145a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "333832db512d834b5dc5ebe7012e3f85d0d3e0d28a195aa7c2ab6ef4b0f8145a:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/63-smart-mattress": {
     "sha256": "7121862496e17b620ed8909f38092624c3fe95043e52d7ad0550a8cbeadee5ae",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7121862496e17b620ed8909f38092624c3fe95043e52d7ad0550a8cbeadee5ae:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/64-air-quality": {
     "sha256": "5c435f8c4c0d05338a8da3cc5ef9784668f38f704061af8b07456bb42c934c08",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "5c435f8c4c0d05338a8da3cc5ef9784668f38f704061af8b07456bb42c934c08:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/65-smart-mirror": {
     "sha256": "aad5c9de5bdf471d51ef50addcfbf6ad33dccea5fdf6b764cea77c304f6e1dee",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "aad5c9de5bdf471d51ef50addcfbf6ad33dccea5fdf6b764cea77c304f6e1dee:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/66-pet-feeder": {
     "sha256": "451d6d113c8bcdb2f28426874a7d11ea225475518077b5e4894dcc908f52ae6f",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "451d6d113c8bcdb2f28426874a7d11ea225475518077b5e4894dcc908f52ae6f:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/67-water-fountain": {
     "sha256": "f45f614ee0f28633bfd42208e0c45d9f468bc4dbc2cf930743eda5fa7a9c95b7",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f45f614ee0f28633bfd42208e0c45d9f468bc4dbc2cf930743eda5fa7a9c95b7:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/68-pet-camera": {
     "sha256": "e6d7cbee998a0e49d470c01820b26d14803f75e7b0efc6adb8c6a5d93037a581",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e6d7cbee998a0e49d470c01820b26d14803f75e7b0efc6adb8c6a5d93037a581:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/69-litter-box": {
     "sha256": "72fb9712dd69bcb69fabfe81a6d416e3f23452ed0b8a355f7f4b4d3487e496de",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "72fb9712dd69bcb69fabfe81a6d416e3f23452ed0b8a355f7f4b4d3487e496de:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/70-pet-door": {
     "sha256": "79eb7b009392273e99a5ef2c86bfe8b59384863adcdecee34db1b1709f6f7913",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "79eb7b009392273e99a5ef2c86bfe8b59384863adcdecee34db1b1709f6f7913:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/71-aroma-diffuser": {
     "sha256": "c1429dc66468c29dc3bc428949f53b1550c6b23413090dd2e43fa33ec4d015f8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c1429dc66468c29dc3bc428949f53b1550c6b23413090dd2e43fa33ec4d015f8:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/72-alarm-clock": {
     "sha256": "74fe312ebd05e4faef315f509b65037888094cbc1a058691d8790221cff888ed",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "74fe312ebd05e4faef315f509b65037888094cbc1a058691d8790221cff888ed:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/73-weather-station": {
     "sha256": "92918c055a95c15b0209c1b413e58f9cebe35956d2cba7d8868fd2f4813bf2d1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "92918c055a95c15b0209c1b413e58f9cebe35956d2cba7d8868fd2f4813bf2d1:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/74-smart-planter": {
     "sha256": "710d69169e61ab4de07d1d0fe46898384c954e9a4b1382459549fa89943a18ef",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "710d69169e61ab4de07d1d0fe46898384c954e9a4b1382459549fa89943a18ef:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/75-aquarium": {
     "sha256": "cee68cc93d231b87933bfc4dc5efdc1a7bf8fbe3a7154743a6e562f09ad65b7a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "cee68cc93d231b87933bfc4dc5efdc1a7bf8fbe3a7154743a6e562f09ad65b7a:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/76-baby-monitor": {
     "sha256": "2ddfa40aab8d74e9465ace9a4dff4bb9bb8b465629e59f7fe6142195da94d0e8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2ddfa40aab8d74e9465ace9a4dff4bb9bb8b465629e59f7fe6142195da94d0e8:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/77-mailbox-sensor": {
     "sha256": "c4fb7b412c12716b5bd17eb119f53daa51536b74058d3c01ecf5945be3a2a004",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c4fb7b412c12716b5bd17eb119f53daa51536b74058d3c01ecf5945be3a2a004:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/78-smart-vent": {
     "sha256": "0843b30a7e8262de8c7a84ea0e9ff99fd04851d2c3a3893b4b69537f1c38f82d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0843b30a7e8262de8c7a84ea0e9ff99fd04851d2c3a3893b4b69537f1c38f82d:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/79-bird-feeder": {
     "sha256": "fa99eda928e7697299859ad093492357b060d5520dc9d34a86f2aa1b09b32ea3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fa99eda928e7697299859ad093492357b060d5520dc9d34a86f2aa1b09b32ea3:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "iot-panels/80-smart-bin": {
     "sha256": "6f17e55f0e5284587ee586a00cb5f1318d4a1fd796b92f8b05ede93db6378125",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6f17e55f0e5284587ee586a00cb5f1318d4a1fd796b92f8b05ede93db6378125:2:1f8aee19fe003312",
+    "imageWidth": 360,
+    "imageHeight": 360
   },
   "layout/a01-child-fixed": {
     "sha256": "6881c058aae58f56fd9baf4378a692da866d5e695f175cf69c36d917e4b56b78",
