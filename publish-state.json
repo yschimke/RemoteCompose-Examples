@@ -4368,163 +4368,283 @@
   },
   "python-samples/chart-funnel": {
     "sha256": "85d888e4318425e4fd18814ced3b617c82b6b890b5864a09f83c9371c231eb13",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "85d888e4318425e4fd18814ced3b617c82b6b890b5864a09f83c9371c231eb13:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-gauge-full": {
     "sha256": "a05cc47af243f313a17a22b9f2721b9937bbb9c0218551e9ee145a9e3e5373d8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a05cc47af243f313a17a22b9f2721b9937bbb9c0218551e9ee145a9e3e5373d8:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-gauge-half": {
     "sha256": "eb22f8e56560c5f906da540a105c113a612e172cadaa4bab26b7c274d6ef7b76",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "eb22f8e56560c5f906da540a105c113a612e172cadaa4bab26b7c274d6ef7b76:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-grouped-bar": {
     "sha256": "2030b7302f392dc807a95845b4cc1bc9418c183744bdd064023fd0debeda7f43",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2030b7302f392dc807a95845b4cc1bc9418c183744bdd064023fd0debeda7f43:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-heatmap": {
     "sha256": "c9f693f1a8bb27ac5697d8fbb939fa51d8df1e739c7f35754cdfcf7d08018243",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c9f693f1a8bb27ac5697d8fbb939fa51d8df1e739c7f35754cdfcf7d08018243:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-histogram": {
     "sha256": "6a50ad8cd0fd093f847a439f7a661dabf2dfe412843fd8906ffcd19f27624625",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6a50ad8cd0fd093f847a439f7a661dabf2dfe412843fd8906ffcd19f27624625:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-horizontal-bar": {
     "sha256": "da39593a7d86caad259fd633300de0a21f6be9da9470be3030d67a84aea815c7",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "da39593a7d86caad259fd633300de0a21f6be9da9470be3030d67a84aea815c7:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-icon-bar": {
     "sha256": "96857c9498e555eb01a147ec353332c2e1999e64b4474705c5cac2c8a0e18b2a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "96857c9498e555eb01a147ec353332c2e1999e64b4474705c5cac2c8a0e18b2a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-kpi-dashboard": {
     "sha256": "7f91aed529faedd4fa7c7205860febc2e3d0bd94f27809f63233fef38519eeea",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7f91aed529faedd4fa7c7205860febc2e3d0bd94f27809f63233fef38519eeea:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-lollipop": {
     "sha256": "8a2ae7e0bc65737114d538208e1d6cbcfb2d52cdf75bed74e1c7137fbacdaf5e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8a2ae7e0bc65737114d538208e1d6cbcfb2d52cdf75bed74e1c7137fbacdaf5e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-marimekko": {
     "sha256": "81741d34ffd41db79ab744dfab246b0535c352f61ff85d2b99d4f10344e481ab",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "81741d34ffd41db79ab744dfab246b0535c352f61ff85d2b99d4f10344e481ab:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-matrix-bubble": {
     "sha256": "4759acb39ef8b102ef042446af8249823d375030ba46bcbf9191e15476931006",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4759acb39ef8b102ef042446af8249823d375030ba46bcbf9191e15476931006:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-multi-line": {
     "sha256": "721b73a3213ab006cbb4ee42a226d367c90a77e4910803b378f3628ee8f12c26",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "721b73a3213ab006cbb4ee42a226d367c90a77e4910803b378f3628ee8f12c26:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-nested-donut": {
     "sha256": "3473769c3569911b4795fddcaf359c91b8aaee59fd580949b4eae369733c58e5",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3473769c3569911b4795fddcaf359c91b8aaee59fd580949b4eae369733c58e5:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-network": {
     "sha256": "6e2b7342a149da175b62c00d98602d147899f3082e29f9280bf7ac92a65f7dd1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6e2b7342a149da175b62c00d98602d147899f3082e29f9280bf7ac92a65f7dd1:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-nightingale": {
     "sha256": "cc3d7fe1c8db96237855e335941a659ea0c3112c2b37966c132aafb456a79fbb",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "cc3d7fe1c8db96237855e335941a659ea0c3112c2b37966c132aafb456a79fbb:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-pareto": {
     "sha256": "aa083d3cab234f4fe679e9f37486d0f0f28a4723c4f98a10c98e088bce079b38",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "aa083d3cab234f4fe679e9f37486d0f0f28a4723c4f98a10c98e088bce079b38:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-pie": {
     "sha256": "b792e3a95b3d331e080415452faef1f345ae8fb6ac2e91183c62932ba005b49a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "b792e3a95b3d331e080415452faef1f345ae8fb6ac2e91183c62932ba005b49a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-polar-area": {
     "sha256": "eec568e132d94faf145d209c0eb1658f21dcd86df68600ba1a54b96900554918",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "eec568e132d94faf145d209c0eb1658f21dcd86df68600ba1a54b96900554918:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-progress-ring": {
     "sha256": "356bdf6425dda0414a921f7c627f4a06994769f4b7287ac8c8dd0ec0c98d2989",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "356bdf6425dda0414a921f7c627f4a06994769f4b7287ac8c8dd0ec0c98d2989:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-pyramid": {
     "sha256": "028557601fdf5d9ac20b5c0762be0abb4d46af95a1eba0f88ecf0804dfdda840",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "028557601fdf5d9ac20b5c0762be0abb4d46af95a1eba0f88ecf0804dfdda840:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-radar-filled": {
     "sha256": "8b02e47d2a3372871260570d3fb03760016ebf8ae73cf77a162c8838382b889b",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8b02e47d2a3372871260570d3fb03760016ebf8ae73cf77a162c8838382b889b:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-radial-bar": {
     "sha256": "48328e2ee546dd51b23e9929e3c6a955242027654f7e4b5f139cec7ffdbb7809",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "48328e2ee546dd51b23e9929e3c6a955242027654f7e4b5f139cec7ffdbb7809:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-range-bar": {
     "sha256": "0451a002dcc38633685cc48c47869261b57cd0e5fa06ddba060b86c7b007bb7d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0451a002dcc38633685cc48c47869261b57cd0e5fa06ddba060b86c7b007bb7d:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-sankey-simple": {
     "sha256": "f45e1614370e57ac07a5ceb95bf690b24f53cbf89e9df7bdad3865bdcef4a5c4",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f45e1614370e57ac07a5ceb95bf690b24f53cbf89e9df7bdad3865bdcef4a5c4:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-scatter-regression": {
     "sha256": "bac37cbfbe4c1985976c49c34d1f93d9b699d4b8473120cac5417b4d3c149130",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bac37cbfbe4c1985976c49c34d1f93d9b699d4b8473120cac5417b4d3c149130:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-semi-donut": {
     "sha256": "9f7391d81c73a256e3f8f9b5054e3f6833c4d5ac0ee496717962217f4002540f",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9f7391d81c73a256e3f8f9b5054e3f6833c4d5ac0ee496717962217f4002540f:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-slope": {
     "sha256": "f2e7da3f5869e27ab3bbe040722544ed88c4a2f8a5592364bc44e3f0b94a4863",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f2e7da3f5869e27ab3bbe040722544ed88c4a2f8a5592364bc44e3f0b94a4863:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-span": {
     "sha256": "0f5445175c381d88bc4b71f6edfd2cb3919abd7eb33247f8137ae9e3fd98ad67",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0f5445175c381d88bc4b71f6edfd2cb3919abd7eb33247f8137ae9e3fd98ad67:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-sparkline": {
     "sha256": "d9dbceeee90c3df88c180bc4a98afb8eef19151b98bd4733afac7276681b24c3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d9dbceeee90c3df88c180bc4a98afb8eef19151b98bd4733afac7276681b24c3:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-stacked-area": {
     "sha256": "36de9cd67e349e5e3f9f02b84fc9ecc007ac16f8b3d976e8bcda7dad7374e4ca",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "36de9cd67e349e5e3f9f02b84fc9ecc007ac16f8b3d976e8bcda7dad7374e4ca:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-stacked-bar": {
     "sha256": "154db62246b31ea5dd3605d374a450d10ece2a30697e924b1a7cda35f5f3e956",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "154db62246b31ea5dd3605d374a450d10ece2a30697e924b1a7cda35f5f3e956:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-step-line": {
     "sha256": "7aeb71bf6a8d889f3851ca9b157da7f2cbc7c97c7b0854b039158cf3a40b7cbd",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7aeb71bf6a8d889f3851ca9b157da7f2cbc7c97c7b0854b039158cf3a40b7cbd:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-timeline": {
     "sha256": "c6da77c94ae5c81dc6456ab7061e0f91cfb985659df26a61d869362970d6222c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c6da77c94ae5c81dc6456ab7061e0f91cfb985659df26a61d869362970d6222c:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-tornado": {
     "sha256": "adea7da888227bfaf247f5578010f58e4e87eac6819d657a39638f6c0f780e46",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "adea7da888227bfaf247f5578010f58e4e87eac6819d657a39638f6c0f780e46:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-treemap": {
     "sha256": "698f1ef86951ef34c0d4083f3181afee9dbcfff1ae8be315cd28027a3ca62832",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "698f1ef86951ef34c0d4083f3181afee9dbcfff1ae8be315cd28027a3ca62832:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-waffle": {
     "sha256": "6d23cc8d652c5925053b5fad185bcd5c9d1ce1e097fd669d7aeeb55e961d0141",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "6d23cc8d652c5925053b5fad185bcd5c9d1ce1e097fd669d7aeeb55e961d0141:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/chart-waterfall": {
     "sha256": "e7a8dbc2de2f6f0bf67529949d15d5772e4a75bd1736aa96df3b28d986367b20",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e7a8dbc2de2f6f0bf67529949d15d5772e4a75bd1736aa96df3b28d986367b20:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-background": {
     "sha256": "1ef2593cb9d6b977f75d27818c8570016a72802a9890d6109dcf539ebdbe7006",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1ef2593cb9d6b977f75d27818c8570016a72802a9890d6109dcf539ebdbe7006:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-border": {
     "sha256": "a21e6f4f24c1df6bdbd5fa5bc524382d7f6c59e5ebf7d43109243b53e4542843",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a21e6f4f24c1df6bdbd5fa5bc524382d7f6c59e5ebf7d43109243b53e4542843:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-box": {
     "sha256": "04ac4afa65d73334e0faa53d4c546eacbfdf4ad4fde914077bebd0c1c1ab1692",

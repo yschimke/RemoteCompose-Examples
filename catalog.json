@@ -10605,6 +10605,686 @@
       ]
     },
     {
+      "componentId": "python-samples/chart-funnel",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Funnel chart showing sales pipeline stages",
+      "sourceFile": "docs/python-samples/chart-funnel/doc.rc",
+      "rcDocument": "documents/python-samples/chart-funnel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-funnel.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-gauge-full",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Full circle gauge showing temperature like a speedometer",
+      "sourceFile": "docs/python-samples/chart-gauge-full/doc.rc",
+      "rcDocument": "documents/python-samples/chart-gauge-full.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-gauge-full.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-gauge-half",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Half-circle gauge showing CPU usage at 65%",
+      "sourceFile": "docs/python-samples/chart-gauge-half/doc.rc",
+      "rcDocument": "documents/python-samples/chart-gauge-half.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-gauge-half.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-grouped-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Grouped bar chart showing sales by product",
+      "sourceFile": "docs/python-samples/chart-grouped-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-grouped-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-grouped-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-heatmap",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Heatmap grid showing weekly activity across 7 days and 5 time slots",
+      "sourceFile": "docs/python-samples/chart-heatmap/doc.rc",
+      "rcDocument": "documents/python-samples/chart-heatmap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-heatmap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-histogram",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Histogram - Test Score Distribution",
+      "sourceFile": "docs/python-samples/chart-histogram/doc.rc",
+      "rcDocument": "documents/python-samples/chart-histogram.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-histogram.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-horizontal-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Horizontal bar chart showing top programming languages",
+      "sourceFile": "docs/python-samples/chart-horizontal-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-horizontal-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-horizontal-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-icon-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Pictorial Bar Chart - Fruit Count",
+      "sourceFile": "docs/python-samples/chart-icon-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-icon-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-icon-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-kpi-dashboard",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Business Dashboard - KPI dashboard with 4 mini-charts",
+      "sourceFile": "docs/python-samples/chart-kpi-dashboard/doc.rc",
+      "rcDocument": "documents/python-samples/chart-kpi-dashboard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-kpi-dashboard.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-lollipop",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Lollipop chart showing category scores with thin lines and dots",
+      "sourceFile": "docs/python-samples/chart-lollipop/doc.rc",
+      "rcDocument": "documents/python-samples/chart-lollipop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-lollipop.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-marimekko",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Marimekko chart showing market segments with variable-width columns",
+      "sourceFile": "docs/python-samples/chart-marimekko/doc.rc",
+      "rcDocument": "documents/python-samples/chart-marimekko.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-marimekko.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-matrix-bubble",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Correlation Matrix - 5x5 bubble matrix with size and color encoding",
+      "sourceFile": "docs/python-samples/chart-matrix-bubble/doc.rc",
+      "rcDocument": "documents/python-samples/chart-matrix-bubble.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-matrix-bubble.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-multi-line",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Multi-line chart showing stock performance of three companies",
+      "sourceFile": "docs/python-samples/chart-multi-line/doc.rc",
+      "rcDocument": "documents/python-samples/chart-multi-line.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-multi-line.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-nested-donut",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Nested donut chart showing budget allocation with outer categories and inner subcategories",
+      "sourceFile": "docs/python-samples/chart-nested-donut/doc.rc",
+      "rcDocument": "documents/python-samples/chart-nested-donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-nested-donut.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-network",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Network Graph - Team Connections",
+      "sourceFile": "docs/python-samples/chart-network/doc.rc",
+      "rcDocument": "documents/python-samples/chart-network.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-network.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-nightingale",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Monthly Rainfall - Nightingale rose chart with 12 sectors",
+      "sourceFile": "docs/python-samples/chart-nightingale/doc.rc",
+      "rcDocument": "documents/python-samples/chart-nightingale.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-nightingale.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-pareto",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Pareto Chart - Defect Analysis",
+      "sourceFile": "docs/python-samples/chart-pareto/doc.rc",
+      "rcDocument": "documents/python-samples/chart-pareto.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-pareto.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-pie",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Pie chart showing market share distribution",
+      "sourceFile": "docs/python-samples/chart-pie/doc.rc",
+      "rcDocument": "documents/python-samples/chart-pie.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-pie.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-polar-area",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Polar area (Nightingale) chart showing wind direction data",
+      "sourceFile": "docs/python-samples/chart-polar-area/doc.rc",
+      "rcDocument": "documents/python-samples/chart-polar-area.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-polar-area.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-progress-ring",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Daily Goals - Three concentric progress rings",
+      "sourceFile": "docs/python-samples/chart-progress-ring/doc.rc",
+      "rcDocument": "documents/python-samples/chart-progress-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-progress-ring.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-pyramid",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Population pyramid with back-to-back horizontal bars for age distribution",
+      "sourceFile": "docs/python-samples/chart-pyramid/doc.rc",
+      "rcDocument": "documents/python-samples/chart-pyramid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-pyramid.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-radar-filled",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Radar chart with two overlapping filled polygons for player stats",
+      "sourceFile": "docs/python-samples/chart-radar-filled/doc.rc",
+      "rcDocument": "documents/python-samples/chart-radar-filled.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-radar-filled.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-radial-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Department Scores - Radial bar chart with 5 categories",
+      "sourceFile": "docs/python-samples/chart-radial-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-radial-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-radial-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-range-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Range bar chart showing project timeline like a Gantt chart",
+      "sourceFile": "docs/python-samples/chart-range-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-range-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-range-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-sankey-simple",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Traffic Sources - Simplified Sankey flow diagram",
+      "sourceFile": "docs/python-samples/chart-sankey-simple/doc.rc",
+      "rcDocument": "documents/python-samples/chart-sankey-simple.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-sankey-simple.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-scatter-regression",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Scatter plot with trend line showing study hours vs test score",
+      "sourceFile": "docs/python-samples/chart-scatter-regression/doc.rc",
+      "rcDocument": "documents/python-samples/chart-scatter-regression.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-scatter-regression.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-semi-donut",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Semi-circle donut chart showing goal progress at 73 percent",
+      "sourceFile": "docs/python-samples/chart-semi-donut/doc.rc",
+      "rcDocument": "documents/python-samples/chart-semi-donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-semi-donut.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-slope",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Rankings 2023 vs 2024 - Slope chart showing rank changes",
+      "sourceFile": "docs/python-samples/chart-slope/doc.rc",
+      "rcDocument": "documents/python-samples/chart-slope.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-slope.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-span",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Span/Range Chart - Temperature Range",
+      "sourceFile": "docs/python-samples/chart-span/doc.rc",
+      "rcDocument": "documents/python-samples/chart-span.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-span.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-sparkline",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Multiple sparklines showing key metrics",
+      "sourceFile": "docs/python-samples/chart-sparkline/doc.rc",
+      "rcDocument": "documents/python-samples/chart-sparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-sparkline.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-stacked-area",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked Area Chart - Revenue Streams",
+      "sourceFile": "docs/python-samples/chart-stacked-area/doc.rc",
+      "rcDocument": "documents/python-samples/chart-stacked-area.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-stacked-area.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-stacked-bar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stacked bar chart showing quarterly revenue by region",
+      "sourceFile": "docs/python-samples/chart-stacked-bar/doc.rc",
+      "rcDocument": "documents/python-samples/chart-stacked-bar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-stacked-bar.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-step-line",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Step line chart showing server load over time",
+      "sourceFile": "docs/python-samples/chart-step-line/doc.rc",
+      "rcDocument": "documents/python-samples/chart-step-line.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-step-line.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-timeline",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Project Milestones - Horizontal timeline with 6 events",
+      "sourceFile": "docs/python-samples/chart-timeline/doc.rc",
+      "rcDocument": "documents/python-samples/chart-timeline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-timeline.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-tornado",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Sensitivity Analysis - Tornado butterfly chart with 8 parameter pairs",
+      "sourceFile": "docs/python-samples/chart-tornado/doc.rc",
+      "rcDocument": "documents/python-samples/chart-tornado.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-tornado.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-treemap",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Treemap chart showing disk usage by file category",
+      "sourceFile": "docs/python-samples/chart-treemap/doc.rc",
+      "rcDocument": "documents/python-samples/chart-treemap.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-treemap.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-waffle",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Waffle chart showing 73% task completion",
+      "sourceFile": "docs/python-samples/chart-waffle/doc.rc",
+      "rcDocument": "documents/python-samples/chart-waffle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-waffle.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/chart-waterfall",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Waterfall chart showing profit analysis",
+      "sourceFile": "docs/python-samples/chart-waterfall/doc.rc",
+      "rcDocument": "documents/python-samples/chart-waterfall.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/chart-waterfall.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-background",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierBackground.kt — ARGB int and float backgrounds",
+      "sourceFile": "docs/python-samples/demo-background/doc.rc",
+      "rcDocument": "documents/python-samples/demo-background.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-background.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-border",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierBorder.kt — rectangular and rounded borders",
+      "sourceFile": "docs/python-samples/demo-border/doc.rc",
+      "rcDocument": "documents/python-samples/demo-border.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-border.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",
