@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "4a4806ea4268f93d772762b421c616044db111bd1ad4b2c13e8dc4ba846f1e8e",
   "provenance": "github/Origami/pythonRcCreation/samples/output/canvas_round_rects.rc",

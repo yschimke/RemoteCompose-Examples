@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "bf26797715beec189ec62473c2dd84a2fd79df68d61684bd260e642976550295",
   "provenance": "github/Origami/pythonRcCreation/samples/output/demo_pressure_gauge.rc",

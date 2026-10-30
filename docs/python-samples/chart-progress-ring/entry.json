@@ -7,6 +7,8 @@
     "json"
   ],
   "tags": [
+    "gauge",
+    "graph",
     "python"
   ],
   "sha256": "356bdf6425dda0414a921f7c627f4a06994769f4b7287ac8c8dd0ec0c98d2989",

@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "d433ca475f95a3842eebbde2c1ed45ee22de177c271b341b12ed9382bd59609e",
   "provenance": "github/Origami/pythonRcCreation/samples/output/widget_weather.rc",

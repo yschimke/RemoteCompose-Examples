@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "c328d2b35e2c771cde4dc4432cceefe4deaf747b4613f1335fc9721a597f71fe",
   "provenance": "github/Origami/pythonRcCreation/samples/output/canvas_ovals.rc",

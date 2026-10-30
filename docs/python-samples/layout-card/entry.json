@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "075ca26121150fecd0a46553474b5758899ba62e52325f4b45cfe18747ee8f51",
   "provenance": "github/Origami/pythonRcCreation/samples/output/layout_card.rc",

@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "de8b3dbd854dc78a23a69356cb2e7726b3e1c281494b1021dbfda5a3038491da",
   "provenance": "github/Origami/pythonRcCreation/samples/output/demo_flow.rc",

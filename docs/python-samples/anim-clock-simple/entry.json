@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "421c9f43466fa7966942483ca1a2d753341ef8b0f682991f8d1283a8fc9f85f5",
   "provenance": "github/Origami/pythonRcCreation/samples/output/anim_clock_simple.rc",

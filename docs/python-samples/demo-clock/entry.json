@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "246b6516a7676a18464a2170dbd9466ce75dbe828b65b9c22f53c681488f6e44",
   "provenance": "github/Origami/pythonRcCreation/samples/output/demo_clock.rc",

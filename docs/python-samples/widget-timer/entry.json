@@ -7,7 +7,8 @@
     "json"
   ],
   "tags": [
-    "python"
+    "python",
+    "test"
   ],
   "sha256": "977dae58474113674040c16f80f29b51e50439e51ca7cfa83b620cd2546728b5",
   "provenance": "github/Origami/pythonRcCreation/samples/output/widget_timer.rc",
