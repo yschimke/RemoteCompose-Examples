@@ -21755,6 +21755,686 @@
           "height": 560
         }
       ]
+    },
+    {
+      "componentId": "vis-set-10/phy-cm-00031",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "A pendulum's potential and kinetic energy as stacked bars of constant total height through one swing. #mechanics #physics",
+      "sourceFile": "docs/vis-set-10/phy-cm-00031/doc.rc",
+      "rcDocument": "documents/vis-set-10/phy-cm-00031.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/phy-cm-00031.png",
+          "width": 620,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/phy-cm-00032",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Elastic, inelastic and perfectly inelastic collisions as before-and-after cards. #mechanics #physics",
+      "sourceFile": "docs/vis-set-10/phy-cm-00032/doc.rc",
+      "rcDocument": "documents/vis-set-10/phy-cm-00032.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/phy-cm-00032.png",
+          "width": 500,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/phy-cm-00033",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Pendulum period as a 3D surface over length and amplitude, nearly flat in amplitude until large swings. #3d #animated #mechanics #physics",
+      "sourceFile": "docs/vis-set-10/phy-cm-00033/doc.rc",
+      "rcDocument": "documents/vis-set-10/phy-cm-00033.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/phy-cm-00033.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/phy-cm-00034",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Four rolling objects as distance-time paths, finishing in an order set only by how their mass is arranged. #mechanics #physics",
+      "sourceFile": "docs/vis-set-10/phy-cm-00034/doc.rc",
+      "rcDocument": "documents/vis-set-10/phy-cm-00034.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/phy-cm-00034.png",
+          "width": 580,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/soc-anth-00010",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Five human migration routes as ribbons on a draggable textured globe, with approximate dates. #3d #demography #interactive #society #input",
+      "sourceFile": "docs/vis-set-10/soc-anth-00010/doc.rc",
+      "rcDocument": "documents/vis-set-10/soc-anth-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/soc-anth-00010.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/soc-anth-00011",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Kinship terms for six relations across four languages, showing which distinctions each language keeps. #anthropology #society",
+      "sourceFile": "docs/vis-set-10/soc-anth-00011/doc.rc",
+      "rcDocument": "documents/vis-set-10/soc-anth-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/soc-anth-00011.png",
+          "width": 620,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/soc-psyc-00008",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Cumulative response curves for four reinforcement schedules on a shared clock. #animated #society",
+      "sourceFile": "docs/vis-set-10/soc-psyc-00008/doc.rc",
+      "rcDocument": "documents/vis-set-10/soc-psyc-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/soc-psyc-00008.png",
+          "width": 600,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-10/soc-psyc-00009",
+      "section": "rcjson",
+      "group": "vis-set-10",
+      "caption": "Synaptic density against age with pruning shown as particles leaving. #particles #society #animated",
+      "sourceFile": "docs/vis-set-10/soc-psyc-00009/doc.rc",
+      "rcDocument": "documents/vis-set-10/soc-psyc-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-10/soc-psyc-00009.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/bio-anat-00029",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Bone mineral density across a lifetime for both sexes with the clinical thresholds marked. #anatomy #biology",
+      "sourceFile": "docs/vis-set-11/bio-anat-00029/doc.rc",
+      "rcDocument": "documents/vis-set-11/bio-anat-00029.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/bio-anat-00029.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/chm-cr-00011",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Gas molecules above a catalytic surface with its adsorption sites drawn in 3D. #3d #animated #chemistry #mechanism #particles",
+      "sourceFile": "docs/vis-set-11/chm-cr-00011/doc.rc",
+      "rcDocument": "documents/vis-set-11/chm-cr-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/chm-cr-00011.png",
+          "width": 540,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/csc-ca-00011",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Six instructions advancing through a five-stage CPU pipeline, one stage per clock. #animated #computing",
+      "sourceFile": "docs/vis-set-11/csc-ca-00011/doc.rc",
+      "rcDocument": "documents/vis-set-11/csc-ca-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/csc-ca-00011.png",
+          "width": 620,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/ear-mete-00011",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "The three-cell atmospheric circulation by latitude, draggable, with the desert bands explained. #earth #interactive #input",
+      "sourceFile": "docs/vis-set-11/ear-mete-00011/doc.rc",
+      "rcDocument": "documents/vis-set-11/ear-mete-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/ear-mete-00011.png",
+          "width": 580,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/eng-ee-00011",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "The radio spectrum as a logarithmic bar with band allocations and what each is physically good for. #engineering #signals",
+      "sourceFile": "docs/vis-set-11/eng-ee-00011/doc.rc",
+      "rcDocument": "documents/vis-set-11/eng-ee-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/eng-ee-00011.png",
+          "width": 620,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/geo-pg-00001",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "A mountain range as a 3D surface rising and eroding on one clock. #3d #animated #geography #geology",
+      "sourceFile": "docs/vis-set-11/geo-pg-00001/doc.rc",
+      "rcDocument": "documents/vis-set-11/geo-pg-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/geo-pg-00001.png",
+          "width": 540,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/geo-pg-00002",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Water as particles down a steep straight channel and a shallow meandering one. #geography #geology #particles #animated",
+      "sourceFile": "docs/vis-set-11/geo-pg-00002/doc.rc",
+      "rcDocument": "documents/vis-set-11/geo-pg-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/geo-pg-00002.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/geo-pg-00003",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Rainfall across a continent with the four separate mechanisms that produce deserts marked. #climate #geography #interactive #input",
+      "sourceFile": "docs/vis-set-11/geo-pg-00003/doc.rc",
+      "rcDocument": "documents/vis-set-11/geo-pg-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/geo-pg-00003.png",
+          "width": 580,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/geo-pg-00004",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "The Whittaker biome diagram, placing eight biomes by temperature and rainfall alone. #climate #geography",
+      "sourceFile": "docs/vis-set-11/geo-pg-00004/doc.rc",
+      "rcDocument": "documents/vis-set-11/geo-pg-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/geo-pg-00004.png",
+          "width": 600,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/med-mp-00009",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Complication risk over 30 days for open against keyhole surgery, with the operative trade-offs tabulated. #medicine #surgery",
+      "sourceFile": "docs/vis-set-11/med-mp-00009/doc.rc",
+      "rcDocument": "documents/vis-set-11/med-mp-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/med-mp-00009.png",
+          "width": 580,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/med-mp-00010",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Four imaging modalities compared on soft-tissue detail, radiation dose and time. #imaging #medicine",
+      "sourceFile": "docs/vis-set-11/med-mp-00010/doc.rc",
+      "rcDocument": "documents/vis-set-11/med-mp-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/med-mp-00010.png",
+          "width": 600,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/med-phar-00007",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Agonist, partial agonist, antagonist and inverse agonist at the same receptor, with the resulting signal. #medicine #pharmacology",
+      "sourceFile": "docs/vis-set-11/med-phar-00007/doc.rc",
+      "rcDocument": "documents/vis-set-11/med-phar-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/med-phar-00007.png",
+          "width": 620,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/med-phar-00008",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Plasma concentration for one large dose against four small ones, against a therapeutic window. #medicine #pharmacology",
+      "sourceFile": "docs/vis-set-11/med-phar-00008/doc.rc",
+      "rcDocument": "documents/vis-set-11/med-phar-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/med-phar-00008.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/mth-trig-00013",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "A rotating radius on the unit circle tied across to the sine curve it traces. #animated #maths",
+      "sourceFile": "docs/vis-set-11/mth-trig-00013/doc.rc",
+      "rcDocument": "documents/vis-set-11/mth-trig-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/mth-trig-00013.png",
+          "width": 620,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/phy-cm-00035",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "A spinning gyroscope with the gravitational torque and the resulting precession drawn as perpendicular vectors. #3d #animated #physics",
+      "sourceFile": "docs/vis-set-11/phy-cm-00035/doc.rc",
+      "rcDocument": "documents/vis-set-11/phy-cm-00035.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/phy-cm-00035.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-11/phy-fm-00036",
+      "section": "rcjson",
+      "group": "vis-set-11",
+      "caption": "Velocity profiles across a pipe at four Reynolds numbers, from parabolic to flat-cored. #fluids #physics",
+      "sourceFile": "docs/vis-set-11/phy-fm-00036/doc.rc",
+      "rcDocument": "documents/vis-set-11/phy-fm-00036.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-11/phy-fm-00036.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/bio-anat-00030",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "The muscle force-velocity curve including the eccentric branch above maximum force. #anatomy #biology",
+      "sourceFile": "docs/vis-set-12/bio-anat-00030/doc.rc",
+      "rcDocument": "documents/vis-set-12/bio-anat-00030.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/bio-anat-00030.png",
+          "width": 580,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/bio-anat-00031",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "A neuron in 3D with a branching dendritic tree and an action potential travelling down the axon. #3d #animated #biology",
+      "sourceFile": "docs/vis-set-12/bio-anat-00031/doc.rc",
+      "rcDocument": "documents/vis-set-12/bio-anat-00031.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/bio-anat-00031.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/bio-anat-00032",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Blood pressure through the circulation with the pulse running and the arteriolar drop marked. #animated #biology",
+      "sourceFile": "docs/vis-set-12/bio-anat-00032/doc.rc",
+      "rcDocument": "documents/vis-set-12/bio-anat-00032.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/bio-anat-00032.png",
+          "width": 600,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/bio-anat-00033",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Oxygen and carbon dioxide crossing the alveolar membrane as particles, with the lung's dimensions. #biology #particles #animated",
+      "sourceFile": "docs/vis-set-12/bio-anat-00033/doc.rc",
+      "rcDocument": "documents/vis-set-12/bio-anat-00033.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/bio-anat-00033.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/chm-cr-00012",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Forward and reverse reaction rates converging beside the concentrations they produce. #chemistry #mechanism",
+      "sourceFile": "docs/vis-set-12/chm-cr-00012/doc.rc",
+      "rcDocument": "documents/vis-set-12/chm-cr-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/chm-cr-00012.png",
+          "width": 600,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/csc-ca-00012",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "CPU and GPU die area budgets drawn to the same scale, showing the different allocation. #computing",
+      "sourceFile": "docs/vis-set-12/csc-ca-00012/doc.rc",
+      "rcDocument": "documents/vis-set-12/csc-ca-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/csc-ca-00012.png",
+          "width": 600,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/ear-mete-00012",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Six cloud types placed by altitude with what each one indicates about coming weather. #climate #earth",
+      "sourceFile": "docs/vis-set-12/ear-mete-00012/doc.rc",
+      "rcDocument": "documents/vis-set-12/ear-mete-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/ear-mete-00012.png",
+          "width": 520,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/eco-fe-00016",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "A schematic market index on linear and logarithmic axes, showing how the axis choice hides or reveals crashes. #economics",
+      "sourceFile": "docs/vis-set-12/eco-fe-00016/doc.rc",
+      "rcDocument": "documents/vis-set-12/eco-fe-00016.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/eco-fe-00016.png",
+          "width": 600,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/eco-fe-00017",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Two portfolios with the same expected return and different volatility, on one clock. #animated #economics",
+      "sourceFile": "docs/vis-set-12/eco-fe-00017/doc.rc",
+      "rcDocument": "documents/vis-set-12/eco-fe-00017.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/eco-fe-00017.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/eco-fe-00018",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Random portfolios as particles in risk-return space with the efficient frontier as their upper edge. #economics #particles #animated",
+      "sourceFile": "docs/vis-set-12/eco-fe-00018/doc.rc",
+      "rcDocument": "documents/vis-set-12/eco-fe-00018.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/eco-fe-00018.png",
+          "width": 580,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/eco-fe-00019",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Present value of a twenty-year cash stream with a draggable discount rate. #economics #interactive #input",
+      "sourceFile": "docs/vis-set-12/eco-fe-00019/doc.rc",
+      "rcDocument": "documents/vis-set-12/eco-fe-00019.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/eco-fe-00019.png",
+          "width": 580,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/eng-ce-00012",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Beam, arch and suspension bridges as 3D forms with the spans each structural type can reach. #3d #animated #engineering",
+      "sourceFile": "docs/vis-set-12/eng-ce-00012/doc.rc",
+      "rcDocument": "documents/vis-set-12/eng-ce-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/eng-ce-00012.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/fin-acco-00011",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "A cash flow statement as a 3D bridge from opening to closing cash through three sections. #3d #animated #finance",
+      "sourceFile": "docs/vis-set-12/fin-acco-00011/doc.rc",
+      "rcDocument": "documents/vis-set-12/fin-acco-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/fin-acco-00011.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/mth-trig-00014",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Two sine waves and their sum, with the phase between them draggable from in-step to opposed. #interactive #maths #input",
+      "sourceFile": "docs/vis-set-12/mth-trig-00014/doc.rc",
+      "rcDocument": "documents/vis-set-12/mth-trig-00014.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/mth-trig-00014.png",
+          "width": 580,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/phy-fm-00037",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "The turbulent energy cascade on log axes with the inertial range and its -5/3 slope marked. #fluids #physics",
+      "sourceFile": "docs/vis-set-12/phy-fm-00037/doc.rc",
+      "rcDocument": "documents/vis-set-12/phy-fm-00037.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/phy-fm-00037.png",
+          "width": 600,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-12/phy-fm-00038",
+      "section": "rcjson",
+      "group": "vis-set-12",
+      "caption": "Four vortices from a bath drain to a hurricane with their sizes and lifetimes. #fluids #physics",
+      "sourceFile": "docs/vis-set-12/phy-fm-00038/doc.rc",
+      "rcDocument": "documents/vis-set-12/phy-fm-00038.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-12/phy-fm-00038.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
     }
   ]
 }
