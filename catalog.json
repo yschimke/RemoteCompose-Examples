@@ -22435,6 +22435,278 @@
           "height": 620
         }
       ]
+    },
+    {
+      "componentId": "vis-set-13/ast-aste-00004",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "The asteroid belt's population against distance with the Kirkwood gaps at resonances with Jupiter. ",
+      "sourceFile": "docs/vis-set-13/ast-aste-00004/doc.rc",
+      "rcDocument": "documents/vis-set-13/ast-aste-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/ast-aste-00004.png",
+          "width": 640,
+          "height": 524
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/ast-moon-00003",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Jupiter and its four Galilean moons on their real relative periods, turnable by dragging. #3d #animated #interactive #input",
+      "sourceFile": "docs/vis-set-13/ast-moon-00003/doc.rc",
+      "rcDocument": "documents/vis-set-13/ast-moon-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/ast-moon-00003.png",
+          "width": 620,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/ast-plan-00002",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Gas molecules escaping a planet beside escape velocities for five bodies and what each can hold. #particles #animated",
+      "sourceFile": "docs/vis-set-13/ast-plan-00002/doc.rc",
+      "rcDocument": "documents/vis-set-13/ast-plan-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/ast-plan-00002.png",
+          "width": 640,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/ast-ss-00001",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Six planets orbiting the Sun on torus orbit rings at their true relative periods, radii compressed to fit. #3d #animated",
+      "sourceFile": "docs/vis-set-13/ast-ss-00001/doc.rc",
+      "rcDocument": "documents/vis-set-13/ast-ss-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/ast-ss-00001.png",
+          "width": 640,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/bio-anat-00034",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "A travelling wave of contraction moving a bolus along the gut, with transit times for each section. #animated #biology",
+      "sourceFile": "docs/vis-set-13/bio-anat-00034/doc.rc",
+      "rcDocument": "documents/vis-set-13/bio-anat-00034.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/bio-anat-00034.png",
+          "width": 620,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/chm-cr-00013",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Colliding particles beside a first-order rate plot, showing that rate follows the number of encounters. #chemistry #particles #animated",
+      "sourceFile": "docs/vis-set-13/chm-cr-00013/doc.rc",
+      "rcDocument": "documents/vis-set-13/chm-cr-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/chm-cr-00013.png",
+          "width": 620,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/csc-ca-00013",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Memory levels from registers to disk with latency on a logarithmic scale and a human-time column. #computing",
+      "sourceFile": "docs/vis-set-13/csc-ca-00013/doc.rc",
+      "rcDocument": "documents/vis-set-13/csc-ca-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/csc-ca-00013.png",
+          "width": 620,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/ear-mete-00013",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "A thunderstorm cross-section with a draggable scrubber through cumulus, mature and dissipating stages. #earth #interactive #input",
+      "sourceFile": "docs/vis-set-13/ear-mete-00013/doc.rc",
+      "rcDocument": "documents/vis-set-13/ear-mete-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/ear-mete-00013.png",
+          "width": 640,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/eng-ce-00013",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "A tall building's gravity and wind load paths, with the overturning moment growing as the square of height. #engineering",
+      "sourceFile": "docs/vis-set-13/eng-ce-00013/doc.rc",
+      "rcDocument": "documents/vis-set-13/eng-ce-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/eng-ce-00013.png",
+          "width": 620,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/his-mh-00005",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "The four occupation zones of Germany with Berlin divided the same way deep inside the Soviet zone. #history",
+      "sourceFile": "docs/vis-set-13/his-mh-00005/doc.rc",
+      "rcDocument": "documents/vis-set-13/his-mh-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/his-mh-00005.png",
+          "width": 620,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/his-mh-00006",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "The five Normandy landing beaches along eighty kilometres of coast with the strength landed and casualties at each. #history",
+      "sourceFile": "docs/vis-set-13/his-mh-00006/doc.rc",
+      "rcDocument": "documents/vis-set-13/his-mh-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/his-mh-00006.png",
+          "width": 640,
+          "height": 504
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/his-mh-00007",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Napoleon's 1812 campaign as a band whose width is army strength, with retreat temperatures beneath. #history",
+      "sourceFile": "docs/vis-set-13/his-mh-00007/doc.rc",
+      "rcDocument": "documents/vis-set-13/his-mh-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/his-mh-00007.png",
+          "width": 640,
+          "height": 489
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/his-mh-00008",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Four outlines of Poland's borders in 1772, 1815, 1919 and 1945 with the territory's centre travelling westward. #history",
+      "sourceFile": "docs/vis-set-13/his-mh-00008/doc.rc",
+      "rcDocument": "documents/vis-set-13/his-mh-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/his-mh-00008.png",
+          "width": 640,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/mth-trig-00015",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "The Pythagorean identity as two stacked areas and the sine addition formula as a sum of two curves. #maths",
+      "sourceFile": "docs/vis-set-13/mth-trig-00015/doc.rc",
+      "rcDocument": "documents/vis-set-13/mth-trig-00015.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/mth-trig-00015.png",
+          "width": 640,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/phy-fm-00039",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "Hydrostatic pressure shown as arrows that grow with depth and push equally on every surface. #physics",
+      "sourceFile": "docs/vis-set-13/phy-fm-00039/doc.rc",
+      "rcDocument": "documents/vis-set-13/phy-fm-00039.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/phy-fm-00039.png",
+          "width": 600,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-13/phy-fm-00040",
+      "section": "rcjson",
+      "group": "vis-set-13",
+      "caption": "An aerofoil at ten degrees with tracer dots running the streamlines, faster where the flow crowds above the wing. #animated #physics",
+      "sourceFile": "docs/vis-set-13/phy-fm-00040/doc.rc",
+      "rcDocument": "documents/vis-set-13/phy-fm-00040.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-13/phy-fm-00040.png",
+          "width": 640,
+          "height": 500
+        }
+      ]
     }
   ]
 }
