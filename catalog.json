@@ -14838,6 +14838,669 @@
       ]
     },
     {
+      "componentId": "render/dd-111",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-111/doc.rc",
+      "rcDocument": "documents/render/dd-111.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-111.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-112",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-112/doc.rc",
+      "rcDocument": "documents/render/dd-112.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-112.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-115",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-115/doc.rc",
+      "rcDocument": "documents/render/dd-115.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-115.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-118",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-118/doc.rc",
+      "rcDocument": "documents/render/dd-118.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-118.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-119",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-119/doc.rc",
+      "rcDocument": "documents/render/dd-119.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-119.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-14",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-14/doc.rc",
+      "rcDocument": "documents/render/dd-14.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-14.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-142",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-142/doc.rc",
+      "rcDocument": "documents/render/dd-142.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-142.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-164",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-164/doc.rc",
+      "rcDocument": "documents/render/dd-164.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-164.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-165",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-165/doc.rc",
+      "rcDocument": "documents/render/dd-165.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-165.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-2/doc.rc",
+      "rcDocument": "documents/render/dd-2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-2.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-21",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-21/doc.rc",
+      "rcDocument": "documents/render/dd-21.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-21.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-29",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-29/doc.rc",
+      "rcDocument": "documents/render/dd-29.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-29.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-42",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-42/doc.rc",
+      "rcDocument": "documents/render/dd-42.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-42.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-5",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-5/doc.rc",
+      "rcDocument": "documents/render/dd-5.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-5.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-55",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-55/doc.rc",
+      "rcDocument": "documents/render/dd-55.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-55.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-68",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-68/doc.rc",
+      "rcDocument": "documents/render/dd-68.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-68.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-8",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-8/doc.rc",
+      "rcDocument": "documents/render/dd-8.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-8.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-80",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-80/doc.rc",
+      "rcDocument": "documents/render/dd-80.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-80.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-81",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-81/doc.rc",
+      "rcDocument": "documents/render/dd-81.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-81.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-82",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-82/doc.rc",
+      "rcDocument": "documents/render/dd-82.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-82.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-84",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-84/doc.rc",
+      "rcDocument": "documents/render/dd-84.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-84.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-94",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-94/doc.rc",
+      "rcDocument": "documents/render/dd-94.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-94.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-95",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-95/doc.rc",
+      "rcDocument": "documents/render/dd-95.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-95.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/demo-json-kt-1",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Card layout demo, authored in both JSON and Kotlin: a Card Content heading above a solid panel. #layout #text",
+      "sourceFile": "docs/render/demo-json-kt-1/doc.rc",
+      "rcDocument": "documents/render/demo-json-kt-1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/demo-json-kt-1.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/demo-json-kt-2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Dynamic Visuals title card in white on black, authored in both JSON and Kotlin. #text",
+      "sourceFile": "docs/render/demo-json-kt-2/doc.rc",
+      "rcDocument": "documents/render/demo-json-kt-2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/demo-json-kt-2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/demo-json-kt-3",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sparse green line figure, authored in both JSON and Kotlin. #drawLine",
+      "sourceFile": "docs/render/demo-json-kt-3/doc.rc",
+      "rcDocument": "documents/render/demo-json-kt-3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/demo-json-kt-3.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/dinosaurs-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Dinosaurs — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/dinosaurs-loop/doc.rc",
+      "rcDocument": "documents/render/dinosaurs-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dinosaurs-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/dinosaurs-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Dinosaurs — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/dinosaurs-progress/doc.rc",
+      "rcDocument": "documents/render/dinosaurs-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dinosaurs-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/disco-ball",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "rotating mirror ball, 326 mirrors",
+      "sourceFile": "docs/render/disco-ball/doc.rc",
+      "rcDocument": "documents/render/disco-ball.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/disco-ball.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/disco-ball2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "mirror ball, 366 tiles, sweeping lights",
+      "sourceFile": "docs/render/disco-ball2/doc.rc",
+      "rcDocument": "documents/render/disco-ball2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/disco-ball2.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/donut",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "monthly budget donut chart",
+      "sourceFile": "docs/render/donut/doc.rc",
+      "rcDocument": "documents/render/donut.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/donut.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/donut-chart-of-a-monthly-budget-rent-35",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "monthly budget donut chart",
+      "sourceFile": "docs/render/donut-chart-of-a-monthly-budget-rent-35/doc.rc",
+      "rcDocument": "documents/render/donut-chart-of-a-monthly-budget-rent-35.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/donut-chart-of-a-monthly-budget-rent-35.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/donut-labeled",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Donut chart with a big label in the hole (e.g. a total or headline number). Segments sized by a values array. Use for a KPI-with-breakdown.",
+      "sourceFile": "docs/render/donut-labeled/doc.rc",
+      "rcDocument": "documents/render/donut-labeled.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/donut-labeled.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/donut-percent",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Donut/pie chart: a ring split into colored segments sized by an array of values (e.g. percentages of a whole). Use for share/proportion/composition.",
+      "sourceFile": "docs/render/donut-percent/doc.rc",
+      "rcDocument": "documents/render/donut-percent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/donut-percent.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/drag-array",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "6 circles positioned from a float array and drawn in a loop; touch selects the nearest by index and drags it",
+      "sourceFile": "docs/render/drag-array/doc.rc",
+      "rcDocument": "documents/render/drag-array.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/drag-array.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/drag-circles",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Four numbered circles; touch picks up the nearest and drags it",
+      "sourceFile": "docs/render/drag-circles/doc.rc",
+      "rcDocument": "documents/render/drag-circles.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/drag-circles.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/droidman",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "droid-man (all)",
+      "sourceFile": "docs/render/droidman/doc.rc",
+      "rcDocument": "documents/render/droidman.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/droidman.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/droidman-dots",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Maze game board with score and lives, dots laid out along blue corridors. #game",
+      "sourceFile": "docs/render/droidman-dots/doc.rc",
+      "rcDocument": "documents/render/droidman-dots.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/droidman-dots.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/droidman-motion",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Maze game board mid-motion, showing the player moving through blue corridors. #game #animation",
+      "sourceFile": "docs/render/droidman-motion/doc.rc",
+      "rcDocument": "documents/render/droidman-motion.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/droidman-motion.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "render/droidman-oldchips",
       "section": "rcjson",
       "group": "render",
@@ -14849,6 +15512,23 @@
           "variant": "ideal",
           "state": "default",
           "path": "images/render/droidman-oldchips.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/droidman-walls",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Maze game walls only, the corridor layout without score or dots. #game",
+      "sourceFile": "docs/render/droidman-walls/doc.rc",
+      "rcDocument": "documents/render/droidman-walls.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/droidman-walls.png",
           "width": 480,
           "height": 360
         }
