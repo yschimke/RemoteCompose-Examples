@@ -11285,6 +11285,686 @@
       ]
     },
     {
+      "componentId": "python-samples/demo-box",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoBox.kt — simple container with a red background",
+      "sourceFile": "docs/python-samples/demo-box/doc.rc",
+      "rcDocument": "documents/python-samples/demo-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-box.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-canvas-cross",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of RcCanvasComponents1 — canvas with X cross and centered text box",
+      "sourceFile": "docs/python-samples/demo-canvas-cross/doc.rc",
+      "rcDocument": "documents/python-samples/demo-canvas-cross.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-canvas-cross.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-canvas-shapes",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Canvas drawing with various shapes — rect, circle, oval, round_rect, arc, line",
+      "sourceFile": "docs/python-samples/demo-canvas-shapes/doc.rc",
+      "rcDocument": "documents/python-samples/demo-canvas-shapes.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-canvas-shapes.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-clock",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of ExampleClock.kt basicClock() — animated clock with hour/minute/second hands",
+      "sourceFile": "docs/python-samples/demo-clock/doc.rc",
+      "rcDocument": "documents/python-samples/demo-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-clock.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-column",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoColumn.kt — vertical stacking of colored boxes",
+      "sourceFile": "docs/python-samples/demo-column/doc.rc",
+      "rcDocument": "documents/python-samples/demo-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-fit-box",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoFitBox.kt — content scaled to fit bounds",
+      "sourceFile": "docs/python-samples/demo-fit-box/doc.rc",
+      "rcDocument": "documents/python-samples/demo-fit-box.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-fit-box.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-flow",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoFlow.kt — children wrapping to next line",
+      "sourceFile": "docs/python-samples/demo-flow/doc.rc",
+      "rcDocument": "documents/python-samples/demo-flow.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-flow.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-nested-layout",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Nested layout demo — column with header text, row of weighted columns with bordered items (inspired by CanvasComponents5)",
+      "sourceFile": "docs/python-samples/demo-nested-layout/doc.rc",
+      "rcDocument": "documents/python-samples/demo-nested-layout.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-nested-layout.png",
+          "width": 600,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-new-syntax",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Demonstrates new JSON format features: infix expressions, inline paint, inline expression refs, readable var names, ordered modifiers",
+      "sourceFile": "docs/python-samples/demo-new-syntax/doc.rc",
+      "rcDocument": "documents/python-samples/demo-new-syntax.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-new-syntax.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-padding",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierPadding.kt — uniform and per-side padding",
+      "sourceFile": "docs/python-samples/demo-padding/doc.rc",
+      "rcDocument": "documents/python-samples/demo-padding.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-padding.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-pressure-gauge",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of PressureGauge.kt — animated circular gauge with tick marks, needle, and text",
+      "sourceFile": "docs/python-samples/demo-pressure-gauge/doc.rc",
+      "rcDocument": "documents/python-samples/demo-pressure-gauge.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-pressure-gauge.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-row",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoRow.kt — horizontal stacking of colored boxes",
+      "sourceFile": "docs/python-samples/demo-row/doc.rc",
+      "rcDocument": "documents/python-samples/demo-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-row.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-spaced-by",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoModifierSpacedBy.kt — automatic spacing between items",
+      "sourceFile": "docs/python-samples/demo-spaced-by/doc.rc",
+      "rcDocument": "documents/python-samples/demo-spaced-by.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-spaced-by.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/demo-text",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Port of DemoText.kt — text with bold and italic styles",
+      "sourceFile": "docs/python-samples/demo-text/doc.rc",
+      "rcDocument": "documents/python-samples/demo-text.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/demo-text.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-altimeter",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Altimeter Gauge",
+      "sourceFile": "docs/python-samples/gauge-altimeter/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-altimeter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-altimeter.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-battery",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Battery Gauge",
+      "sourceFile": "docs/python-samples/gauge-battery/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-battery.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-battery.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-compass",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Compass Gauge",
+      "sourceFile": "docs/python-samples/gauge-compass/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-compass.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-compass.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-fuel",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Fuel Gauge",
+      "sourceFile": "docs/python-samples/gauge-fuel/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-fuel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-fuel.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-level",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Horizontal Level Indicator",
+      "sourceFile": "docs/python-samples/gauge-level/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-level.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-level.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-progress-ring",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Progress Ring Gauge",
+      "sourceFile": "docs/python-samples/gauge-progress-ring/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-progress-ring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-progress-ring.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-rpm",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "RPM Tachometer Gauge",
+      "sourceFile": "docs/python-samples/gauge-rpm/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-rpm.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-rpm.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-signal",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Signal Strength Gauge",
+      "sourceFile": "docs/python-samples/gauge-signal/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-signal.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-signal.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-speedometer",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Speedometer Gauge",
+      "sourceFile": "docs/python-samples/gauge-speedometer/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-speedometer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-speedometer.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-stopwatch",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Stopwatch Face",
+      "sourceFile": "docs/python-samples/gauge-stopwatch/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-stopwatch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-stopwatch.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-thermometer",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Thermometer Gauge",
+      "sourceFile": "docs/python-samples/gauge-thermometer/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-thermometer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-thermometer.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/gauge-vu-meter",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "VU Meter Gauge",
+      "sourceFile": "docs/python-samples/gauge-vu-meter/doc.rc",
+      "rcDocument": "documents/python-samples/gauge-vu-meter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/gauge-vu-meter.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-card",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Card Layout",
+      "sourceFile": "docs/python-samples/layout-card/doc.rc",
+      "rcDocument": "documents/python-samples/layout-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-card.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-centered",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Centered with Borders",
+      "sourceFile": "docs/python-samples/layout-centered/doc.rc",
+      "rcDocument": "documents/python-samples/layout-centered.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-centered.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-clip-circle",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Circular Clip",
+      "sourceFile": "docs/python-samples/layout-clip-circle/doc.rc",
+      "rcDocument": "documents/python-samples/layout-clip-circle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-clip-circle.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-clip-rounded",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Rounded Corner Clip",
+      "sourceFile": "docs/python-samples/layout-clip-rounded/doc.rc",
+      "rcDocument": "documents/python-samples/layout-clip-rounded.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-clip-rounded.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-deep-nesting",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Deep Nesting",
+      "sourceFile": "docs/python-samples/layout-deep-nesting/doc.rc",
+      "rcDocument": "documents/python-samples/layout-deep-nesting.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-deep-nesting.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-fill-max-height",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Fill Max Height Column",
+      "sourceFile": "docs/python-samples/layout-fill-max-height/doc.rc",
+      "rcDocument": "documents/python-samples/layout-fill-max-height.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-fill-max-height.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-fill-max-width",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Fill Max Width Row",
+      "sourceFile": "docs/python-samples/layout-fill-max-width/doc.rc",
+      "rcDocument": "documents/python-samples/layout-fill-max-width.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-fill-max-width.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-form",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Form Layout",
+      "sourceFile": "docs/python-samples/layout-form/doc.rc",
+      "rcDocument": "documents/python-samples/layout-form.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-form.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-grid",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "3x3 Grid",
+      "sourceFile": "docs/python-samples/layout-grid/doc.rc",
+      "rcDocument": "documents/python-samples/layout-grid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-grid.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-header-content-footer",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Header Content Footer",
+      "sourceFile": "docs/python-samples/layout-header-content-footer/doc.rc",
+      "rcDocument": "documents/python-samples/layout-header-content-footer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-header-content-footer.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-sidebar",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Sidebar Layout",
+      "sourceFile": "docs/python-samples/layout-sidebar/doc.rc",
+      "rcDocument": "documents/python-samples/layout-sidebar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-sidebar.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-weighted-column",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Weighted Column 1:3:1",
+      "sourceFile": "docs/python-samples/layout-weighted-column/doc.rc",
+      "rcDocument": "documents/python-samples/layout-weighted-column.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-weighted-column.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-weighted-row",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Weighted Row 1:2:1",
+      "sourceFile": "docs/python-samples/layout-weighted-row/doc.rc",
+      "rcDocument": "documents/python-samples/layout-weighted-row.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-weighted-row.png",
+          "width": 600,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "python-samples/layout-z-index",
+      "section": "origami",
+      "group": "python-samples",
+      "caption": "Z-Index Stacking",
+      "sourceFile": "docs/python-samples/layout-z-index/doc.rc",
+      "rcDocument": "documents/python-samples/layout-z-index.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/python-samples/layout-z-index.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/01-sakura-season",
       "section": "rcjson",
       "group": "render",

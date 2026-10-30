@@ -4648,163 +4648,283 @@
   },
   "python-samples/demo-box": {
     "sha256": "04ac4afa65d73334e0faa53d4c546eacbfdf4ad4fde914077bebd0c1c1ab1692",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "04ac4afa65d73334e0faa53d4c546eacbfdf4ad4fde914077bebd0c1c1ab1692:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-canvas-cross": {
     "sha256": "891418939c7ce604a9a4c87e48f2ac7b56227598130016d7fe0e72322d3988be",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "891418939c7ce604a9a4c87e48f2ac7b56227598130016d7fe0e72322d3988be:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "python-samples/demo-canvas-shapes": {
     "sha256": "a02e50487259789c430d7f79e28420789b94dfaa0c091a578d7abd79dabc76eb",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "a02e50487259789c430d7f79e28420789b94dfaa0c091a578d7abd79dabc76eb:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-clock": {
     "sha256": "246b6516a7676a18464a2170dbd9466ce75dbe828b65b9c22f53c681488f6e44",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "246b6516a7676a18464a2170dbd9466ce75dbe828b65b9c22f53c681488f6e44:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-column": {
     "sha256": "5e6b01dd83bf91babdc22e84d5a6ab23834d7336a254a4222c973ede229ae443",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "5e6b01dd83bf91babdc22e84d5a6ab23834d7336a254a4222c973ede229ae443:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-fit-box": {
     "sha256": "e59e0cf02f62268f8ea9dc9f0437f53c79a8fa0299963b00daefd5d0cd34a6a1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e59e0cf02f62268f8ea9dc9f0437f53c79a8fa0299963b00daefd5d0cd34a6a1:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-flow": {
     "sha256": "de8b3dbd854dc78a23a69356cb2e7726b3e1c281494b1021dbfda5a3038491da",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "de8b3dbd854dc78a23a69356cb2e7726b3e1c281494b1021dbfda5a3038491da:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-nested-layout": {
     "sha256": "3dffda787c9a067d3aed370ff7cc1ee6a0d4018ac04542ebcdf0f4cfb7e0709c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3dffda787c9a067d3aed370ff7cc1ee6a0d4018ac04542ebcdf0f4cfb7e0709c:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 600
   },
   "python-samples/demo-new-syntax": {
     "sha256": "7d8458db213e818e0b5f1c319d4028e86f1e598ed373367760075f529bb137aa",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7d8458db213e818e0b5f1c319d4028e86f1e598ed373367760075f529bb137aa:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-padding": {
     "sha256": "8617b02557db2c9a9142c9257f206f92c864d39cc839e7a90ed869b9758ba635",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8617b02557db2c9a9142c9257f206f92c864d39cc839e7a90ed869b9758ba635:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-pressure-gauge": {
     "sha256": "bf26797715beec189ec62473c2dd84a2fd79df68d61684bd260e642976550295",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bf26797715beec189ec62473c2dd84a2fd79df68d61684bd260e642976550295:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/demo-row": {
     "sha256": "2cb553cc383eadf33c0005ea1d02c24ecf9e2828c8555ddd3d573512ff7fcb41",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2cb553cc383eadf33c0005ea1d02c24ecf9e2828c8555ddd3d573512ff7fcb41:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-spaced-by": {
     "sha256": "12820052f540cdd9581f046cc0037df9a7b5d6c08efcbac8919197dbdd921e9d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "12820052f540cdd9581f046cc0037df9a7b5d6c08efcbac8919197dbdd921e9d:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/demo-text": {
     "sha256": "075f8d5369d23cc7ffe2370e64bb5e0cd6664f3592e210bfa37994ea967c9881",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "075f8d5369d23cc7ffe2370e64bb5e0cd6664f3592e210bfa37994ea967c9881:2:1f8aee19fe003312",
+    "imageWidth": 500,
+    "imageHeight": 500
   },
   "python-samples/gauge-altimeter": {
     "sha256": "f3cc9777633b47be845e277f1bd89f0113a2505a58f1e5625e67aee0e05bea2e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f3cc9777633b47be845e277f1bd89f0113a2505a58f1e5625e67aee0e05bea2e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-battery": {
     "sha256": "36e719391713db918a135604dea104bf1919a9b2dd779c5f85a21912dfd6886e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "36e719391713db918a135604dea104bf1919a9b2dd779c5f85a21912dfd6886e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-compass": {
     "sha256": "405a31573d1d8353387347d01e7ee4f0f15a3fa09b2eae2d8bb58775dcd9be57",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "405a31573d1d8353387347d01e7ee4f0f15a3fa09b2eae2d8bb58775dcd9be57:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-fuel": {
     "sha256": "9d59d466d9480c2fc42c1d3b7bbbcf836cc5ad400f2806e0da7b6afdc8e35cfd",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9d59d466d9480c2fc42c1d3b7bbbcf836cc5ad400f2806e0da7b6afdc8e35cfd:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-level": {
     "sha256": "f07f974e0bb386a8f0d605e52a68e8eedf98253fe398f151fef255be71b55b4a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f07f974e0bb386a8f0d605e52a68e8eedf98253fe398f151fef255be71b55b4a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-progress-ring": {
     "sha256": "1bd539402ff0d8a815863badf6050321d47731545cdcffab8f70d1a89280d359",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1bd539402ff0d8a815863badf6050321d47731545cdcffab8f70d1a89280d359:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-rpm": {
     "sha256": "066c3e002784fc21c774d7be11819d15b2bc9476b4c4832e92ead40a38988c5e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "066c3e002784fc21c774d7be11819d15b2bc9476b4c4832e92ead40a38988c5e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-signal": {
     "sha256": "8a98a42487723e54ab944bd95187b020051df21a57429c8af3433b9562c6c88d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8a98a42487723e54ab944bd95187b020051df21a57429c8af3433b9562c6c88d:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-speedometer": {
     "sha256": "be7ed5f40fe8ec9e91a29ab0fa009a0162773cb695a477164ea97995bf0b58d9",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "be7ed5f40fe8ec9e91a29ab0fa009a0162773cb695a477164ea97995bf0b58d9:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-stopwatch": {
     "sha256": "b8934d052437b9778a7cacd260fa0d1f03173dd45cdbed5b7c630a63882e8595",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "b8934d052437b9778a7cacd260fa0d1f03173dd45cdbed5b7c630a63882e8595:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-thermometer": {
     "sha256": "9365b432aab0e14ecece87af4286408d64b841557a952ca8dfb43781cf0d0bc3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9365b432aab0e14ecece87af4286408d64b841557a952ca8dfb43781cf0d0bc3:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/gauge-vu-meter": {
     "sha256": "3edafd8cd9d1618f60e70c3217b254531cabad88f896abf6aca03fdd8020b3e8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3edafd8cd9d1618f60e70c3217b254531cabad88f896abf6aca03fdd8020b3e8:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-card": {
     "sha256": "075ca26121150fecd0a46553474b5758899ba62e52325f4b45cfe18747ee8f51",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "075ca26121150fecd0a46553474b5758899ba62e52325f4b45cfe18747ee8f51:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-centered": {
     "sha256": "067ad7a344c0ec2728c2e5b8aca709e84640dcf9cba5e0411046ed6f619e4dcf",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "067ad7a344c0ec2728c2e5b8aca709e84640dcf9cba5e0411046ed6f619e4dcf:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-clip-circle": {
     "sha256": "da3bc96833b3e9226c8c968e80e0545a18676dd55815214a379e450a7bc36c6a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "da3bc96833b3e9226c8c968e80e0545a18676dd55815214a379e450a7bc36c6a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-clip-rounded": {
     "sha256": "91eb348deeadae1880a84f487de45a283dcf88f59868ca70a08104ef4a17860e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "91eb348deeadae1880a84f487de45a283dcf88f59868ca70a08104ef4a17860e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-deep-nesting": {
     "sha256": "4b839bf020605fb9d6daa3292a125a574edf16469834c3dce11272d046c318e1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "4b839bf020605fb9d6daa3292a125a574edf16469834c3dce11272d046c318e1:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 400
   },
   "python-samples/layout-fill-max-height": {
     "sha256": "e8b49e74b42516cf8922bf4b57f6fbee99da659ba3ea84c23614a0400427dbff",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e8b49e74b42516cf8922bf4b57f6fbee99da659ba3ea84c23614a0400427dbff:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-fill-max-width": {
     "sha256": "d5a7f3e23532b210c729898c567f5e745f06f58bb83a051a1a2f621ed896a0ee",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d5a7f3e23532b210c729898c567f5e745f06f58bb83a051a1a2f621ed896a0ee:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 400
   },
   "python-samples/layout-form": {
     "sha256": "819a0b1efa2fe8da7eb09a43a5776d3e2d4d586c6337b41ea549ded57f6b633e",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "819a0b1efa2fe8da7eb09a43a5776d3e2d4d586c6337b41ea549ded57f6b633e:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-grid": {
     "sha256": "d26176318de67737927969dbb82cf95651e0dbf31e4d56563e590fdc6f6190f3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "d26176318de67737927969dbb82cf95651e0dbf31e4d56563e590fdc6f6190f3:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-header-content-footer": {
     "sha256": "71fbacd65358db2845a01b798b8575d011eb3de6eb9015fcb22c7e0a2dffa980",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "71fbacd65358db2845a01b798b8575d011eb3de6eb9015fcb22c7e0a2dffa980:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 400
   },
   "python-samples/layout-sidebar": {
     "sha256": "aacb4b36441effd42cb8fe0be2a1b5e7930e001fcc5bfb48a4db9ac3f4701bfd",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "aacb4b36441effd42cb8fe0be2a1b5e7930e001fcc5bfb48a4db9ac3f4701bfd:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 400
   },
   "python-samples/layout-weighted-column": {
     "sha256": "71f688db74770f66b9406fb17cf5cd2284f49a1b80aa0fa68fb5848dc081bd94",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "71f688db74770f66b9406fb17cf5cd2284f49a1b80aa0fa68fb5848dc081bd94:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/layout-weighted-row": {
     "sha256": "e1cf371c48b9d51fee4fab834107021a15be1e7f5858ad89508f64d7e2d4c497",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e1cf371c48b9d51fee4fab834107021a15be1e7f5858ad89508f64d7e2d4c497:2:1f8aee19fe003312",
+    "imageWidth": 600,
+    "imageHeight": 400
   },
   "python-samples/layout-z-index": {
     "sha256": "fa962233133265df06a0cb140358d0ff9b34ba9b124ff29d993328557ba5a7d8",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fa962233133265df06a0cb140358d0ff9b34ba9b124ff29d993328557ba5a7d8:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "python-samples/text-alignment": {
     "sha256": "d8ac5700dc1e49aca47d73e37777367f41536824b91d0e64b8ecc49ec73052ec",
