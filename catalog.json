@@ -19715,6 +19715,686 @@
           "height": 400
         }
       ]
+    },
+    {
+      "componentId": "vis-set-03/bio-cb-00010",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Sixteen chromosomes scattering, lining up on the metaphase plate, then separating to the poles - position encodes the phase. #biology #mitosis #particles #animated",
+      "sourceFile": "docs/vis-set-03/bio-cb-00010/doc.rc",
+      "rcDocument": "documents/vis-set-03/bio-cb-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/bio-cb-00010.png",
+          "width": 520,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/bio-cb-00011",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Drag to run both divisions: one diploid cell becomes four haploid ones, in 3D so the two splits stay distinguishable. #biology #meiosis #3d #interactive #input",
+      "sourceFile": "docs/vis-set-03/bio-cb-00011/doc.rc",
+      "rcDocument": "documents/vis-set-03/bio-cb-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/bio-cb-00011.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/bio-cb-00012",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "A cascade is a numbers argument, so it is set as a table: one hormone molecule ends up moving ten million enzymes. #biology #signalling #text",
+      "sourceFile": "docs/vis-set-03/bio-cb-00012/doc.rc",
+      "rcDocument": "documents/vis-set-03/bio-cb-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/bio-cb-00012.png",
+          "width": 560,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/chm-ac-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Subshells in filling order against energy level, with the crossing that puts the transition metals where they are. #chemistry #electrons #chart",
+      "sourceFile": "docs/vis-set-03/chm-ac-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/chm-ac-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/chm-ac-00003.png",
+          "width": 560,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/csc-algo-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "A recursive factorial where the layout containers ARE the recursion: each box is a call waiting for the one inside it. #computing #recursion #layout",
+      "sourceFile": "docs/vis-set-03/csc-algo-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/csc-algo-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/csc-algo-00003.png",
+          "width": 520,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/ear-geol-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Shield, stratovolcano and cinder cone as filled paths on one baseline and one scale - the shapes are the comparison. #earth #volcanoes #path",
+      "sourceFile": "docs/vis-set-03/ear-geol-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/ear-geol-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/ear-geol-00003.png",
+          "width": 560,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/eng-me-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Rotation in, straight-line motion out. The slider's travel is computed exactly from the rod length, not faked with a sine, which is why a piston dwells longer at one end. #engineering #mechanism #animated",
+      "sourceFile": "docs/vis-set-03/eng-me-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/eng-me-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/eng-me-00003.png",
+          "width": 540,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/fin-mark-00001",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Ninety holdings as a particle scatter by risk, return and sector. Drag to turn it: the rotation is applied to each point before projecting it. #finance #portfolio #3d #interactive #particles #animated #input",
+      "sourceFile": "docs/vis-set-03/fin-mark-00001/doc.rc",
+      "rcDocument": "documents/vis-set-03/fin-mark-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/fin-mark-00001.png",
+          "width": 500,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/fin-mark-00002",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Drag the yield and watch a bond's price move the other way along the price-yield curve. A 5% coupon pays par only when yields are 5%. #finance #bonds #interactive #input",
+      "sourceFile": "docs/vis-set-03/fin-mark-00002/doc.rc",
+      "rcDocument": "documents/vis-set-03/fin-mark-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/fin-mark-00002.png",
+          "width": 520,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/fin-mark-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Six commodity futures with their venues, contract sizes and quoting units - a price move means a different amount of money in each row. #finance #commodities #text",
+      "sourceFile": "docs/vis-set-03/fin-mark-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/fin-mark-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/fin-mark-00003.png",
+          "width": 580,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/mth-an-00003",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Primes below 576 as towers on a 24 by 24 grid, where the composite gaps fall into diagonal lanes. #maths #primes #3d #animated",
+      "sourceFile": "docs/vis-set-03/mth-an-00003/doc.rc",
+      "rcDocument": "documents/vis-set-03/mth-an-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/mth-an-00003.png",
+          "width": 500,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/phy-ap-00010",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "First ionization energy against atomic number. Peaks are full shells, troughs are the next shell starting - the sawtooth IS the shell structure. #physics #atoms #chart",
+      "sourceFile": "docs/vis-set-03/phy-ap-00010/doc.rc",
+      "rcDocument": "documents/vis-set-03/phy-ap-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/phy-ap-00010.png",
+          "width": 580,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/phy-ap-00011",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Orbital cross-sections drawn as closed paths rather than approximated by circles. #physics #orbitals #path",
+      "sourceFile": "docs/vis-set-03/phy-ap-00011/doc.rc",
+      "rcDocument": "documents/vis-set-03/phy-ap-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/phy-ap-00011.png",
+          "width": 540,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/phy-fpp-00008",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Three flavour probabilities oscillating with distance over energy, always summing to one: a neutrino is never lost, only changed. #physics #neutrinos #chart",
+      "sourceFile": "docs/vis-set-03/phy-fpp-00008/doc.rc",
+      "rcDocument": "documents/vis-set-03/phy-fpp-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/phy-fpp-00008.png",
+          "width": 560,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/phy-fpp-00009",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "The Mexican-hat potential as a 3D surface inside a card layout: the centre is a hill, the brim is the ground state, and mass is the cost of moving through the occupied field. #physics #higgs #3d #layout #animated",
+      "sourceFile": "docs/vis-set-03/phy-fpp-00009/doc.rc",
+      "rcDocument": "documents/vis-set-03/phy-fpp-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/phy-fpp-00009.png",
+          "width": 460,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/bio-bioc-00014",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "46 residues turning in 3D, with helix, loop and strand coloured separately. #biology #proteins #3d #animated",
+      "sourceFile": "docs/vis-set-04/bio-bioc-00014/doc.rc",
+      "rcDocument": "documents/vis-set-04/bio-bioc-00014.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/bio-bioc-00014.png",
+          "width": 460,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/bio-bioc-00015",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Substrate molecules as particles beside the saturation curve they produce. Doubling the substrate stops helping once every site is busy. #biology #enzymes #particles #animated",
+      "sourceFile": "docs/vis-set-04/bio-bioc-00015/doc.rc",
+      "rcDocument": "documents/vis-set-04/bio-bioc-00015.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/bio-bioc-00015.png",
+          "width": 540,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/bio-bioc-00016",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Drag the oxygen supply: with it a glucose molecule yields about 32 ATP, without it glycolysis alone yields 2. #biology #metabolism #interactive #input",
+      "sourceFile": "docs/vis-set-04/bio-bioc-00016/doc.rc",
+      "rcDocument": "documents/vis-set-04/bio-bioc-00016.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/bio-bioc-00016.png",
+          "width": 540,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/bio-cb-00013",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Vesicles riding curved routes from nucleus to ER to Golgi to membrane, their positions sampled from the same curves that draw the routes. #biology #cells #path #animated",
+      "sourceFile": "docs/vis-set-04/bio-cb-00013/doc.rc",
+      "rcDocument": "documents/vis-set-04/bio-cb-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/bio-cb-00013.png",
+          "width": 520,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/chm-ms-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Four molecules compared by bond angle and geometry: lone pairs push bonds closer together. #chemistry #molecules #layout",
+      "sourceFile": "docs/vis-set-04/chm-ms-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/chm-ms-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/chm-ms-00004.png",
+          "width": 500,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/csc-algo-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "The full dynamic-programming table between kitten and sitting, with the traceback highlighted. The table IS the algorithm. #computing #algorithms #dp",
+      "sourceFile": "docs/vis-set-04/csc-algo-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/csc-algo-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/csc-algo-00004.png",
+          "width": 560,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/ear-geol-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Magnitude beside energy released: one step up is about 32 times the energy, and Tohoku released roughly a million times a minor quake. #earth #earthquakes #chart",
+      "sourceFile": "docs/vis-set-04/ear-geol-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/ear-geol-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/ear-geol-00004.png",
+          "width": 560,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/eng-me-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "A four-stroke cycle with the charge firing at top dead centre. Stroke phase is tied to the crank, so the label and the piston cannot disagree. #engineering #engines #3d #animated",
+      "sourceFile": "docs/vis-set-04/eng-me-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/eng-me-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/eng-me-00004.png",
+          "width": 480,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/mth-an-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Seven numbers in decimal, binary, octal and hex, with the binary split into nibbles so the grouping is readable. #maths #numbers #text",
+      "sourceFile": "docs/vis-set-04/mth-an-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/mth-an-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/mth-an-00004.png",
+          "width": 560,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/phy-ap-00012",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Levels drawn to scale at -13.6/n^2 eV, so they crowd towards zero. Labels are evenly spaced and led to their level, because the crowding is the physics. #physics #atoms",
+      "sourceFile": "docs/vis-set-04/phy-ap-00012/doc.rc",
+      "rcDocument": "documents/vis-set-04/phy-ap-00012.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/phy-ap-00012.png",
+          "width": 640,
+          "height": 430
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/phy-ap-00013",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Hydrogen, helium, sodium and mercury as cards, each with its own strip over the visible range. #physics #spectra #layout",
+      "sourceFile": "docs/vis-set-04/phy-ap-00013/doc.rc",
+      "rcDocument": "documents/vis-set-04/phy-ap-00013.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/phy-ap-00013.png",
+          "width": 480,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/phy-ap-00014",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Successive ionization energies of magnesium. The jump after the second says magnesium has two outer electrons. #physics #atoms #chart",
+      "sourceFile": "docs/vis-set-04/phy-ap-00014/doc.rc",
+      "rcDocument": "documents/vis-set-04/phy-ap-00014.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/phy-ap-00014.png",
+          "width": 560,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/soc-soci-00001",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "A signal spreading through a thirteen-person network, each node labelled by its distance from the source. #society #networks #animated",
+      "sourceFile": "docs/vis-set-04/soc-soci-00001/doc.rc",
+      "rcDocument": "documents/vis-set-04/soc-soci-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/soc-soci-00001.png",
+          "width": 480,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/soc-soci-00002",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "A population pyramid where every dot is roughly five people in a thousand, by age band and sex. #society #demography #particles #animated",
+      "sourceFile": "docs/vis-set-04/soc-soci-00002/doc.rc",
+      "rcDocument": "documents/vis-set-04/soc-soci-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/soc-soci-00002.png",
+          "width": 540,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/soc-soci-00003",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Drag to choose a child's starting income quintile and see where they end up. The top and bottom are stickier than the middle. #society #mobility #interactive #input",
+      "sourceFile": "docs/vis-set-04/soc-soci-00003/doc.rc",
+      "rcDocument": "documents/vis-set-04/soc-soci-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/soc-soci-00003.png",
+          "width": 540,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-04/soc-soci-00004",
+      "section": "rcjson",
+      "group": "vis-set-04",
+      "caption": "Income decile shares for four countries with their Gini coefficients: in Brazil the richest tenth takes 42.6%, in Slovakia 20.6%. #society #inequality #text",
+      "sourceFile": "docs/vis-set-04/soc-soci-00004/doc.rc",
+      "rcDocument": "documents/vis-set-04/soc-soci-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-04/soc-soci-00004.png",
+          "width": 580,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/bio-bioc-00017",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "The ATP cycle as a loop, with a phosphate leaving and returning and energy released and absorbed. #animated #biology",
+      "sourceFile": "docs/vis-set-05/bio-bioc-00017/doc.rc",
+      "rcDocument": "documents/vis-set-05/bio-bioc-00017.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/bio-bioc-00017.png",
+          "width": 540,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/chm-ms-00005",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "A methane molecule with a bitmap-textured carbon, over a table of the three bond types. #3d #animated #chemistry",
+      "sourceFile": "docs/vis-set-05/chm-ms-00005/doc.rc",
+      "rcDocument": "documents/vis-set-05/chm-ms-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/chm-ms-00005.png",
+          "width": 480,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/csc-algo-00005",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "A cost landscape with the starting point under your finger, comparing gradient descent against random search. #animated #computing #interactive #particles #input",
+      "sourceFile": "docs/vis-set-05/csc-algo-00005/doc.rc",
+      "rcDocument": "documents/vis-set-05/csc-algo-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/csc-algo-00005.png",
+          "width": 560,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/ear-geol-00005",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Normal, reverse and strike-slip faults drawn on the same four-layer stratigraphy. #earth",
+      "sourceFile": "docs/vis-set-05/ear-geol-00005/doc.rc",
+      "rcDocument": "documents/vis-set-05/ear-geol-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/ear-geol-00005.png",
+          "width": 600,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/eco-macr-00008",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Normal, flat and inverted yield curves on one pair of axes. #economics",
+      "sourceFile": "docs/vis-set-05/eco-macr-00008/doc.rc",
+      "rcDocument": "documents/vis-set-05/eco-macr-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/eco-macr-00008.png",
+          "width": 580,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/eco-macr-00009",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "The Beveridge curve traced in year order, with the post-2021 outliers marked. #economics",
+      "sourceFile": "docs/vis-set-05/eco-macr-00009/doc.rc",
+      "rcDocument": "documents/vis-set-05/eco-macr-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/eco-macr-00009.png",
+          "width": 560,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/eco-macr-00010",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "A policy rate change propagating to output and inflation with their respective lags. #animated #economics",
+      "sourceFile": "docs/vis-set-05/eco-macr-00010/doc.rc",
+      "rcDocument": "documents/vis-set-05/eco-macr-00010.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/eco-macr-00010.png",
+          "width": 580,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/eco-macr-00011",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Two economies receiving the same fiscal injection, with different shares of each pound re-spent. #animated #economics #particles",
+      "sourceFile": "docs/vis-set-05/eco-macr-00011/doc.rc",
+      "rcDocument": "documents/vis-set-05/eco-macr-00011.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/eco-macr-00011.png",
+          "width": 560,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/eng-me-00005",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "A turning fourteen-blade rotor above the four stages of a gas turbine. #3d #animated #engineering",
+      "sourceFile": "docs/vis-set-05/eng-me-00005/doc.rc",
+      "rcDocument": "documents/vis-set-05/eng-me-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/eng-me-00005.png",
+          "width": 460,
+          "height": 560
+        }
+      ]
     }
   ]
 }
