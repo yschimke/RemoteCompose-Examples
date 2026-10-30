@@ -17592,6 +17592,176 @@
       ]
     },
     {
+      "componentId": "render/sens2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "upstream sensor names",
+      "sourceFile": "docs/render/sens2/doc.rc",
+      "rcDocument": "documents/render/sens2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sens2.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/sensors",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "sensor smoke test",
+      "sourceFile": "docs/render/sensors/doc.rc",
+      "rcDocument": "documents/render/sensors.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sensors.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/shader-aurora",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "AGSL Aurora Shader Demo",
+      "sourceFile": "docs/render/shader-aurora/doc.rc",
+      "rcDocument": "documents/render/shader-aurora.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shader-aurora.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/shinkansen-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shinkansen — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/shinkansen-loop/doc.rc",
+      "rcDocument": "documents/render/shinkansen-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shinkansen-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/shinkansen-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shinkansen — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/shinkansen-progress/doc.rc",
+      "rcDocument": "documents/render/shinkansen-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/shinkansen-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/simplewatch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Simple watch — a blue face with hour and minute hands, in three draw commands",
+      "sourceFile": "docs/render/simplewatch/doc.rc",
+      "rcDocument": "documents/render/simplewatch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/simplewatch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/smart-home-dial",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Smart Climate Dial with AGSL Thermal Glow Shader",
+      "sourceFile": "docs/render/smart-home-dial/doc.rc",
+      "rcDocument": "documents/render/smart-home-dial.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/smart-home-dial.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/snowday-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Snow Day — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/snowday-loop/doc.rc",
+      "rcDocument": "documents/render/snowday-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/snowday-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/snowday-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Snow Day — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/snowday-progress/doc.rc",
+      "rcDocument": "documents/render/snowday-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/snowday-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/space-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Space — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/space-loop/doc.rc",
+      "rcDocument": "documents/render/space-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/space-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
       "componentId": "render/space-progress",
       "section": "rcjson",
       "group": "render",
@@ -17605,6 +17775,91 @@
           "path": "images/render/space-progress.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sparkline",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sparkline: a tiny, axis-free line of a value series, with the last point marked. Use as an inline trend indicator.",
+      "sourceFile": "docs/render/sparkline/doc.rc",
+      "rcDocument": "documents/render/sparkline.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sparkline.png",
+          "width": 300,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-130000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-130000/doc.rc",
+      "rcDocument": "documents/render/spir-130000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-130000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-16000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-16000/doc.rc",
+      "rcDocument": "documents/render/spir-16000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-16000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-2000",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-2000/doc.rc",
+      "rcDocument": "documents/render/spir-2000.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-2000.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/spir-256",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/spir-256/doc.rc",
+      "rcDocument": "documents/render/spir-256.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/spir-256.png",
+          "width": 640,
+          "height": 640
         }
       ]
     },
@@ -17626,6 +17881,40 @@
       ]
     },
     {
+      "componentId": "render/stat-card",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "KPI/stat card: a big headline number with a label underneath, centered on a card. Use for a single key metric.",
+      "sourceFile": "docs/render/stat-card/doc.rc",
+      "rcDocument": "documents/render/stat-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/stat-card.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/stat-value",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "A large single numeric statistic (KPI): one big number shown centered with a small caption label underneath — e.g. a percentage, temperature, heart rate, count, or score. The number uses textFromFloat so it is a formatted numeric value, with a units/label line beneath it.",
+      "sourceFile": "docs/render/stat-value/doc.rc",
+      "rcDocument": "documents/render/stat-value.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/stat-value.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
       "componentId": "render/sunflower-loop",
       "section": "rcjson",
       "group": "render",
@@ -17643,6 +17932,57 @@
       ]
     },
     {
+      "componentId": "render/sunflower-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sunflowers — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/sunflower-progress/doc.rc",
+      "rcDocument": "documents/render/sunflower-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sunflower-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/sv-both",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: runAction + setValue feedback latch",
+      "sourceFile": "docs/render/sv-both/doc.rc",
+      "rcDocument": "documents/render/sv-both.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sv-both.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/sv-probe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: runAction + setValue feedback latch",
+      "sourceFile": "docs/render/sv-probe/doc.rc",
+      "rcDocument": "documents/render/sv-probe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/sv-probe.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
       "componentId": "render/tempest",
       "section": "rcjson",
       "group": "render",
@@ -17656,6 +17996,346 @@
           "path": "images/render/tempest.png",
           "width": 480,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/textured-sphere",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "textured sphere: bitmap resource + texture3D by name",
+      "sourceFile": "docs/render/textured-sphere/doc.rc",
+      "rcDocument": "documents/render/textured-sphere.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/textured-sphere.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "componentId": "render/themesections",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Theme sections: grey panels with a cyan block and a white bar, showing themed regions. #theming #layout",
+      "sourceFile": "docs/render/themesections/doc.rc",
+      "rcDocument": "documents/render/themesections.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/themesections.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/themetest",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "themed colour resolution on cold start",
+      "sourceFile": "docs/render/themetest/doc.rc",
+      "rcDocument": "documents/render/themetest.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/themetest.png",
+          "width": 480,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "render/thermo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "thermometer",
+      "sourceFile": "docs/render/thermo/doc.rc",
+      "rcDocument": "documents/render/thermo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/thermo.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/thermometer",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Thermometer gauge: a vertical tube with a bulb, filled red from the bottom to a level set by a single value. Use for temperature / a 0-100 reading.",
+      "sourceFile": "docs/render/thermometer/doc.rc",
+      "rcDocument": "documents/render/thermometer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/thermometer.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/tiltchain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression readout table listing an, z/an, clamp, acos and tilt with their live values. #expressions #validation",
+      "sourceFile": "docs/render/tiltchain/doc.rc",
+      "rcDocument": "documents/render/tiltchain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/tiltchain.png",
+          "width": 420,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/touchprobe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "touch probe, animated",
+      "sourceFile": "docs/render/touchprobe/doc.rc",
+      "rcDocument": "documents/render/touchprobe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/touchprobe.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/twinkle",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "twinkling night sky",
+      "sourceFile": "docs/render/twinkle/doc.rc",
+      "rcDocument": "documents/render/twinkle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/twinkle.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/v-after",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe, after state: a green circle sized from the updated value. #expressions #validation",
+      "sourceFile": "docs/render/v-after/doc.rc",
+      "rcDocument": "documents/render/v-after.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v-after.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/v-before",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe, before state: a green circle sized from the original value. #expressions #validation",
+      "sourceFile": "docs/render/v-before/doc.rc",
+      "rcDocument": "documents/render/v-before.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v-before.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/v-lazy",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "is a variable a cache?",
+      "sourceFile": "docs/render/v-lazy/doc.rc",
+      "rcDocument": "documents/render/v-lazy.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v-lazy.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-constvar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "constvar",
+      "sourceFile": "docs/render/v2-constvar/doc.rc",
+      "rcDocument": "documents/render/v2-constvar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-constvar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-radius",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: radius. Draws nothing visible; the behaviour under test is value propagation. #expressions #validation",
+      "sourceFile": "docs/render/v2-radius/doc.rc",
+      "rcDocument": "documents/render/v2-radius.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-radius.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-sensvar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: sensor-backed variable. Draws nothing visible; the behaviour under test is value propagation. #expressions #sensors #validation",
+      "sourceFile": "docs/render/v2-sensvar/doc.rc",
+      "rcDocument": "documents/render/v2-sensvar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-sensvar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-sysvar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: system variable. Draws nothing visible; the behaviour under test is value propagation. #expressions #validation",
+      "sourceFile": "docs/render/v2-sysvar/doc.rc",
+      "rcDocument": "documents/render/v2-sysvar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-sysvar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-timevar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: time variable. Draws nothing visible; the behaviour under test is value propagation. #expressions #validation",
+      "sourceFile": "docs/render/v2-timevar/doc.rc",
+      "rcDocument": "documents/render/v2-timevar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-timevar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v2-varonly",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: variable declaration only. Draws nothing visible; the behaviour under test is value propagation. #expressions #validation",
+      "sourceFile": "docs/render/v2-varonly/doc.rc",
+      "rcDocument": "documents/render/v2-varonly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v2-varonly.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v3-dupdiff",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: duplicate names with differing values. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v3-dupdiff/doc.rc",
+      "rcDocument": "documents/render/v3-dupdiff.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-dupdiff.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v3-dupsame",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: duplicate names with identical values. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v3-dupsame/doc.rc",
+      "rcDocument": "documents/render/v3-dupsame.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-dupsame.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v3-duptime",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: duplicate time variables. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v3-duptime/doc.rc",
+      "rcDocument": "documents/render/v3-duptime.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-duptime.png",
+          "width": 480,
+          "height": 480
         }
       ]
     },
