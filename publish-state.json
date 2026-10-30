@@ -1771,55 +1771,94 @@
   },
   "assembly3d/ikea-micke": {
     "sha256": "f58bb0a27f48f3fa3c04dd85d7c37119a8fef3c09c08031114460c1ff05008b4",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f58bb0a27f48f3fa3c04dd85d7c37119a8fef3c09c08031114460c1ff05008b4:2:1f8aee19fe003312",
+    "imageWidth": 420,
+    "imageHeight": 420
   },
   "assembly3d/ikea-micke-white": {
     "sha256": "97be5b892cb7fd315814bf72be8b247df20a80d05e43f5f7387c6703fc6aa6b9",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "97be5b892cb7fd315814bf72be8b247df20a80d05e43f5f7387c6703fc6aa6b9:2:1f8aee19fe003312",
+    "imageWidth": 420,
+    "imageHeight": 420
   },
   "charts2d/annotations": {
     "sha256": "96865cd8b551879af0202076f494064041f1bc0891f90b269d5c6cf72cb0789a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "96865cd8b551879af0202076f494064041f1bc0891f90b269d5c6cf72cb0789a:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 398
   },
   "charts2d/bar-grouped": {
     "sha256": "bbacde583de1eabebcd708ba5ce6fab1ab75b763ccf30650590a181549c3f76a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "bbacde583de1eabebcd708ba5ce6fab1ab75b763ccf30650590a181549c3f76a:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 370
   },
   "charts2d/box-plot": {
     "sha256": "381f5529b1e72920f65dc140816e1eb55fbe8a56992d047c53f0258e469a19f7",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "381f5529b1e72920f65dc140816e1eb55fbe8a56992d047c53f0258e469a19f7:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 416
   },
   "charts2d/bubble": {
     "sha256": "7bcde5772713611355484f504fd7d9fffea8b44203101815dc44cacd8514d10d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7bcde5772713611355484f504fd7d9fffea8b44203101815dc44cacd8514d10d:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 498
   },
   "charts2d/bullet": {
     "sha256": "afb0962aadd69a58e8f59b5b4765849056a7e31a13764d82573b0584e45b4062",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "afb0962aadd69a58e8f59b5b4765849056a7e31a13764d82573b0584e45b4062:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 354
   },
   "charts2d/forest": {
     "sha256": "e7b5a5fabbccab32384d558860d1b8257c09eb35bb2396255517c78227038c84",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e7b5a5fabbccab32384d558860d1b8257c09eb35bb2396255517c78227038c84:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts2d/heatmap": {
     "sha256": "0f504f2d4797b3e150ef85cad7f9368cfd425645658042335677d67673fbbf46",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "0f504f2d4797b3e150ef85cad7f9368cfd425645658042335677d67673fbbf46:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts2d/radar": {
     "sha256": "8ba657cafe16be4d604bfc2518177f12e6da1e9cabe1c9da542f3bcd584e1f8b",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "8ba657cafe16be4d604bfc2518177f12e6da1e9cabe1c9da542f3bcd584e1f8b:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "charts2d/rose": {
     "sha256": "cf56eff1ab4e549baf3f8c7e303887d54a4d2062c05c8ceee0c2338da6faaf50",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "cf56eff1ab4e549baf3f8c7e303887d54a4d2062c05c8ceee0c2338da6faaf50:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 640
   },
   "charts2d/waffle": {
     "sha256": "674715f4f60cfc66fbe47144e5985c8dec7a5dd46a10df578dd71b398a1b0514",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "674715f4f60cfc66fbe47144e5985c8dec7a5dd46a10df578dd71b398a1b0514:2:1f8aee19fe003312",
+    "imageWidth": 602,
+    "imageHeight": 640
   },
   "charts2d/waterfall": {
     "sha256": "c365ae1b6488b8c5032580eaa10c61873cc572978073cb9481807e90060abd2f",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c365ae1b6488b8c5032580eaa10c61873cc572978073cb9481807e90060abd2f:2:1f8aee19fe003312",
+    "imageWidth": 640,
+    "imageHeight": 406
   },
   "charts3d/01-scatter": {
     "sha256": "a0ecfe33bc162782a8f3a253f77281c4d1a1699a6aa4fa5513b60f4df4cc6480",
@@ -1837,11 +1876,17 @@
   },
   "charts3d/03-wireframe": {
     "sha256": "e0d9b50865778944eecb49fc7d3804613d515069ad9e6bc849ac43b9c2e55648",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e0d9b50865778944eecb49fc7d3804613d515069ad9e6bc849ac43b9c2e55648:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/04-bars": {
     "sha256": "cebc0f73e812ada6caaec9ac4facccb63707dc62b7c1612cd93bf1a70e60b7ce",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "cebc0f73e812ada6caaec9ac4facccb63707dc62b7c1612cd93bf1a70e60b7ce:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/05-trajectory": {
     "sha256": "d79fe279633b8f3ab416b7abc817fab63f0eb51d5f58d0bcc5714d9dafbaa858",
@@ -1852,15 +1897,24 @@
   },
   "charts3d/06-waterfall": {
     "sha256": "599a8ff58642ff51e4cc528b7370c66c2e1d1e9dc635674affc28bb873458f03",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "599a8ff58642ff51e4cc528b7370c66c2e1d1e9dc635674affc28bb873458f03:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/07-contour": {
     "sha256": "f6b4f83213405d53ce9e78ca6fb637c66fdf323443e926dee272e3dca8bddd17",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "f6b4f83213405d53ce9e78ca6fb637c66fdf323443e926dee272e3dca8bddd17:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/08-histogram": {
     "sha256": "c240814cc7f44f6a32d5916282195ddd7153f8995d6997ab8f366707e218ac52",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c240814cc7f44f6a32d5916282195ddd7153f8995d6997ab8f366707e218ac52:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "charts3d/09-quiver": {
     "sha256": "4a3274dbb801a338cfaf28eaa9a546ca9f36a516bc34026a51b6d1cdd5f6a5a1",
@@ -1871,63 +1925,108 @@
   },
   "charts3d/10-voxel": {
     "sha256": "e718fdc0afe66b9586572cd066b0e2e6ed416849d11267558e36c116e8b4740a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e718fdc0afe66b9586572cd066b0e2e6ed416849d11267558e36c116e8b4740a:2:1f8aee19fe003312",
+    "imageWidth": 340,
+    "imageHeight": 340
   },
   "formula/bloom": {
     "sha256": "c0ef43c300a47aa89d872c53d0c34aed40c1e7cba7124d0bb6835491c2cd2d38",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c0ef43c300a47aa89d872c53d0c34aed40c1e7cba7124d0bb6835491c2cd2d38:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/clockwork": {
     "sha256": "b07e20789c43f157922aa0903e2c38a90d833e295405b7c50c5e68a70d30204a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "b07e20789c43f157922aa0903e2c38a90d833e295405b7c50c5e68a70d30204a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/guilloche": {
     "sha256": "33483f3a31e5c64c4dc9a1de44ff6476f9f479799cc9cbaafc655080e5fff949",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "33483f3a31e5c64c4dc9a1de44ff6476f9f479799cc9cbaafc655080e5fff949:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/harmonograph": {
     "sha256": "48da33cdc71a2c2be07a95861d15c17591e8fc654d4d24dc106c8cd114a76791",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "48da33cdc71a2c2be07a95861d15c17591e8fc654d4d24dc106c8cd114a76791:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/hiddenline": {
     "sha256": "c05e15f9ae991acb62ac9b79aa2b23a236d8815cd6e7e39a7a13e418258725c4",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c05e15f9ae991acb62ac9b79aa2b23a236d8815cd6e7e39a7a13e418258725c4:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/moire": {
     "sha256": "b9fb5782e0f453a293f9b638bd3cb7d186d573e782046c53b2fbede1b2cb5241",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "b9fb5782e0f453a293f9b638bd3cb7d186d573e782046c53b2fbede1b2cb5241:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/orbital": {
     "sha256": "c8c0f498720418ec4130cb369a43afc317db67b93275223c469c18c11c18e5ee",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c8c0f498720418ec4130cb369a43afc317db67b93275223c469c18c11c18e5ee:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/phyllotaxis": {
     "sha256": "88c54f9765c258603b6a9c034c70b3db9af37cbda3ecb38de6b5c94861495022",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "88c54f9765c258603b6a9c034c70b3db9af37cbda3ecb38de6b5c94861495022:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/pipes": {
     "sha256": "82fe25b9ba68c9a8d5b0f2b7805129aa6fd582c6315bb75094ebed62117b7862",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "82fe25b9ba68c9a8d5b0f2b7805129aa6fd582c6315bb75094ebed62117b7862:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/rosette": {
     "sha256": "846e786219a170d62c8d20d019d76f1c7e910f24052a33d5ad92049cceb0ee88",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "846e786219a170d62c8d20d019d76f1c7e910f24052a33d5ad92049cceb0ee88:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/tunnel": {
     "sha256": "c72b1689d1b3c8cebb467fb76b167592d94b706e83eb615226dcf0dcd24a8c3c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "c72b1689d1b3c8cebb467fb76b167592d94b706e83eb615226dcf0dcd24a8c3c:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "formula/vases": {
     "sha256": "3773bcfe9f09d69cc245fc5d9c5217bcf0d810aa631f25d60151bff622b36d8d",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3773bcfe9f09d69cc245fc5d9c5217bcf0d810aa631f25d60151bff622b36d8d:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/bubble-drop": {
     "sha256": "ac91ab4c18b70a12bc4407d057f73abc0e693cd870ea30dbe0253ae3554778bb",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ac91ab4c18b70a12bc4407d057f73abc0e693cd870ea30dbe0253ae3554778bb:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/chain-reaction": {
     "sha256": "7e5b005f6765fbc08a24773b06ba047631bebea8a4e98c8fd4ae4b468e56242a",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "7e5b005f6765fbc08a24773b06ba047631bebea8a4e98c8fd4ae4b468e56242a:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/gravity-beacon": {
     "sha256": "f7e75cb1fee43cbd15830e2f883185bab9e4f15080592b485f49e89fb2172718",
@@ -1938,11 +2037,17 @@
   },
   "games/input": {
     "sha256": "e22f3348e57c7aa2963d2191870c11ebe7c1436dd51095ee182508e63ad05930",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "e22f3348e57c7aa2963d2191870c11ebe7c1436dd51095ee182508e63ad05930:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/one-tap-pinball": {
     "sha256": "1c526a5991ec5a0ac5a9e250a36ef968bf1ba8b1b3c207d18471207310ad50b1",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "1c526a5991ec5a0ac5a9e250a36ef968bf1ba8b1b3c207d18471207310ad50b1:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/orbit-hop": {
     "sha256": "ca01f3d8e64b3e1c4be02c3556ae1b537ab3e59ee22a40a1216db879542fb85e",
@@ -1953,23 +2058,38 @@
   },
   "games/order": {
     "sha256": "3b0a763801d569dcb743a55fa1424324a0a075673e38171f5d1bf8c7138f8f55",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "3b0a763801d569dcb743a55fa1424324a0a075673e38171f5d1bf8c7138f8f55:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/particle-shepherd": {
     "sha256": "9eab57547a73408c7922fa4fca12acc9308eaa50bf56a1d4c77fd2aeb1ffa1a3",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "9eab57547a73408c7922fa4fca12acc9308eaa50bf56a1d4c77fd2aeb1ffa1a3:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/polarity": {
     "sha256": "fe7d242bf21dc6bb2f02fff713f8c28338bc918f80b23a43462afcaeef53c1db",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "fe7d242bf21dc6bb2f02fff713f8c28338bc918f80b23a43462afcaeef53c1db:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/pulse-push": {
     "sha256": "2e19b77eb996e85be2d05ce23c5155a7a8ef179982ca9c01b26388a7e606d36c",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "2e19b77eb996e85be2d05ce23c5155a7a8ef179982ca9c01b26388a7e606d36c:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/safe-zone": {
     "sha256": "ace111b0c7cc14f44c89c8d6caae5a487d9b320358443a44459d7bd96a8b1b42",
-    "renderVersion": "2:1f8aee19fe003312"
+    "renderVersion": "2:1f8aee19fe003312",
+    "renderKey": "ace111b0c7cc14f44c89c8d6caae5a487d9b320358443a44459d7bd96a8b1b42:2:1f8aee19fe003312",
+    "imageWidth": 400,
+    "imageHeight": 400
   },
   "games/skeleton": {
     "sha256": "0f85901d0fea4713a6ecd03c426564eec9c243b8dcbd1243d34b0dc896020a3c",
