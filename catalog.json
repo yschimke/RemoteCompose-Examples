@@ -12679,6 +12679,227 @@
       ]
     },
     {
+      "componentId": "render/11-layout-expr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Layout driven by an expression: a blue block sized to half the width, labelled sized by expr. #layout #expressions",
+      "sourceFile": "docs/render/11-layout-expr/doc.rc",
+      "rcDocument": "documents/render/11-layout-expr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/11-layout-expr.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/12-compvalue",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Component value demo: a green circle centred inside a rounded outline using component dimensions. #layout #expressions",
+      "sourceFile": "docs/render/12-compvalue/doc.rc",
+      "rcDocument": "documents/render/12-compvalue.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/12-compvalue.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/13-draw-more",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Drawing primitives together: a red rectangle, a blue ellipse and a Hello Canvas caption. #drawRect #drawOval",
+      "sourceFile": "docs/render/13-draw-more/doc.rc",
+      "rcDocument": "documents/render/13-draw-more.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/13-draw-more.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/14-colors",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Themed palette: a named brand colour bar above a teal accent disc. #theming #paint",
+      "sourceFile": "docs/render/14-colors/doc.rc",
+      "rcDocument": "documents/render/14-colors.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/14-colors.png",
+          "width": 320,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/15-paint",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Paint features: a blue-to-purple gradient panel with a translucent overlay, above a colour wheel. #paint",
+      "sourceFile": "docs/render/15-paint/doc.rc",
+      "rcDocument": "documents/render/15-paint.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/15-paint.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/16-paths",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Path fill and stroke: a yellow triangle outlined in red. #drawPath",
+      "sourceFile": "docs/render/16-paths/doc.rc",
+      "rcDocument": "documents/render/16-paths.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/16-paths.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/17-components",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Component nesting: numbered children inside a fit box, with left and right edge labels. #layout",
+      "sourceFile": "docs/render/17-components/doc.rc",
+      "rcDocument": "documents/render/17-components.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/17-components.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/18-modifiers",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Modifier stack: a rounded purple pill labelled styled, with background, padding and corner radius. #layout #paint",
+      "sourceFile": "docs/render/18-modifiers/doc.rc",
+      "rcDocument": "documents/render/18-modifiers.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/18-modifiers.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/19-loops",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Loop demo: a row of red squares above a row of circles growing in size across the sweep. #loop",
+      "sourceFile": "docs/render/19-loops/doc.rc",
+      "rcDocument": "documents/render/19-loops.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/19-loops.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/20-varcolor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable colour: a disc whose fill is computed rather than fixed. #expressions #paint",
+      "sourceFile": "docs/render/20-varcolor/doc.rc",
+      "rcDocument": "documents/render/20-varcolor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/20-varcolor.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/21-dinosaurs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Dinosaurs — cute baby triceratops with dinosaur egg, cracking shell with animated clipRect, swaying clouds, and erupting volcano with rising smoke",
+      "sourceFile": "docs/render/21-dinosaurs/doc.rc",
+      "rcDocument": "documents/render/21-dinosaurs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/21-dinosaurs.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/21-floatarrays",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Float array demo: a bar chart drawn straight from an array of values. #graph #expressions",
+      "sourceFile": "docs/render/21-floatarrays/doc.rc",
+      "rcDocument": "documents/render/21-floatarrays.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/21-floatarrays.png",
+          "width": 320,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/22-anim",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Animation demo: a yellow dot moving across a bright green field. #animation",
+      "sourceFile": "docs/render/22-anim/doc.rc",
+      "rcDocument": "documents/render/22-anim.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/22-anim.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/22-friendly-aliens-ufo",
       "section": "rcjson",
       "group": "render",
@@ -12692,6 +12913,23 @@
           "path": "images/render/22-friendly-aliens-ufo.png",
           "width": 360,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/23-textfromfloat",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "text from float",
+      "sourceFile": "docs/render/23-textfromfloat/doc.rc",
+      "rcDocument": "documents/render/23-textfromfloat.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/23-textfromfloat.png",
+          "width": 300,
+          "height": 300
         }
       ]
     },
@@ -12713,6 +12951,227 @@
       ]
     },
     {
+      "componentId": "render/24-textfromfloat-expr",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "live width",
+      "sourceFile": "docs/render/24-textfromfloat-expr/doc.rc",
+      "rcDocument": "documents/render/24-textfromfloat-expr.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/24-textfromfloat-expr.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/37-periodic-table",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "All 118 elements, filterable by family and state",
+      "sourceFile": "docs/render/37-periodic-table/doc.rc",
+      "rcDocument": "documents/render/37-periodic-table.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/37-periodic-table.png",
+          "width": 320,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/96-perf-limit",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/96-perf-limit/doc.rc",
+      "rcDocument": "documents/render/96-perf-limit.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/96-perf-limit.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-bar-chart-with-five-colorful-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "bar chart",
+      "sourceFile": "docs/render/a-bar-chart-with-five-colorful-bars/doc.rc",
+      "rcDocument": "documents/render/a-bar-chart-with-five-colorful-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-bar-chart-with-five-colorful-bars.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-battery-icon-at-about-75-percent-green",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery icon at about 75%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/a-battery-icon-at-about-75-percent-green/doc.rc",
+      "rcDocument": "documents/render/a-battery-icon-at-about-75-percent-green.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-battery-icon-at-about-75-percent-green.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-battery-indicator-showing-40-percent-c",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery indicator at about 40%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/a-battery-indicator-showing-40-percent-c/doc.rc",
+      "rcDocument": "documents/render/a-battery-indicator-showing-40-percent-c.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-battery-indicator-showing-40-percent-c.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-bullseye-target-red-and-white",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "bullseye",
+      "sourceFile": "docs/render/a-bullseye-target-red-and-white/doc.rc",
+      "rcDocument": "documents/render/a-bullseye-target-red-and-white.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-bullseye-target-red-and-white.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-cpu-usage-gauge-showing-47-percent",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "cpu usage gauge",
+      "sourceFile": "docs/render/a-cpu-usage-gauge-showing-47-percent/doc.rc",
+      "rcDocument": "documents/render/a-cpu-usage-gauge-showing-47-percent.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-cpu-usage-gauge-showing-47-percent.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-donut-chart-with-three-colored-segment",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "donut chart",
+      "sourceFile": "docs/render/a-donut-chart-with-three-colored-segment/doc.rc",
+      "rcDocument": "documents/render/a-donut-chart-with-three-colored-segment.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-donut-chart-with-three-colored-segment.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-speedometer-gauge-with-a-red-needle",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "speedometer",
+      "sourceFile": "docs/render/a-speedometer-gauge-with-a-red-needle/doc.rc",
+      "rcDocument": "documents/render/a-speedometer-gauge-with-a-red-needle.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-speedometer-gauge-with-a-red-needle.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-tappable-counter-with-plus-and-minus-b",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Tappable counter with minus and plus controls either side of the value. #interaction #widget",
+      "sourceFile": "docs/render/a-tappable-counter-with-plus-and-minus-b/doc.rc",
+      "rcDocument": "documents/render/a-tappable-counter-with-plus-and-minus-b.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-tappable-counter-with-plus-and-minus-b.png",
+          "width": 320,
+          "height": 160
+        }
+      ]
+    },
+    {
+      "componentId": "render/a-weather-card-london-12-degrees-rainy-b",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: London, 12 degrees, Rainy, on a blue panel. #widget",
+      "sourceFile": "docs/render/a-weather-card-london-12-degrees-rainy-b/doc.rc",
+      "rcDocument": "documents/render/a-weather-card-london-12-degrees-rainy-b.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a-weather-card-london-12-degrees-rainy-b.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/a1-pulse",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pulse animation: concentric teal rings expanding from the centre. #animation #drawCircle",
+      "sourceFile": "docs/render/a1-pulse/doc.rc",
+      "rcDocument": "documents/render/a1-pulse.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a1-pulse.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/a2-orbit",
       "section": "rcjson",
       "group": "render",
@@ -12726,6 +13185,227 @@
           "path": "images/render/a2-orbit.png",
           "width": 300,
           "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a3-wave",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Wave animation: amber dots tracing a travelling sine curve. #animation #expressions",
+      "sourceFile": "docs/render/a3-wave/doc.rc",
+      "rcDocument": "documents/render/a3-wave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a3-wave.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/a4-spin",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Spin animation: a dense starburst of pink rays radiating from the centre. #animation #loop",
+      "sourceFile": "docs/render/a4-spin/doc.rc",
+      "rcDocument": "documents/render/a4-spin.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/a4-spin.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/ab-eps",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/ab-eps/doc.rc",
+      "rcDocument": "documents/render/ab-eps.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ab-eps.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/ab-ife",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/ab-ife/doc.rc",
+      "rcDocument": "documents/render/ab-ife.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ab-ife.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-arith",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Arithmetic check: a green circle whose radius comes from a computed expression. #expressions #validation",
+      "sourceFile": "docs/render/al-arith/doc.rc",
+      "rcDocument": "documents/render/al-arith.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-arith.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-chain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Chained expressions: a green circle sized by several dependent calculations. #expressions #validation",
+      "sourceFile": "docs/render/al-chain/doc.rc",
+      "rcDocument": "documents/render/al-chain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-chain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/al-plain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseline case: a plain green circle with no expressions, used as the control. #drawCircle #validation",
+      "sourceFile": "docs/render/al-plain/doc.rc",
+      "rcDocument": "documents/render/al-plain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/al-plain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/aliens-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Friendly Aliens — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/aliens-loop/doc.rc",
+      "rcDocument": "documents/render/aliens-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/aliens-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/aliens-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Friendly Aliens — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/aliens-progress/doc.rc",
+      "rcDocument": "documents/render/aliens-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/aliens-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/antarctica-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Antarctica — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/antarctica-loop/doc.rc",
+      "rcDocument": "documents/render/antarctica-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/antarctica-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/antarctica-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Antarctica — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/antarctica-progress/doc.rc",
+      "rcDocument": "documents/render/antarctica-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/antarctica-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/area-chart",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Area chart: a filled region under a series of y-values. Like a line chart but shaded to the baseline. Use for cumulative/volume-over-time feel.",
+      "sourceFile": "docs/render/area-chart/doc.rc",
+      "rcDocument": "documents/render/area-chart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-chart.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/area-chart-of-daily-website-visitors-for",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "area chart of daily website visitors",
+      "sourceFile": "docs/render/area-chart-of-daily-website-visitors-for/doc.rc",
+      "rcDocument": "documents/render/area-chart-of-daily-website-visitors-for.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-chart-of-daily-website-visitors-for.png",
+          "width": 320,
+          "height": 240
         }
       ]
     },
