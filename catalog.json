@@ -13410,6 +13410,108 @@
       ]
     },
     {
+      "componentId": "render/area-stacked",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Stacked area chart, traffic by source",
+      "sourceFile": "docs/render/area-stacked/doc.rc",
+      "rcDocument": "documents/render/area-stacked.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/area-stacked.png",
+          "width": 640,
+          "height": 370
+        }
+      ]
+    },
+    {
+      "componentId": "render/arrprobe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: does setArrayValue write, and can arrayGet read it back?",
+      "sourceFile": "docs/render/arrprobe/doc.rc",
+      "rcDocument": "documents/render/arrprobe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/arrprobe.png",
+          "width": 400,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/asteroids",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "asteroids — tumbling wireframe rocks",
+      "sourceFile": "docs/render/asteroids/doc.rc",
+      "rcDocument": "documents/render/asteroids.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/asteroids.png",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/autumn-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Autumn Leaves — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/autumn-loop/doc.rc",
+      "rcDocument": "documents/render/autumn-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/autumn-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/autumn-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Autumn Leaves — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/autumn-progress/doc.rc",
+      "rcDocument": "documents/render/autumn-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/autumn-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/banner-sf",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "San Francisco banner — Golden Gate Bridge, Alcatraz, the downtown skyline, Painted Ladies and a cable car, composed to hold from 3:1 to 1:1",
+      "sourceFile": "docs/render/banner-sf/doc.rc",
+      "rcDocument": "documents/render/banner-sf.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/banner-sf.png",
+          "width": 640,
+          "height": 213
+        }
+      ]
+    },
+    {
       "componentId": "render/banner-sf-sweep",
       "section": "rcjson",
       "group": "render",
@@ -13427,6 +13529,108 @@
       ]
     },
     {
+      "componentId": "render/bar-horizontal",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Horizontal bar chart: one colored bar per value, growing left-to-right, length proportional to the value. Good for ranked lists / long labels.",
+      "sourceFile": "docs/render/bar-horizontal/doc.rc",
+      "rcDocument": "documents/render/bar-horizontal.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bar-horizontal.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/bar-vertical",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Vertical bar chart: one colored bar per value in an array, bar height proportional to the value. Use for comparing quantities across categories.",
+      "sourceFile": "docs/render/bar-vertical/doc.rc",
+      "rcDocument": "documents/render/bar-vertical.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bar-vertical.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/baseball-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseball — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/baseball-loop/doc.rc",
+      "rcDocument": "documents/render/baseball-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/baseball-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/baseball-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Baseball — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/baseball-progress/doc.rc",
+      "rcDocument": "documents/render/baseball-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/baseball-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/battery",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery icon with a charge level (0-100%): outlined body, terminal nub, and a green fill whose width is driven by the percentage.",
+      "sourceFile": "docs/render/battery/doc.rc",
+      "rcDocument": "documents/render/battery.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/battery.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/battery-at-30",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Battery indicator at about 30%, green fill inside a white outline. #widget",
+      "sourceFile": "docs/render/battery-at-30/doc.rc",
+      "rcDocument": "documents/render/battery-at-30.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/battery-at-30.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/battlezone",
       "section": "rcjson",
       "group": "render",
@@ -13440,6 +13644,482 @@
           "path": "images/render/battlezone.png",
           "width": 480,
           "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/beach-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Summer Beach — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/beach-loop/doc.rc",
+      "rcDocument": "documents/render/beach-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/beach-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/beach-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Summer Beach — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/beach-progress/doc.rc",
+      "rcDocument": "documents/render/beach-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/beach-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/bogus",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "unknown canvas command",
+      "sourceFile": "docs/render/bogus/doc.rc",
+      "rcDocument": "documents/render/bogus.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bogus.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/btn-top",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Self-limiting performance probe: ramps path complexity until the frame rate drops below 10 fps, then freezes and reports the limit",
+      "sourceFile": "docs/render/btn-top/doc.rc",
+      "rcDocument": "documents/render/btn-top.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/btn-top.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "render/bullseye",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bullseye/target: concentric alternating-color filled circles. A simple decorative/score graphic.",
+      "sourceFile": "docs/render/bullseye/doc.rc",
+      "rcDocument": "documents/render/bullseye.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/bullseye.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/c10-grazing-canvas",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "C10 grazing textured quad, canvas",
+      "sourceFile": "docs/render/c10-grazing-canvas/doc.rc",
+      "rcDocument": "documents/render/c10-grazing-canvas.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/c10-grazing-canvas.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/c10-grazing-software",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "C10 grazing textured quad, software",
+      "sourceFile": "docs/render/c10-grazing-software/doc.rc",
+      "rcDocument": "documents/render/c10-grazing-software.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/c10-grazing-software.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/canvascomp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "component inside canvas",
+      "sourceFile": "docs/render/canvascomp/doc.rc",
+      "rcDocument": "documents/render/canvascomp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/canvascomp.png",
+          "width": 360,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/catalogue",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Catalogue index document. Renders blank on its own; it is a container for other entries. #validation",
+      "sourceFile": "docs/render/catalogue/doc.rc",
+      "rcDocument": "documents/render/catalogue.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/catalogue.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d1",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 1. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d1/doc.rc",
+      "rcDocument": "documents/render/ch-d1.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d1.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 2. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d2/doc.rc",
+      "rcDocument": "documents/render/ch-d2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d2.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d3",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 3. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d3/doc.rc",
+      "rcDocument": "documents/render/ch-d3.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d3.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/ch-d4",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour check: a green circle on a dark field, variant 4. #drawCircle #validation",
+      "sourceFile": "docs/render/ch-d4/doc.rc",
+      "rcDocument": "documents/render/ch-d4.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/ch-d4.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/clamp-probe",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "probe: clamp argument order and the floor 0/1 flag",
+      "sourceFile": "docs/render/clamp-probe/doc.rc",
+      "rcDocument": "documents/render/clamp-probe.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clamp-probe.png",
+          "width": 400,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-analog",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Analog clock: a circular face with tick marks and white hour and minute hands that animate via the time variable. Use for clocks/timers.",
+      "sourceFile": "docs/render/clock-analog/doc.rc",
+      "rcDocument": "documents/render/clock-analog.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-analog.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-with-green-face-min-and-hour-hand",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "green clock",
+      "sourceFile": "docs/render/clock-with-green-face-min-and-hour-hand/doc.rc",
+      "rcDocument": "documents/render/clock-with-green-face-min-and-hour-hand.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-with-green-face-min-and-hour-hand.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/clock-with-green-face-min-and-hour-hand-batch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "green clock",
+      "sourceFile": "docs/render/clock-with-green-face-min-and-hour-hand-batch/doc.rc",
+      "rcDocument": "documents/render/clock-with-green-face-min-and-hour-hand-batch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/clock-with-green-face-min-and-hour-hand-batch.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/color-theme-proof",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "colour-group themed colour: light, dark, adaptive",
+      "sourceFile": "docs/render/color-theme-proof/doc.rc",
+      "rcDocument": "documents/render/color-theme-proof.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/color-theme-proof.png",
+          "width": 620,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/colortheme-proof",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "themed colour vs named colour references",
+      "sourceFile": "docs/render/colortheme-proof/doc.rc",
+      "rcDocument": "documents/render/colortheme-proof.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/colortheme-proof.png",
+          "width": 480,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-notilt",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (simulated)",
+      "sourceFile": "docs/render/compass-notilt/doc.rc",
+      "rcDocument": "documents/render/compass-notilt.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-notilt.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-sim",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (simulated)",
+      "sourceFile": "docs/render/compass-sim/doc.rc",
+      "rcDocument": "documents/render/compass-sim.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-sim.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/compass-tiltvar",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/compass-tiltvar/doc.rc",
+      "rcDocument": "documents/render/compass-tiltvar.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/compass-tiltvar.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/counter",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "minimal repro: runAction+setValue self-referencing counter",
+      "sourceFile": "docs/render/counter/doc.rc",
+      "rcDocument": "documents/render/counter.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/counter.png",
+          "width": 400,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/counter2",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "tappable counter",
+      "sourceFile": "docs/render/counter2/doc.rc",
+      "rcDocument": "documents/render/counter2.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/counter2.png",
+          "width": 300,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/cube-3d",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Shaded 3D cube, cyan top face and red front, inside a dark circular vignette. #3d",
+      "sourceFile": "docs/render/cube-3d/doc.rc",
+      "rcDocument": "documents/render/cube-3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/cube-3d.png",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "render/d01-target",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Archery target: concentric red and white rings with a dark bullseye. #drawCircle",
+      "sourceFile": "docs/render/d01-target/doc.rc",
+      "rcDocument": "documents/render/d01-target.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d01-target.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d02-barchart",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bar chart of six bars stepping through red, orange, yellow, green, blue and purple. #graph",
+      "sourceFile": "docs/render/d02-barchart/doc.rc",
+      "rcDocument": "documents/render/d02-barchart.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d02-barchart.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d03-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Five interlocking Olympic-style rings in blue, black, red, yellow and green. #drawCircle",
+      "sourceFile": "docs/render/d03-rings/doc.rc",
+      "rcDocument": "documents/render/d03-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d03-rings.png",
+          "width": 400,
+          "height": 280
         }
       ]
     },
