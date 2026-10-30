@@ -14124,6 +14124,482 @@
       ]
     },
     {
+      "componentId": "render/d04-traffic",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Traffic light: red, amber and green lamps in a dark housing. #widget",
+      "sourceFile": "docs/render/d04-traffic/doc.rc",
+      "rcDocument": "documents/render/d04-traffic.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d04-traffic.png",
+          "width": 160,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "render/d05-dotgrid",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Grid of coloured dots cycling through a six-hue palette. #loop #drawCircle",
+      "sourceFile": "docs/render/d05-dotgrid/doc.rc",
+      "rcDocument": "documents/render/d05-dotgrid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d05-dotgrid.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d06-mondrian",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "mondrian",
+      "sourceFile": "docs/render/d06-mondrian/doc.rc",
+      "rcDocument": "documents/render/d06-mondrian.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d06-mondrian.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d07-crosshair",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "crosshair",
+      "sourceFile": "docs/render/d07-crosshair/doc.rc",
+      "rcDocument": "documents/render/d07-crosshair.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d07-crosshair.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d08-equalizer",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Audio equalizer: cyan and green bars of varying height on black. #graph #animation",
+      "sourceFile": "docs/render/d08-equalizer/doc.rc",
+      "rcDocument": "documents/render/d08-equalizer.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d08-equalizer.png",
+          "width": 340,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/d09-house",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Illustration: a brown house with a pitched roof on green grass under a yellow sun. #drawPath",
+      "sourceFile": "docs/render/d09-house/doc.rc",
+      "rcDocument": "documents/render/d09-house.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d09-house.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d10-constellation",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Constellation map: pale stars joined by faint lines on a midnight field. #drawPath",
+      "sourceFile": "docs/render/d10-constellation/doc.rc",
+      "rcDocument": "documents/render/d10-constellation.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d10-constellation.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d11-stats",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Statistics strip: 128 Users, 94% Uptime and 3.4k Events in blue, green and purple tiles. #widget #layout",
+      "sourceFile": "docs/render/d11-stats/doc.rc",
+      "rcDocument": "documents/render/d11-stats.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d11-stats.png",
+          "width": 480,
+          "height": 150
+        }
+      ]
+    },
+    {
+      "componentId": "render/d12-profile",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Profile card: JD monogram banner above the name Jane Doe, Product Designer. #layout #text",
+      "sourceFile": "docs/render/d12-profile/doc.rc",
+      "rcDocument": "documents/render/d12-profile.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d12-profile.png",
+          "width": 300,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "render/d13-buttons",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Button styles stacked: Primary, Success, Danger and Neutral. #layout #widget",
+      "sourceFile": "docs/render/d13-buttons/doc.rc",
+      "rcDocument": "documents/render/d13-buttons.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d13-buttons.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d14-pricing",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Pricing card: PRO PLAN, 29 USD per month, with a short feature list. #layout #text",
+      "sourceFile": "docs/render/d14-pricing/doc.rc",
+      "rcDocument": "documents/render/d14-pricing.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d14-pricing.png",
+          "width": 300,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "render/d15-notification",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Notification banner: New message, tap to read the full details now, with an info badge. #widget #layout",
+      "sourceFile": "docs/render/d15-notification/doc.rc",
+      "rcDocument": "documents/render/d15-notification.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d15-notification.png",
+          "width": 380,
+          "height": 120
+        }
+      ]
+    },
+    {
+      "componentId": "render/d16-todo",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Today's checklist with two items ticked and two still open. #layout #text",
+      "sourceFile": "docs/render/d16-todo/doc.rc",
+      "rcDocument": "documents/render/d16-todo.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d16-todo.png",
+          "width": 320,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "componentId": "render/d17-chips",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Colour chips stacked and labelled red, orange, green, blue, purple and teal. #paint #layout",
+      "sourceFile": "docs/render/d17-chips/doc.rc",
+      "rcDocument": "documents/render/d17-chips.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d17-chips.png",
+          "width": 280,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/d18-weather",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: San Francisco, 18 degrees, Partly Cloudy, with high and low. #widget",
+      "sourceFile": "docs/render/d18-weather/doc.rc",
+      "rcDocument": "documents/render/d18-weather.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d18-weather.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d19-tabs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Tab bar with Home selected beside Search, Alerts and Profile. #layout #widget",
+      "sourceFile": "docs/render/d19-tabs/doc.rc",
+      "rcDocument": "documents/render/d19-tabs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d19-tabs.png",
+          "width": 480,
+          "height": 72
+        }
+      ]
+    },
+    {
+      "componentId": "render/d20-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "progress",
+      "sourceFile": "docs/render/d20-progress/doc.rc",
+      "rcDocument": "documents/render/d20-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d20-progress.png",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    {
+      "componentId": "render/d21-spiral",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Phyllotaxis spiral of blue dots growing outward from the centre. #loop #drawCircle",
+      "sourceFile": "docs/render/d21-spiral/doc.rc",
+      "rcDocument": "documents/render/d21-spiral.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d21-spiral.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d22-sine",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sine wave traced as a smooth green curve on black. #expressions #drawPath",
+      "sourceFile": "docs/render/d22-sine/doc.rc",
+      "rcDocument": "documents/render/d22-sine.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d22-sine.png",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d23-starburst",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "starburst",
+      "sourceFile": "docs/render/d23-starburst/doc.rc",
+      "rcDocument": "documents/render/d23-starburst.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d23-starburst.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d24-bars",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Bar chart with a violet-to-teal gradient across the bars. #graph #paint",
+      "sourceFile": "docs/render/d24-bars/doc.rc",
+      "rcDocument": "documents/render/d24-bars.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d24-bars.png",
+          "width": 340,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/d25-rings",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Concentric blue rings drawn as a single continuous spiral. #loop #drawCircle",
+      "sourceFile": "docs/render/d25-rings/doc.rc",
+      "rcDocument": "documents/render/d25-rings.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d25-rings.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d26-checker",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Checkerboard of blue and black squares. #loop #drawRect",
+      "sourceFile": "docs/render/d26-checker/doc.rc",
+      "rcDocument": "documents/render/d26-checker.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d26-checker.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d27-ringdots",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "ringdots",
+      "sourceFile": "docs/render/d27-ringdots/doc.rc",
+      "rcDocument": "documents/render/d27-ringdots.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d27-ringdots.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d28-squares",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rotating square spiral: nested squares turning slightly at each step. #loop #transforms",
+      "sourceFile": "docs/render/d28-squares/doc.rc",
+      "rcDocument": "documents/render/d28-squares.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d28-squares.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d29-grid",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Grid of rounded tiles shading from blue through teal to yellow. #loop #paint",
+      "sourceFile": "docs/render/d29-grid/doc.rc",
+      "rcDocument": "documents/render/d29-grid.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d29-grid.png",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/d30-flower",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Rose curve drawn as six crimson petals from a polar equation. #expressions #drawPath",
+      "sourceFile": "docs/render/d30-flower/doc.rc",
+      "rcDocument": "documents/render/d30-flower.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d30-flower.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d31-clock",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Clock face reduced to its tick marks, with no hands drawn. #clock #loop",
+      "sourceFile": "docs/render/d31-clock/doc.rc",
+      "rcDocument": "documents/render/d31-clock.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d31-clock.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
       "componentId": "render/d32-wavefield",
       "section": "rcjson",
       "group": "render",
@@ -14141,6 +14617,142 @@
       ]
     },
     {
+      "componentId": "render/d33-hist",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Histogram of amber bars forming a bell-shaped distribution. #graph",
+      "sourceFile": "docs/render/d33-hist/doc.rc",
+      "rcDocument": "documents/render/d33-hist.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d33-hist.png",
+          "width": 340,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/d34-fan",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Fan of straight lines sweeping from a corner, fading blue to white. #loop #drawLine",
+      "sourceFile": "docs/render/d34-fan/doc.rc",
+      "rcDocument": "documents/render/d34-fan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d34-fan.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d35-bubbles",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Cluster of violet circle outlines at many sizes, densest at the centre. #loop #drawCircle",
+      "sourceFile": "docs/render/d35-bubbles/doc.rc",
+      "rcDocument": "documents/render/d35-bubbles.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d35-bubbles.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d36-arcs",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Segmented ring of arcs cycling through the full colour wheel. #drawArc #loop",
+      "sourceFile": "docs/render/d36-arcs/doc.rc",
+      "rcDocument": "documents/render/d36-arcs.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d36-arcs.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d37-spiralsq",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "spiralsq",
+      "sourceFile": "docs/render/d37-spiralsq/doc.rc",
+      "rcDocument": "documents/render/d37-spiralsq.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d37-spiralsq.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d38-dotwave",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Travelling wave sampled as green dots along a sine path. #animation #expressions",
+      "sourceFile": "docs/render/d38-dotwave/doc.rc",
+      "rcDocument": "documents/render/d38-dotwave.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d38-dotwave.png",
+          "width": 320,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/d39-trifan",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Radial fan of orange spokes filling an ellipse. #loop #drawLine",
+      "sourceFile": "docs/render/d39-trifan/doc.rc",
+      "rcDocument": "documents/render/d39-trifan.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d39-trifan.png",
+          "width": 300,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "render/d40-cards",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Statistics tiles: 128 Users, 94% Uptime and 3.4k Events in purple, teal and pink. #widget #layout",
+      "sourceFile": "docs/render/d40-cards/doc.rc",
+      "rcDocument": "documents/render/d40-cards.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/d40-cards.png",
+          "width": 480,
+          "height": 180
+        }
+      ]
+    },
+    {
       "componentId": "render/dashboard-card",
       "section": "rcjson",
       "group": "render",
@@ -14154,6 +14766,74 @@
           "path": "images/render/dashboard-card.png",
           "width": 380,
           "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-10",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-10/doc.rc",
+      "rcDocument": "documents/render/dd-10.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-10.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-100",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-100/doc.rc",
+      "rcDocument": "documents/render/dd-100.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-100.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-103",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-103/doc.rc",
+      "rcDocument": "documents/render/dd-103.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-103.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/dd-108",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "compass (sensors)",
+      "sourceFile": "docs/render/dd-108/doc.rc",
+      "rcDocument": "documents/render/dd-108.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/dd-108.png",
+          "width": 480,
+          "height": 480
         }
       ]
     },
