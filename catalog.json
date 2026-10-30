@@ -18340,6 +18340,686 @@
       ]
     },
     {
+      "componentId": "render/v3-dupwidth",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "dupwidth",
+      "sourceFile": "docs/render/v3-dupwidth/doc.rc",
+      "rcDocument": "documents/render/v3-dupwidth.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-dupwidth.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v3-onesens",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: a single sensor variable. Draws nothing visible. #expressions #sensors #validation",
+      "sourceFile": "docs/render/v3-onesens/doc.rc",
+      "rcDocument": "documents/render/v3-onesens.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-onesens.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v3-triple",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: three variables at once. Draws nothing visible; the behaviour under test is value propagation. #expressions #validation",
+      "sourceFile": "docs/render/v3-triple/doc.rc",
+      "rcDocument": "documents/render/v3-triple.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v3-triple.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-direct",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: a value used directly. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v4-direct/doc.rc",
+      "rcDocument": "documents/render/v4-direct.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-direct.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-fn-hyp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: the hypot function. Draws nothing visible; the behaviour under test is evaluation. #expressions #validation",
+      "sourceFile": "docs/render/v4-fn-hyp/doc.rc",
+      "rcDocument": "documents/render/v4-fn-hyp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-fn-hyp.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-fn-min",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: the min function. Draws nothing visible; the behaviour under test is evaluation. #expressions #validation",
+      "sourceFile": "docs/render/v4-fn-min/doc.rc",
+      "rcDocument": "documents/render/v4-fn-min.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-fn-min.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-op-add",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: the add operator. Draws nothing visible; the behaviour under test is evaluation. #expressions #validation",
+      "sourceFile": "docs/render/v4-op-add/doc.rc",
+      "rcDocument": "documents/render/v4-op-add.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-op-add.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-op-mul",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: the multiply operator. Draws nothing visible; the behaviour under test is evaluation. #expressions #validation",
+      "sourceFile": "docs/render/v4-op-mul/doc.rc",
+      "rcDocument": "documents/render/v4-op-mul.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-op-mul.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v4-sens-c",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression probe: a sensor value combined with a constant. Draws nothing visible. #expressions #sensors #validation",
+      "sourceFile": "docs/render/v4-sens-c/doc.rc",
+      "rcDocument": "documents/render/v4-sens-c.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v4-sens-c.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-inf",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: infinity as an expression result. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v5-inf/doc.rc",
+      "rcDocument": "documents/render/v5-inf.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-inf.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-lognegv",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: logarithm of a negative value. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v5-lognegv/doc.rc",
+      "rcDocument": "documents/render/v5-lognegv.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-lognegv.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-nanonly",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: NaN alone. An amber disc is drawn, showing the document still renders when a value is NaN. #expressions #validation",
+      "sourceFile": "docs/render/v5-nanonly/doc.rc",
+      "rcDocument": "documents/render/v5-nanonly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-nanonly.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-nanuse",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: NaN used in further arithmetic. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v5-nanuse/doc.rc",
+      "rcDocument": "documents/render/v5-nanuse.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-nanuse.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-sqrtneg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: square root of a negative value. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v5-sqrtneg/doc.rc",
+      "rcDocument": "documents/render/v5-sqrtneg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-sqrtneg.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/v5-zerodiv",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Edge-case probe: division by zero. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/v5-zerodiv/doc.rc",
+      "rcDocument": "documents/render/v5-zerodiv.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/v5-zerodiv.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-base",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable baseline probe. Draws nothing visible; it is the control for the var- series. #expressions #validation",
+      "sourceFile": "docs/render/var-base/doc.rc",
+      "rcDocument": "documents/render/var-base.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-base.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-negonly",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: negative values only. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/var-negonly/doc.rc",
+      "rcDocument": "documents/render/var-negonly.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-negonly.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-noacos",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: the same chain without acos. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/var-noacos/doc.rc",
+      "rcDocument": "documents/render/var-noacos.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-noacos.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-noneg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Variable probe: the same chain without negatives. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/var-noneg/doc.rc",
+      "rcDocument": "documents/render/var-noneg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-noneg.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-nosensor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "nosensor",
+      "sourceFile": "docs/render/var-nosensor/doc.rc",
+      "rcDocument": "documents/render/var-nosensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-nosensor.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/var-plainneg",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "plainneg",
+      "sourceFile": "docs/render/var-plainneg/doc.rc",
+      "rcDocument": "documents/render/var-plainneg.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/var-plainneg.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/w-guard",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Guard probe: a clamped expression protected against out-of-range input. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/w-guard/doc.rc",
+      "rcDocument": "documents/render/w-guard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/w-guard.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/w-unguard",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Guard probe: the same expression without its clamp, for comparison. Draws nothing visible. #expressions #validation",
+      "sourceFile": "docs/render/w-unguard/doc.rc",
+      "rcDocument": "documents/render/w-unguard.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/w-unguard.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/watch",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Watch — a blue face with hour, minute and second hands, sized to the largest circle that fits the window",
+      "sourceFile": "docs/render/watch/doc.rc",
+      "rcDocument": "documents/render/watch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/watch.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/watchface",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sleek WatchFace Demo",
+      "sourceFile": "docs/render/watchface/doc.rc",
+      "rcDocument": "documents/render/watchface.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/watchface.png",
+          "width": 500,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "render/weather-card",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather card: a colored card with a city name, a large temperature, and a condition line, centered. Use for a single-location weather summary.",
+      "sourceFile": "docs/render/weather-card/doc.rc",
+      "rcDocument": "documents/render/weather-card.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/weather-card.png",
+          "width": 300,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "render/weather-widget",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Weather Card with AGSL Atmosphere Shader",
+      "sourceFile": "docs/render/weather-widget/doc.rc",
+      "rcDocument": "documents/render/weather-widget.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/weather-widget.png",
+          "width": 380,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "componentId": "render/worldcup-loop",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "World Cup — indeterminate loading animation with cancel",
+      "sourceFile": "docs/render/worldcup-loop/doc.rc",
+      "rcDocument": "documents/render/worldcup-loop.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/worldcup-loop.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/worldcup-progress",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "World Cup — determinate progress loading animation with cancel",
+      "sourceFile": "docs/render/worldcup-progress/doc.rc",
+      "rcDocument": "documents/render/worldcup-progress.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/worldcup-progress.png",
+          "width": 360,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-chain",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression chain: a darker green circle whose radius comes from several dependent steps. #expressions #drawCircle",
+      "sourceFile": "docs/render/x-chain/doc.rc",
+      "rcDocument": "documents/render/x-chain.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-chain.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-const",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Expression control: a green circle sized by a constant, to compare against the chained version. #expressions #drawCircle",
+      "sourceFile": "docs/render/x-const/doc.rc",
+      "rcDocument": "documents/render/x-const.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-const.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/x-sensor",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Sensor-driven circle, drawn only once the sensor reports a value. #expressions #sensors #validation",
+      "sourceFile": "docs/render/x-sensor/doc.rc",
+      "rcDocument": "documents/render/x-sensor.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/x-sensor.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-after",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe, after state: the value is read once it has been written. #expressions #validation",
+      "sourceFile": "docs/render/y-after/doc.rc",
+      "rcDocument": "documents/render/y-after.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-after.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-both",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe: a value read both before and after it is written. #expressions #validation",
+      "sourceFile": "docs/render/y-both/doc.rc",
+      "rcDocument": "documents/render/y-both.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-both.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/y-split",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Ordering probe: the write split from the read, showing a green circle once resolved. #expressions #drawCircle #validation",
+      "sourceFile": "docs/render/y-split/doc.rc",
+      "rcDocument": "documents/render/y-split.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/y-split.png",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-imp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: an impulse applied. Draws nothing visible at rest. #animation #validation",
+      "sourceFile": "docs/render/z-imp/doc.rc",
+      "rcDocument": "documents/render/z-imp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-imp.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-impf",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: an impulse with a float parameter. Draws nothing visible at rest. #animation #validation",
+      "sourceFile": "docs/render/z-impf/doc.rc",
+      "rcDocument": "documents/render/z-impf.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-impf.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "render/z-noimp",
+      "section": "rcjson",
+      "group": "render",
+      "caption": "Impulse probe: the control with no impulse applied. Draws nothing visible. #animation #validation",
+      "sourceFile": "docs/render/z-noimp/doc.rc",
+      "rcDocument": "documents/render/z-noimp.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/render/z-noimp.png",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "shapes3d/shapes3d",
+      "section": "droidkaigi26",
+      "group": "shapes3d",
+      "caption": "A gallery of twenty 3D primitives",
+      "sourceFile": "docs/shapes3d/shapes3d/doc.rc",
+      "rcDocument": "documents/shapes3d/shapes3d.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/shapes3d/shapes3d.png",
+          "width": 640,
+          "height": 525
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/balance",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "A balance wheel seen as an X-ray: a weighted rim on three arms with twelve timing screws, carrying the impulse roller and its single jewel and the notched safety roller beneath it. The one part here whose motion is a plain sine. #watch #oscillator #test",
+      "sourceFile": "docs/skeleton-watch/balance/doc.rc",
+      "rcDocument": "documents/skeleton-watch/balance.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/balance.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
       "componentId": "surface-plot3d/surface-plot3d",
       "section": "droidkaigi26",
       "group": "surface-plot3d",
