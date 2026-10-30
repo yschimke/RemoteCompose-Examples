@@ -20395,6 +20395,686 @@
           "height": 560
         }
       ]
+    },
+    {
+      "componentId": "vis-set-05/med-ha-00001",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Drag to peel skin, muscle and organs away from the skeleton, as nested 3D shells. #3d #animated #interactive #medicine #input",
+      "sourceFile": "docs/vis-set-05/med-ha-00001/doc.rc",
+      "rcDocument": "documents/vis-set-05/med-ha-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/med-ha-00001.png",
+          "width": 460,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/med-phys-00002",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "A bedside monitor with four vital signs set large and their traces behind them. #animated #medicine",
+      "sourceFile": "docs/vis-set-05/med-phys-00002/doc.rc",
+      "rcDocument": "documents/vis-set-05/med-phys-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/med-phys-00002.png",
+          "width": 580,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/mth-alge-00005",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "150 particles placed at their own input and output, tracing a power function as its exponent changes. #animated #maths #particles",
+      "sourceFile": "docs/vis-set-05/mth-alge-00005/doc.rc",
+      "rcDocument": "documents/vis-set-05/mth-alge-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/mth-alge-00005.png",
+          "width": 520,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/phy-ap-00015",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Four transitions between the same two energy levels, differing only in direction and photon count. #physics",
+      "sourceFile": "docs/vis-set-05/phy-ap-00015/doc.rc",
+      "rcDocument": "documents/vis-set-05/phy-ap-00015.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/phy-ap-00015.png",
+          "width": 600,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/phy-np-00016",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Three carbon isotopes and a nitrogen nucleus as cards, each drawing its own protons and neutrons. #physics",
+      "sourceFile": "docs/vis-set-05/phy-np-00016/doc.rc",
+      "rcDocument": "documents/vis-set-05/phy-np-00016.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/phy-np-00016.png",
+          "width": 500,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/phy-np-00017",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "The chart of nuclides as 3D towers, with the valley of stability as a visible ridge. #3d #animated #physics",
+      "sourceFile": "docs/vis-set-05/phy-np-00017/doc.rc",
+      "rcDocument": "documents/vis-set-05/phy-np-00017.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/phy-np-00017.png",
+          "width": 520,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-05/phy-np-00018",
+      "section": "rcjson",
+      "group": "vis-set-05",
+      "caption": "Fission fragment tracks above the yield curve, showing the asymmetric double hump. #physics",
+      "sourceFile": "docs/vis-set-05/phy-np-00018/doc.rc",
+      "rcDocument": "documents/vis-set-05/phy-np-00018.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-05/phy-np-00018.png",
+          "width": 580,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/bio-bioc-00018",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Absorption spectra of chlorophyll a and b against the rate of photosynthesis, over the visible band. #biology",
+      "sourceFile": "docs/vis-set-06/bio-bioc-00018/doc.rc",
+      "rcDocument": "documents/vis-set-06/bio-bioc-00018.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/bio-bioc-00018.png",
+          "width": 560,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/bio-gene-00019",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "A Punnett square drawn as paths, with the 3:1 ratio of appearance shown as a clipped bar. #biology",
+      "sourceFile": "docs/vis-set-06/bio-gene-00019/doc.rc",
+      "rcDocument": "documents/vis-set-06/bio-gene-00019.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/bio-gene-00019.png",
+          "width": 480,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/bio-gene-00020",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Mitosis and meiosis animated side by side on one clock, so the halving of chromosome number is visible. #animated #biology",
+      "sourceFile": "docs/vis-set-06/bio-gene-00020/doc.rc",
+      "rcDocument": "documents/vis-set-06/bio-gene-00020.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/bio-gene-00020.png",
+          "width": 580,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/bio-gene-00021",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "A rotating DNA helix in 3D with three damaged bases, under a stream of mutagen particles. #3d #animated #biology #particles",
+      "sourceFile": "docs/vis-set-06/bio-gene-00021/doc.rc",
+      "rcDocument": "documents/vis-set-06/bio-gene-00021.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/bio-gene-00021.png",
+          "width": 500,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/chm-ms-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "The molecular orbital diagram of dioxygen, showing the two unpaired electrons that make it paramagnetic. #chemistry",
+      "sourceFile": "docs/vis-set-06/chm-ms-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/chm-ms-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/chm-ms-00006.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/csc-ds-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Ten array cells with their addresses, and the index arithmetic drawn beneath the element it selects. #computing",
+      "sourceFile": "docs/vis-set-06/csc-ds-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/csc-ds-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/csc-ds-00006.png",
+          "width": 580,
+          "height": 430
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/ear-geol-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Four ways mountains form, each with its own cross-section drawn at the same size. #earth",
+      "sourceFile": "docs/vis-set-06/ear-geol-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/ear-geol-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/ear-geol-00006.png",
+          "width": 560,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/eng-me-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Two joint angles over a pick-and-place cycle beside the curved path the hand traces. #engineering",
+      "sourceFile": "docs/vis-set-06/eng-me-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/eng-me-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/eng-me-00006.png",
+          "width": 600,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/fin-cf-00005",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "A revenue bridge as 3D blocks growing from zero, with gains and losses on separate faces. #3d #animated #finance",
+      "sourceFile": "docs/vis-set-06/fin-cf-00005/doc.rc",
+      "rcDocument": "documents/vis-set-06/fin-cf-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/fin-cf-00005.png",
+          "width": 520,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/fin-cf-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Units of sale falling as particles into a fixed cost bucket that never moves and a variable one that does. #animated #finance #particles",
+      "sourceFile": "docs/vis-set-06/fin-cf-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/fin-cf-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/fin-cf-00006.png",
+          "width": 500,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/fin-cf-00007",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Drag through a year of monthly profit against the running cash balance, which stays negative until July. #finance #interactive #input",
+      "sourceFile": "docs/vis-set-06/fin-cf-00007/doc.rc",
+      "rcDocument": "documents/vis-set-06/fin-cf-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/fin-cf-00007.png",
+          "width": 560,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/fin-mark-00004",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Three currencies against the dollar over a year, each as a filled path from its own zero line. #finance",
+      "sourceFile": "docs/vis-set-06/fin-mark-00004/doc.rc",
+      "rcDocument": "documents/vis-set-06/fin-mark-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/fin-mark-00004.png",
+          "width": 580,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/mth-alge-00006",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Drag to vary c in a quadratic and watch its two roots meet and disappear as the discriminant crosses zero. #interactive #maths #input",
+      "sourceFile": "docs/vis-set-06/mth-alge-00006/doc.rc",
+      "rcDocument": "documents/vis-set-06/mth-alge-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/mth-alge-00006.png",
+          "width": 520,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/phy-np-00019",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Two nuclei closing in 3D above the Coulomb barrier they must climb to fuse. #3d #animated #physics",
+      "sourceFile": "docs/vis-set-06/phy-np-00019/doc.rc",
+      "rcDocument": "documents/vis-set-06/phy-np-00019.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/phy-np-00019.png",
+          "width": 480,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/phy-np-00020",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "Five nuclear reactions as cards, their energies on one shared scale. #physics",
+      "sourceFile": "docs/vis-set-06/phy-np-00020/doc.rc",
+      "rcDocument": "documents/vis-set-06/phy-np-00020.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/phy-np-00020.png",
+          "width": 460,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-06/soc-psyc-00005",
+      "section": "rcjson",
+      "group": "vis-set-06",
+      "caption": "The memory pipeline as four bars whose widths are what survives each stage, with the losses named. #society",
+      "sourceFile": "docs/vis-set-06/soc-psyc-00005/doc.rc",
+      "rcDocument": "documents/vis-set-06/soc-psyc-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-06/soc-psyc-00005.png",
+          "width": 520,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/bio-gene-00022",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "A polymerase crossing a gene with mRNA and protein accumulating behind it on a shared clock. #animated #biology",
+      "sourceFile": "docs/vis-set-07/bio-gene-00022/doc.rc",
+      "rcDocument": "documents/vis-set-07/bio-gene-00022.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/bio-gene-00022.png",
+          "width": 580,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/chm-ms-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Five VSEPR geometries drawn at their true bond angles, with lone pairs shown. #chemistry",
+      "sourceFile": "docs/vis-set-07/chm-ms-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/chm-ms-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/chm-ms-00007.png",
+          "width": 600,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/csc-ds-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Drag along a seven-node linked list, counting the pointers that must be followed to reach each node. #computing #interactive #input",
+      "sourceFile": "docs/vis-set-07/csc-ds-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/csc-ds-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/csc-ds-00007.png",
+          "width": 600,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/ear-geop-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "The Earth's internal layers at true relative thickness, with the crust called out as a single line. #earth",
+      "sourceFile": "docs/vis-set-07/ear-geop-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/ear-geop-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/ear-geop-00007.png",
+          "width": 520,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/eng-ee-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Two 100 ohm resistors in series and in parallel, with the same battery and the arithmetic for each. #engineering",
+      "sourceFile": "docs/vis-set-07/eng-ee-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/eng-ee-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/eng-ee-00007.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/med-dp-00003",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Tumour burden as a 3D surface over treatment time and the fraction of resistant cells. #3d #animated #medicine",
+      "sourceFile": "docs/vis-set-07/med-dp-00003/doc.rc",
+      "rcDocument": "documents/vis-set-07/med-dp-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/med-dp-00003.png",
+          "width": 540,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/med-dp-00004",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Drag to narrow an artery and watch flow fall as the fourth power of the remaining radius. #medicine #input",
+      "sourceFile": "docs/vis-set-07/med-dp-00004/doc.rc",
+      "rcDocument": "documents/vis-set-07/med-dp-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/med-dp-00004.png",
+          "width": 580,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/med-dp-00005",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Two epidemic curves on one clock, differing only in contact rate, against a fixed hospital capacity. #animated #medicine",
+      "sourceFile": "docs/vis-set-07/med-dp-00005/doc.rc",
+      "rcDocument": "documents/vis-set-07/med-dp-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/med-dp-00005.png",
+          "width": 580,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/med-dp-00006",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "A healthy synapse and a degenerating one as particle systems, with only the receiving cell's response differing. #medicine #particles #animated",
+      "sourceFile": "docs/vis-set-07/med-dp-00006/doc.rc",
+      "rcDocument": "documents/vis-set-07/med-dp-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/med-dp-00006.png",
+          "width": 560,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/mth-alge-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Particles settling into the minima of a quintic, with its roots marked separately on the axis. #maths #particles #animated",
+      "sourceFile": "docs/vis-set-07/mth-alge-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/mth-alge-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/mth-alge-00007.png",
+          "width": 560,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/phy-qm-00021",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Four standing-wave states of a particle in a box, each with its probability density beneath it. #physics",
+      "sourceFile": "docs/vis-set-07/phy-qm-00021/doc.rc",
+      "rcDocument": "documents/vis-set-07/phy-qm-00021.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/phy-qm-00021.png",
+          "width": 620,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/phy-qm-00022",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Four probability distributions as cards, each with the kind of question it answers. #physics",
+      "sourceFile": "docs/vis-set-07/phy-qm-00022/doc.rc",
+      "rcDocument": "documents/vis-set-07/phy-qm-00022.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/phy-qm-00022.png",
+          "width": 500,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/phy-qm-00023",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Transmission probability against barrier width on a log axis, for an electron, a proton and an alpha particle. #physics",
+      "sourceFile": "docs/vis-set-07/phy-qm-00023/doc.rc",
+      "rcDocument": "documents/vis-set-07/phy-qm-00023.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/phy-qm-00023.png",
+          "width": 580,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/phy-qm-00024",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Two slits and a screen in 3D, with the interference pattern drawn as a filled path beneath. #3d #particles #physics #input #animated",
+      "sourceFile": "docs/vis-set-07/phy-qm-00024/doc.rc",
+      "rcDocument": "documents/vis-set-07/phy-qm-00024.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/phy-qm-00024.png",
+          "width": 520,
+          "height": 620
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/soc-psyc-00006",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "A forgetting curve against the same curve with one review on day seven, draggable through a month. #interactive #society #input",
+      "sourceFile": "docs/vis-set-07/soc-psyc-00006/doc.rc",
+      "rcDocument": "documents/vis-set-07/soc-psyc-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/soc-psyc-00006.png",
+          "width": 580,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-07/soc-psyc-00007",
+      "section": "rcjson",
+      "group": "vis-set-07",
+      "caption": "Two cubes at different distances and sizes on a ground plane, with the depth cues that disambiguate them. #3d #society",
+      "sourceFile": "docs/vis-set-07/soc-psyc-00007/doc.rc",
+      "rcDocument": "documents/vis-set-07/soc-psyc-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-07/soc-psyc-00007.png",
+          "width": 520,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-08/bio-gene-00023",
+      "section": "rcjson",
+      "group": "vis-set-08",
+      "caption": "Allele frequency drifting in four populations of different size, with no selection acting. #biology",
+      "sourceFile": "docs/vis-set-08/bio-gene-00023/doc.rc",
+      "rcDocument": "documents/vis-set-08/bio-gene-00023.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-08/bio-gene-00023.png",
+          "width": 600,
+          "height": 470
+        }
+      ]
     }
   ]
 }
