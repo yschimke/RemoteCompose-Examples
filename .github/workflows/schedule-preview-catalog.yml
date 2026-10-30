@@ -1,0 +1,28 @@
+name: Schedule Remote Compose preview catalog
+
+# The publisher lives on agent/preview-catalog-publisher, and GitHub only runs `schedule:` from
+# the default branch, so a cron in that workflow would never fire. This one starts it instead:
+# weekly, and whenever main changes (an upstream sync is what brings new documents in).
+on:
+  schedule:
+    - cron: '17 3 * * 3' # Wednesdays 03:17 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  dispatch:
+    if: github.repository == 'yschimke/RemoteCompose-Examples'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Run the publisher on its branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run publish-preview-catalog.yml \
+            --repo "$GITHUB_REPOSITORY" --ref agent/preview-catalog-publisher
