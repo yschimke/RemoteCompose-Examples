@@ -19020,6 +19020,125 @@
       ]
     },
     {
+      "componentId": "skeleton-watch/escape",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "An escape wheel of thirty club teeth on four crossings. It is still for most of every beat, locked against a pallet jewel, then runs forward by half a tooth and locks again — a staircase built from floor() and an eased ramp, with no state and no keyframes. #watch #escapement #expressions #test",
+      "sourceFile": "docs/skeleton-watch/escape/doc.rc",
+      "rcDocument": "documents/skeleton-watch/escape.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/escape.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/hairspring",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "Twelve turns of flat spiral, pinned to the collet on the balance staff at the inner end and to a fixed stud at the outer. It does not rotate: it winds and unwinds as the balance swings, and because the wire keeps its length the coils draw inward as it tightens and push out again as it opens. #watch #expressions #path #test",
+      "sourceFile": "docs/skeleton-watch/hairspring/doc.rc",
+      "rcDocument": "documents/skeleton-watch/hairspring.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/hairspring.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/pallet",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "The pallet lever of a Swiss escapement: two jewels placed by their locking faces, the fork and its horns, a guard pin, and the banking pins it rests between. Flat for most of the beat and snapping across in a fraction of it. #watch #escapement #test",
+      "sourceFile": "docs/skeleton-watch/pallet/doc.rc",
+      "rcDocument": "documents/skeleton-watch/pallet.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/pallet.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/pinion",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "A watch pinion seen as an X-ray: eight leaves on a solid body with no crossings, turning fast and the other way. A pinion is small enough that there is nothing to gain by hollowing it. #watch #gears #test",
+      "sourceFile": "docs/skeleton-watch/pinion/doc.rc",
+      "rcDocument": "documents/skeleton-watch/pinion.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/pinion.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/skeleton-watch",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "A complete mechanical watch movement drawn as an X-ray and keeping real time: the mainspring barrel, a going train of centre and third wheels, a lever escapement with its balance and hairspring, the motion work that divides hours from minutes, and a dial with three hands. The seconds hand ticks once a second because the escape wheel does. Every wheel's angle is the clock times the ratio of the teeth actually drawn on it, so nothing is animated to a rate. #watch #mechanism #clock",
+      "sourceFile": "docs/skeleton-watch/skeleton-watch/doc.rc",
+      "rcDocument": "documents/skeleton-watch/skeleton-watch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/skeleton-watch.png",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/watch",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "A Swiss lever escapement as an X-ray: a thirty-tooth escape wheel that advances half a tooth per beat, a pallet lever snapping between its banking pins with one ruby holding the wheel while the other stands clear of it, and a balance swinging over its hairspring. The geometry is solved from two conditions rather than arranged by eye. #watch #escapement #mechanism #test",
+      "sourceFile": "docs/skeleton-watch/watch/doc.rc",
+      "rcDocument": "documents/skeleton-watch/watch.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/watch.png",
+          "width": 560,
+          "height": 560
+        }
+      ]
+    },
+    {
+      "componentId": "skeleton-watch/wheel",
+      "section": "rcjson",
+      "group": "skeleton-watch",
+      "caption": "A watch train wheel seen as an X-ray: sixty-four fine teeth on a thin rim carried by five narrow arms. The openings between the arms are most of its area, because a train wheel has to be light as well as stiff. #watch #gears #test",
+      "sourceFile": "docs/skeleton-watch/wheel/doc.rc",
+      "rcDocument": "documents/skeleton-watch/wheel.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/skeleton-watch/wheel.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
       "componentId": "surface-plot3d/surface-plot3d",
       "section": "droidkaigi26",
       "group": "surface-plot3d",
@@ -19033,6 +19152,567 @@
           "path": "images/surface-plot3d/surface-plot3d.png",
           "width": 640,
           "height": 640
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Two sugar-phosphate backbones built as stroked paths, antiparallel, with base pairs between them. #biology #dna #path",
+      "sourceFile": "docs/vis-set-01/bio-mb-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00001.png",
+          "width": 360,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A single RNA strand whose every base position is a function of time, so the molecule flexes rather than sitting still. #biology #rna #animated",
+      "sourceFile": "docs/vis-set-01/bio-mb-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00002.png",
+          "width": 420,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A replication fork opening in 3D while a particle pool of ninety free nucleotides drifts around it. #biology #dna #particles #3d #animated",
+      "sourceFile": "docs/vis-set-01/bio-mb-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00003.png",
+          "width": 440,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/bio-mb-00004",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Drag a polymerase along a gene; the mRNA transcript grows behind it and the percentage transcribed updates live. #biology #rna #interactive #input",
+      "sourceFile": "docs/vis-set-01/bio-mb-00004/doc.rc",
+      "rcDocument": "documents/vis-set-01/bio-mb-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/bio-mb-00004.png",
+          "width": 460,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/chm-ac-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Three atoms as panels of proton, neutron and electron counts, laid out so the comparison is structural rather than drawn. #chemistry #atoms #layout",
+      "sourceFile": "docs/vis-set-01/chm-ac-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/chm-ac-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/chm-ac-00001.png",
+          "width": 520,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/csc-algo-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "One row per pass, placed elements highlighted, so the whole algorithm is visible at once instead of animated and gone. #computing #algorithms #sorting",
+      "sourceFile": "docs/vis-set-01/csc-algo-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/csc-algo-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/csc-algo-00001.png",
+          "width": 520,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/ear-geol-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Twelve tectonic plates by speed in centimetres per year, plotted from a float array. The fast ones are oceanic. #earth #tectonics #chart",
+      "sourceFile": "docs/vis-set-01/ear-geol-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/ear-geol-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/ear-geol-00001.png",
+          "width": 520,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Quantity demanded over price and income as a single computed mesh with turning 3D axes. Constant elasticity, so the surface curves. #economics #demand #3d #surface #animated",
+      "sourceFile": "docs/vis-set-01/eco-micr-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00001.png",
+          "width": 460,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Each dot is a buyer placed at the most they will pay. A sweeping price line cuts through both populations; the tightly packed elastic band empties at once while the spread inelastic one barely notices. #economics #elasticity #particles #animated",
+      "sourceFile": "docs/vis-set-01/eco-micr-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00002.png",
+          "width": 480,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Drag to change the budget and watch spending shares move between necessities and luxuries. #economics #consumer #interactive #input",
+      "sourceFile": "docs/vis-set-01/eco-micr-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00003.png",
+          "width": 460,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eco-micr-00004",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "The same three questions answered four ways, as a typographic table: sellers, product, price power. #economics #competition #text",
+      "sourceFile": "docs/vis-set-01/eco-micr-00004/doc.rc",
+      "rcDocument": "documents/vis-set-01/eco-micr-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eco-micr-00004.png",
+          "width": 560,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/eng-me-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A four-bar linkage frozen at one angle, with the coupler point's full locus traced as a closed path. #engineering #mechanism #path",
+      "sourceFile": "docs/vis-set-01/eng-me-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/eng-me-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/eng-me-00001.png",
+          "width": 440,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/mth-an-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Integers from -5 to 5 with halves marked and pi placed where it actually falls. A typography document: the labels carry the meaning. #maths #numbers #text",
+      "sourceFile": "docs/vis-set-01/mth-an-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/mth-an-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/mth-an-00001.png",
+          "width": 560,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00001",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Twelve fermions on a log mass axis, quarks against leptons, plotted from a float array. The three neutrinos fall below the axis entirely. #physics #particles #chart",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00001/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00001.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00001.png",
+          "width": 520,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00002",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "A reflowing card layout of the six quark flavours with their electric charges, and a note on gluon colour. Built from layout containers, no canvas. #physics #particles #layout",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00002/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00002.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-01/phy-fpp-00003",
+      "section": "rcjson",
+      "group": "vis-set-01",
+      "caption": "Two up quarks and one down inside the confining volume, each with a wireframe colour-charge halo, joined by gluon bonds drawn as vibrating standing waves. #physics #particles #3d #animated",
+      "sourceFile": "docs/vis-set-01/phy-fpp-00003/doc.rc",
+      "rcDocument": "documents/vis-set-01/phy-fpp-00003.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-01/phy-fpp-00003.png",
+          "width": 420,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-cb-00007",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Drag across to cross-fade between the two; shared organelles stay put so only the differences move. #biology #cells #interactive #input",
+      "sourceFile": "docs/vis-set-02/bio-cb-00007/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-cb-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-cb-00007.png",
+          "width": 480,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-cb-00008",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "A 3D cell with a bitmap-textured nucleus, organelles placed inside it and a wireframe membrane cage. #biology #cells #3d #texture #animated",
+      "sourceFile": "docs/vis-set-02/bio-cb-00008/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-cb-00008.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-cb-00008.png",
+          "width": 460,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-mb-00005",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "A ribosome walking the message codon by codon, the polypeptide growing behind it and tRNA arriving at the A site. Every position is a function of one clock. #biology #rna #animated",
+      "sourceFile": "docs/vis-set-02/bio-mb-00005/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-mb-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-mb-00005.png",
+          "width": 520,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/bio-mb-00006",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Transcription factors as a particle cloud; the more tightly they bind, the further transcription rises. #biology #genetics #particles #animated",
+      "sourceFile": "docs/vis-set-02/bio-mb-00006/doc.rc",
+      "rcDocument": "documents/vis-set-02/bio-mb-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/bio-mb-00006.png",
+          "width": 480,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/chm-ac-00002",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "The table's grid is already two axes, so the third carries atomic radius. The sawtooth across each period is invisible on a flat table. #chemistry #periodic #3d #chart #animated",
+      "sourceFile": "docs/vis-set-02/chm-ac-00002/doc.rc",
+      "rcDocument": "documents/vis-set-02/chm-ac-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/chm-ac-00002.png",
+          "width": 500,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/csc-algo-00002",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Looking for 23 in ten sorted elements, one row of boxes per step, the live window narrowing down the page. #computing #algorithms #search",
+      "sourceFile": "docs/vis-set-02/csc-algo-00002/doc.rc",
+      "rcDocument": "documents/vis-set-02/csc-algo-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/csc-algo-00002.png",
+          "width": 560,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/ear-geol-00002",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Igneous, sedimentary and metamorphic joined by curved arrow paths: weathering, heat and pressure, melting. #earth #geology #path",
+      "sourceFile": "docs/vis-set-02/ear-geol-00002/doc.rc",
+      "rcDocument": "documents/vis-set-02/ear-geol-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/ear-geol-00002.png",
+          "width": 460,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/eco-macr-00006",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "C plus I plus G plus NX, with investment under your finger and the total following. #economics #gdp #interactive #input",
+      "sourceFile": "docs/vis-set-02/eco-macr-00006/doc.rc",
+      "rcDocument": "documents/vis-set-02/eco-macr-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/eco-macr-00006.png",
+          "width": 520,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/eco-macr-00007",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "The same five goods priced across five decades, set as a table with the money column aligned. #economics #inflation #text",
+      "sourceFile": "docs/vis-set-02/eco-macr-00007/doc.rc",
+      "rcDocument": "documents/vis-set-02/eco-macr-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/eco-macr-00007.png",
+          "width": 580,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/eco-micr-00005",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "One ball is one firm and its area is that firm's market share; every panel holds the same total area. Perfect competition to monopoly. #economics #competition #particles #animated",
+      "sourceFile": "docs/vis-set-02/eco-micr-00005/doc.rc",
+      "rcDocument": "documents/vis-set-02/eco-micr-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/eco-micr-00005.png",
+          "width": 540,
+          "height": 420
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/eng-me-00002",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Two meshing gears from a single clock: the second angle is the first times the tooth ratio, so they cannot drift out of step. #engineering #gears #animated",
+      "sourceFile": "docs/vis-set-02/eng-me-00002/doc.rc",
+      "rcDocument": "documents/vis-set-02/eng-me-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/eng-me-00002.png",
+          "width": 500,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/mth-an-00002",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Halves, quarters, sixths and eighths on a shared width, every bar filling to the same line. #maths #fractions #demonstrate",
+      "sourceFile": "docs/vis-set-02/mth-an-00002/doc.rc",
+      "rcDocument": "documents/vis-set-02/mth-an-00002.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/mth-an-00002.png",
+          "width": 520,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/phy-fpp-00004",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "The four forces on one log axis, with their ranges and carriers. Gravity is 10^38 times weaker than the strong force, which is why its bar is a sliver. #physics #forces #compare",
+      "sourceFile": "docs/vis-set-02/phy-fpp-00004/doc.rc",
+      "rcDocument": "documents/vis-set-02/phy-fpp-00004.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/phy-fpp-00004.png",
+          "width": 540,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/phy-fpp-00005",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Annihilation, scattering and beta decay as cards, each pairing a small canvas with its caption. Time runs left to right. #physics #particles #layout",
+      "sourceFile": "docs/vis-set-02/phy-fpp-00005/doc.rc",
+      "rcDocument": "documents/vis-set-02/phy-fpp-00005.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/phy-fpp-00005.png",
+          "width": 420,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/phy-fpp-00006",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "The Livingston plot: beam energy per machine on a log axis, a factor of ten every six years for seventy years, with bunches circulating alongside. #physics #accelerators #chart #animated",
+      "sourceFile": "docs/vis-set-02/phy-fpp-00006/doc.rc",
+      "rcDocument": "documents/vis-set-02/phy-fpp-00006.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/phy-fpp-00006.png",
+          "width": 560,
+          "height": 380
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-02/phy-fpp-00007",
+      "section": "rcjson",
+      "group": "vis-set-02",
+      "caption": "Four tracks leaving a vertex, curving by charge and momentum, drawn as 2D paths inside a wireframe 3D chamber. #physics #particles #3d #path",
+      "sourceFile": "docs/vis-set-02/phy-fpp-00007/doc.rc",
+      "rcDocument": "documents/vis-set-02/phy-fpp-00007.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-02/phy-fpp-00007.png",
+          "width": 460,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "componentId": "vis-set-03/bio-cb-00009",
+      "section": "rcjson",
+      "group": "vis-set-03",
+      "caption": "Passive and active transport side by side on one clock, so the rates are comparable: down the gradient is free, against it costs ATP. #biology #membrane #animated",
+      "sourceFile": "docs/vis-set-03/bio-cb-00009/doc.rc",
+      "rcDocument": "documents/vis-set-03/bio-cb-00009.rc",
+      "images": [
+        {
+          "variant": "ideal",
+          "state": "default",
+          "path": "images/vis-set-03/bio-cb-00009.png",
+          "width": 540,
+          "height": 400
         }
       ]
     }
